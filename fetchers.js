@@ -4,11 +4,20 @@ const pdf = require('pdf-parse');
 
 const TIMEOUT_MS = 20000;
 
+const BROWSER_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'Accept-Language': 'en-US,en;q=0.9',
+  // Some WAFs (esp. on paths like "secure-documents") check Referer to
+  // block direct/scripted access while allowing normal on-site navigation.
+  'Referer': 'https://college.emory.edu/national-awards/',
+};
+
 async function fetchWithTimeout(url) {
   const controller = new AbortController();
   const t = setTimeout(() => controller.abort(), TIMEOUT_MS);
   try {
-    const res = await fetch(url, { signal: controller.signal, redirect: 'follow' });
+    const res = await fetch(url, { signal: controller.signal, redirect: 'follow', headers: BROWSER_HEADERS });
     clearTimeout(t);
     return res;
   } catch (e) {
