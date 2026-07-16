@@ -1,0 +1,3393 @@
+[
+  {
+    "awardName": "Beinecke",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "broken_link"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/beinecke-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-beinecke.html",
+      "external": "https://beineckescholarship.org/how-to-apply/deadline/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2026-03-05",
+        "max": "2026-03-05"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Dormant (Cycle Closed)"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      },
+      {
+        "type": "broken_link",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "March 5, 2026",
+          "date": "2026-03-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 5, 2026",
+          "date": "2026-03-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "B Jones Scholar",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "not_tracked"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/bobby-jones-scholarship-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-b-jones-scholar.html",
+      "external": null
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "October 19, 2026",
+          "date": "2026-10-19",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "October 19, 2026",
+          "date": "2026-10-19",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 19",
+          "date": "2026-02-19",
+          "dateEnd": null,
+          "type": "date",
+          "context": "interview",
+          "isTentative": false
+        },
+        {
+          "raw": "February 20",
+          "date": "2026-02-20",
+          "dateEnd": null,
+          "type": "date",
+          "context": "interview",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Bredow",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "not_tracked"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/bredow-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-bredow.html",
+      "external": null
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2026-02-13",
+        "max": "2026-03-25"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Dormant (Cycle Closed)"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "February 13, 2026",
+          "date": "2026-02-13",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 25, 2026",
+          "date": "2026-03-25",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 13, 2026",
+          "date": "2026-02-13",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 25, 2026",
+          "date": "2026-03-25",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Carnegie",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/carnegie-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-carnegie.html",
+      "external": "https://carnegieendowment.org/junior-fellows-program-important-dates?lang=en"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "New Cycle Dates Pending",
+        "min": "2025-12-04",
+        "max": "2025-12-04"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "New Cycle Dates Pending",
+      "external": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "December 4, 2025",
+          "date": "2025-12-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "December 4, 2025",
+          "date": "2025-12-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "January 15th",
+          "date": "2026-01-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 15",
+          "date": "2026-01-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 1st",
+          "date": "2026-09-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Churchill",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/churchill-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-churchill.html",
+      "external": "https://www.churchillscholarship.org/the-scholarship#Apply"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "App Open Soon if Not Now",
+      "external": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "September 17, 2026",
+          "date": "2026-09-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 17, 2026",
+          "date": "2026-09-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "September 6, 1943",
+          "date": "1943-09-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 2, 2026",
+          "date": "2026-11-02",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Critical Language",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "no_dates_found"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-critical-language.html",
+      "external": "https://clscholarship.org/apply"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-05-15",
+        "max": "2025-11-18"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Urgent: Update Needed Now"
+    },
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "November 18, 2025",
+          "date": "2025-11-18",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 18, 2025",
+          "date": "2025-11-18",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 15, 2025",
+          "date": "2025-05-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Daad",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-daad.html",
+      "external": "https://www.daad.org/en/find-funding/graduate-opportunities/research-grants/german-studies-research-grants/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2026-05-01",
+        "max": "2026-05-01"
+      },
+      {
+        "type": "stale",
+        "source": "external",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2026-05-01",
+        "max": "2026-05-01"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Dormant (Cycle Closed)",
+      "external": "Dormant (Cycle Closed)"
+    },
+    "actionItems": [],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "May 1 and November 1, 2026",
+          "date": "2026-05-01",
+          "dateEnd": "2026-11-01",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 1 and November 1, 2026",
+          "date": "2026-05-01",
+          "dateEnd": "2026-11-01",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "May 1 and November 1",
+          "date": "2026-05-01",
+          "dateEnd": "2026-11-01",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 1 and November 1",
+          "date": "2026-05-01",
+          "dateEnd": "2026-11-01",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Frederick Douglas",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-frederick-douglas.html",
+      "external": "https://www.ciee.org/go-abroad/college-study-abroad/scholarships/douglass-oconnell-global-internship"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Results Pending",
+      "external": "Results Pending"
+    },
+    "actionItems": [],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "June 12 to August 9, 2026",
+          "date": "2026-06-12",
+          "dateEnd": "2026-08-09",
+          "type": "range",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 9, 2026",
+          "date": "2026-01-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 12, 2025",
+          "date": "2025-11-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "December 4, 2025",
+          "date": "2025-12-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "December 15, 2025",
+          "date": "2025-12-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 8, 2026",
+          "date": "2026-01-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "June 12 to August 9, 2026",
+          "date": "2026-06-12",
+          "dateEnd": "2026-08-09",
+          "type": "range",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "from June 12 to August 9, 2026",
+          "date": "2026-06-12",
+          "dateEnd": "2026-08-09",
+          "type": "range",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 9, 2026",
+          "date": "2026-01-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "January 9, 2026",
+          "date": "2026-01-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "August 28, 2025",
+          "date": "2025-08-28",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "January 9, 2026",
+          "date": "2026-01-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "January 9, 2026",
+          "date": "2026-01-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false
+        },
+        {
+          "raw": "January 9, 2026",
+          "date": "2026-01-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Eisenhower",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "no_dates_found"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-eisenhower.html",
+      "external": "https://www.efworld.org/apply-now/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2026-03-31",
+        "max": "2026-03-31"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Dormant (Cycle Closed)"
+    },
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "March 31, 2026",
+          "date": "2026-03-31",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 31, 2026",
+          "date": "2026-03-31",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "EAB",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-EAB.html",
+      "external": "https://together.emory.edu/alumni/awards/student-awards-and-scholarship"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2026-03-01",
+        "max": "2026-05-01"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Dormant (Cycle Closed)",
+      "external": "Application Open"
+    },
+    "actionItems": [],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "March 1, 2026",
+          "date": "2026-03-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 1, 2026",
+          "date": "2026-03-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 1st",
+          "date": "2026-05-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "May 1, 2027",
+          "date": "2027-05-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "March 1st, 2026",
+          "date": "2026-03-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Fulbright Eta",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/fulbright-eta-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-eta.html",
+      "external": "https://us.fulbrightonline.org/"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Application Likely Open",
+      "external": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "September 10, 2026",
+          "date": "2026-09-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 10, 2026",
+          "date": "2026-09-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "October 6, 2026",
+          "date": "2026-10-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "July 16, 2026",
+          "date": "2026-07-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "July 22, 2026",
+          "date": "2026-07-22",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "July 30, 2026",
+          "date": "2026-07-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Fulbright Rs",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/fulbright-rs-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-rs.html",
+      "external": "https://us.fulbrightonline.org/"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Application Open",
+      "external": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "June 25, 2026",
+          "date": "2026-06-25",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 03, 2026",
+          "date": "2026-09-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 25, 2026",
+          "date": "2026-06-25",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 03, 2026",
+          "date": "2026-09-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "October 6, 2026",
+          "date": "2026-10-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "July 16, 2026",
+          "date": "2026-07-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "July 22, 2026",
+          "date": "2026-07-22",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "July 30, 2026",
+          "date": "2026-07-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Gates Cambridge",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "no_dates_found"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/gates-cambridge-application-guide.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-gates-cambridge.html",
+      "external": "https://www.gatescambridge.org/apply/timeline/"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      },
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "October 15, 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "December 3, 2025",
+          "date": "2025-12-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 7, 2026",
+          "date": "2026-01-07",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 15, 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": true
+        },
+        {
+          "raw": "December 3, 2025",
+          "date": "2025-12-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 7, 2026",
+          "date": "2026-01-07",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 1",
+          "date": "2026-08-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "internal_deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Goldwater",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/goldwater-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-goldwater.html",
+      "external": "https://goldwaterscholarship.gov/important-dates/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "New Cycle Dates Pending",
+        "min": "2025-11-06",
+        "max": "2025-12-04"
+      },
+      {
+        "type": "stale",
+        "source": "external",
+        "status": "Check for Deadline Immediately",
+        "min": "2025-08-20",
+        "max": "2026-01-07"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "New Cycle Dates Pending",
+      "external": "Check for Deadline Immediately"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "November 06, 2025",
+          "date": "2025-11-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "December 04, 2025",
+          "date": "2025-12-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 06, 2025",
+          "date": "2025-11-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "December 04, 2025",
+          "date": "2025-12-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "August 20, 2025",
+          "date": "2025-08-20",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 17, 2025",
+          "date": "2025-09-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 24, 2025",
+          "date": "2025-09-24",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 8, 2025",
+          "date": "2025-10-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 22, 2025",
+          "date": "2025-10-22",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 12, 2025",
+          "date": "2025-11-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 21, 2025",
+          "date": "2025-11-21",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "December 3, 2025",
+          "date": "2025-12-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "December 10, 2025",
+          "date": "2025-12-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 7, 2026",
+          "date": "2026-01-07",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 20, 2025",
+          "date": "2025-08-20",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 17, 2025",
+          "date": "2025-09-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 24, 2025",
+          "date": "2025-09-24",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 8, 2025",
+          "date": "2025-10-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 22, 2025",
+          "date": "2025-10-22",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 12, 2025",
+          "date": "2025-11-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 21, 2025",
+          "date": "2025-11-21",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "December 3, 2025",
+          "date": "2025-12-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "December 10, 2025",
+          "date": "2025-12-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 7, 2026",
+          "date": "2026-01-07",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Grad Stem Diversity",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "no_dates_found",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-grad-stem-diversity.html",
+      "external": "https://stemfellowships.org/applicants/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "external",
+        "status": "New Cycle Dates Pending",
+        "min": "2026-01-15",
+        "max": "2026-01-15"
+      }
+    ],
+    "statuses": {
+      "external": "New Cycle Dates Pending"
+    },
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "awardFinder"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "external": [
+        {
+          "raw": "January 15, 2026",
+          "date": "2026-01-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false
+        },
+        {
+          "raw": "January 15, 2026",
+          "date": "2026-01-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Hertz",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "broken_link"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-hertz.html",
+      "external": "https://www.hertzfoundation.org/the-fellowship/faq/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "New Cycle Dates Pending",
+        "min": "2025-10-31",
+        "max": "2025-10-31"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "New Cycle Dates Pending"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "October 31, 2025",
+          "date": "2025-10-31",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "October 31, 2025",
+          "date": "2025-10-31",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Madison Fellows",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "no_dates_found"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-madison-fellows.html",
+      "external": "https://apply.mykaleidoscope.com/scholarships/2025JamesMadisonGraduateFellowship"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Lookout for Open Date"
+    },
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "March 2, 2027",
+          "date": "2027-03-02",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 2, 2027",
+          "date": "2027-03-02",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Knight Hennessy",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/knight-hennessy-guidelines.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-knight-hennessy.html",
+      "external": "https://knight-hennessy.stanford.edu/admission/before-you-apply/dates-and-deadlines"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-07-17",
+        "max": "2025-10-08"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Urgent: Update Needed Now",
+      "external": "Dormant (Waiting for App to Open)"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "October 08, 2025",
+          "date": "2025-10-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "October 08, 2025",
+          "date": "2025-10-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "July 17, 2025",
+          "date": "2025-07-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "internal_deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "October 6, 2026",
+          "date": "2026-10-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "December 1, 2026",
+          "date": "2026-12-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "December 1, 2026",
+          "date": "2026-12-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "December 1, 2026",
+          "date": "2026-12-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "December 1, 2026",
+          "date": "2026-12-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Leland Hunger",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "broken_link"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-leland-hunger.html",
+      "external": "https://www.hungercenter.org/what-we-do/leland-fellowship/fellows/#apply"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Urgent: Update Needed Now",
+        "min": "2024-12-30",
+        "max": "2024-12-30"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Urgent: Update Needed Now"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": false,
+      "mostRecentYear": 2027,
+      "mostRecentLabel": "2027/28",
+      "thresholdYear": 2023,
+      "reason": null
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "December 30, 2024",
+          "date": "2024-12-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Luce",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/luce-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-luce.html",
+      "external": "https://apply-lucescholars.smapply.io/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "New Cycle Dates Pending",
+        "min": "2025-09-15",
+        "max": "2025-09-15"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "New Cycle Dates Pending",
+      "external": "Application Likely Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "September 15, 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 15, 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "September 8, 2026",
+          "date": "2026-09-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Marshall",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "no_dates_found"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/marshall-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-marshall.html",
+      "external": "https://www.marshallscholarship.org/apply"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Application Likely Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      },
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "David Weill",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/mdw-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-david-weill.html",
+      "external": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/david-weill-scholarship/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "New Cycle Dates Pending",
+        "min": "2025-10-16",
+        "max": "2025-11-15"
+      },
+      {
+        "type": "stale",
+        "source": "external",
+        "status": "New Cycle Dates Pending",
+        "min": "2025-11-15",
+        "max": "2025-11-15"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "New Cycle Dates Pending",
+      "external": "New Cycle Dates Pending"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "October 16, 2025",
+          "date": "2025-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15, 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "October 16, 2025",
+          "date": "2025-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15, 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "November 15, 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15, 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Mitchell",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "no_dates_found",
+      "external": "no_dates_found"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/mitchell-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-mitchell.html",
+      "external": "https://us-irelandalliance.org/scholarships"
+    },
+    "discrepancies": [],
+    "statuses": {},
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      },
+      {
+        "type": "no_dates_found",
+        "source": "awardFinder"
+      },
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {}
+  },
+  {
+    "awardName": "Mount Vernon",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "no_dates_found",
+      "external": "not_tracked"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-mount-vernon.html",
+      "external": null
+    },
+    "discrepancies": [],
+    "statuses": {},
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "awardFinder"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {}
+  },
+  {
+    "awardName": "Nsf Grfp",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/nsf-grfp-guide.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-grfp.html",
+      "external": "https://new.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf24-591/solicitation"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Application Open",
+      "external": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "November 10, 2025",
+          "date": "2025-11-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 12, 2025",
+          "date": "2025-11-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 13, 2025",
+          "date": "2025-11-13",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 14, 2025",
+          "date": "2025-11-14",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 10, 2025",
+          "date": "2025-11-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 12, 2025",
+          "date": "2025-11-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 13, 2025",
+          "date": "2025-11-13",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 14, 2025",
+          "date": "2025-11-14",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 1",
+          "date": "2026-08-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "July 12, 2024",
+          "date": "2024-07-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 15, 2024",
+          "date": "2024-10-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "October 16, 2024",
+          "date": "2024-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 17, 2024",
+          "date": "2024-10-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 18, 2024",
+          "date": "2024-10-18",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 11",
+          "date": "2026-10-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 15, 2024",
+          "date": "2024-10-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "October 16, 2024",
+          "date": "2024-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 17, 2024",
+          "date": "2024-10-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 18, 2024",
+          "date": "2024-10-18",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 15, 2024",
+          "date": "2024-10-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "October 16, 2024",
+          "date": "2024-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 17, 2024",
+          "date": "2024-10-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 18, 2024",
+          "date": "2024-10-18",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 5, 1998",
+          "date": "1998-01-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Nsf Reu",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "no_dates_found",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-reu.html",
+      "external": "https://new.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates/nsf23-601/solicitation"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "external",
+        "status": "Urgent: Update Needed Now",
+        "min": "2021-11-15",
+        "max": "2024-08-21"
+      }
+    ],
+    "statuses": {
+      "external": "Urgent: Update Needed Now"
+    },
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "awardFinder"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "external": [
+        {
+          "raw": "June 29, 2023",
+          "date": "2023-06-29",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 27, 2023",
+          "date": "2023-09-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "August 21, 2024",
+          "date": "2024-08-21",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 27, 2023",
+          "date": "2023-09-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "August 21, 2024",
+          "date": "2024-08-21",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 27, 2023",
+          "date": "2023-09-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "August 21, 2024",
+          "date": "2024-08-21",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15, 2021",
+          "date": "2021-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Noaa Hollings",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "broken_link"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-noaa-hollings.html",
+      "external": "https://www.noaa.gov/office-education/hollings-scholarship/news"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Lookout for Open Date"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "specific dates TBA",
+          "date": null,
+          "dateEnd": null,
+          "type": "TBA",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "specific dates TBA",
+          "date": null,
+          "dateEnd": null,
+          "type": "TBA",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "January 29, 2027",
+          "date": "2027-01-29",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": true
+        },
+        {
+          "raw": "January 29, 2027",
+          "date": "2027-01-29",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": true
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Petit",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-petit.html",
+      "external": "https://research.gatech.edu/bio/petit-undergraduate-research-scholars-program"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "New Cycle Dates Pending",
+        "min": "2025-09-15",
+        "max": "2025-09-15"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "New Cycle Dates Pending",
+      "external": "App Open Soon if Not Now"
+    },
+    "actionItems": [],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "September 15, 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "September 15, 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "Sept. 15, 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Amgen Scholars",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-amgen-scholars.html",
+      "external": "https://amgenscholars.com/us-program/"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-02-01",
+        "max": "2025-02-01"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Urgent: Update Needed Now",
+      "external": "Results Pending"
+    },
+    "actionItems": [],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "February 1, 2025",
+          "date": "2025-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2025",
+          "date": "2025-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "June 15 - August 21, 2026",
+          "date": "2026-06-15",
+          "dateEnd": "2026-08-21",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 26 - July 31, 2026",
+          "date": "2026-05-26",
+          "dateEnd": "2026-07-31",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 18 - July 25, 2026",
+          "date": "2026-05-18",
+          "dateEnd": "2026-07-25",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 3 - August 9, 2026",
+          "date": "2026-06-03",
+          "dateEnd": "2026-08-09",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 16 - July 19, 2026",
+          "date": "2026-05-16",
+          "dateEnd": "2026-07-19",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 31 - August 8, 2026",
+          "date": "2026-05-31",
+          "dateEnd": "2026-08-08",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 20 - August 15, 2026",
+          "date": "2026-06-20",
+          "dateEnd": "2026-08-15",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 8 - August 14, 2026",
+          "date": "2026-06-08",
+          "dateEnd": "2026-08-14",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 22 - August 27, 2026",
+          "date": "2026-06-22",
+          "dateEnd": "2026-08-27",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 31 - August 7, 2026",
+          "date": "2026-05-31",
+          "dateEnd": "2026-08-07",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 26 - July 24, 2026",
+          "date": "2026-05-26",
+          "dateEnd": "2026-07-24",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 1 - August 7, 2026",
+          "date": "2026-06-01",
+          "dateEnd": "2026-08-07",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 18 - July 24, 2026",
+          "date": "2026-05-18",
+          "dateEnd": "2026-07-24",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "May 26 - July 31, 2026",
+          "date": "2026-05-26",
+          "dateEnd": "2026-07-31",
+          "type": "range",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 1, 2026",
+          "date": "2026-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Quad Fellowship",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-quad-fellowship.html",
+      "external": "https://www.quadfellowship.org/apply"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-03-03",
+        "max": "2025-03-03"
+      },
+      {
+        "type": "stale",
+        "source": "external",
+        "status": "Urgent: Update Needed Now",
+        "min": "2022-06-30",
+        "max": "2022-06-30"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Urgent: Update Needed Now",
+      "external": "Urgent: Update Needed Now"
+    },
+    "actionItems": [],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "March 3, 2025",
+          "date": "2025-03-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 3, 2025",
+          "date": "2025-03-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "June 30, 2022",
+          "date": "2022-06-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 30, 2022",
+          "date": "2022-06-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Rangel",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "no_dates_found",
+      "external": "no_dates_found"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-rangel.html",
+      "external": "https://apply.rangelprogram.org/"
+    },
+    "discrepancies": [],
+    "statuses": {},
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "awardFinder"
+      },
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {}
+  },
+  {
+    "awardName": "Rhodes",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "no_dates_found"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/rhodes-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-rhodes.html",
+      "external": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "awardFinder": "Application Likely Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      },
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Schwarzman",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/schwarzman-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-schwarzman.html",
+      "external": "https://www.schwarzmanscholars.org/admissions/"
+    },
+    "discrepancies": [
+      {
+        "type": "deadline_mismatch",
+        "awardFinder": "2026-09-10",
+        "external": "2026-09-09",
+        "daysApart": 1
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Application Open",
+      "external": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "September 10, 2026",
+          "date": "2026-09-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": true
+        },
+        {
+          "raw": "September 10, 2026",
+          "date": "2026-09-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": true
+        },
+        {
+          "raw": "April 23, 2026",
+          "date": "2026-04-23",
+          "dateEnd": null,
+          "type": "date",
+          "context": "internal_deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "August 6, 2026",
+          "date": "2026-08-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "internal_deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 30",
+          "date": "2026-06-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 9",
+          "date": "2026-08-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "Oct – Nov 2026",
+          "date": "2026-10-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "Jun – Jul 2026",
+          "date": "2026-06-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": false
+        },
+        {
+          "raw": "August 1",
+          "date": "2026-08-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 1",
+          "date": "2026-08-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 1, 2027",
+          "date": "2027-08-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 9, 2026",
+          "date": "2026-09-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "Sept 9, 2026",
+          "date": "2026-09-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "April 8, 2026",
+          "date": "2026-04-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false
+        },
+        {
+          "raw": "September 9, 2026",
+          "date": "2026-09-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false
+        },
+        {
+          "raw": "July 24",
+          "date": "2026-07-24",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 4",
+          "date": "2026-08-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 10",
+          "date": "2026-08-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Shepard",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "not_tracked"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/shepard-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-shepard.html",
+      "external": null
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2026-04-02",
+        "max": "2026-04-02"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Dormant (Cycle Closed)"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "April 2, 2026",
+          "date": "2026-04-02",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "April 2, 2026",
+          "date": "2026-04-02",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Sonny Carter",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "not_tracked"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/sonny-carter-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-sonny-carter.html",
+      "external": null
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2026-02-13",
+        "max": "2026-03-25"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Dormant (Cycle Closed)"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "February 13, 2026",
+          "date": "2026-02-13",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 25, 2026",
+          "date": "2026-03-25",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 13, 2026",
+          "date": "2026-02-13",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "March 25, 2026",
+          "date": "2026-03-25",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Truman",
+    "sourceStatus": {
+      "procedures": "broken_link",
+      "awardFinder": "ok",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/truman-procedures.pdf",
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-truman.html",
+      "external": "https://www.truman.gov/apply/applying/important-dates"
+    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "source": "awardFinder",
+        "status": "Dormant (Cycle Closed)",
+        "min": "2025-11-06",
+        "max": "2026-02-03"
+      }
+    ],
+    "statuses": {
+      "awardFinder": "Dormant (Cycle Closed)",
+      "external": "Dormant (Waiting for App to Open)"
+    },
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "procedures"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "awardFinder": [
+        {
+          "raw": "November 6, 2025",
+          "date": "2025-11-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "December 11, 2025",
+          "date": "2025-12-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 3, 2026",
+          "date": "2026-02-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 6, 2025",
+          "date": "2025-11-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "December 11, 2025",
+          "date": "2025-12-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 3, 2026",
+          "date": "2026-02-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "external": [
+        {
+          "raw": "February 2, 2027",
+          "date": "2027-02-02",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "February 8, 2027",
+          "date": "2027-02-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "results",
+          "isTentative": false
+        },
+        {
+          "raw": "February 15, 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "results",
+          "isTentative": false
+        },
+        {
+          "raw": "February 18, 2027",
+          "date": "2027-02-18",
+          "dateEnd": null,
+          "type": "date",
+          "context": "results",
+          "isTentative": false
+        },
+        {
+          "raw": "February 19, 2027",
+          "date": "2027-02-19",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "March 1, 2027",
+          "date": "2027-03-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "April 15, 2027",
+          "date": "2027-04-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "April 23, 2027",
+          "date": "2027-04-23",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "May 25, 2027",
+          "date": "2027-05-25",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "May 30, 2027",
+          "date": "2027-05-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "interview",
+          "isTentative": false
+        }
+      ]
+    }
+  },
+  {
+    "awardName": "Wwtf",
+    "sourceStatus": {
+      "procedures": "not_tracked",
+      "awardFinder": "no_dates_found",
+      "external": "ok"
+    },
+    "sourceUrls": {
+      "procedures": null,
+      "awardFinder": "https://college.emory.edu/national-awards/awards/award-wwtf.html",
+      "external": "https://www.wilsoncenter.org/fellowship-application-guidelines"
+    },
+    "discrepancies": [],
+    "statuses": {
+      "external": "Application Open"
+    },
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "awardFinder"
+      }
+    ],
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
+    "rawDates": {
+      "external": [
+        {
+          "raw": "July 15, 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 30",
+          "date": "2026-09-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "June 1, 2027",
+          "date": "2027-06-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "May 30, 2028",
+          "date": "2028-05-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 30, 2026",
+          "date": "2026-09-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false
+        }
+      ]
+    }
+  }
+]
