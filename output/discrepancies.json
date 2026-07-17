@@ -6,31 +6,29 @@
       "awardFinder": "ok",
       "external": "broken_link"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function",
+      "external": "HTTP 404"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/beinecke-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-beinecke.html",
       "external": "https://beineckescholarship.org/how-to-apply/deadline/"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2026-03-05",
-        "max": "2026-03-05"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "Dormant (Cycle Closed)"
-    },
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-03-05",
+    "overallMax": "2026-03-05",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       },
       {
         "type": "broken_link",
-        "source": "external"
+        "source": "external",
+        "detail": "HTTP 404"
       }
     ],
     "recipientCheck": {
@@ -66,19 +64,23 @@
       "awardFinder": "ok",
       "external": "not_tracked"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/bobby-jones-scholarship-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-b-jones-scholar.html",
       "external": null
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Application Open"
-    },
+    "overallStatus": "Application Open",
+    "overallMin": "2026-02-19",
+    "overallMax": "2027-01-08",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -146,27 +148,23 @@
       "awardFinder": "ok",
       "external": "not_tracked"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/bredow-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-bredow.html",
       "external": null
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2026-02-13",
-        "max": "2026-03-25"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "Dormant (Cycle Closed)"
-    },
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-02-13",
+    "overallMax": "2026-03-25",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -218,28 +216,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/carnegie-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-carnegie.html",
       "external": "https://carnegieendowment.org/junior-fellows-program-important-dates?lang=en"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "New Cycle Dates Pending",
-        "min": "2025-12-04",
-        "max": "2025-12-04"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "New Cycle Dates Pending",
-      "external": "Application Open"
-    },
+    "discrepancies": [],
+    "overallStatus": "New Cycle Dates Pending",
+    "overallMin": "2025-12-04",
+    "overallMax": "2026-01-15",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -301,20 +294,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/churchill-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-churchill.html",
       "external": "https://www.churchillscholarship.org/the-scholarship#Apply"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "App Open Soon if Not Now",
-      "external": "Application Open"
-    },
+    "overallStatus": "Application Open",
+    "overallMin": "1943-09-06",
+    "overallMax": "2026-11-02",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -368,6 +364,7 @@
       "awardFinder": "ok",
       "external": "no_dates_found"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-critical-language.html",
@@ -376,15 +373,14 @@
     "discrepancies": [
       {
         "type": "stale",
-        "source": "awardFinder",
         "status": "Urgent: Update Needed Now",
         "min": "2025-05-15",
         "max": "2025-11-18"
       }
     ],
-    "statuses": {
-      "awardFinder": "Urgent: Update Needed Now"
-    },
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2025-05-15",
+    "overallMax": "2025-11-18",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -430,34 +426,27 @@
     "sourceStatus": {
       "procedures": "not_tracked",
       "awardFinder": "ok",
-      "external": "ok"
+      "external": "broken_link"
+    },
+    "sourceDetail": {
+      "external": "HTTP 403"
     },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-daad.html",
       "external": "https://www.daad.org/en/find-funding/graduate-opportunities/research-grants/german-studies-research-grants/"
     },
-    "discrepancies": [
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-05-01",
+    "overallMax": "2026-05-01",
+    "actionItems": [
       {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2026-05-01",
-        "max": "2026-05-01"
-      },
-      {
-        "type": "stale",
+        "type": "broken_link",
         "source": "external",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2026-05-01",
-        "max": "2026-05-01"
+        "detail": "HTTP 403"
       }
     ],
-    "statuses": {
-      "awardFinder": "Dormant (Cycle Closed)",
-      "external": "Dormant (Cycle Closed)"
-    },
-    "actionItems": [],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -481,24 +470,6 @@
           "context": "deadline",
           "isTentative": false
         }
-      ],
-      "external": [
-        {
-          "raw": "May 1 and November 1",
-          "date": "2026-05-01",
-          "dateEnd": "2026-11-01",
-          "type": "range",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "May 1 and November 1",
-          "date": "2026-05-01",
-          "dateEnd": "2026-11-01",
-          "type": "range",
-          "context": "deadline",
-          "isTentative": false
-        }
       ]
     }
   },
@@ -509,16 +480,16 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-frederick-douglas.html",
       "external": "https://www.ciee.org/go-abroad/college-study-abroad/scholarships/douglass-oconnell-global-internship"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Results Pending",
-      "external": "Results Pending"
-    },
+    "overallStatus": "New Cycle Dates Pending",
+    "overallMin": "2025-08-28",
+    "overallMax": "2026-01-09",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -651,23 +622,16 @@
       "awardFinder": "ok",
       "external": "no_dates_found"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-eisenhower.html",
       "external": "https://www.efworld.org/apply-now/"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2026-03-31",
-        "max": "2026-03-31"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "Dormant (Cycle Closed)"
-    },
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-03-31",
+    "overallMax": "2026-03-31",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -707,24 +671,16 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-EAB.html",
       "external": "https://together.emory.edu/alumni/awards/student-awards-and-scholarship"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2026-03-01",
-        "max": "2026-05-01"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "Dormant (Cycle Closed)",
-      "external": "Application Open"
-    },
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-03-01",
+    "overallMax": "2026-03-01",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -785,20 +741,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/fulbright-eta-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-eta.html",
       "external": "https://us.fulbrightonline.org/"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Application Likely Open",
-      "external": "Application Open"
-    },
+    "overallStatus": "App Opening Soon",
+    "overallMin": "2026-07-22",
+    "overallMax": "2026-10-06",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -835,14 +794,6 @@
           "isTentative": false
         },
         {
-          "raw": "July 16, 2026",
-          "date": "2026-07-16",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
           "raw": "July 22, 2026",
           "date": "2026-07-22",
           "dateEnd": null,
@@ -853,6 +804,14 @@
         {
           "raw": "July 30, 2026",
           "date": "2026-07-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 6, 2026",
+          "date": "2026-08-06",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -868,20 +827,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/fulbright-rs-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-rs.html",
       "external": "https://us.fulbrightonline.org/"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Application Open",
-      "external": "Application Open"
-    },
+    "overallStatus": "Application Open",
+    "overallMin": "2026-06-25",
+    "overallMax": "2026-10-06",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -934,14 +896,6 @@
           "isTentative": false
         },
         {
-          "raw": "July 16, 2026",
-          "date": "2026-07-16",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
           "raw": "July 22, 2026",
           "date": "2026-07-22",
           "dateEnd": null,
@@ -952,6 +906,14 @@
         {
           "raw": "July 30, 2026",
           "date": "2026-07-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 6, 2026",
+          "date": "2026-08-06",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -967,19 +929,23 @@
       "awardFinder": "ok",
       "external": "no_dates_found"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/gates-cambridge-application-guide.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-gates-cambridge.html",
       "external": "https://www.gatescambridge.org/apply/timeline/"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Application Open"
-    },
+    "overallStatus": "Application Open",
+    "overallMin": "2025-10-15",
+    "overallMax": "2026-08-01",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       },
       {
         "type": "no_dates_found",
@@ -1059,6 +1025,9 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/goldwater-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-goldwater.html",
@@ -1067,27 +1036,19 @@
     "discrepancies": [
       {
         "type": "stale",
-        "source": "awardFinder",
-        "status": "New Cycle Dates Pending",
-        "min": "2025-11-06",
-        "max": "2025-12-04"
-      },
-      {
-        "type": "stale",
-        "source": "external",
         "status": "Check for Deadline Immediately",
         "min": "2025-08-20",
-        "max": "2026-01-07"
+        "max": "2025-12-04"
       }
     ],
-    "statuses": {
-      "awardFinder": "New Cycle Dates Pending",
-      "external": "Check for Deadline Immediately"
-    },
+    "overallStatus": "Check for Deadline Immediately",
+    "overallMin": "2025-08-20",
+    "overallMax": "2025-12-04",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -1301,23 +1262,16 @@
       "awardFinder": "no_dates_found",
       "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-grad-stem-diversity.html",
       "external": "https://stemfellowships.org/applicants/"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "external",
-        "status": "New Cycle Dates Pending",
-        "min": "2026-01-15",
-        "max": "2026-01-15"
-      }
-    ],
-    "statuses": {
-      "external": "New Cycle Dates Pending"
-    },
+    "discrepancies": [],
+    "overallStatus": "New Cycle Dates Pending",
+    "overallMin": "2026-01-15",
+    "overallMax": "2026-01-15",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -1357,27 +1311,23 @@
       "awardFinder": "ok",
       "external": "broken_link"
     },
+    "sourceDetail": {
+      "external": "HTTP 404"
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-hertz.html",
       "external": "https://www.hertzfoundation.org/the-fellowship/faq/"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "New Cycle Dates Pending",
-        "min": "2025-10-31",
-        "max": "2025-10-31"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "New Cycle Dates Pending"
-    },
+    "discrepancies": [],
+    "overallStatus": "New Cycle Dates Pending",
+    "overallMin": "2025-10-31",
+    "overallMax": "2025-10-31",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "external"
+        "source": "external",
+        "detail": "HTTP 404"
       }
     ],
     "recipientCheck": {
@@ -1413,15 +1363,23 @@
       "awardFinder": "ok",
       "external": "no_dates_found"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-madison-fellows.html",
       "external": "https://apply.mykaleidoscope.com/scholarships/2025JamesMadisonGraduateFellowship"
     },
-    "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Lookout for Open Date"
-    },
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Lookout for Open Date",
+        "min": "2027-03-02",
+        "max": "2027-03-02"
+      }
+    ],
+    "overallStatus": "Lookout for Open Date",
+    "overallMin": "2027-03-02",
+    "overallMax": "2027-03-02",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -1461,28 +1419,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/knight-hennessy-guidelines.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-knight-hennessy.html",
       "external": "https://knight-hennessy.stanford.edu/admission/before-you-apply/dates-and-deadlines"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Urgent: Update Needed Now",
-        "min": "2025-07-17",
-        "max": "2025-10-08"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "Urgent: Update Needed Now",
-      "external": "Dormant (Waiting for App to Open)"
-    },
+    "discrepancies": [],
+    "overallStatus": "Application Open",
+    "overallMin": "2025-07-17",
+    "overallMax": "2026-12-01",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -1568,6 +1521,9 @@
       "awardFinder": "ok",
       "external": "broken_link"
     },
+    "sourceDetail": {
+      "external": "HTTP 403"
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-leland-hunger.html",
@@ -1576,19 +1532,19 @@
     "discrepancies": [
       {
         "type": "stale",
-        "source": "awardFinder",
         "status": "Urgent: Update Needed Now",
         "min": "2024-12-30",
         "max": "2024-12-30"
       }
     ],
-    "statuses": {
-      "awardFinder": "Urgent: Update Needed Now"
-    },
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2024-12-30",
+    "overallMax": "2024-12-30",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "external"
+        "source": "external",
+        "detail": "HTTP 403"
       }
     ],
     "recipientCheck": {
@@ -1618,28 +1574,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/luce-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-luce.html",
       "external": "https://apply-lucescholars.smapply.io/"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "New Cycle Dates Pending",
-        "min": "2025-09-15",
-        "max": "2025-09-15"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "New Cycle Dates Pending",
-      "external": "Application Likely Open"
-    },
+    "discrepancies": [],
+    "overallStatus": "Application Open",
+    "overallMin": "2025-09-15",
+    "overallMax": "2026-09-08",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -1683,7 +1634,11 @@
     "sourceStatus": {
       "procedures": "broken_link",
       "awardFinder": "ok",
-      "external": "no_dates_found"
+      "external": "broken_link"
+    },
+    "sourceDetail": {
+      "procedures": "pdf is not a function",
+      "external": "The user aborted a request."
     },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/marshall-procedures.pdf",
@@ -1691,17 +1646,19 @@
       "external": "https://www.marshallscholarship.org/apply"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Application Likely Open"
-    },
+    "overallStatus": "Application Likely Open",
+    "overallMin": "2026-08-27",
+    "overallMax": "2026-08-27",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       },
       {
-        "type": "no_dates_found",
-        "source": "external"
+        "type": "broken_link",
+        "source": "external",
+        "detail": "The user aborted a request."
       }
     ],
     "recipientCheck": {
@@ -1737,35 +1694,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/mdw-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-david-weill.html",
       "external": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/david-weill-scholarship/"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "New Cycle Dates Pending",
-        "min": "2025-10-16",
-        "max": "2025-11-15"
-      },
-      {
-        "type": "stale",
-        "source": "external",
-        "status": "New Cycle Dates Pending",
-        "min": "2025-11-15",
-        "max": "2025-11-15"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "New Cycle Dates Pending",
-      "external": "New Cycle Dates Pending"
-    },
+    "discrepancies": [],
+    "overallStatus": "New Cycle Dates Pending",
+    "overallMin": "2025-10-16",
+    "overallMax": "2025-11-15",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -1835,17 +1780,23 @@
       "awardFinder": "no_dates_found",
       "external": "no_dates_found"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/mitchell-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-mitchell.html",
       "external": "https://us-irelandalliance.org/scholarships"
     },
     "discrepancies": [],
-    "statuses": {},
+    "overallStatus": "No Dates Found",
+    "overallMin": null,
+    "overallMax": null,
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       },
       {
         "type": "no_dates_found",
@@ -1870,13 +1821,16 @@
       "awardFinder": "no_dates_found",
       "external": "not_tracked"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-mount-vernon.html",
       "external": null
     },
     "discrepancies": [],
-    "statuses": {},
+    "overallStatus": "No Dates Found",
+    "overallMin": null,
+    "overallMax": null,
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -1897,20 +1851,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/nsf-grfp-guide.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-grfp.html",
       "external": "https://new.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf24-591/solicitation"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Application Open",
-      "external": "Application Open"
-    },
+    "overallStatus": "Application Open",
+    "overallMin": "1998-01-05",
+    "overallMax": "2026-10-11",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -2172,6 +2129,7 @@
       "awardFinder": "no_dates_found",
       "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-reu.html",
@@ -2180,15 +2138,14 @@
     "discrepancies": [
       {
         "type": "stale",
-        "source": "external",
         "status": "Urgent: Update Needed Now",
         "min": "2021-11-15",
         "max": "2024-08-21"
       }
     ],
-    "statuses": {
-      "external": "Urgent: Update Needed Now"
-    },
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2021-11-15",
+    "overallMax": "2024-08-21",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -2274,23 +2231,19 @@
     "sourceStatus": {
       "procedures": "not_tracked",
       "awardFinder": "ok",
-      "external": "broken_link"
+      "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-noaa-hollings.html",
       "external": "https://www.noaa.gov/office-education/hollings-scholarship/news"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Lookout for Open Date"
-    },
-    "actionItems": [
-      {
-        "type": "broken_link",
-        "source": "external"
-      }
-    ],
+    "overallStatus": "Application Open",
+    "overallMin": "2025-09-30",
+    "overallMax": "2027-01-29",
+    "actionItems": [],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -2330,6 +2283,88 @@
           "context": "deadline",
           "isTentative": true
         }
+      ],
+      "external": [
+        {
+          "raw": "May 20, 2026",
+          "date": "2026-05-20",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 27, 2026",
+          "date": "2026-01-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 20, 2026",
+          "date": "2026-01-20",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 13, 2026",
+          "date": "2026-01-13",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "January 7, 2026",
+          "date": "2026-01-07",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 30, 2025",
+          "date": "2025-09-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 30, 2025",
+          "date": "2025-09-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 30, 2025",
+          "date": "2025-09-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 30, 2025",
+          "date": "2025-09-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "September 30, 2025",
+          "date": "2025-09-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        }
       ]
     }
   },
@@ -2340,24 +2375,16 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-petit.html",
       "external": "https://research.gatech.edu/bio/petit-undergraduate-research-scholars-program"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "New Cycle Dates Pending",
-        "min": "2025-09-15",
-        "max": "2025-09-15"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "New Cycle Dates Pending",
-      "external": "App Open Soon if Not Now"
-    },
+    "discrepancies": [],
+    "overallStatus": "New Cycle Dates Pending",
+    "overallMin": "2025-09-15",
+    "overallMax": "2025-09-15",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -2402,6 +2429,7 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-amgen-scholars.html",
@@ -2410,16 +2438,14 @@
     "discrepancies": [
       {
         "type": "stale",
-        "source": "awardFinder",
         "status": "Urgent: Update Needed Now",
         "min": "2025-02-01",
-        "max": "2025-02-01"
+        "max": "2026-06-22"
       }
     ],
-    "statuses": {
-      "awardFinder": "Urgent: Update Needed Now",
-      "external": "Results Pending"
-    },
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2025-02-01",
+    "overallMax": "2026-06-22",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -2680,6 +2706,7 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-quad-fellowship.html",
@@ -2688,23 +2715,14 @@
     "discrepancies": [
       {
         "type": "stale",
-        "source": "awardFinder",
-        "status": "Urgent: Update Needed Now",
-        "min": "2025-03-03",
-        "max": "2025-03-03"
-      },
-      {
-        "type": "stale",
-        "source": "external",
         "status": "Urgent: Update Needed Now",
         "min": "2022-06-30",
-        "max": "2022-06-30"
+        "max": "2025-03-03"
       }
     ],
-    "statuses": {
-      "awardFinder": "Urgent: Update Needed Now",
-      "external": "Urgent: Update Needed Now"
-    },
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2022-06-30",
+    "overallMax": "2025-03-03",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -2757,13 +2775,16 @@
       "awardFinder": "no_dates_found",
       "external": "no_dates_found"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-rangel.html",
       "external": "https://apply.rangelprogram.org/"
     },
     "discrepancies": [],
-    "statuses": {},
+    "overallStatus": "No Dates Found",
+    "overallMin": null,
+    "overallMax": null,
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -2788,19 +2809,23 @@
       "awardFinder": "ok",
       "external": "no_dates_found"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/rhodes-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-rhodes.html",
       "external": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/"
     },
     "discrepancies": [],
-    "statuses": {
-      "awardFinder": "Application Likely Open"
-    },
+    "overallStatus": "Application Likely Open",
+    "overallMin": "2026-08-27",
+    "overallMax": "2026-08-27",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       },
       {
         "type": "no_dates_found",
@@ -2840,6 +2865,9 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/schwarzman-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-schwarzman.html",
@@ -2853,14 +2881,14 @@
         "daysApart": 1
       }
     ],
-    "statuses": {
-      "awardFinder": "Application Open",
-      "external": "Application Open"
-    },
+    "overallStatus": "Application Open",
+    "overallMin": "2026-04-08",
+    "overallMax": "2026-10-01",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -3026,27 +3054,23 @@
       "awardFinder": "ok",
       "external": "not_tracked"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/shepard-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-shepard.html",
       "external": null
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2026-04-02",
-        "max": "2026-04-02"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "Dormant (Cycle Closed)"
-    },
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-04-02",
+    "overallMax": "2026-04-02",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -3082,27 +3106,23 @@
       "awardFinder": "ok",
       "external": "not_tracked"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/sonny-carter-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-sonny-carter.html",
       "external": null
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2026-02-13",
-        "max": "2026-03-25"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "Dormant (Cycle Closed)"
-    },
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-02-13",
+    "overallMax": "2026-03-25",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -3154,28 +3174,23 @@
       "awardFinder": "ok",
       "external": "ok"
     },
+    "sourceDetail": {
+      "procedures": "pdf is not a function"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/truman-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-truman.html",
       "external": "https://www.truman.gov/apply/applying/important-dates"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "source": "awardFinder",
-        "status": "Dormant (Cycle Closed)",
-        "min": "2025-11-06",
-        "max": "2026-02-03"
-      }
-    ],
-    "statuses": {
-      "awardFinder": "Dormant (Cycle Closed)",
-      "external": "Dormant (Waiting for App to Open)"
-    },
+    "discrepancies": [],
+    "overallStatus": "Application Open",
+    "overallMin": "2025-11-06",
+    "overallMax": "2027-02-02",
     "actionItems": [
       {
         "type": "broken_link",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "pdf is not a function"
       }
     ],
     "recipientCheck": {
@@ -3325,15 +3340,16 @@
       "awardFinder": "no_dates_found",
       "external": "ok"
     },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-wwtf.html",
       "external": "https://www.wilsoncenter.org/fellowship-application-guidelines"
     },
     "discrepancies": [],
-    "statuses": {
-      "external": "Application Open"
-    },
+    "overallStatus": "Application Open",
+    "overallMin": "2026-07-15",
+    "overallMax": "2026-09-30",
     "actionItems": [
       {
         "type": "no_dates_found",
