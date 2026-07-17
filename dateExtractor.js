@@ -35,15 +35,41 @@ const MONTH_RANGE_RE = new RegExp(
 // "TBA"
 const TBA_RE = /(\w+)\s+(?:APPLICATION\s+DUE\s+DATE|DUE\s+DATE|DEADLINE|DATES|DATE)\s+TBA/gi;
 
-// Context keyword categories — simplified port of GetContextTag/GetVerbNounTag.
-// Order matters: first match wins.
+// Context keyword categories — ported from GetContextTag/GetVerbNounTag.
+// ORDER MATTERS: most specific first. A bare "deadline" is the least
+// informative signal and must be checked LAST among the meaningful
+// categories, otherwise "Recommendation letters deadline: Jan 11" gets
+// swallowed into generic "deadline" before ever reaching "recommenders".
 const CONTEXT_CATEGORIES = [
-  { tag: 'deadline', patterns: [/final application deadline/i, /application deadline/i, /deadline/i, /due date/i, /submit.{0,15}application/i, /must be submitted/i] },
-  { tag: 'internal_deadline', patterns: [/internal (application )?deadline/i, /institutional endorsement/i, /begin the advising process/i, /indicate your intent to apply/i, /internal application/i] },
-  { tag: 'open', patterns: [/application(s)? open/i, /open date/i, /application period/i, /now open/i, /begin online application/i, /register and begin/i] },
-  { tag: 'interview', patterns: [/campus interview/i, /interview/i, /practice interview/i] },
-  { tag: 'recommenders', patterns: [/letters? of recommendation/i, /recommenders/i, /follow.up with recommenders/i] },
-  { tag: 'results', patterns: [/admissions decisions/i, /selection cycle/i, /notification/i, /finalists/i] },
+  {
+    tag: 'recommenders',
+    patterns: [
+      /letters?\s+of\s+recommendation/i,
+      /recommendation\s+letters?/i,
+      /recommenders?.{0,25}(due|deadline|submit|upload)/i,
+      /(due|deadline|submit).{0,25}recommenders?/i,
+      /follow.?up\s+with\s+recommenders/i,
+      /letter.{0,20}(due|deadline)/i,
+    ],
+  },
+  {
+    tag: 'internal_deadline',
+    patterns: [
+      /internal\s*(application)?\s*deadline/i,
+      /institutional\s+endorsement/i,
+      /begin\s+the\s+advising\s+process/i,
+      /indicate\s+your\s+intent\s+to\s+apply/i,
+      /internal\s+application/i,
+      /campus\s+deadline/i,
+    ],
+  },
+  { tag: 'interview', patterns: [/campus\s+interview/i, /practice\s+interview/i, /\binterview/i] },
+  { tag: 'results', patterns: [/admissions?\s+decisions?/i, /selection\s+cycle/i, /notification/i, /finalists?/i, /awardees?\s+announced/i, /scholars?\s+announced/i] },
+  { tag: 'open', patterns: [/application(s)?\s+open/i, /open\s+date/i, /application\s+period/i, /now\s+open/i, /begin\s+online\s+application/i, /register\s+and\s+begin/i, /\bopens\b/i] },
+  {
+    tag: 'deadline', // generic catch-all — deliberately last
+    patterns: [/final\s+application\s+deadline/i, /application\s+deadline/i, /submit.{0,15}application/i, /must\s+be\s+submitted/i, /nomination\s+submission\s+deadline/i, /due\s+date/i, /\bdeadline/i],
+  },
 ];
 
 function tagContext(snippet) {
@@ -53,12 +79,20 @@ function tagContext(snippet) {
   return 'other';
 }
 
-// Grab ~90 chars before + after a match index as "context" (rough sentence proxy)
-function getSnippet(text, start, len) {
-  const from = Math.max(0, start - 90);
-  const to = Math.min(text.length, start + len + 90);
-  return text.slice(from, to).replace(/\s+/g, ' ').trim();
+// Sentence-boundary extraction — ported from the VBA's GetSentenceAtPosition.
+// Walks outward from a match position to the nearest boundary character
+// (newline, period, tab, or middle-dot), rather than a fixed character
+// radius. This avoids bleeding context from an adjacent, unrelated sentence
+// or table cell into the tag decision.
+function getSentenceAt(text, pos, matchLen) {
+  const isBoundary = (ch) => ch === '\n' || ch === '\r' || ch === '.' || ch === '\t' || ch === '\u00B7';
+  let start = pos;
+  while (start > 0 && !isBoundary(text[start - 1])) start--;
+  let end = pos + matchLen;
+  while (end < text.length && !isBoundary(text[end])) end++;
+  return text.slice(start, end).replace(/\s+/g, ' ').trim();
 }
+
 
 function monthNum(name) {
   return MONTHS[name.slice(0, name.length > 4 ? 4 : 3).toLowerCase()] || MONTHS[name.toLowerCase()];
@@ -93,7 +127,7 @@ function extractDates(text, inferredYear = new Date().getFullYear()) {
   while ((m = tbaRe.exec(text))) {
     results.push({
       raw: m[0], date: null, dateEnd: null, type: 'TBA',
-      context: tagContext(getSnippet(text, m.index, m[0].length)),
+      context: tagContext(getSentenceAt(text, m.index, m[0].length)),
       isTentative: false,
     });
   }
@@ -108,8 +142,8 @@ function extractDates(text, inferredYear = new Date().getFullYear()) {
       claimedRanges.push([m.index, m.index + full.length]);
       results.push({
         raw: full.trim(), date: startISO, dateEnd: endISO || startISO, type: 'range',
-        context: tagContext(getSnippet(text, m.index, full.length)),
-        isTentative: /tentative/i.test(getSnippet(text, m.index, full.length)),
+        context: tagContext(getSentenceAt(text, m.index, full.length)),
+        isTentative: /tentative/i.test(getSentenceAt(text, m.index, full.length)),
       });
     }
   }
@@ -123,7 +157,7 @@ function extractDates(text, inferredYear = new Date().getFullYear()) {
       claimedRanges.push([m.index, m.index + full.length]);
       results.push({
         raw: full.trim(), date: startISO, dateEnd: null, type: 'period',
-        context: tagContext(getSnippet(text, m.index, full.length)),
+        context: tagContext(getSentenceAt(text, m.index, full.length)),
         isTentative: false,
       });
     }
@@ -139,7 +173,7 @@ function extractDates(text, inferredYear = new Date().getFullYear()) {
     if (dayNum > 31) continue; // guards against stray 4-digit years matching \d{1,2}
     const iso = toISO(mon, day, year, inferredYear);
     if (!iso) continue;
-    const snippet = getSnippet(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length);
     results.push({
       raw: full.trim(), date: iso, dateEnd: null, type: 'date',
       context: tagContext(snippet),
