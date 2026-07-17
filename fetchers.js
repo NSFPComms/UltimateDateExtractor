@@ -50,6 +50,16 @@ async function fetchProceduresPDF(url) {
   }
 }
 
+// Strips common chrome/boilerplate that isn't part of the actual page
+// content — semantic tags AND common non-semantic menu/nav patterns (many
+// sites, like goldwaterscholarship.gov, build navigation out of plain
+// <ul>/<div> without a <nav> tag, which a semantic-only strip would miss).
+function stripChrome($) {
+  $('script, style, noscript, nav, header, footer, aside, form, iframe').remove();
+  $('[class*="menu" i], [id*="menu" i], [class*="nav" i], [id*="nav" i], [class*="sidebar" i], [class*="widget" i], [class*="social" i], [class*="breadcrumb" i], [role="navigation"]').remove();
+  return $;
+}
+
 async function fetchAwardFinderPage(url) {
   if (!url) return { result: null, recipientsText: '' };
   try {
@@ -58,26 +68,22 @@ async function fetchAwardFinderPage(url) {
     const html = await res.text();
     const $ = cheerio.load(html);
 
-    // Deadlines live in h3 per the sitemap (AwardFinderEntries -> Award_Deadlines: h3)
-    const h3Text = $('h3').map((_, el) => $(el).text()).get().join('. ');
-    // Also grab the main content body text for endorsement/internal deadlines
-    // that appear as bold inline text rather than h3s (e.g. Schwarzman's
-    // "begin your application ... by April 23, 2026" sentence).
-    const mainText = $('main, #main, .col-md-8, body').first().text().replace(/\s+/g, ' ');
-    const combined = `${h3Text}. ${mainText}`;
-
-    // Recipients tab: per the sitemap this is a click-to-reveal ".show li"
-    // block. Emory's markup often renders it directly in the DOM even
-    // without the JS click (confirmed on the Schwarzman page); fall back to
-    // a heading-based search if not.
+    // Recipients tab text must be captured BEFORE chrome-stripping in case
+    // it lives near a nav-like class name; capture first, strip after.
     let recipientsText = '';
     const recipHeading = $('*:contains("Previous Recipients")').last();
     if (recipHeading.length) {
       recipientsText = recipHeading.parent().text().replace(/\s+/g, ' ');
     }
+
+    stripChrome($);
+    // Deadlines live in h3 per the sitemap (AwardFinderEntries -> Award_Deadlines: h3),
+    // but h3 elements are already part of the body text below — do NOT
+    // concatenate them separately, or every h3 date gets counted twice.
+    const mainText = $('main, #main, .col-md-8, body').first().text().replace(/\s+/g, ' ');
     if (!recipientsText) recipientsText = mainText; // fallback: year regex will just scan the whole page
 
-    return { result: { status: 'ok', text: combined }, recipientsText };
+    return { result: { status: 'ok', text: mainText }, recipientsText };
   } catch (e) {
     return { result: { status: 'fetch_error', text: null, error: e.message }, recipientsText: '' };
   }
@@ -90,7 +96,7 @@ async function fetchExternalPage(url) {
     if (!res.ok) return { status: 'broken_link', text: null, httpStatus: res.status };
     const html = await res.text();
     const $ = cheerio.load(html);
-    $('script, style, nav, footer').remove();
+    stripChrome($);
     const text = $('body').text().replace(/\s+/g, ' ');
     return { status: 'ok', text };
   } catch (e) {
