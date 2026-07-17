@@ -24,31 +24,72 @@ function buildSummaryRows(reports) {
       } else if (d.type === 'stale') {
         rows.push({
           award: r.awardName, kind: 'Stale',
-          detail: `${L(d.source)}: status "${d.status}" (dates span ${fmt(d.min)}–${fmt(d.max)})`,
+          detail: `Status: "${d.status}" (dates span ${fmt(d.min)}–${fmt(d.max)})`,
         });
       }
     }
     for (const a of r.actionItems) {
-      if (a.type === 'broken_link') rows.push({ award: r.awardName, kind: 'Broken link', detail: `${L(a.source)} did not load — <a href="${r.sourceUrls[a.source]}" target="_blank">${r.sourceUrls[a.source]}</a>` });
+      if (a.type === 'broken_link') rows.push({ award: r.awardName, kind: 'Broken link', detail: `${L(a.source)} did not load (${a.detail || 'unknown error'}) — <a href="${r.sourceUrls[a.source]}" target="_blank">${r.sourceUrls[a.source]}</a>` });
       if (a.type === 'no_dates_found') rows.push({ award: r.awardName, kind: 'No dates found', detail: `${L(a.source)} — check if this is still the right URL to track` });
       if (a.type === 'stale_recipients') rows.push({ award: r.awardName, kind: 'Recipients outdated', detail: `${a.reason} — ${link(r.sourceUrls.awardFinder, 'view recipients page')}` });
+      if (a.type === 'scrape_error') rows.push({ award: r.awardName, kind: 'Scrape error', detail: a.detail });
     }
   }
   return rows;
 }
 
+// Display order for status groups — most actionable first, "healthy" states last.
+const STATUS_ORDER = [
+  'Urgent: Update Needed Now',
+  'Check for Deadline Immediately',
+  'Lookout for Open Date',
+  'Scrape Error',
+  'No Dates Found',
+  'Input Needed',
+  'App Opening Soon',
+  'App Open Soon if Not Now',
+  'Application Likely Open',
+  'Application Open',
+  'Application Likely Closing Soon',
+  'Application Closing Soon',
+  'Dormant (Waiting for App to Open)',
+  'Results Pending',
+  'New Cycle Dates Pending',
+  'Dormant (Cycle Closed)',
+  'Application Closed',
+];
+
+function groupByStatus(reports) {
+  const groups = new Map();
+  for (const r of reports) {
+    const key = r.overallStatus || 'No Dates Found';
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(r);
+  }
+  // Sort group keys by STATUS_ORDER, unknown statuses fall at the end
+  const orderedKeys = [...groups.keys()].sort((a, b) => {
+    const ia = STATUS_ORDER.indexOf(a); const ib = STATUS_ORDER.indexOf(b);
+    return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+  });
+  return orderedKeys.map((key) => ({ status: key, awards: groups.get(key) }));
+}
+
 function buildRawDumpSection(reports) {
-  return reports.map((r) => {
-    const sourceBlocks = Object.entries(SOURCE_LABELS).map(([key, label]) => {
-      const status = r.sourceStatus[key];
-      const labelLink = link(r.sourceUrls && r.sourceUrls[key], label);
-      if (status === 'not_tracked') return '';
-      if (status === 'broken_link') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">broken link</span></div>`;
-      if (status === 'no_dates_found') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">no dates found</span></div>`;
-      const dates = (r.rawDates[key] || []).map((d) => `${d.raw} <em>(${d.context})</em>`).join('; ') || '—';
-      return `<div class="src"><strong>${labelLink}:</strong> ${dates}</div>`;
+  const groups = groupByStatus(reports);
+  return groups.map(({ status, awards }) => {
+    const awardBlocks = awards.map((r) => {
+      const sourceBlocks = Object.entries(SOURCE_LABELS).map(([key, label]) => {
+        const srcStatus = r.sourceStatus[key];
+        const labelLink = link(r.sourceUrls && r.sourceUrls[key], label);
+        if (srcStatus === 'not_tracked') return '';
+        if (srcStatus === 'broken_link') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">broken link (${(r.sourceDetail && r.sourceDetail[key]) || 'unknown'})</span></div>`;
+        if (srcStatus === 'no_dates_found') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">no dates found</span></div>`;
+        const dates = (r.rawDates[key] || []).map((d) => `${d.raw} <em>(${d.context})</em>`).join('; ') || '—';
+        return `<div class="src"><strong>${labelLink}:</strong> ${dates}</div>`;
+      }).join('');
+      return `<div class="award-block"><h3>${r.awardName}</h3>${sourceBlocks}</div>`;
     }).join('');
-    return `<div class="award-block"><h3>${r.awardName}</h3>${sourceBlocks}</div>`;
+    return `<div class="status-group"><h2 class="status-heading">${status} <span class="count">(${awards.length})</span></h2>${awardBlocks}</div>`;
   }).join('');
 }
 
@@ -71,9 +112,13 @@ function buildEmailHTML(reports) {
     .kind-no-dates-found { color: #a15c00; font-weight: bold; }
     .kind-recipients-outdated { color: #1a5fb4; font-weight: bold; }
     .kind-stale { color: #a15c00; font-weight: bold; }
+    .kind-scrape-error { color: #b30000; font-weight: bold; background: #fff0f0; }
     .award-block { border-top: 1px solid #eee; padding-top: 6px; }
     .src { font-size: 12px; margin: 2px 0; }
     .flag { color: #b30000; font-weight: bold; }
+    .status-group { margin-top: 22px; }
+    .status-heading { background: #f0f4f8; padding: 6px 10px; border-left: 4px solid #1a5fb4; margin: 0 0 4px; }
+    .status-heading .count { font-weight: normal; color: #666; font-size: 12px; }
   </style></head><body>
     <h1>Weekly Award Date Discrepancy Report</h1>
     <h2>Summary — needs review</h2>

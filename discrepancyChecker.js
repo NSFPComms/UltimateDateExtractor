@@ -56,21 +56,30 @@ function analyzeAward(awardName, texts, inferredYear) {
     }
   }
 
-  // Staleness: compute per-source min/max across ALL dates found, classify status
-  const statuses = {};
-  for (const [source, dates] of Object.entries(bySource)) {
-    const all = dates.map((d) => d.date).filter(Boolean).sort();
-    if (!all.length) { statuses[source] = 'No dates found'; continue; }
-    const min = all[0];
-    const max = all[all.length - 1];
-    const status = classifyStatus(min, max);
-    statuses[source] = status;
-    if (STALE_STATUSES.has(status)) {
-      discrepancies.push({ type: 'stale', source, status, min, max });
-    }
+  // Consolidated overall status — mirrors your MS List's single MinDate/MaxDate
+  // per award, rather than a separate noisy status per source. MinDate =
+  // earliest "open"-tagged date across all sources; MaxDate = latest
+  // "deadline"/"internal_deadline"-tagged date. Falls back to the full date
+  // range if a source doesn't have explicit open/deadline tags.
+  const allTaggedDates = Object.values(bySource).flat();
+  const opens = allTaggedDates.filter((d) => d.context === 'open' && d.date).map((d) => d.date).sort();
+  const deadlines = allTaggedDates.filter((d) => (d.context === 'deadline' || d.context === 'internal_deadline') && d.date).map((d) => d.date).sort();
+  const allDatesFlat = allTaggedDates.filter((d) => d.date).map((d) => d.date).sort();
+
+  let overallStatus = 'No Dates Found';
+  let overallMin = null;
+  let overallMax = null;
+  if (allDatesFlat.length) {
+    overallMin = opens.length ? opens[0] : allDatesFlat[0];
+    overallMax = deadlines.length ? deadlines[deadlines.length - 1] : allDatesFlat[allDatesFlat.length - 1];
+    overallStatus = classifyStatus(overallMin, overallMax);
   }
 
-  return { awardName, bySource, deadlinesBySource, statuses, discrepancies };
+  if (STALE_STATUSES.has(overallStatus)) {
+    discrepancies.push({ type: 'stale', status: overallStatus, min: overallMin, max: overallMax });
+  }
+
+  return { awardName, bySource, deadlinesBySource, overallStatus, overallMin, overallMax, discrepancies };
 }
 
 module.exports = { analyzeAward };

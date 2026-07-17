@@ -12,11 +12,13 @@ const { checkRecipientStaleness } = require('./recipientChecker');
 function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear, sourceUrls = {}) {
   const texts = {};
   const sourceStatus = {};
+  const sourceDetail = {};
 
   for (const [source, result] of Object.entries(fetchResults)) {
     if (!result) { sourceStatus[source] = 'not_tracked'; continue; } // e.g. spreadsheet had n/a
     if (result.status === 'broken_link' || result.status === 'fetch_error') {
       sourceStatus[source] = 'broken_link';
+      sourceDetail[source] = result.httpStatus ? `HTTP ${result.httpStatus}` : (result.error || 'unknown error');
       continue;
     }
     const dates = extractDates(result.text || '', inferredYear);
@@ -36,7 +38,7 @@ function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear,
   // dates that DO exist all agree with each other.
   const actionItems = [];
   for (const [source, status] of Object.entries(sourceStatus)) {
-    if (status === 'broken_link') actionItems.push({ type: 'broken_link', source });
+    if (status === 'broken_link') actionItems.push({ type: 'broken_link', source, detail: sourceDetail[source] });
     if (status === 'no_dates_found') actionItems.push({ type: 'no_dates_found', source });
   }
   if (recipientCheck && recipientCheck.stale) {
@@ -46,9 +48,12 @@ function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear,
   return {
     awardName,
     sourceStatus,
+    sourceDetail,
     sourceUrls,
     discrepancies: analysis.discrepancies,
-    statuses: analysis.statuses,
+    overallStatus: analysis.overallStatus,
+    overallMin: analysis.overallMin,
+    overallMax: analysis.overallMax,
     actionItems,
     recipientCheck,
     rawDates: analysis.bySource, // full dump for the bottom-of-email section

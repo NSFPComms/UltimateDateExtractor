@@ -190,8 +190,7 @@ function classifyStatus(minDate, maxDate, today = new Date()) {
 const STALE_STATUSES = new Set([
   'Urgent: Update Needed Now',
   'Check for Deadline Immediately',
-  'New Cycle Dates Pending',
-  'Dormant (Cycle Closed)',
+  'Lookout for Open Date',
 ]);
 
 module.exports = { extractDates, tagContext, classifyStatus, STALE_STATUSES };
