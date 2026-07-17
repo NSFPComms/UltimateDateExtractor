@@ -17,7 +17,7 @@
     "discrepancies": [],
     "overallStatus": "Application Open",
     "overallMin": "2026-03-05",
-    "overallMax": "2027-03-26",
+    "overallMax": "2027-02-25",
     "actionItems": [
       {
         "type": "broken_link",
@@ -37,7 +37,7 @@
           "date": "2027-03-19",
           "dateEnd": "2027-03-25",
           "type": "range",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -45,7 +45,7 @@
           "date": "2026-11-29",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -69,7 +69,7 @@
           "date": "2027-03-25",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -77,7 +77,7 @@
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -167,15 +167,7 @@
           "date": "2026-03-05",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "March 5, 2026",
-          "date": "2026-03-05",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ]
@@ -194,17 +186,10 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-b-jones-scholar.html",
       "external": null
     },
-    "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2027-01-11",
-        "awardFinder": "2027-01-08",
-        "daysApart": 3
-      }
-    ],
+    "discrepancies": [],
     "overallStatus": "Dormant (Waiting for App to Open)",
-    "overallMin": "2026-10-29",
-    "overallMax": "2027-01-11",
+    "overallMin": "2026-10-19",
+    "overallMax": "2027-10-19",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -242,7 +227,7 @@
           "date": "2027-10-19",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -250,7 +235,7 @@
           "date": "2027-01-11",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -259,7 +244,7 @@
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": true
+          "isTentative": false
         },
         {
           "raw": "January 8, 2027",
@@ -267,7 +252,7 @@
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": true
+          "isTentative": false
         }
       ],
       "awardFinder": [
@@ -276,7 +261,7 @@
           "date": "2026-10-19",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -284,23 +269,7 @@
           "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "October 19, 2026",
-          "date": "2026-10-19",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "January 8, 2027",
-          "date": "2027-01-08",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -336,9 +305,9 @@
       "external": null
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Cycle Closed)",
-    "overallMin": "2026-02-01",
-    "overallMax": "2026-03-25",
+    "overallStatus": "Application Open",
+    "overallMin": "2026-02-13",
+    "overallMax": "2027-04-15",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -360,7 +329,7 @@
           "date": "2026-02-01",
           "dateEnd": null,
           "type": "period",
-          "context": "open",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -368,7 +337,7 @@
           "date": "2026-02-01",
           "dateEnd": null,
           "type": "period",
-          "context": "open",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -385,7 +354,7 @@
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": true
+          "isTentative": false
         },
         {
           "raw": "Mar 26, 2027",
@@ -426,7 +395,7 @@
           "date": "2026-02-13",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -434,23 +403,7 @@
           "date": "2026-03-25",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "February 13, 2026",
-          "date": "2026-02-13",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "March 25, 2026",
-          "date": "2026-03-25",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         }
       ]
@@ -472,7 +425,7 @@
     "discrepancies": [],
     "overallStatus": "Application Open",
     "overallMin": "2025-12-04",
-    "overallMax": "2027-01-15",
+    "overallMax": "2026-12-03",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -494,7 +447,7 @@
           "date": "2026-10-01",
           "dateEnd": null,
           "type": "period",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -518,7 +471,7 @@
           "date": "2027-01-14",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -526,7 +479,7 @@
           "date": "2027-01-14",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -534,7 +487,7 @@
           "date": "2027-01-15",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -550,7 +503,7 @@
           "date": "2026-12-03",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -574,7 +527,7 @@
           "date": "2026-12-03",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -616,15 +569,7 @@
           "date": "2025-12-04",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "December 4, 2025",
-          "date": "2025-12-04",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ],
@@ -686,7 +631,7 @@
           "date": "2026-09-28",
           "dateEnd": "2026-09-30",
           "type": "range",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -694,7 +639,7 @@
           "date": "2026-09-17",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -702,7 +647,7 @@
           "date": "2026-10-10",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": true
         },
         {
@@ -710,7 +655,7 @@
           "date": "2026-11-02",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -718,7 +663,7 @@
           "date": "2026-11-02",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -742,7 +687,7 @@
           "date": "2026-09-17",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -792,15 +737,7 @@
           "date": "2026-09-17",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "September 17, 2026",
-          "date": "2026-09-17",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ],
@@ -870,14 +807,6 @@
           "isTentative": false
         },
         {
-          "raw": "November 18, 2025",
-          "date": "2025-11-18",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
           "raw": "May 15, 2025",
           "date": "2025-05-15",
           "dateEnd": null,
@@ -921,14 +850,6 @@
     },
     "rawDates": {
       "awardFinder": [
-        {
-          "raw": "May 1 and November 1, 2026",
-          "date": "2026-05-01",
-          "dateEnd": "2026-11-01",
-          "type": "range",
-          "context": "deadline",
-          "isTentative": false
-        },
         {
           "raw": "May 1 and November 1, 2026",
           "date": "2026-05-01",
@@ -1044,7 +965,7 @@
           "date": "2026-01-09",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -1052,7 +973,7 @@
           "date": "2025-08-28",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -1060,7 +981,7 @@
           "date": "2026-01-09",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -1068,7 +989,7 @@
           "date": "2026-01-09",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1119,14 +1040,6 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false
-        },
-        {
-          "raw": "March 31, 2026",
-          "date": "2026-03-31",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
         }
       ]
     }
@@ -1156,14 +1069,6 @@
     },
     "rawDates": {
       "awardFinder": [
-        {
-          "raw": "March 1, 2026",
-          "date": "2026-03-01",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
         {
           "raw": "March 1, 2026",
           "date": "2026-03-01",
@@ -1220,12 +1125,6 @@
         "procedures": "2026-09-06",
         "awardFinder": "2026-09-10",
         "daysApart": 4
-      },
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2026-10-05",
-        "external": "2026-10-06",
-        "daysApart": 1
       }
     ],
     "overallStatus": "Application Open",
@@ -1268,7 +1167,7 @@
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1276,7 +1175,7 @@
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1284,7 +1183,7 @@
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1292,7 +1191,7 @@
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1300,7 +1199,7 @@
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1316,7 +1215,7 @@
           "date": "2026-01-31",
           "dateEnd": null,
           "type": "date",
-          "context": "results",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1380,7 +1279,7 @@
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1388,7 +1287,7 @@
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1412,7 +1311,7 @@
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -1422,15 +1321,7 @@
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "September 10, 2026",
-          "date": "2026-09-10",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ],
@@ -1440,7 +1331,7 @@
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "results",
           "isTentative": false
         },
         {
@@ -1483,14 +1374,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-rs.html",
       "external": "https://us.fulbrightonline.org/"
     },
-    "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2026-10-05",
-        "external": "2026-10-06",
-        "daysApart": 1
-      }
-    ],
+    "discrepancies": [],
     "overallStatus": "Application Open",
     "overallMin": "2026-04-02",
     "overallMax": "2026-10-06",
@@ -1515,7 +1399,7 @@
           "date": "2026-09-16",
           "dateEnd": "2026-09-30",
           "type": "range",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1555,7 +1439,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1563,7 +1447,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1571,7 +1455,7 @@
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1579,7 +1463,7 @@
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1587,7 +1471,7 @@
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1595,7 +1479,7 @@
           "date": "2026-01-31",
           "dateEnd": null,
           "type": "date",
-          "context": "results",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1603,7 +1487,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "recommenders",
           "isTentative": false
         },
         {
@@ -1643,7 +1527,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false
         },
         {
@@ -1675,7 +1559,7 @@
           "date": "2026-08-25",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         },
         {
@@ -1683,7 +1567,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1691,7 +1575,7 @@
           "date": "2026-08-25",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         },
         {
@@ -1707,7 +1591,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1715,7 +1599,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1763,7 +1647,7 @@
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -1773,7 +1657,7 @@
           "date": "2026-06-25",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         },
         {
@@ -1781,23 +1665,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "June 25, 2026",
-          "date": "2026-06-25",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "September 03, 2026",
-          "date": "2026-09-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ],
@@ -1807,7 +1675,7 @@
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "results",
           "isTentative": false
         },
         {
@@ -1879,7 +1747,7 @@
           "date": "2026-07-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1887,7 +1755,7 @@
           "date": "2026-07-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1895,7 +1763,7 @@
           "date": "2026-11-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1903,7 +1771,7 @@
           "date": "2026-11-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1911,7 +1779,7 @@
           "date": "2026-12-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1935,7 +1803,7 @@
           "date": "2026-09-30",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1943,7 +1811,7 @@
           "date": "2026-10-07",
           "dateEnd": null,
           "type": "date",
-          "context": "results",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1951,7 +1819,7 @@
           "date": "2027-03-01",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -1959,35 +1827,11 @@
           "date": "2026-12-09",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         }
       ],
       "awardFinder": [
-        {
-          "raw": "October 15, 2025",
-          "date": "2025-10-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "December 3, 2025",
-          "date": "2025-12-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "January 7, 2026",
-          "date": "2026-01-07",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
         {
           "raw": "October 15, 2025",
           "date": "2025-10-15",
@@ -2001,16 +1845,16 @@
           "date": "2025-12-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
-          "isTentative": false
+          "context": "deadline",
+          "isTentative": true
         },
         {
           "raw": "January 7, 2026",
           "date": "2026-01-07",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
-          "isTentative": false
+          "context": "deadline",
+          "isTentative": true
         },
         {
           "raw": "August 1",
@@ -2028,7 +1872,7 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "ok"
+      "external": "no_dates_found"
     },
     "sourceDetail": {},
     "sourceUrls": {
@@ -2036,18 +1880,16 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-goldwater.html",
       "external": "https://goldwaterscholarship.gov/important-dates/"
     },
-    "discrepancies": [
+    "discrepancies": [],
+    "overallStatus": "Application Open",
+    "overallMin": "2025-09-01",
+    "overallMax": "2026-12-08",
+    "actionItems": [
       {
-        "type": "deadline_mismatch",
-        "procedures": "2025-11-01",
-        "awardFinder": "2025-11-06",
-        "daysApart": 5
+        "type": "no_dates_found",
+        "source": "external"
       }
     ],
-    "overallStatus": "Application Open",
-    "overallMin": "2025-11-06",
-    "overallMax": "2026-12-08",
-    "actionItems": [],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -2060,7 +1902,7 @@
           "date": "2026-01-12",
           "dateEnd": "2026-01-23",
           "type": "range",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2068,7 +1910,7 @@
           "date": "2025-11-01",
           "dateEnd": null,
           "type": "period",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2076,7 +1918,7 @@
           "date": "2025-09-01",
           "dateEnd": null,
           "type": "period",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2084,7 +1926,7 @@
           "date": "2025-11-06",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2092,7 +1934,7 @@
           "date": "2025-12-04",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2124,7 +1966,7 @@
           "date": "2025-11-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2215,184 +2057,6 @@
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "November 06, 2025",
-          "date": "2025-11-06",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "December 04, 2025",
-          "date": "2025-12-04",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        }
-      ],
-      "external": [
-        {
-          "raw": "August 20, 2025",
-          "date": "2025-08-20",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 17, 2025",
-          "date": "2025-09-17",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 24, 2025",
-          "date": "2025-09-24",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "October 8, 2025",
-          "date": "2025-10-08",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "October 22, 2025",
-          "date": "2025-10-22",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 12, 2025",
-          "date": "2025-11-12",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 21, 2025",
-          "date": "2025-11-21",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "December 3, 2025",
-          "date": "2025-12-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "December 10, 2025",
-          "date": "2025-12-10",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "January 7, 2026",
-          "date": "2026-01-07",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "August 20, 2025",
-          "date": "2025-08-20",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 17, 2025",
-          "date": "2025-09-17",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 24, 2025",
-          "date": "2025-09-24",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "October 8, 2025",
-          "date": "2025-10-08",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "October 22, 2025",
-          "date": "2025-10-22",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 12, 2025",
-          "date": "2025-11-12",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 21, 2025",
-          "date": "2025-11-21",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "December 3, 2025",
-          "date": "2025-12-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "December 10, 2025",
-          "date": "2025-12-10",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "January 7, 2026",
-          "date": "2026-01-07",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
           "isTentative": false
         }
       ]
@@ -2487,14 +2151,6 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false
-        },
-        {
-          "raw": "October 31, 2025",
-          "date": "2025-10-31",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
         }
       ]
     }
@@ -2543,14 +2199,6 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false
-        },
-        {
-          "raw": "March 2, 2027",
-          "date": "2027-03-02",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
         }
       ]
     }
@@ -2570,7 +2218,7 @@
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
-    "overallMin": "2026-06-01",
+    "overallMin": "2025-07-17",
     "overallMax": "2026-12-01",
     "actionItems": [],
     "recipientCheck": {
@@ -2585,7 +2233,7 @@
           "date": "2026-06-01",
           "dateEnd": null,
           "type": "period",
-          "context": "open",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2593,7 +2241,7 @@
           "date": "2026-06-01",
           "dateEnd": null,
           "type": "period",
-          "context": "open",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2601,7 +2249,7 @@
           "date": "2026-06-01",
           "dateEnd": null,
           "type": "period",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2609,7 +2257,7 @@
           "date": "2026-07-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2617,7 +2265,7 @@
           "date": "2026-07-17",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2625,7 +2273,7 @@
           "date": "2026-09-24",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2633,7 +2281,7 @@
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2641,7 +2289,7 @@
           "date": "2026-12-01",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2665,7 +2313,7 @@
           "date": "2026-07-17",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2673,7 +2321,7 @@
           "date": "2026-08-07",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2694,14 +2342,6 @@
         }
       ],
       "awardFinder": [
-        {
-          "raw": "October 08, 2025",
-          "date": "2025-10-08",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
         {
           "raw": "October 08, 2025",
           "date": "2025-10-08",
@@ -2749,7 +2389,7 @@
           "date": "2026-12-01",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false
         },
         {
@@ -2846,7 +2486,7 @@
           "date": "2026-07-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2854,7 +2494,7 @@
           "date": "2026-08-10",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2862,7 +2502,7 @@
           "date": "2026-09-08",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -2872,15 +2512,7 @@
           "date": "2025-09-15",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "September 15, 2025",
-          "date": "2025-09-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -2934,7 +2566,7 @@
           "date": "2026-09-08",
           "dateEnd": "2026-09-11",
           "type": "range",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2942,7 +2574,7 @@
           "date": "2026-09-14",
           "dateEnd": "2026-09-23",
           "type": "range",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2958,7 +2590,7 @@
           "date": "2026-08-27",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -2966,7 +2598,7 @@
           "date": "2026-09-29",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3030,7 +2662,7 @@
           "date": "2026-09-29",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -3040,15 +2672,7 @@
           "date": "2026-08-27",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ]
@@ -3059,7 +2683,7 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "ok"
+      "external": "no_dates_found"
     },
     "sourceDetail": {},
     "sourceUrls": {
@@ -3070,33 +2694,20 @@
     "discrepancies": [
       {
         "type": "deadline_mismatch",
-        "procedures": "2025-11-13",
-        "awardFinder": "2025-11-15",
-        "daysApart": 2
-      },
-      {
-        "type": "deadline_mismatch",
         "procedures": "2025-11-14",
         "awardFinder": "2025-11-15",
-        "daysApart": 1
-      },
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2025-11-13",
-        "external": "2025-11-15",
-        "daysApart": 2
-      },
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2025-11-14",
-        "external": "2025-11-15",
         "daysApart": 1
       }
     ],
     "overallStatus": "Application Open",
     "overallMin": "2025-08-01",
     "overallMax": "2026-10-16",
-    "actionItems": [],
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -3117,7 +2728,7 @@
           "date": "2025-08-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3149,7 +2760,7 @@
           "date": "2025-11-13",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3157,7 +2768,7 @@
           "date": "2025-11-14",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3165,7 +2776,7 @@
           "date": "2025-10-16",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3181,7 +2792,7 @@
           "date": "2025-10-16",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3205,7 +2816,7 @@
           "date": "2025-11-13",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3231,7 +2842,7 @@
           "date": "2025-10-16",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         },
         {
@@ -3239,41 +2850,7 @@
           "date": "2025-11-15",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "November 15, 2025",
-          "date": "2025-11-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        }
-      ],
-      "external": [
-        {
-          "raw": "November 15, 2025",
-          "date": "2025-11-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 15, 2025",
-          "date": "2025-11-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ]
@@ -3318,7 +2895,7 @@
           "date": "2023-09-05",
           "dateEnd": "2023-09-08",
           "type": "range",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3326,7 +2903,7 @@
           "date": "2023-09-11",
           "dateEnd": "2023-09-22",
           "type": "range",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3334,7 +2911,7 @@
           "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3342,7 +2919,7 @@
           "date": "2023-09-28",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3350,7 +2927,7 @@
           "date": "2023-09-28",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3358,7 +2935,7 @@
           "date": "2023-10-02",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3374,7 +2951,7 @@
           "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false
         },
         {
@@ -3414,7 +2991,7 @@
           "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3422,7 +2999,7 @@
           "date": "2026-09-05",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3495,10 +3072,17 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-grfp.html",
       "external": "https://new.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf24-591/solicitation"
     },
-    "discrepancies": [],
-    "overallStatus": "Application Open",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "1998-01-05",
+        "max": "2025-11-14"
+      }
+    ],
+    "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "1998-01-05",
-    "overallMax": "2026-10-11",
+    "overallMax": "2025-11-14",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -3512,7 +3096,7 @@
           "date": "2025-07-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3520,7 +3104,7 @@
           "date": "2025-07-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3528,7 +3112,7 @@
           "date": "2025-08-11",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -3538,38 +3122,6 @@
           "date": "2025-11-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 12, 2025",
-          "date": "2025-11-12",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 13, 2025",
-          "date": "2025-11-13",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 14, 2025",
-          "date": "2025-11-14",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "November 10, 2025",
-          "date": "2025-11-10",
-          "dateEnd": null,
-          "type": "date",
           "context": "deadline",
           "isTentative": false
         },
@@ -3586,7 +3138,7 @@
           "date": "2025-11-13",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false
         },
         {
@@ -3594,7 +3146,7 @@
           "date": "2025-11-14",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false
         },
         {
@@ -3620,7 +3172,7 @@
           "date": "2024-10-15",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3652,7 +3204,7 @@
           "date": "2026-10-11",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "recommenders",
           "isTentative": false
         },
         {
@@ -3676,7 +3228,7 @@
           "date": "2024-10-15",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3740,7 +3292,7 @@
           "date": "2024-10-15",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3828,7 +3380,7 @@
           "date": "2023-09-27",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3836,7 +3388,7 @@
           "date": "2024-08-21",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3844,7 +3396,7 @@
           "date": "2023-09-27",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3852,7 +3404,7 @@
           "date": "2024-08-21",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3860,7 +3412,7 @@
           "date": "2023-09-27",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3868,7 +3420,7 @@
           "date": "2024-08-21",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -3887,7 +3439,7 @@
     "sourceStatus": {
       "procedures": "not_tracked",
       "awardFinder": "ok",
-      "external": "ok"
+      "external": "no_dates_found"
     },
     "sourceDetail": {},
     "sourceUrls": {
@@ -3895,11 +3447,23 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-noaa-hollings.html",
       "external": "https://www.noaa.gov/office-education/hollings-scholarship/news"
     },
-    "discrepancies": [],
-    "overallStatus": "Application Open",
-    "overallMin": "2025-09-30",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Lookout for Open Date",
+        "min": "2027-01-29",
+        "max": "2027-01-29"
+      }
+    ],
+    "overallStatus": "Lookout for Open Date",
+    "overallMin": "2027-01-29",
     "overallMax": "2027-01-29",
-    "actionItems": [],
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -3912,15 +3476,7 @@
           "date": null,
           "dateEnd": null,
           "type": "TBA",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "specific dates TBA",
-          "date": null,
-          "dateEnd": null,
-          "type": "TBA",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -3928,98 +3484,8 @@
           "date": "2027-01-29",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": true
-        },
-        {
-          "raw": "January 29, 2027",
-          "date": "2027-01-29",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": true
-        }
-      ],
-      "external": [
-        {
-          "raw": "May 20, 2026",
-          "date": "2026-05-20",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "January 27, 2026",
-          "date": "2026-01-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "January 20, 2026",
-          "date": "2026-01-20",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "January 13, 2026",
-          "date": "2026-01-13",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "January 7, 2026",
-          "date": "2026-01-07",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 30, 2025",
-          "date": "2025-09-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 30, 2025",
-          "date": "2025-09-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 30, 2025",
-          "date": "2025-09-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 30, 2025",
-          "date": "2025-09-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 30, 2025",
-          "date": "2025-09-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
         }
       ]
     }
@@ -4049,14 +3515,6 @@
     },
     "rawDates": {
       "awardFinder": [
-        {
-          "raw": "September 15, 2025",
-          "date": "2025-09-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
         {
           "raw": "September 15, 2025",
           "date": "2025-09-15",
@@ -4110,14 +3568,6 @@
     },
     "rawDates": {
       "awardFinder": [
-        {
-          "raw": "February 1, 2025",
-          "date": "2025-02-01",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
         {
           "raw": "February 1, 2025",
           "date": "2025-02-01",
@@ -4394,14 +3844,6 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false
-        },
-        {
-          "raw": "March 3, 2025",
-          "date": "2025-03-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
         }
       ],
       "external": [
@@ -4418,7 +3860,7 @@
           "date": "2022-06-30",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "recommenders",
           "isTentative": false
         }
       ]
@@ -4472,9 +3914,9 @@
       "external": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Waiting for App to Open)",
+    "overallStatus": "Application Likely Open",
     "overallMin": "2026-08-27",
-    "overallMax": "2026-10-07",
+    "overallMax": "2026-08-27",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -4493,7 +3935,7 @@
           "date": "2026-09-08",
           "dateEnd": "2026-09-11",
           "type": "range",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4501,7 +3943,7 @@
           "date": "2026-09-14",
           "dateEnd": "2026-09-23",
           "type": "range",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4509,31 +3951,7 @@
           "date": "2026-09-21",
           "dateEnd": "2026-09-30",
           "type": "range",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "October 7, 2026",
-          "date": "2026-10-07",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4542,6 +3960,30 @@
           "dateEnd": null,
           "type": "date",
           "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "October 7, 2026",
+          "date": "2026-10-07",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
           "isTentative": false
         },
         {
@@ -4557,7 +3999,7 @@
           "date": "2026-10-07",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "recommenders",
           "isTentative": false
         },
         {
@@ -4573,7 +4015,7 @@
           "date": "2026-08-27",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4581,7 +4023,7 @@
           "date": "2026-08-27",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4597,7 +4039,7 @@
           "date": "2026-09-08",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4605,7 +4047,7 @@
           "date": "2026-10-07",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -4615,15 +4057,7 @@
           "date": "2026-08-27",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ]
@@ -4645,38 +4079,14 @@
     "discrepancies": [
       {
         "type": "deadline_mismatch",
-        "procedures": "2026-04-26",
-        "awardFinder": "2026-04-23",
-        "daysApart": 3
-      },
-      {
-        "type": "deadline_mismatch",
         "procedures": "2026-04-27",
         "awardFinder": "2026-04-23",
         "daysApart": 4
-      },
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2026-08-14",
-        "awardFinder": "2026-08-09",
-        "daysApart": 5
-      },
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2026-09-09",
-        "awardFinder": "2026-09-10",
-        "daysApart": 1
-      },
-      {
-        "type": "deadline_mismatch",
-        "awardFinder": "2026-09-10",
-        "external": "2026-09-09",
-        "daysApart": 1
       }
     ],
     "overallStatus": "Application Open",
     "overallMin": "2026-04-08",
-    "overallMax": "2026-10-01",
+    "overallMax": "2026-08-06",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -4690,7 +4100,7 @@
           "date": "2026-04-26",
           "dateEnd": "2026-05-16",
           "type": "range",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4714,7 +4124,7 @@
           "date": "2026-07-01",
           "dateEnd": null,
           "type": "period",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4730,7 +4140,7 @@
           "date": "2026-08-14",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4738,7 +4148,7 @@
           "date": "2026-05-20",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4746,7 +4156,7 @@
           "date": "2026-09-09",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -4756,15 +4166,7 @@
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": true
-        },
-        {
-          "raw": "September 10, 2026",
-          "date": "2026-09-10",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": true
         },
         {
@@ -4796,7 +4198,7 @@
           "date": "2026-08-09",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "interview",
           "isTentative": false
         }
       ],
@@ -4806,7 +4208,7 @@
           "date": "2026-10-01",
           "dateEnd": null,
           "type": "period",
-          "context": "deadline",
+          "context": "results",
           "isTentative": false
         },
         {
@@ -4814,7 +4216,7 @@
           "date": "2026-06-01",
           "dateEnd": null,
           "type": "period",
-          "context": "open",
+          "context": "results",
           "isTentative": false
         },
         {
@@ -4846,7 +4248,7 @@
           "date": "2026-09-09",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "results",
           "isTentative": false
         },
         {
@@ -4854,7 +4256,7 @@
           "date": "2026-09-09",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -4937,14 +4339,6 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false
-        },
-        {
-          "raw": "April 2, 2026",
-          "date": "2026-04-02",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
         }
       ]
     }
@@ -4964,8 +4358,8 @@
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
-    "overallMin": "2027-02-15",
-    "overallMax": "2027-02-01",
+    "overallMin": "2026-02-13",
+    "overallMax": "2027-04-09",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -4987,7 +4381,7 @@
           "date": "2027-02-01",
           "dateEnd": null,
           "type": "period",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -4995,7 +4389,7 @@
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5011,7 +4405,7 @@
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5045,7 +4439,7 @@
           "date": "2026-02-13",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         },
         {
@@ -5053,23 +4447,7 @@
           "date": "2026-03-25",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "February 13, 2026",
-          "date": "2026-02-13",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "March 25, 2026",
-          "date": "2026-03-25",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false
         }
       ]
@@ -5080,7 +4458,7 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "ok"
+      "external": "no_dates_found"
     },
     "sourceDetail": {},
     "sourceUrls": {
@@ -5088,18 +4466,16 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-truman.html",
       "external": "https://www.truman.gov/apply/applying/important-dates"
     },
-    "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2026-02-02",
-        "awardFinder": "2026-02-03",
-        "daysApart": 1
-      }
-    ],
+    "discrepancies": [],
     "overallStatus": "Application Open",
     "overallMin": "2025-06-01",
-    "overallMax": "2027-02-02",
-    "actionItems": [],
+    "overallMax": "2026-12-11",
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "external"
+      }
+    ],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -5112,7 +4488,7 @@
           "date": "2026-01-10",
           "dateEnd": "2026-01-16",
           "type": "range",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5144,7 +4520,7 @@
           "date": "2025-11-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5152,7 +4528,7 @@
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5160,7 +4536,7 @@
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5192,7 +4568,7 @@
           "date": "2026-02-02",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5200,7 +4576,7 @@
           "date": "2026-02-03",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5240,7 +4616,7 @@
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5256,7 +4632,7 @@
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5272,7 +4648,7 @@
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "internal_deadline",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5280,7 +4656,7 @@
           "date": "2026-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "other",
           "isTentative": false
         },
         {
@@ -5304,7 +4680,7 @@
           "date": "2026-02-03",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false
         }
       ],
@@ -5314,7 +4690,7 @@
           "date": "2025-11-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         },
         {
@@ -5322,7 +4698,7 @@
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "internal_deadline",
           "isTentative": false
         },
         {
@@ -5330,113 +4706,7 @@
           "date": "2026-02-03",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "November 6, 2025",
-          "date": "2025-11-06",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "December 11, 2025",
-          "date": "2025-12-11",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "February 3, 2026",
-          "date": "2026-02-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        }
-      ],
-      "external": [
-        {
-          "raw": "February 2, 2027",
-          "date": "2027-02-02",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "February 8, 2027",
-          "date": "2027-02-08",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false
-        },
-        {
-          "raw": "February 15, 2027",
-          "date": "2027-02-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false
-        },
-        {
-          "raw": "February 18, 2027",
-          "date": "2027-02-18",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false
-        },
-        {
-          "raw": "February 19, 2027",
-          "date": "2027-02-19",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "March 1, 2027",
-          "date": "2027-03-01",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "April 15, 2027",
-          "date": "2027-04-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "April 23, 2027",
-          "date": "2027-04-23",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "May 25, 2027",
-          "date": "2027-05-25",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "May 30, 2027",
-          "date": "2027-05-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "interview",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ]
@@ -5456,9 +4726,9 @@
       "external": "https://www.wilsoncenter.org/fellowship-application-guidelines"
     },
     "discrepancies": [],
-    "overallStatus": "Application Open",
-    "overallMin": "2026-07-15",
-    "overallMax": "2026-09-30",
+    "overallStatus": "Dormant (Waiting for App to Open)",
+    "overallMin": "2026-09-30",
+    "overallMax": "2028-05-30",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -5472,22 +4742,6 @@
     },
     "rawDates": {
       "external": [
-        {
-          "raw": "July 15, 2026",
-          "date": "2026-07-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
-          "raw": "September 30",
-          "date": "2026-09-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false
-        },
         {
           "raw": "June 1, 2027",
           "date": "2027-06-01",
@@ -5509,7 +4763,7 @@
           "date": "2026-09-30",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "recommenders",
           "isTentative": false
         }
       ]
