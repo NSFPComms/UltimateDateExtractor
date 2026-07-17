@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
-const pdf = require('pdf-parse');
+const { PDFParse } = require('pdf-parse'); // v2 API — see fetchProceduresPDF below
 
 const TIMEOUT_MS = 20000;
 
@@ -32,14 +32,21 @@ async function fetchWithTimeout(url) {
 // matter in practice.
 async function fetchProceduresPDF(url) {
   if (!url) return null;
+  let parser;
   try {
     const res = await fetchWithTimeout(url);
     if (!res.ok) return { status: 'broken_link', text: null, httpStatus: res.status };
     const buf = await res.buffer();
-    const data = await pdf(buf);
-    return { status: 'ok', text: data.text };
+    // pdf-parse v2: no longer a plain callable function (that was v1) — it's
+    // now a class. new PDFParse({ data }) + .getText(), then must .destroy()
+    // to free the underlying worker.
+    parser = new PDFParse({ data: buf });
+    const result = await parser.getText();
+    return { status: 'ok', text: result.text };
   } catch (e) {
     return { status: 'fetch_error', text: null, error: e.message };
+  } finally {
+    if (parser) await parser.destroy().catch(() => {});
   }
 }
 
