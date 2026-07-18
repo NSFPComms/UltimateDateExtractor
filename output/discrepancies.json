@@ -2682,37 +2682,33 @@
     "awardName": "David Weill",
     "sourceStatus": {
       "procedures": "ok",
-      "awardFinder": "ok",
+      "awardFinder": "broken_link",
       "external": "no_dates_found"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "awardFinder": "The user aborted a request."
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/mdw-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-david-weill.html",
       "external": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/david-weill-scholarship/"
     },
-    "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "procedures": "2025-11-14",
-        "awardFinder": "2025-11-15",
-        "daysApart": 1
-      }
-    ],
+    "discrepancies": [],
     "overallStatus": "Application Open",
     "overallMin": "2025-08-01",
     "overallMax": "2026-10-16",
     "actionItems": [
       {
+        "type": "broken_link",
+        "source": "awardFinder",
+        "detail": "The user aborted a request."
+      },
+      {
         "type": "no_dates_found",
         "source": "external"
       }
     ],
-    "recipientCheck": {
-      "stale": null,
-      "mostRecentYear": null,
-      "reason": "no_recipient_years_found"
-    },
+    "recipientCheck": null,
     "rawDates": {
       "procedures": [
         {
@@ -2833,24 +2829,6 @@
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
-          "isTentative": false
-        }
-      ],
-      "awardFinder": [
-        {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
-          "dateEnd": null,
-          "type": "date",
-          "context": "internal_deadline",
-          "isTentative": false
-        },
-        {
-          "raw": "November 15, 2025",
-          "date": "2025-11-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "internal_deadline",
           "isTentative": false
         }
       ]
