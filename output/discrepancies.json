@@ -832,10 +832,17 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-daad.html",
       "external": "https://www.daad.org/en/find-funding/graduate-opportunities/research-grants/german-studies-research-grants/"
     },
-    "discrepancies": [],
-    "overallStatus": "Dormant (Cycle Closed)",
-    "overallMin": "2026-05-01",
-    "overallMax": "2026-05-01",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Lookout for Open Date",
+        "min": "2026-11-01",
+        "max": "2026-11-01"
+      }
+    ],
+    "overallStatus": "Lookout for Open Date",
+    "overallMin": "2026-11-01",
+    "overallMax": "2026-11-01",
     "actionItems": [
       {
         "type": "broken_link",
@@ -851,10 +858,10 @@
     "rawDates": {
       "awardFinder": [
         {
-          "raw": "May 1 and November 1, 2026",
-          "date": "2026-05-01",
-          "dateEnd": "2026-11-01",
-          "type": "range",
+          "raw": "November 1, 2026",
+          "date": "2026-11-01",
+          "dateEnd": null,
+          "type": "date",
           "context": "deadline",
           "isTentative": false
         }
@@ -874,8 +881,15 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-frederick-douglas.html",
       "external": "https://www.ciee.org/go-abroad/college-study-abroad/scholarships/douglass-oconnell-global-internship"
     },
-    "discrepancies": [],
-    "overallStatus": "New Cycle Dates Pending",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Check for Deadline Immediately",
+        "min": "2025-08-28",
+        "max": "2026-01-09"
+      }
+    ],
+    "overallStatus": "Check for Deadline Immediately",
     "overallMin": "2025-08-28",
     "overallMax": "2026-01-09",
     "actionItems": [],
@@ -1335,14 +1349,6 @@
           "isTentative": false
         },
         {
-          "raw": "July 22, 2026",
-          "date": "2026-07-22",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
           "raw": "July 30, 2026",
           "date": "2026-07-30",
           "dateEnd": null,
@@ -1353,6 +1359,14 @@
         {
           "raw": "August 6, 2026",
           "date": "2026-08-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 12, 2026",
+          "date": "2026-08-12",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -1679,14 +1693,6 @@
           "isTentative": false
         },
         {
-          "raw": "July 22, 2026",
-          "date": "2026-07-22",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
           "raw": "July 30, 2026",
           "date": "2026-07-30",
           "dateEnd": null,
@@ -1697,6 +1703,14 @@
         {
           "raw": "August 6, 2026",
           "date": "2026-08-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 12, 2026",
+          "date": "2026-08-12",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -2682,33 +2696,37 @@
     "awardName": "David Weill",
     "sourceStatus": {
       "procedures": "ok",
-      "awardFinder": "broken_link",
+      "awardFinder": "ok",
       "external": "no_dates_found"
     },
-    "sourceDetail": {
-      "awardFinder": "The user aborted a request."
-    },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/mdw-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-david-weill.html",
       "external": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/david-weill-scholarship/"
     },
-    "discrepancies": [],
+    "discrepancies": [
+      {
+        "type": "deadline_mismatch",
+        "procedures": "2025-11-14",
+        "awardFinder": "2025-11-15",
+        "daysApart": 1
+      }
+    ],
     "overallStatus": "Application Open",
     "overallMin": "2025-08-01",
     "overallMax": "2026-10-16",
     "actionItems": [
       {
-        "type": "broken_link",
-        "source": "awardFinder",
-        "detail": "The user aborted a request."
-      },
-      {
         "type": "no_dates_found",
         "source": "external"
       }
     ],
-    "recipientCheck": null,
+    "recipientCheck": {
+      "stale": null,
+      "mostRecentYear": null,
+      "reason": "no_recipient_years_found"
+    },
     "rawDates": {
       "procedures": [
         {
@@ -2829,6 +2847,24 @@
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
+          "isTentative": false
+        }
+      ],
+      "awardFinder": [
+        {
+          "raw": "October 16, 2025",
+          "date": "2025-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "internal_deadline",
+          "isTentative": false
+        },
+        {
+          "raw": "November 15, 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "internal_deadline",
           "isTentative": false
         }
       ]
@@ -3417,9 +3453,11 @@
     "sourceStatus": {
       "procedures": "not_tracked",
       "awardFinder": "ok",
-      "external": "no_dates_found"
+      "external": "broken_link"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "HTTP 504"
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-noaa-hollings.html",
@@ -3438,8 +3476,9 @@
     "overallMax": "2027-01-29",
     "actionItems": [
       {
-        "type": "no_dates_found",
-        "source": "external"
+        "type": "broken_link",
+        "source": "external",
+        "detail": "HTTP 504"
       }
     ],
     "recipientCheck": {
@@ -4254,14 +4293,6 @@
           "isTentative": false
         },
         {
-          "raw": "July 24",
-          "date": "2026-07-24",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
           "raw": "August 4",
           "date": "2026-08-04",
           "dateEnd": null,
@@ -4272,6 +4303,14 @@
         {
           "raw": "August 10",
           "date": "2026-08-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 19",
+          "date": "2026-08-19",
           "dateEnd": null,
           "type": "date",
           "context": "other",
