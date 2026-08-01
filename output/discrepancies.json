@@ -1349,14 +1349,6 @@
           "isTentative": false
         },
         {
-          "raw": "July 30, 2026",
-          "date": "2026-07-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
           "raw": "August 6, 2026",
           "date": "2026-08-06",
           "dateEnd": null,
@@ -1367,6 +1359,14 @@
         {
           "raw": "August 12, 2026",
           "date": "2026-08-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 20, 2026",
+          "date": "2026-08-20",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -1693,14 +1693,6 @@
           "isTentative": false
         },
         {
-          "raw": "July 30, 2026",
-          "date": "2026-07-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false
-        },
-        {
           "raw": "August 6, 2026",
           "date": "2026-08-06",
           "dateEnd": null,
@@ -1711,6 +1703,14 @@
         {
           "raw": "August 12, 2026",
           "date": "2026-08-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false
+        },
+        {
+          "raw": "August 20, 2026",
+          "date": "2026-08-20",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -2454,7 +2454,7 @@
       "stale": false,
       "mostRecentYear": 2027,
       "mostRecentLabel": "2027/28",
-      "thresholdYear": 2023,
+      "thresholdYear": 2024,
       "reason": null
     },
     "rawDates": {
@@ -3453,11 +3453,9 @@
     "sourceStatus": {
       "procedures": "not_tracked",
       "awardFinder": "ok",
-      "external": "broken_link"
+      "external": "no_dates_found"
     },
-    "sourceDetail": {
-      "external": "HTTP 504"
-    },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-noaa-hollings.html",
@@ -3476,9 +3474,8 @@
     "overallMax": "2027-01-29",
     "actionItems": [
       {
-        "type": "broken_link",
-        "source": "external",
-        "detail": "HTTP 504"
+        "type": "no_dates_found",
+        "source": "external"
       }
     ],
     "recipientCheck": {
@@ -3931,7 +3928,7 @@
       "external": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/"
     },
     "discrepancies": [],
-    "overallStatus": "Application Likely Open",
+    "overallStatus": "Application Likely Closing Soon",
     "overallMin": "2026-08-27",
     "overallMax": "2026-08-27",
     "actionItems": [
