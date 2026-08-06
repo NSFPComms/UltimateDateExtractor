@@ -1,14 +1,24 @@
 const fs = require('fs');
 const path = require('path');
 const awards = require('./awardList.json');
-const { fetchProceduresPDF, fetchAwardFinderPage, fetchExternalPage } = require('./fetchers');
+const { fetchProceduresPDF, fetchAwardFinderPage, fetchExternalPage, fetchAnnualDeadlinesPage } = require('./fetchers');
+const { extractAnnualDeadlinesDates } = require('./annualDeadlinesExtractor');
 const { buildAwardReport } = require('./reportBuilder');
 const { buildEmailHTML } = require('./emailBuilder');
 
 const CURRENT_YEAR = new Date().getFullYear();
+const ANNUAL_DEADLINES_URL = 'https://college.emory.edu/national-awards/student-resources/annual-deadlines.html';
 
 async function run() {
   const reports = [];
+
+  console.log('Fetching annual deadlines page (single fetch, covers many awards)...');
+  const annualDeadlines = await fetchAnnualDeadlinesPage(ANNUAL_DEADLINES_URL);
+  if (annualDeadlines.status !== 'ok') {
+    console.log(`  Annual deadlines page unavailable (${annualDeadlines.status}) — continuing without it.`);
+  } else {
+    console.log(`  Matched ${annualDeadlines.byAward.size} awards on the annual deadlines page.`);
+  }
 
   for (const award of awards) {
     console.log(`Scraping: ${award.name}`);
@@ -20,6 +30,9 @@ async function run() {
         fetchExternalPage(award.external),
       ]);
 
+      const cellEntries = annualDeadlines.status === 'ok' ? annualDeadlines.byAward.get(award.name) : undefined;
+      const annualDeadlinesDates = cellEntries !== undefined ? extractAnnualDeadlinesDates(cellEntries, CURRENT_YEAR) : undefined;
+
       const report = buildAwardReport(
         award.name,
         {
@@ -29,7 +42,14 @@ async function run() {
         },
         awardFinder.recipientsText,
         CURRENT_YEAR,
-        { procedures: award.procedures, awardFinder: award.awardFinder, external: award.external }
+        {
+          procedures: award.procedures,
+          awardFinder: award.awardFinder,
+          external: award.external,
+          cascadeEdit: award.cascadeEdit,
+          annualDeadlines: ANNUAL_DEADLINES_URL,
+        },
+        annualDeadlinesDates
       );
       reports.push(report);
     } catch (e) {

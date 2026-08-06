@@ -8,8 +8,12 @@ const { checkRecipientStaleness } = require('./recipientChecker');
  *   sources expected: procedures, awardFinder, external
  * @param {string} recipientsText - text of the Recipients tab (award-finder page), may be ''
  * @param {number} inferredYear
+ * @param {object} sourceUrls
+ * @param {Array|undefined} annualDeadlinesDates - pre-extracted dates for this award from
+ *   the annual deadlines page; undefined = award not found on that page at all.
  */
-function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear, sourceUrls = {}) {
+function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear, sourceUrls, annualDeadlinesDates) {
+  if (!sourceUrls) sourceUrls = {};
   const texts = {};
   const sourceStatus = {};
   const sourceDetail = {};
@@ -30,7 +34,20 @@ function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear,
     texts[source] = result.text;
   }
 
-  const analysis = analyzeAward(awardName, texts, inferredYear);
+  // Annual deadlines page: undefined means this award wasn't found in the
+  // table at all (not_tracked); empty array means it was found but every
+  // cell was a placeholder (N/A, TBA, Paused, etc.) worth flagging.
+  const preExtracted = {};
+  if (annualDeadlinesDates === undefined) {
+    sourceStatus.annualDeadlines = 'not_tracked';
+  } else if (!annualDeadlinesDates.length) {
+    sourceStatus.annualDeadlines = 'no_dates_found';
+  } else {
+    sourceStatus.annualDeadlines = 'ok';
+    preExtracted.annualDeadlines = annualDeadlinesDates;
+  }
+
+  const analysis = analyzeAward(awardName, texts, inferredYear, preExtracted);
   const recipientCheck = recipientsText ? checkRecipientStaleness(recipientsText) : null;
 
   // Action items: broken links, no-dates-found, stale recipients — these are

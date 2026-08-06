@@ -1,4 +1,5 @@
-const SOURCE_LABELS = { procedures: 'Procedures PDF', awardFinder: 'Award Finder Page', external: 'External Site' };
+const SOURCE_LABELS = { procedures: 'Procedures PDF', awardFinder: 'Award Finder Page', external: 'External Site', annualDeadlines: 'Annual Deadlines Page' };
+const SHAREPOINT_PROCEDURES_URL = 'https://emory.sharepoint.com/sites/ECNationalScholarshipsandFellowships/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FECNationalScholarshipsandFellowships%2FShared%20Documents%2FGeneral%2FNS%26FP%20Shared%20Files%20NEW%2FProcedures%2F2026%2D2027%20Procedures%2FReady%20For%20Review&viewid=bf2a0db9%2D9ed0%2D418c%2Da9a3%2D1810ebebd4b2&OR=EXCEL%2DWEB%2EBODY%2ENT&CT=1784266616451';
 
 function fmt(iso) {
   if (!iso) return '';
@@ -10,6 +11,25 @@ function link(url, label) {
   return url ? `<a href="${url}" target="_blank">${label}</a>` : label;
 }
 
+// Small "Check (source) -> Edit (destination)" caption line under each issue.
+// Edit destination depends on the source type:
+//  - awardFinder issues -> Cascade edit page for that specific award
+//  - procedures issues  -> the shared SharePoint procedures folder (not per-award)
+//  - external/annualDeadlines issues -> no edit link, not our page to edit
+//    (well, annualDeadlines IS our page too — just need its Cascade edit ID)
+function buildCaption(sourceKey, sourceUrls) {
+  const checkUrl = sourceUrls && sourceUrls[sourceKey];
+  const checkLink = checkUrl ? `Check: ${link(checkUrl, SOURCE_LABELS[sourceKey] || sourceKey)}` : '';
+  let editLink = '';
+  if (sourceKey === 'awardFinder' && sourceUrls && sourceUrls.cascadeEdit) {
+    editLink = `Edit: ${link(sourceUrls.cascadeEdit, 'Cascade')}`;
+  } else if (sourceKey === 'procedures') {
+    editLink = `Edit: ${link(SHAREPOINT_PROCEDURES_URL, 'SharePoint Procedures Folder')}`;
+  }
+  const parts = [checkLink, editLink].filter(Boolean);
+  return parts.length ? `<div class="caption">${parts.join(' &nbsp;\u2192&nbsp; ')}</div>` : '';
+}
+
 function buildSummaryRows(reports) {
   const rows = [];
   for (const r of reports) {
@@ -19,20 +39,23 @@ function buildSummaryRows(reports) {
         const [srcA, srcB] = Object.keys(d).filter((k) => k in SOURCE_LABELS);
         rows.push({
           award: r.awardName, kind: 'Date mismatch',
-          detail: `${L(srcA)}: ${fmt(d[srcA])} &nbsp;vs&nbsp; ${L(srcB)}: ${fmt(d[srcB])} (${d.daysApart}d apart)`,
+          detail: `${L(srcA)}: ${fmt(d[srcA])} &nbsp;vs&nbsp; ${L(srcB)}: ${fmt(d[srcB])} (${d.daysApart}d apart)${d.category ? ` <span class="tag-note">[${d.category}]</span>` : ''}`,
+          caption: buildCaption(srcA, r.sourceUrls) + buildCaption(srcB, r.sourceUrls),
         });
       } else if (d.type === 'stale') {
+        const caption = ['procedures', 'awardFinder', 'annualDeadlines'].map((k) => buildCaption(k, r.sourceUrls)).join('');
         rows.push({
           award: r.awardName, kind: 'Stale',
           detail: `Status: "${d.status}" (dates span ${fmt(d.min)}–${fmt(d.max)})`,
+          caption,
         });
       }
     }
     for (const a of r.actionItems) {
-      if (a.type === 'broken_link') rows.push({ award: r.awardName, kind: 'Broken link', detail: `${L(a.source)} did not load (${a.detail || 'unknown error'}) — <a href="${r.sourceUrls[a.source]}" target="_blank">${r.sourceUrls[a.source]}</a>` });
-      if (a.type === 'no_dates_found') rows.push({ award: r.awardName, kind: 'No dates found', detail: `${L(a.source)} — check if this is still the right URL to track` });
-      if (a.type === 'stale_recipients') rows.push({ award: r.awardName, kind: 'Recipients outdated', detail: `${a.reason} — ${link(r.sourceUrls.awardFinder, 'view recipients page')}` });
-      if (a.type === 'scrape_error') rows.push({ award: r.awardName, kind: 'Scrape error', detail: a.detail });
+      if (a.type === 'broken_link') rows.push({ award: r.awardName, kind: 'Broken link', detail: `${L(a.source)} did not load (${a.detail || 'unknown error'})`, caption: buildCaption(a.source, r.sourceUrls) });
+      if (a.type === 'no_dates_found') rows.push({ award: r.awardName, kind: 'No dates found', detail: `${L(a.source)} — check if this is still the right URL to track`, caption: buildCaption(a.source, r.sourceUrls) });
+      if (a.type === 'stale_recipients') rows.push({ award: r.awardName, kind: 'Recipients outdated', detail: a.reason, caption: buildCaption('awardFinder', r.sourceUrls) });
+      if (a.type === 'scrape_error') rows.push({ award: r.awardName, kind: 'Scrape error', detail: a.detail, caption: '' });
     }
   }
   return rows;
@@ -66,7 +89,6 @@ function groupByStatus(reports) {
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(r);
   }
-  // Sort group keys by STATUS_ORDER, unknown statuses fall at the end
   const orderedKeys = [...groups.keys()].sort((a, b) => {
     const ia = STATUS_ORDER.indexOf(a); const ib = STATUS_ORDER.indexOf(b);
     return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
@@ -84,7 +106,12 @@ function buildRawDumpSection(reports) {
         if (srcStatus === 'not_tracked') return '';
         if (srcStatus === 'broken_link') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">broken link (${(r.sourceDetail && r.sourceDetail[key]) || 'unknown'})</span></div>`;
         if (srcStatus === 'no_dates_found') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">no dates found</span></div>`;
-        const dates = (r.rawDates[key] || []).map((d) => `${d.raw} <em>(${d.context})</em>`).join('; ') || '—';
+        const dates = (r.rawDates[key] || []).map((d) => {
+          // Nearby text the tagger used, shown compactly so any tag —
+          // confident or not — can be spot-checked against its source.
+          const hintPart = d.hint ? ` <span class="hint">(saw: "${d.hint}")</span>` : '';
+          return `${d.raw} <em>(${d.context})</em>${hintPart}`;
+        }).join('; ') || '—';
         return `<div class="src"><strong>${labelLink}:</strong> ${dates}</div>`;
       }).join('');
       return `<div class="award-block"><h3>${r.awardName}</h3>${sourceBlocks}</div>`;
@@ -97,7 +124,7 @@ function buildEmailHTML(reports) {
   const summaryRows = buildSummaryRows(reports);
   const summaryHTML = summaryRows.length
     ? `<table class="summary"><tr><th>Award</th><th>Issue</th><th>Detail</th></tr>${summaryRows.map((row) =>
-        `<tr><td>${row.award}</td><td class="kind kind-${row.kind.replace(/\s+/g, '-').toLowerCase()}">${row.kind}</td><td>${row.detail}</td></tr>`
+        `<tr><td>${row.award}</td><td class="kind kind-${row.kind.replace(/\s+/g, '-').toLowerCase()}">${row.kind}</td><td>${row.detail}${row.caption || ''}</td></tr>`
       ).join('')}</table>`
     : `<p>No discrepancies or action items this week. ✅</p>`;
 
@@ -116,6 +143,10 @@ function buildEmailHTML(reports) {
     .award-block { border-top: 1px solid #eee; padding-top: 6px; }
     .src { font-size: 12px; margin: 2px 0; }
     .flag { color: #b30000; font-weight: bold; }
+    .hint { color: #888; font-style: italic; }
+    .tag-note { color: #888; font-weight: normal; font-size: 11px; }
+    .caption { font-size: 11px; color: #666; margin-top: 3px; }
+    .caption a { color: #1a5fb4; }
     .status-group { margin-top: 22px; }
     .status-heading { background: #f0f4f8; padding: 6px 10px; border-left: 4px solid #1a5fb4; margin: 0 0 4px; }
     .status-heading .count { font-weight: normal; color: #666; font-size: 12px; }
