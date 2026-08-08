@@ -1775,15 +1775,6 @@
           "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time"
         },
         {
-          "raw": "August 6, 2026",
-          "date": "2026-08-06",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 6, 2026 - 4:00 PM ET to 5:00 PM ET"
-        },
-        {
           "raw": "August 12, 2026",
           "date": "2026-08-12",
           "dateEnd": null,
@@ -2250,15 +2241,6 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time"
-        },
-        {
-          "raw": "August 6, 2026",
-          "date": "2026-08-06",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 6, 2026 - 4:00 PM ET to 5:00 PM ET"
         },
         {
           "raw": "August 12, 2026",
