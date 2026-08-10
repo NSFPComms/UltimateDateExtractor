@@ -83,7 +83,7 @@ const CONTEXT_CATEGORIES = [
     tag: 'internal_deadline',
     patterns: [
       /internal\s*(application)?\s*deadline/i,
-      /institutional\s+endorsement/i,
+      /institutional\s+endorsement(\s+deadline)?/i,
       /indicate\s+your\s+intent\s+to\s+apply/i,
       /internal\s+application/i,
       /campus\s+deadline/i,
@@ -94,7 +94,7 @@ const CONTEXT_CATEGORIES = [
   { tag: 'open', patterns: [/application(s)?\s+open/i, /open\s+date/i, /application\s+period/i, /now\s+open/i, /begin\s+online\s+application/i, /register\s+and\s+begin/i, /\bopens\b/i, /will\s+be\s+available/i, /available\s+(starting|beginning|in)/i] },
   {
     tag: 'deadline', // generic catch-all — deliberately last
-    patterns: [/final\s+application\s+deadline/i, /application\s+deadline/i, /submit.{0,15}application/i, /must\s+be\s+submitted/i, /nomination\s+submission\s+deadline/i, /due\s+date/i, /\bdeadline/i],
+    patterns: [/external\s*(application)?\s*deadline/i, /final\s+application\s+deadline/i, /application\s+deadline/i, /submit.{0,15}application/i, /must\s+be\s+submitted/i, /nomination\s+submission\s+deadline/i, /due\s+date/i, /\bdeadline/i],
   },
 ];
 
@@ -114,6 +114,50 @@ function tagContext(snippet, opts) {
     if (cat.patterns.some((p) => p.test(snippet))) return cat.tag;
   }
   return 'other';
+}
+
+// Proximity-based tagging: for sentences like "the internal deadline is
+// January 23 and the external deadline is January 30", checking "does
+// 'internal deadline' appear ANYWHERE in the shared sentence" tags BOTH
+// dates as internal — the qualifier's mere presence, not its distance from
+// this specific date, decided the tag. This finds the CLOSEST matching
+// qualifier to the actual date position instead, so each date picks up
+// whichever label is actually next to it.
+function tagContextByProximity(text, matchPos, opts) {
+  const isRange = opts && opts.isRange;
+  const WINDOW = 200; // chars each direction to search for qualifying phrases
+  const winStart = Math.max(0, matchPos - WINDOW);
+  const winEnd = Math.min(text.length, matchPos + WINDOW);
+  // Don't search across a sentence boundary — a qualifier in a PRIOR
+  // unrelated sentence shouldn't out-compete one in this date's own sentence.
+  let searchStart = winStart, searchEnd = winEnd;
+  for (let i = matchPos - 1; i >= winStart; i--) {
+    if (text[i] === '\n' || text[i] === '\r' || text[i] === '.' || text[i] === '\t') { searchStart = i + 1; break; }
+  }
+  for (let i = matchPos; i < winEnd; i++) {
+    if (text[i] === '\n' || text[i] === '\r' || text[i] === '.' || text[i] === '\t') { searchEnd = i; break; }
+  }
+  const window = text.slice(searchStart, searchEnd);
+  const relPos = matchPos - searchStart;
+
+  let bestTag = null, bestDist = Infinity, bestPriority = Infinity;
+  CONTEXT_CATEGORIES.forEach((cat, priority) => {
+    if (isRange && PUNCTUAL_ONLY_TAGS.has(cat.tag)) return;
+    for (const pattern of cat.patterns) {
+      const flags = pattern.flags.includes('g') ? pattern.flags : pattern.flags + 'g';
+      const re = new RegExp(pattern.source, flags);
+      let pm;
+      while ((pm = re.exec(window))) {
+        const matchStart = pm.index, matchEnd = pm.index + pm[0].length;
+        const dist = relPos < matchStart ? matchStart - relPos : (relPos > matchEnd ? relPos - matchEnd : 0);
+        if (dist < bestDist || (dist === bestDist && priority < bestPriority)) {
+          bestDist = dist; bestTag = cat.tag; bestPriority = priority;
+        }
+        if (pm.index === re.lastIndex) re.lastIndex++; // avoid infinite loop on zero-width matches
+      }
+    }
+  });
+  return bestTag || 'other';
 }
 
 // Sentence-boundary extraction — ported from the VBA's GetSentenceAtPosition.
@@ -201,7 +245,7 @@ function extractDates(text, inferredYear) {
     const snippet = getSentenceAt(text, m.index, m[0].length);
     results.push(withHint({
       raw: m[0], date: null, dateEnd: null, type: 'TBA',
-      context: tagContext(snippet),
+      context: tagContextByProximity(text, m.index),
       isTentative: false,
     }, snippet));
   }
@@ -217,7 +261,7 @@ function extractDates(text, inferredYear) {
       const snippet = getSentenceAt(text, m.index, full.length);
       results.push(withHint({
         raw: full.trim(), date: startISO, dateEnd: endISO || startISO, type: 'range',
-        context: tagContext(snippet, { isRange: true }),
+        context: tagContextByProximity(text, m.index, { isRange: true }),
         isTentative: /tentative/i.test(snippet),
       }, snippet));
     }
@@ -233,7 +277,7 @@ function extractDates(text, inferredYear) {
       const snippet = getSentenceAt(text, m.index, full.length);
       results.push(withHint({
         raw: full.trim(), date: startISO, dateEnd: null, type: 'period',
-        context: tagContext(snippet, { isRange: true }),
+        context: tagContextByProximity(text, m.index, { isRange: true }),
         isTentative: false,
       }, snippet));
     }
@@ -255,7 +299,7 @@ function extractDates(text, inferredYear) {
     const snippet = getSentenceAt(text, m.index, full.length);
     results.push(withHint({
       raw: full.trim(), date: iso, dateEnd: null, type: 'period',
-      context: tagContext(snippet, { isRange: true }), // treated like a range: a season is a span, not a punctual deadline
+      context: tagContextByProximity(text, m.index, { isRange: true }), // treated like a range: a season is a span, not a punctual deadline
       isTentative: true, // seasonal estimates are inherently approximate — always flagged so status logic doesn't treat them as firm
     }, snippet));
   }
@@ -273,7 +317,7 @@ function extractDates(text, inferredYear) {
     const snippet = getSentenceAt(text, m.index, full.length);
     results.push(withHint({
       raw: full.trim(), date: iso, dateEnd: null, type: 'date',
-      context: tagContext(snippet),
+      context: tagContextByProximity(text, m.index),
       isTentative: /tentative|estimated/i.test(snippet),
     }, snippet));
   }

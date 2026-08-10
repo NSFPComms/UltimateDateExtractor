@@ -30,6 +30,34 @@ function buildCaption(sourceKey, sourceUrls) {
   return parts.length ? `<div class="caption">${parts.join(' &nbsp;\u2192&nbsp; ')}</div>` : '';
 }
 
+// Compact abbreviated link row — Ex(ternal) | Af (Award Finder) | Cv (Canvas)
+// | Pr(ocedures) | Cw (Cascade edit) | Ep (Edit Procedures/SharePoint) —
+// shown next to every award so checking a source doesn't require scrolling
+// to the reference table at the bottom. Only linked when the URL exists;
+// otherwise shown as plain greyed-out text so it's visually obvious what's
+// and isn't available for this award.
+function buildLinkRow(sourceUrls) {
+  const u = sourceUrls || {};
+  const items = [
+    ['Ex', u.external],
+    ['Af', u.awardFinder],
+    ['Cv', u.canvas],
+    ['Pr', u.procedures],
+    ['Cw', u.cascadeEdit],
+    ['Ep', SHAREPOINT_PROCEDURES_URL],
+  ];
+  const parts = items.map(([abbr, url]) => url ? `<a href="${url}" target="_blank">${abbr}</a>` : `<span class="linkoff">${abbr}</span>`);
+  return `<div class="linkrow">${parts.join(' ')}</div>`;
+}
+
+// Small status tag shown under an award's name — its current overall
+// lifecycle status (Application Open, Check for Deadline Immediately, etc.)
+function statusTag(status) {
+  if (!status) return '';
+  const cls = 'status-tag-' + status.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  return `<div class="status-tag ${cls}">${status}</div>`;
+}
+
 function buildSummaryRows(reports) {
   const rows = [];
   for (const r of reports) {
@@ -38,7 +66,7 @@ function buildSummaryRows(reports) {
       if (d.type === 'deadline_mismatch') {
         const [srcA, srcB] = Object.keys(d).filter((k) => k in SOURCE_LABELS);
         rows.push({
-          award: r.awardName, kind: 'Date mismatch',
+          award: r.awardName, report: r, kind: 'Date mismatch',
           detail: `${L(srcA)}: ${fmt(d[srcA])} &nbsp;vs&nbsp; ${L(srcB)}: ${fmt(d[srcB])} (${d.daysApart}d apart)${d.category ? ` <span class="tag-note">[${d.category}]</span>` : ''}`,
           caption: buildCaption(srcA, r.sourceUrls) + buildCaption(srcB, r.sourceUrls),
         });
@@ -51,17 +79,17 @@ function buildSummaryRows(reports) {
         const relevantSources = [...new Set([d.minSource, d.maxSource].filter(Boolean))];
         const caption = relevantSources.map((k) => buildCaption(k, r.sourceUrls)).join('');
         rows.push({
-          award: r.awardName, kind: 'Stale',
+          award: r.awardName, report: r, kind: 'Stale',
           detail: `Status: "${d.status}"<br>${attribution}`,
           caption,
         });
       }
     }
     for (const a of r.actionItems) {
-      if (a.type === 'broken_link') rows.push({ award: r.awardName, kind: 'Broken link', detail: `${L(a.source)} did not load (${a.detail || 'unknown error'})`, caption: buildCaption(a.source, r.sourceUrls) });
-      if (a.type === 'no_dates_found') rows.push({ award: r.awardName, kind: 'No dates found', detail: `${L(a.source)} — check if this is still the right URL to track<div class="hint">${a.detail || ''}</div>`, caption: buildCaption(a.source, r.sourceUrls) });
-      if (a.type === 'stale_recipients') rows.push({ award: r.awardName, kind: 'Recipients outdated', detail: a.reason, caption: buildCaption('awardFinder', r.sourceUrls) });
-      if (a.type === 'scrape_error') rows.push({ award: r.awardName, kind: 'Scrape error', detail: a.detail, caption: '' });
+      if (a.type === 'broken_link') rows.push({ award: r.awardName, report: r, kind: 'Broken link', detail: `${L(a.source)} did not load (${a.detail || 'unknown error'})`, caption: buildCaption(a.source, r.sourceUrls) });
+      if (a.type === 'no_dates_found') rows.push({ award: r.awardName, report: r, kind: 'No dates found', detail: `${L(a.source)} — check if this is still the right URL to track<div class="hint">${a.detail || ''}</div>`, caption: buildCaption(a.source, r.sourceUrls) });
+      if (a.type === 'stale_recipients') rows.push({ award: r.awardName, report: r, kind: 'Recipients outdated', detail: a.reason, caption: buildCaption('awardFinder', r.sourceUrls) });
+      if (a.type === 'scrape_error') rows.push({ award: r.awardName, report: r, kind: 'Scrape error', detail: a.detail, caption: '' });
     }
   }
   return rows;
@@ -120,7 +148,7 @@ function buildRawDumpSection(reports) {
         }).join('; ') || '—';
         return `<div class="src"><strong>${labelLink}:</strong> ${dates}</div>`;
       }).join('');
-      return `<div class="award-block"><h3>${r.awardName}</h3>${sourceBlocks}</div>`;
+      return `<div class="award-block"><h3>${r.awardName}${statusTag(r.overallStatus)}${buildLinkRow(r.sourceUrls)}</h3>${sourceBlocks}</div>`;
     }).join('');
     return `<div class="status-group"><h2 class="status-heading">${status} <span class="count">(${awards.length})</span></h2>${awardBlocks}</div>`;
   }).join('');
@@ -140,7 +168,7 @@ function buildEmailHTML(reports) {
   const summaryRows = buildSummaryRows(reports);
   const summaryHTML = summaryRows.length
     ? `<table class="summary"><tr><th>Award</th><th>Issue</th><th>Detail</th></tr>${summaryRows.map((row) =>
-        `<tr><td>${row.award}</td><td class="kind kind-${row.kind.replace(/\s+/g, '-').toLowerCase()}">${row.kind}</td><td>${row.detail}${row.caption || ''}</td></tr>`
+        `<tr><td>${row.award}${statusTag(row.report && row.report.overallStatus)}${buildLinkRow(row.report && row.report.sourceUrls)}</td><td class="kind kind-${row.kind.replace(/\s+/g, '-').toLowerCase()}">${row.kind}</td><td>${row.detail}${row.caption || ''}</td></tr>`
       ).join('')}</table>`
     : `<p>No discrepancies or action items this week. ✅</p>`;
 
@@ -167,6 +195,13 @@ function buildEmailHTML(reports) {
     .status-heading { background: #f0f4f8; padding: 6px 10px; border-left: 4px solid #1a5fb4; margin: 0 0 4px; }
     .status-heading .count { font-weight: normal; color: #666; font-size: 12px; }
     .none { color: #ccc; }
+    .linkrow { font-size: 10px; margin-top: 3px; }
+    .linkrow a { color: #1a5fb4; margin-right: 4px; text-decoration: none; }
+    .linkoff { color: #ccc; margin-right: 4px; }
+    .status-tag { display: inline-block; font-size: 10px; font-weight: normal; padding: 1px 6px; border-radius: 3px; margin: 3px 0; background: #eee; color: #555; }
+    .status-tag-urgent-update-needed-now, .status-tag-check-for-deadline-immediately { background: #ffe0e0; color: #a30000; }
+    .status-tag-application-open { background: #e0f5e0; color: #1a6b1a; }
+    .status-tag-no-dates-found, .status-tag-scrape-error { background: #fff0f0; color: #a30000; }
   </style></head><body>
     <h1>Weekly Award Date Discrepancy Report</h1>
     <h2>Summary — needs review</h2>
