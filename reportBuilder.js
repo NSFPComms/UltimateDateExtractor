@@ -12,6 +12,27 @@ function looksGarbled(text) {
   return !/\b(the|and|of|to|in|for|is|are|this|that|application|deadline|award|date)\b/i.test(text);
 }
 
+// Some external sites hardcode the application year directly into the URL
+// path (e.g. ".../2025JamesMadisonGraduateFellowship" needing manual update
+// to ".../2027JamesMadisonGraduateFellowship" each cycle). A stale year here
+// means the whole page is probably an old cycle's copy — flag it so it can
+// be checked even if the page itself still returns 200 OK with content.
+function checkStaleUrlYear(url, currentYear) {
+  if (!url) return null;
+  const m = url.match(/\b(20\d{2})/);
+  if (!m) return null;
+  const urlYear = parseInt(m[1], 10);
+  if (urlYear >= currentYear) return null; // current or future year in the URL — fine
+  // Different sites use different conventions for the year in a URL (the
+  // application year vs. the program's start year, often one year later) —
+  // offer both nearby candidates rather than confidently guessing wrong.
+  return {
+    urlYear,
+    suggested: url.replace(m[1], String(currentYear)),
+    suggestedAlt: url.replace(m[1], String(currentYear + 1)),
+  };
+}
+
 /**
  * @param {string} awardName
  * @param {object} fetchResults - per source: { status: 'ok'|'broken_link'|'fetch_error', text: string|null }
@@ -80,6 +101,13 @@ function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear,
   }
   if (recipientCheck && recipientCheck.stale) {
     actionItems.push({ type: 'stale_recipients', reason: recipientCheck.reason });
+  }
+  for (const [key, url] of Object.entries(sourceUrls)) {
+    if (key === 'cascadeEdit') continue; // internal edit link, not an award-facing URL with a "cycle year" concept
+    const stale = checkStaleUrlYear(url, inferredYear);
+    if (stale) {
+      actionItems.push({ type: 'stale_url_year', source: key, urlYear: stale.urlYear, suggested: stale.suggested, suggestedAlt: stale.suggestedAlt });
+    }
   }
 
   return {

@@ -35,6 +35,13 @@ const MONTH_RANGE_RE = new RegExp(
 // "TBA"
 const TBA_RE = /(\w+)\s+(?:APPLICATION\s+DUE\s+DATE|DUE\s+DATE|DEADLINE|DATES|DATE)\s+TBA/gi;
 
+// Dates embedded in legal/regulatory citations are correctly formatted but
+// not real award dates at all — e.g. "63 Federal Register 265 (January 5,
+// 1998)" cited in boilerplate NSF compliance language. These get discarded
+// entirely rather than mis-tagged, since they're meaningless for min/max
+// status classification and just add noise.
+const CITATION_CONTEXT_RE = /federal register|u\.s\.c\.|c\.f\.r\.|public law|system of record|\bnotices\b|\bstat\.\s*\d/i;
+
 // Seasonal periods: "Fall 2026", "Early Spring 2027", "Mid-to-late Summer 2026".
 // Ported from the VBA's FindPeriods, which explicitly handled season words —
 // missed in the initial JS port, which only recognized month names. A phrase
@@ -45,6 +52,17 @@ const SEASON_RE = /\b(early|late|mid(?:-to-late)?)?[\s-]*(spring|summer|fall|aut
 // shifted earlier/later for Early/Late modifiers. Good enough for min/max
 // date-range classification — not meant to be a precise calendar date.
 const SEASON_ANCHOR = { spring: [3, 20], summer: [6, 21], fall: [9, 22], autumn: [9, 22], winter: [12, 21] };
+
+// Bare year-to-year ranges: "the 2025-2027 class", "2025-2026 cycle" — a
+// cohort/program span, not itself a deadline. Requires a following word
+// like "class"/"cohort"/"cycle" to avoid false-matching things like page
+// numbers or unrelated hyphenated number pairs.
+const YEAR_RANGE_RE = /\b(20\d{2})\s*[-–—]\s*(20\d{2})\b(?=\s*\w*\s*(class|cohort|cycle|program))/gi;
+
+// Modifier + bare year with no month/season word: "late 2026", "early 2027".
+const MODIFIER_YEAR_RE = /\b(early|late|mid(?:-to-late)?)\s+(20\d{2})\b/gi;
+// Rough anchor point within the year per modifier (month, day).
+const MODIFIER_YEAR_ANCHOR = { early: [2, 15], mid: [6, 15], 'mid-to-late': [8, 1], late: [10, 15] };
 
 // Context keyword categories — ported from GetContextTag/GetVerbNounTag.
 // ORDER MATTERS: most specific first. A bare "deadline" is the least
@@ -91,7 +109,7 @@ const CONTEXT_CATEGORIES = [
   },
   { tag: 'interview', patterns: [/campus\s+interview/i, /practice\s+interview/i, /\binterview/i] },
   { tag: 'results', patterns: [/admissions?\s+decisions?/i, /selection\s+cycle/i, /notification/i, /finalists?/i, /awardees?\s+announced/i, /scholars?\s+announced/i] },
-  { tag: 'open', patterns: [/application(s)?\s+open/i, /open\s+date/i, /application\s+period/i, /now\s+open/i, /begin\s+online\s+application/i, /register\s+and\s+begin/i, /\bopens\b/i, /will\s+be\s+available/i, /available\s+(starting|beginning|in)/i] },
+  { tag: 'open', patterns: [/application(s)?\s+open/i, /open\s+date/i, /application\s+period/i, /now\s+open/i, /begin\s+online\s+application/i, /register\s+and\s+begin/i, /\bopens\b/i, /will\s+open/i, /will\s+be\s+available/i, /available\s+(starting|beginning|in)/i] },
   {
     tag: 'deadline', // generic catch-all — deliberately last
     patterns: [/external\s*(application)?\s*deadline/i, /final\s+application\s+deadline/i, /application\s+deadline/i, /submit.{0,15}application/i, /must\s+be\s+submitted/i, /nomination\s+submission\s+deadline/i, /due\s+date/i, /\bdeadline/i],
@@ -215,20 +233,37 @@ function extractDates(text, inferredYear) {
   // run in. Blindly using the scrape-time year turned "October 16" into
   // "October 16, 2026" — a full year wrong and in the FUTURE relative to the
   // real Nov 2025 cycle — which silently corrupted status classification.
-  // Build a position->year map from every 4-digit 20xx year actually written
-  // in the text, and for any match missing a year, use the nearest one.
+  //
+  // Build a position->year map, but ONLY from years that are actually
+  // attached to a real "Month Day, Year" date elsewhere in the text — NOT
+  // from any bare 4-digit 20xx number. A founding year ("Created in 2007"),
+  // a legal citation ("Federal Register ... 1998"), or a class year
+  // ("2025-2027 class") have zero connection to an actual date and were
+  // getting borrowed as if they were the document's cycle year, producing
+  // wildly wrong results (e.g. "May 1st" resolving to "May 1, 2007").
   const yearPositions = [];
-  const yearScanRe = /\b(20\d{2})\b/g;
+  const yearScanRe = new RegExp(`(?:${MONTH_RE})\\.?\\s+\\d{1,2}(?:st|nd|rd|th)?,?\\s*(20\\d{2})`, 'gi');
   let ym;
   while ((ym = yearScanRe.exec(text))) {
     yearPositions.push({ pos: ym.index, year: parseInt(ym[1], 10) });
   }
   function nearestYear(pos) {
     if (!yearPositions.length) return inferredYear;
-    let best = yearPositions[0], bestDist = Math.abs(pos - best.pos);
-    for (const yp of yearPositions) {
-      const dist = Math.abs(pos - yp.pos);
-      if (dist < bestDist) { best = yp; bestDist = dist; }
+    // Prefer the SMALLEST year among candidates within a generous radius,
+    // not just whichever is textually closest. A bare date silently
+    // inheriting a LATER year than intended (e.g. "by August 1" picking up
+    // 2026 from a nearby "January 7, 2026" mention, when the correct year
+    // was 2025 — the same cycle as an October 2025 deadline mentioned
+    // earlier) is a worse failure than staying conservative: it makes an
+    // already-closed cycle look falsely still-open.
+    const RADIUS = 1000;
+    const nearby = yearPositions.filter((yp) => Math.abs(pos - yp.pos) <= RADIUS);
+    const pool = nearby.length ? nearby : yearPositions;
+    let best = pool[0], bestDist = Math.abs(pos - best.pos);
+    for (const yp of pool) {
+      if (yp.year < best.year || (yp.year === best.year && Math.abs(pos - yp.pos) < bestDist)) {
+        best = yp; bestDist = Math.abs(pos - yp.pos);
+      }
     }
     return best.year;
   }
@@ -237,6 +272,11 @@ function extractDates(text, inferredYear) {
     entry.hint = snippet;
     return entry;
   };
+  // Discard dates from legal/regulatory citations entirely — correctly
+  // formatted but not real award dates (e.g. "63 Federal Register 265
+  // (January 5, 1998)" in NSF compliance boilerplate). Returning null here
+  // means the match gets dropped rather than mis-tagged.
+  const isCitation = (snippet) => CITATION_CONTEXT_RE.test(snippet);
 
   // 1. TBA
   let m;
@@ -304,6 +344,38 @@ function extractDates(text, inferredYear) {
     }, snippet));
   }
 
+  // 3c. Bare year-to-year ranges ("the 2025-2027 class")
+  const yearRangeRe = new RegExp(YEAR_RANGE_RE.source, 'gi');
+  while ((m = yearRangeRe.exec(text))) {
+    const full = m[0], y1 = m[1];
+    const iso = new Date(Date.UTC(parseInt(y1, 10), 0, 1)).toISOString().slice(0, 10);
+    claimedRanges.push([m.index, m.index + full.length]);
+    const snippet = getSentenceAt(text, m.index, full.length);
+    results.push(withHint({
+      raw: full.trim(), date: iso, dateEnd: null, type: 'period',
+      context: tagContextByProximity(text, m.index, { isRange: true }),
+      isTentative: true,
+    }, snippet));
+  }
+
+  // 3d. Modifier + bare year, no month/season word ("late 2026")
+  const modYearRe = new RegExp(MODIFIER_YEAR_RE.source, 'gi');
+  while ((m = modYearRe.exec(text))) {
+    const inRange = claimedRanges.some((r) => m.index >= r[0] && m.index < r[1]);
+    if (inRange) continue; // avoid double-counting a modifier already consumed by the season pattern
+    const full = m[0], modifier = m[1].toLowerCase(), year = m[2];
+    const anchor = MODIFIER_YEAR_ANCHOR[modifier];
+    if (!anchor) continue;
+    const iso = new Date(Date.UTC(parseInt(year, 10), anchor[0] - 1, anchor[1])).toISOString().slice(0, 10);
+    claimedRanges.push([m.index, m.index + full.length]);
+    const snippet = getSentenceAt(text, m.index, full.length);
+    results.push(withHint({
+      raw: full.trim(), date: iso, dateEnd: null, type: 'period',
+      context: tagContextByProximity(text, m.index, { isRange: true }),
+      isTentative: true,
+    }, snippet));
+  }
+
   // 4. Single dates (skip anything already inside a claimed range)
   const dateRe = new RegExp(DATE_RE.source, 'gi');
   while ((m = dateRe.exec(text))) {
@@ -322,7 +394,7 @@ function extractDates(text, inferredYear) {
     }, snippet));
   }
 
-  return results;
+  return results.filter((r) => !isCitation(r.hint || ''));
 }
 
 // ==========================================================================

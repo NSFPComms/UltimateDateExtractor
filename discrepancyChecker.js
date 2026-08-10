@@ -40,43 +40,67 @@ function analyzeAward(awardName, texts, inferredYear, preExtracted) {
     deadlinesBySource[source] = dates.filter(deadlineTag).map((d) => d.date).filter(Boolean);
   }
 
-  // Flag: a deadline date in one source has NO exact match in another source,
-  // but DOES have a "near miss" within NEAR_DAYS — this is the signature of
-  // "same deadline, stated wrong" (e.g. Sept 9 vs Sept 10) as opposed to
-  // "different deadline entirely" (e.g. China track vs US track, months apart).
+  // Flag: within a category, sources don't all agree on the exact same
+  // date, but their values ARE all close together (within NEAR_DAYS) — the
+  // signature of "same real deadline, stated slightly wrong somewhere" as
+  // opposed to "different deadline entirely" (e.g. China track vs US track,
+  // months apart, which stays unflagged since the spread exceeds NEAR_DAYS).
+  //
+  // Previously this ran pairwise per source-combination, so a mismatch
+  // spanning 3 sources produced 2-3 separate rows for what a human reads as
+  // ONE issue. Now it's one consolidated row per award+category showing
+  // every source's value at once.
   const NEAR_DAYS = 5;
   const dayDiff = (a, b) => Math.abs((Date.parse(a) - Date.parse(b)) / 86400000);
 
   const discrepancies = [];
   const sources = Object.keys(bySourceByCategory);
-  const flaggedPairs = new Set();
   for (const category of COMPARABLE_CATEGORIES) {
-    for (let i = 0; i < sources.length; i++) {
-      for (let j = 0; j < sources.length; j++) {
-        if (i === j) continue;
-        const aDates = bySourceByCategory[sources[i]][category];
-        const bDates = bySourceByCategory[sources[j]][category];
-        if (!aDates.length || !bDates.length) continue; // one source doesn't mention this category at all — not comparable
-        for (const d of aDates) {
-          if (bDates.includes(d)) continue; // exact match exists somewhere — fine
-          const nearest = bDates.reduce((best, b) => {
-            const diff = dayDiff(d, b);
-            return diff < best.diff ? { date: b, diff } : best;
-          }, { date: null, diff: Infinity });
-          if (nearest.diff > 0 && nearest.diff <= NEAR_DAYS) {
-            const pairKey = [sources[i], d, sources[j], nearest.date, category].sort().join('|');
-            if (flaggedPairs.has(pairKey)) continue;
-            flaggedPairs.add(pairKey);
-            discrepancies.push({
-              type: 'deadline_mismatch',
-              category,
-              [sources[i]]: d,
-              [sources[j]]: nearest.date,
-              daysApart: nearest.diff,
-            });
-          }
-        }
+    // Flatten to {source, date} pairs (deduped per source) and sort by date.
+    const entries = [];
+    for (const source of sources) {
+      for (const date of new Set(bySourceByCategory[source][category])) {
+        entries.push({ source, date });
       }
+    }
+    if (entries.length < 2) continue;
+    entries.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+
+    // Greedy-cluster: start a new cluster whenever the gap to the previous
+    // entry exceeds NEAR_DAYS. This keeps genuinely separate events (e.g. a
+    // China-track deadline months away from a US-track one) from masking a
+    // real near-miss elsewhere in the same category — each cluster is
+    // judged independently instead of checking one spread across everything.
+    const clusters = [];
+    let current = [entries[0]];
+    for (let i = 1; i < entries.length; i++) {
+      if (dayDiff(entries[i].date, entries[i - 1].date) <= NEAR_DAYS) {
+        current.push(entries[i]);
+      } else {
+        clusters.push(current);
+        current = [entries[i]];
+      }
+    }
+    clusters.push(current);
+
+    for (const cluster of clusters) {
+      const uniqueDates = new Set(cluster.map((e) => e.date));
+      const uniqueSources = new Set(cluster.map((e) => e.source));
+      if (uniqueDates.size <= 1) continue; // everyone in this cluster agrees exactly
+      if (uniqueSources.size < 2) continue; // same source repeating itself isn't a cross-source discrepancy
+
+      const values = {};
+      for (const { source, date } of cluster) {
+        if (!values[source]) values[source] = [];
+        if (!values[source].includes(date)) values[source].push(date);
+      }
+      const dates = [...uniqueDates].sort();
+      discrepancies.push({
+        type: 'deadline_mismatch',
+        category,
+        values,
+        daysApart: dayDiff(dates[0], dates[dates.length - 1]),
+      });
     }
   }
 

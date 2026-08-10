@@ -64,11 +64,12 @@ function buildSummaryRows(reports) {
     const L = (key) => link(r.sourceUrls && r.sourceUrls[key], SOURCE_LABELS[key]);
     for (const d of r.discrepancies) {
       if (d.type === 'deadline_mismatch') {
-        const [srcA, srcB] = Object.keys(d).filter((k) => k in SOURCE_LABELS);
+        const parts = Object.entries(d.values).map(([src, dates]) => `${L(src)}: ${dates.map(fmt).join(' / ')}`);
+        const caption = Object.keys(d.values).map((src) => buildCaption(src, r.sourceUrls)).join('');
         rows.push({
           award: r.awardName, report: r, kind: 'Date mismatch',
-          detail: `${L(srcA)}: ${fmt(d[srcA])} &nbsp;vs&nbsp; ${L(srcB)}: ${fmt(d[srcB])} (${d.daysApart}d apart)${d.category ? ` <span class="tag-note">[${d.category}]</span>` : ''}`,
-          caption: buildCaption(srcA, r.sourceUrls) + buildCaption(srcB, r.sourceUrls),
+          detail: `${parts.join(' &nbsp;vs&nbsp; ')} (${d.daysApart}d apart) <span class="tag-note">[${d.category}]</span>`,
+          caption,
         });
       } else if (d.type === 'stale') {
         const minLabel = d.minSource ? `${SOURCE_LABELS[d.minSource] || d.minSource} saw "${d.minRaw}"` : '';
@@ -89,6 +90,7 @@ function buildSummaryRows(reports) {
       if (a.type === 'broken_link') rows.push({ award: r.awardName, report: r, kind: 'Broken link', detail: `${L(a.source)} did not load (${a.detail || 'unknown error'})`, caption: buildCaption(a.source, r.sourceUrls) });
       if (a.type === 'no_dates_found') rows.push({ award: r.awardName, report: r, kind: 'No dates found', detail: `${L(a.source)} — check if this is still the right URL to track<div class="hint">${a.detail || ''}</div>`, caption: buildCaption(a.source, r.sourceUrls) });
       if (a.type === 'stale_recipients') rows.push({ award: r.awardName, report: r, kind: 'Recipients outdated', detail: a.reason, caption: buildCaption('awardFinder', r.sourceUrls) });
+      if (a.type === 'stale_url_year') rows.push({ award: r.awardName, report: r, kind: 'Stale URL year', detail: `${L(a.source)} URL contains ${a.urlYear} — try: <a href="${a.suggested}" target="_blank">${a.suggested}</a> or <a href="${a.suggestedAlt}" target="_blank">…${a.urlYear + 2}</a>`, caption: buildCaption(a.source, r.sourceUrls) });
       if (a.type === 'scrape_error') rows.push({ award: r.awardName, report: r, kind: 'Scrape error', detail: a.detail, caption: '' });
     }
   }
@@ -184,6 +186,7 @@ function buildEmailHTML(reports) {
     .kind-recipients-outdated { color: #1a5fb4; font-weight: bold; }
     .kind-stale { color: #a15c00; font-weight: bold; }
     .kind-scrape-error { color: #b30000; font-weight: bold; background: #fff0f0; }
+    .kind-stale-url-year { color: #a15c00; font-weight: bold; }
     .award-block { border-top: 1px solid #eee; padding-top: 6px; }
     .src { font-size: 12px; margin: 2px 0; }
     .flag { color: #b30000; font-weight: bold; }
