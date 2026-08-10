@@ -109,7 +109,7 @@
         },
         {
           "raw": "May 31",
-          "date": "2026-05-31",
+          "date": "2027-05-31",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -270,7 +270,7 @@
         },
         {
           "raw": "October 29",
-          "date": "2026-10-29",
+          "date": "2027-10-29",
           "dateEnd": null,
           "type": "date",
           "context": "open",
@@ -362,7 +362,7 @@
         },
         {
           "raw": "February 19",
-          "date": "2027-02-19",
+          "date": "2026-02-19",
           "dateEnd": null,
           "type": "date",
           "context": "interview",
@@ -371,7 +371,7 @@
         },
         {
           "raw": "February 20",
-          "date": "2027-02-20",
+          "date": "2026-02-20",
           "dateEnd": null,
           "type": "date",
           "context": "interview",
@@ -729,6 +729,15 @@
         }
       ],
       "external": [
+        {
+          "raw": "2026-2027",
+          "date": "2026-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "2026-2027 Programs or Projects"
+        },
         {
           "raw": "January 15th",
           "date": "2026-01-15",
@@ -1450,16 +1459,16 @@
       {
         "type": "stale",
         "status": "Urgent: Update Needed Now",
-        "min": "2007-05-01",
+        "min": "2009-10-15",
         "max": "2026-03-01",
-        "minSource": "awardFinder",
-        "minRaw": "May 1st",
+        "minSource": "external",
+        "minRaw": "late 2009",
         "maxSource": "awardFinder",
         "maxRaw": "March 1, 2026"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2007-05-01",
+    "overallMin": "2009-10-15",
     "overallMax": "2026-03-01",
     "actionItems": [],
     "recipientCheck": {
@@ -1480,7 +1489,7 @@
         },
         {
           "raw": "May 1st",
-          "date": "2007-05-01",
+          "date": "2026-05-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -1489,6 +1498,15 @@
         }
       ],
       "external": [
+        {
+          "raw": "late 2009",
+          "date": "2009-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "In late 2009, the fund was endowed with $100,000 in private donations, including a challenge grant by Mr"
+        },
         {
           "raw": "May 1, 2027",
           "date": "2027-05-01",
@@ -1657,7 +1675,7 @@
         },
         {
           "raw": "January 31",
-          "date": "2027-01-31",
+          "date": "2026-01-31",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -1793,6 +1811,24 @@
           "context": "results",
           "isTentative": true,
           "hint": "Final Notification: Rolling basis through spring 2027–2028 Award Cycle"
+        },
+        {
+          "raw": "2026–2027",
+          "date": "2026-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "2026–2027 Award Cycle"
+        },
+        {
+          "raw": "2027–2028",
+          "date": "2027-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "2027–2028 Award Cycle"
         },
         {
           "raw": "October 6, 2026",
@@ -2264,6 +2300,24 @@
           "hint": "Final Notification: Rolling basis through spring 2027–2028 Award Cycle"
         },
         {
+          "raw": "2026–2027",
+          "date": "2026-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "2026–2027 Award Cycle"
+        },
+        {
+          "raw": "2027–2028",
+          "date": "2027-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "2027–2028 Award Cycle"
+        },
+        {
           "raw": "October 6, 2026",
           "date": "2026-10-06",
           "dateEnd": null,
@@ -2333,7 +2387,7 @@
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
-    "overallMin": "2025-10-15",
+    "overallMin": "2025-08-01",
     "overallMax": "2026-11-05",
     "actionItems": [
       {
@@ -2497,7 +2551,7 @@
         },
         {
           "raw": "August 1",
-          "date": "2026-08-01",
+          "date": "2025-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
@@ -2529,16 +2583,16 @@
       {
         "type": "deadline_mismatch",
         "category": "deadline",
-        "procedures": "2026-01-30",
-        "annualDeadlines": "2026-01-27",
-        "daysApart": 3
-      },
-      {
-        "type": "deadline_mismatch",
-        "category": "deadline",
-        "procedures": "2026-01-23",
-        "annualDeadlines": "2026-01-27",
-        "daysApart": 4
+        "values": {
+          "procedures": [
+            "2026-01-23",
+            "2026-01-30"
+          ],
+          "annualDeadlines": [
+            "2026-01-27"
+          ]
+        },
+        "daysApart": 7
       }
     ],
     "overallStatus": "Application Open",
@@ -2918,6 +2972,13 @@
         "type": "no_dates_found",
         "source": "external",
         "detail": "(page had no text content at all)"
+      },
+      {
+        "type": "stale_url_year",
+        "source": "external",
+        "urlYear": 2025,
+        "suggested": "https://apply.mykaleidoscope.com/scholarships/2026JamesMadisonGraduateFellowship",
+        "suggestedAlt": "https://apply.mykaleidoscope.com/scholarships/2027JamesMadisonGraduateFellowship"
       }
     ],
     "recipientCheck": {
@@ -3201,21 +3262,10 @@
       "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2024-12-30",
-        "max": "2024-12-30",
-        "minSource": "awardFinder",
-        "minRaw": "December 30, 2024",
-        "maxSource": "awardFinder",
-        "maxRaw": "December 30, 2024"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2024-12-30",
-    "overallMax": "2024-12-30",
+    "discrepancies": [],
+    "overallStatus": "Dormant (Waiting for App to Open)",
+    "overallMin": "2026-10-15",
+    "overallMax": "2027-01-01",
     "actionItems": [
       {
         "type": "broken_link",
@@ -3232,6 +3282,24 @@
     },
     "rawDates": {
       "awardFinder": [
+        {
+          "raw": "2027-2029",
+          "date": "2027-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Applications for the 2027-2029 class will open in late 2026"
+        },
+        {
+          "raw": "late 2026",
+          "date": "2026-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Applications for the 2027-2029 class will open in late 2026"
+        },
         {
           "raw": "December 30, 2024",
           "date": "2024-12-30",
@@ -3338,11 +3406,11 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "broken_link",
+      "external": "no_dates_found",
       "annualDeadlines": "ok"
     },
     "sourceDetail": {
-      "external": "The user aborted a request."
+      "external": "sample: \"How to Apply Applying for a Marshall Scholarship Applications for the 2027 Marshall Scholarship are now open. Please find more information below about the application process, the rules associated wit…\""
     },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/marshall-procedures.pdf",
@@ -3357,9 +3425,9 @@
     "overallMax": "2026-09-29",
     "actionItems": [
       {
-        "type": "broken_link",
+        "type": "no_dates_found",
         "source": "external",
-        "detail": "The user aborted a request."
+        "detail": "sample: \"How to Apply Applying for a Marshall Scholarship Applications for the 2027 Marshall Scholarship are now open. Please find more information below about the application process, the rules associated wit…\""
       }
     ],
     "recipientCheck": {
@@ -3605,15 +3673,17 @@
       {
         "type": "deadline_mismatch",
         "category": "deadline",
-        "procedures": "2025-11-14",
-        "awardFinder": "2025-11-15",
-        "daysApart": 1
-      },
-      {
-        "type": "deadline_mismatch",
-        "category": "deadline",
-        "awardFinder": "2025-11-15",
-        "annualDeadlines": "2025-11-14",
+        "values": {
+          "procedures": [
+            "2025-11-14"
+          ],
+          "annualDeadlines": [
+            "2025-11-14"
+          ],
+          "awardFinder": [
+            "2025-11-15"
+          ]
+        },
         "daysApart": 1
       },
       {
@@ -4141,16 +4211,16 @@
       {
         "type": "stale",
         "status": "Urgent: Update Needed Now",
-        "min": "1998-01-05",
+        "min": "2024-07-12",
         "max": "2025-11-14",
         "minSource": "external",
-        "minRaw": "January 5, 1998",
+        "minRaw": "July 12, 2024",
         "maxSource": "awardFinder",
         "maxRaw": "November 14, 2025"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "1998-01-05",
+    "overallMin": "2024-07-12",
     "overallMax": "2025-11-14",
     "actionItems": [],
     "recipientCheck": {
@@ -4310,7 +4380,7 @@
         },
         {
           "raw": "October 11",
-          "date": "2025-10-11",
+          "date": "2024-10-11",
           "dateEnd": null,
           "type": "date",
           "context": "recommenders",
@@ -4373,7 +4443,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2023-11-15",
+          "date": "2024-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4382,7 +4452,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2023-11-15",
+          "date": "2024-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4391,7 +4461,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2004-11-15",
+          "date": "2024-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4442,15 +4512,6 @@
           "context": "other",
           "isTentative": false,
           "hint": "October 18, 2024"
-        },
-        {
-          "raw": "January 5, 1998",
-          "date": "1998-01-05",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "See System of Record Notices, NSF-12, \"Fellowships and Other Awards,\" 63 Federal Register 265 (January 5, 1998)"
         }
       ]
     }
@@ -4502,6 +4563,15 @@
     },
     "rawDates": {
       "external": [
+        {
+          "raw": "early 2022",
+          "date": "2022-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "In early 2022, the Semiconductor Research Corporation (SRC) and NSF's REU Sites program launched a partnership to expand undergraduate research opportunities relat"
+        },
         {
           "raw": "June 29, 2023",
           "date": "2023-06-29",
@@ -5358,15 +5428,17 @@
       {
         "type": "deadline_mismatch",
         "category": "deadline",
-        "awardFinder": "2026-09-10",
-        "external": "2026-09-09",
-        "daysApart": 1
-      },
-      {
-        "type": "deadline_mismatch",
-        "category": "deadline",
-        "awardFinder": "2026-09-10",
-        "annualDeadlines": "2026-09-09",
+        "values": {
+          "external": [
+            "2026-09-09"
+          ],
+          "annualDeadlines": [
+            "2026-09-09"
+          ],
+          "awardFinder": [
+            "2026-09-10"
+          ]
+        },
         "daysApart": 1
       }
     ],
@@ -5511,7 +5583,7 @@
         },
         {
           "raw": "August 9",
-          "date": "2020-08-09",
+          "date": "2026-08-09",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
@@ -6062,7 +6134,7 @@
         },
         {
           "raw": "December 11",
-          "date": "2026-12-11",
+          "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -6147,8 +6219,8 @@
         },
         {
           "raw": "Jan. 9-15",
-          "date": "2027-01-09",
-          "dateEnd": "2027-01-15",
+          "date": "2026-01-09",
+          "dateEnd": "2026-01-15",
           "type": "range",
           "context": "interview",
           "isTentative": false,
@@ -6211,6 +6283,15 @@
     },
     "rawDates": {
       "external": [
+        {
+          "raw": "2027-2028",
+          "date": "2027-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "The Center will award 10 to 20 fellowships for the 2027-2028 class"
+        },
         {
           "raw": "June 1, 2027",
           "date": "2027-06-01",
