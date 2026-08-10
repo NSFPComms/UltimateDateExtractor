@@ -14,6 +14,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/beinecke-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-beinecke.html",
       "external": "https://beineckescholarship.org/how-to-apply/deadline/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/beinecke-scholarship-program",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -243,6 +244,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/bobby-jones-scholarship-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-b-jones-scholar.html",
       "external": null,
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/bobby-jones-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -277,7 +279,7 @@
         },
         {
           "raw": "February 19",
-          "date": "2026-02-19",
+          "date": "2027-02-19",
           "dateEnd": null,
           "type": "date",
           "context": "interview",
@@ -286,7 +288,7 @@
         },
         {
           "raw": "February 20",
-          "date": "2026-02-20",
+          "date": "2027-02-20",
           "dateEnd": null,
           "type": "date",
           "context": "interview",
@@ -360,7 +362,7 @@
         },
         {
           "raw": "February 19",
-          "date": "2026-02-19",
+          "date": "2027-02-19",
           "dateEnd": null,
           "type": "date",
           "context": "interview",
@@ -369,7 +371,7 @@
         },
         {
           "raw": "February 20",
-          "date": "2026-02-20",
+          "date": "2027-02-20",
           "dateEnd": null,
           "type": "date",
           "context": "interview",
@@ -379,13 +381,13 @@
       ],
       "annualDeadlines": [
         {
-          "raw": "Jan. 09, 2026",
-          "date": "2026-01-09",
+          "raw": "Jan. 08, 2027",
+          "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Jan. 09, 2026"
+          "hint": "Jan. 08, 2027"
         }
       ]
     }
@@ -403,6 +405,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/bredow-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-bredow.html",
       "external": null,
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/Bredow%20Scholarship?titleize=0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -554,6 +557,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/carnegie-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-carnegie.html",
       "external": "https://carnegieendowment.org/junior-fellows-program-important-dates?lang=en",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/carnegie-gaither-junior-fellows-program",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -806,6 +810,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/churchill-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-churchill.html",
       "external": "https://www.churchillscholarship.org/the-scholarship#Apply",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/winston-churchill-foundation-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1076,6 +1081,7 @@
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-critical-language.html",
       "external": "https://clscholarship.org/apply",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1149,12 +1155,13 @@
       "annualDeadlines": "not_tracked"
     },
     "sourceDetail": {
-      "external": "HTTP 403"
+      "external": "The user aborted a request."
     },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-daad.html",
       "external": "https://www.daad.org/en/find-funding/graduate-opportunities/research-grants/german-studies-research-grants/",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1165,7 +1172,7 @@
       {
         "type": "broken_link",
         "source": "external",
-        "detail": "HTTP 403"
+        "detail": "The user aborted a request."
       }
     ],
     "recipientCheck": {
@@ -1200,6 +1207,7 @@
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-frederick-douglas.html",
       "external": "https://www.ciee.org/go-abroad/college-study-abroad/scholarships/douglass-oconnell-global-internship",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -1207,7 +1215,11 @@
         "type": "stale",
         "status": "Check for Deadline Immediately",
         "min": "2025-08-28",
-        "max": "2026-01-09"
+        "max": "2026-01-09",
+        "minSource": "external",
+        "minRaw": "August 28, 2025",
+        "maxSource": "external",
+        "maxRaw": "January 9, 2026"
       }
     ],
     "overallStatus": "Check for Deadline Immediately",
@@ -1378,11 +1390,14 @@
       "external": "no_dates_found",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "(page had no text content at all)"
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-eisenhower.html",
       "external": "https://www.efworld.org/apply-now/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/eisenhower-global-scholars",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1392,7 +1407,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "(page had no text content at all)"
       }
     ],
     "recipientCheck": {
@@ -1427,11 +1443,23 @@
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-EAB.html",
       "external": "https://together.emory.edu/alumni/awards/student-awards-and-scholarship",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "Dormant (Cycle Closed)",
-    "overallMin": "2026-03-01",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2007-05-01",
+        "max": "2026-03-01",
+        "minSource": "awardFinder",
+        "minRaw": "May 1st",
+        "maxSource": "awardFinder",
+        "maxRaw": "March 1, 2026"
+      }
+    ],
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2007-05-01",
     "overallMax": "2026-03-01",
     "actionItems": [],
     "recipientCheck": {
@@ -1452,7 +1480,7 @@
         },
         {
           "raw": "May 1st",
-          "date": "2026-05-01",
+          "date": "2007-05-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -1495,6 +1523,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/fulbright-eta-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-eta.html",
       "external": "https://us.fulbrightonline.org/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/fulbright-english-teaching-assistantship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1628,7 +1657,7 @@
         },
         {
           "raw": "January 31",
-          "date": "2026-01-31",
+          "date": "2027-01-31",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -1846,6 +1875,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/fulbright-rs-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-rs.html",
       "external": "https://us.fulbrightonline.org/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/fulbright-research-slash-study-grant",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -2291,11 +2321,14 @@
       "external": "no_dates_found",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "sample: \"Skip to main content Timeline Share Applications for entry in the academic year 2026/7 are now closed. Applications will open again in September 2026 for entry in the academic year 2027/8. Gates Cambr…\""
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/gates-cambridge-application-guide.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-gates-cambridge.html",
       "external": "https://www.gatescambridge.org/apply/timeline/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/gates-cambridge-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -2305,7 +2338,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "sample: \"Skip to main content Timeline Share Applications for entry in the academic year 2026/7 are now closed. Applications will open again in September 2026 for entry in the academic year 2027/8. Gates Cambr…\""
       }
     ],
     "recipientCheck": {
@@ -2481,11 +2515,14 @@
       "external": "no_dates_found",
       "annualDeadlines": "ok"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "(page had no text content at all)"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/goldwater-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-goldwater.html",
       "external": "https://goldwaterscholarship.gov/important-dates/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/goldwater-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -2510,7 +2547,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "(page had no text content at all)"
       }
     ],
     "recipientCheck": {
@@ -2612,7 +2650,7 @@
         },
         {
           "raw": "December 8",
-          "date": "2026-12-08",
+          "date": "2025-12-08",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
@@ -2621,7 +2659,7 @@
         },
         {
           "raw": "December 4",
-          "date": "2026-12-04",
+          "date": "2025-12-04",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
@@ -2760,11 +2798,14 @@
       "external": "ok",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "awardFinder": "(page had no text content at all)"
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-grad-stem-diversity.html",
       "external": "https://stemfellowships.org/applicants/",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -2774,7 +2815,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "awardFinder"
+        "source": "awardFinder",
+        "detail": "(page had no text content at all)"
       }
     ],
     "recipientCheck": null,
@@ -2816,6 +2858,7 @@
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-hertz.html",
       "external": "https://www.hertzfoundation.org/the-fellowship/faq/",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -2856,11 +2899,14 @@
       "external": "no_dates_found",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "(page had no text content at all)"
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-madison-fellows.html",
       "external": "https://apply.mykaleidoscope.com/scholarships/2025JamesMadisonGraduateFellowship",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -2870,7 +2916,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "(page had no text content at all)"
       }
     ],
     "recipientCheck": {
@@ -2905,6 +2952,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/knight-hennessy-guidelines.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-knight-hennessy.html",
       "external": "https://knight-hennessy.stanford.edu/admission/before-you-apply/dates-and-deadlines",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/Knight-Hennessy%20Scholars%20Program?titleize=0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -3150,6 +3198,7 @@
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-leland-hunger.html",
       "external": "https://www.hungercenter.org/what-we-do/leland-fellowship/fellows/#apply",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -3157,7 +3206,11 @@
         "type": "stale",
         "status": "Urgent: Update Needed Now",
         "min": "2024-12-30",
-        "max": "2024-12-30"
+        "max": "2024-12-30",
+        "minSource": "awardFinder",
+        "minRaw": "December 30, 2024",
+        "maxSource": "awardFinder",
+        "maxRaw": "December 30, 2024"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
@@ -3204,6 +3257,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/luce-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-luce.html",
       "external": "https://apply-lucescholars.smapply.io/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/luce-scholars-program",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -3294,6 +3348,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/marshall-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-marshall.html",
       "external": "https://www.marshallscholarship.org/apply",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/marshall-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -3536,11 +3591,14 @@
       "external": "no_dates_found",
       "annualDeadlines": "ok"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "(page had no text content at all)"
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/mdw-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-david-weill.html",
       "external": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/david-weill-scholarship/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/michel-david-weill",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -3557,15 +3615,26 @@
         "awardFinder": "2025-11-15",
         "annualDeadlines": "2025-11-14",
         "daysApart": 1
+      },
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-08-01",
+        "max": "2025-11-15",
+        "minSource": "procedures",
+        "minRaw": "Aug-Sept 2025",
+        "maxSource": "awardFinder",
+        "maxRaw": "November 15, 2025"
       }
     ],
-    "overallStatus": "Application Open",
+    "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "2025-08-01",
-    "overallMax": "2026-10-16",
+    "overallMax": "2025-11-15",
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "(page had no text content at all)"
       }
     ],
     "recipientCheck": {
@@ -3649,7 +3718,7 @@
         },
         {
           "raw": "October\n16",
-          "date": "2026-10-16",
+          "date": "2025-10-16",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
@@ -3770,25 +3839,42 @@
       "external": "no_dates_found",
       "annualDeadlines": "no_dates_found"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "awardFinder": "(page had no text content at all)",
+      "external": "sample: \"A Convergence of Future American Leaders in Ireland Announcement: Scholarship Paused The Mitchell Scholar Directory A Convergence of Future American Leaders in Ireland A NATIONALLY COMPETITIVE SCHOLAR…\""
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/mitchell-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-mitchell.html",
       "external": "https://us-irelandalliance.org/scholarships",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/Mitchell%20Scholarship?titleize=0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "Application Open",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2023-06-21",
+        "max": "2023-08-24",
+        "minSource": "procedures",
+        "minRaw": "Summer 2023",
+        "maxSource": "procedures",
+        "maxRaw": "August 24"
+      }
+    ],
+    "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "2023-06-21",
-    "overallMax": "2026-08-24",
+    "overallMax": "2023-08-24",
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "awardFinder"
+        "source": "awardFinder",
+        "detail": "(page had no text content at all)"
       },
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "sample: \"A Convergence of Future American Leaders in Ireland Announcement: Scholarship Paused The Mitchell Scholar Directory A Convergence of Future American Leaders in Ireland A NATIONALLY COMPETITIVE SCHOLAR…\""
       },
       {
         "type": "no_dates_found",
@@ -3899,7 +3985,7 @@
         },
         {
           "raw": "March 16",
-          "date": "2026-03-16",
+          "date": "2023-03-16",
           "dateEnd": null,
           "type": "date",
           "context": "feedback_deadline",
@@ -3917,7 +4003,7 @@
         },
         {
           "raw": "September 9",
-          "date": "2026-09-09",
+          "date": "2023-09-09",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -3935,7 +4021,7 @@
         },
         {
           "raw": "August 24",
-          "date": "2026-08-24",
+          "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
@@ -3962,7 +4048,7 @@
         },
         {
           "raw": "September 5",
-          "date": "2026-09-05",
+          "date": "2023-09-05",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -3971,7 +4057,7 @@
         },
         {
           "raw": "August 24",
-          "date": "2026-08-24",
+          "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
           "context": "recommenders",
@@ -4007,11 +4093,14 @@
       "external": "not_tracked",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "awardFinder": "sample: \"Top of pageSkip to main contentMain content Mount Vernon Leadership Fellows Program The Mount Vernon Leadership program was placed on pause in 2024. This page is for reference only. Open to: Sophomore…\""
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-mount-vernon.html",
       "external": null,
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -4021,7 +4110,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "awardFinder"
+        "source": "awardFinder",
+        "detail": "sample: \"Top of pageSkip to main contentMain content Mount Vernon Leadership Fellows Program The Mount Vernon Leadership program was placed on pause in 2024. This page is for reference only. Open to: Sophomore…\""
       }
     ],
     "recipientCheck": {
@@ -4044,12 +4134,24 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/nsf-grfp-guide.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-grfp.html",
       "external": "https://new.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf24-591/solicitation",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/national-science-foundation-graduate-research-fellowships-program",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "Application Open",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "1998-01-05",
+        "max": "2025-11-14",
+        "minSource": "external",
+        "minRaw": "January 5, 1998",
+        "maxSource": "awardFinder",
+        "maxRaw": "November 14, 2025"
+      }
+    ],
+    "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "1998-01-05",
-    "overallMax": "2026-11-15",
+    "overallMax": "2025-11-14",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -4152,7 +4254,7 @@
         },
         {
           "raw": "August 1",
-          "date": "2026-08-01",
+          "date": "2025-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4208,7 +4310,7 @@
         },
         {
           "raw": "October 11",
-          "date": "2026-10-11",
+          "date": "2025-10-11",
           "dateEnd": null,
           "type": "date",
           "context": "recommenders",
@@ -4217,7 +4319,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2026-11-15",
+          "date": "2024-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4226,7 +4328,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2026-11-15",
+          "date": "2024-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4271,7 +4373,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2026-11-15",
+          "date": "2023-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4280,7 +4382,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2026-11-15",
+          "date": "2023-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4289,7 +4391,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2026-11-15",
+          "date": "2004-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4298,7 +4400,7 @@
         },
         {
           "raw": "November 15",
-          "date": "2026-11-15",
+          "date": "2024-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -4361,11 +4463,14 @@
       "external": "ok",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "awardFinder": "sample: \"Top of pageSkip to main contentMain content National Science Foundation Research Experiences for Undergraduates Application Deadlines Vary by Program Open to: Ideal for students in first, second, or t…\""
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-reu.html",
       "external": "https://new.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates/nsf23-601/solicitation",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -4373,7 +4478,11 @@
         "type": "stale",
         "status": "Urgent: Update Needed Now",
         "min": "2021-11-15",
-        "max": "2024-08-21"
+        "max": "2024-08-21",
+        "minSource": "external",
+        "minRaw": "November 15, 2021",
+        "maxSource": "external",
+        "maxRaw": "August 21, 2024"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
@@ -4382,7 +4491,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "awardFinder"
+        "source": "awardFinder",
+        "detail": "sample: \"Top of pageSkip to main contentMain content National Science Foundation Research Experiences for Undergraduates Application Deadlines Vary by Program Open to: Ideal for students in first, second, or t…\""
       }
     ],
     "recipientCheck": {
@@ -4475,11 +4585,14 @@
       "external": "no_dates_found",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "sample: \"Skip to main content Back to top\""
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-noaa-hollings.html",
       "external": "https://www.noaa.gov/office-education/hollings-scholarship/news",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -4489,7 +4602,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "sample: \"Skip to main content Back to top\""
       }
     ],
     "recipientCheck": {
@@ -4533,6 +4647,7 @@
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-petit.html",
       "external": "https://research.gatech.edu/bio/petit-undergraduate-research-scholars-program",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -4583,6 +4698,7 @@
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-amgen-scholars.html",
       "external": "https://amgenscholars.com/us-program/",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -4876,6 +4992,7 @@
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-quad-fellowship.html",
       "external": "https://www.quadfellowship.org/apply",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -4883,7 +5000,11 @@
         "type": "stale",
         "status": "Urgent: Update Needed Now",
         "min": "2022-06-30",
-        "max": "2025-03-03"
+        "max": "2025-03-03",
+        "minSource": "external",
+        "minRaw": "June 30, 2022",
+        "maxSource": "awardFinder",
+        "maxRaw": "March 3, 2025"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
@@ -4937,11 +5058,15 @@
       "external": "no_dates_found",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "awardFinder": "(page had no text content at all)",
+      "external": "sample: \"Customer Portal is not available in Staging. X Please visit the production site by clicking Here Close loading... The Charles B. Rangel International Affairs Program The 2026 application cycle for the…\""
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-rangel.html",
       "external": "https://apply.rangelprogram.org/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/payne-pickering-and-rangel",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -4951,11 +5076,13 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "awardFinder"
+        "source": "awardFinder",
+        "detail": "(page had no text content at all)"
       },
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "sample: \"Customer Portal is not available in Staging. X Please visit the production site by clicking Here Close loading... The Charles B. Rangel International Affairs Program The 2026 application cycle for the…\""
       }
     ],
     "recipientCheck": null,
@@ -4969,11 +5096,14 @@
       "external": "no_dates_found",
       "annualDeadlines": "ok"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "sample: \"Applications for the Rhodes Scholarship 2027 are open! Click here to learn more. Applications for the Rhodes Scholarship 2027 are open! Open Start your Application The Rhodes Scholarship is the oldest…\""
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/rhodes-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-rhodes.html",
       "external": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/rhodes-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -4983,7 +5113,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "sample: \"Applications for the Rhodes Scholarship 2027 are open! Click here to learn more. Applications for the Rhodes Scholarship 2027 are open! Open Start your Application The Rhodes Scholarship is the oldest…\""
       }
     ],
     "recipientCheck": {
@@ -5213,13 +5344,14 @@
       "procedures": "ok",
       "awardFinder": "ok",
       "external": "ok",
-      "annualDeadlines": "no_dates_found"
+      "annualDeadlines": "ok"
     },
     "sourceDetail": {},
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/schwarzman-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-schwarzman.html",
       "external": "https://www.schwarzmanscholars.org/admissions/",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/schwarzman-scholars-program",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -5229,17 +5361,19 @@
         "awardFinder": "2026-09-10",
         "external": "2026-09-09",
         "daysApart": 1
+      },
+      {
+        "type": "deadline_mismatch",
+        "category": "deadline",
+        "awardFinder": "2026-09-10",
+        "annualDeadlines": "2026-09-09",
+        "daysApart": 1
       }
     ],
     "overallStatus": "Application Open",
     "overallMin": "2026-04-08",
     "overallMax": "2026-09-10",
-    "actionItems": [
-      {
-        "type": "no_dates_found",
-        "source": "annualDeadlines"
-      }
-    ],
+    "actionItems": [],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -5377,7 +5511,7 @@
         },
         {
           "raw": "August 9",
-          "date": "2026-08-09",
+          "date": "2020-08-09",
           "dateEnd": null,
           "type": "date",
           "context": "interview",
@@ -5406,7 +5540,7 @@
         },
         {
           "raw": "August 1",
-          "date": "2026-08-01",
+          "date": "2027-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -5415,7 +5549,7 @@
         },
         {
           "raw": "August 1",
-          "date": "2026-08-01",
+          "date": "2027-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -5494,6 +5628,17 @@
           "isTentative": false,
           "hint": "September 1"
         }
+      ],
+      "annualDeadlines": [
+        {
+          "raw": "Sep. 9, 2026",
+          "date": "2026-09-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "Sep. 9, 2026"
+        }
       ]
     }
   },
@@ -5505,11 +5650,14 @@
       "external": "not_tracked",
       "annualDeadlines": "ok"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "procedures": "sample: \"\u0000\u0002\u0002\u0003 \u0004 \u0005 \u0006 \u0007 \u0004 \b \b\u0005\u000e\u000f \u0010 \u0011 \u0012 \u0013 \u0002\u0006\u000e\u0012 \u0005 \u0013\b\u0003 \u0006\u0010 \u0013\u0004 \u0002\u0014 \u0015 \u0016\u0017\u0018 \u0000\u0019\u0018\u001a\u0000\u0018 \u001b \u0012\u0000\u0019\u001a\u001a\u001b \u0000\u001a\u001c \u0014 \u0019\u001b \u0012\u001d\u001e\u001f\u001f! \" #$ ! %&'( #)*+*,- *. /0123 451678946 1:;93 <;=>?6 6 4@;93 <;A:4B:1CD07=>AEFGC4:HI53 J?:;3 2H922<KLL846 6 ?B?M …\""
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/shepard-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-shepard.html",
       "external": null,
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/Shepard%20Scholarship?titleize=0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -5519,7 +5667,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "procedures"
+        "source": "procedures",
+        "detail": "sample: \"\u0000\u0002\u0002\u0003 \u0004 \u0005 \u0006 \u0007 \u0004 \b \b\u0005\u000e\u000f \u0010 \u0011 \u0012 \u0013 \u0002\u0006\u000e\u0012 \u0005 \u0013\b\u0003 \u0006\u0010 \u0013\u0004 \u0002\u0014 \u0015 \u0016\u0017\u0018 \u0000\u0019\u0018\u001a\u0000\u0018 \u001b \u0012\u0000\u0019\u001a\u001a\u001b \u0000\u001a\u001c \u0014 \u0019\u001b \u0012\u001d\u001e\u001f\u001f! \" #$ ! %&'( #)*+*,- *. /0123 451678946 1:;93 <;=>?6 6 4@;93 <;A:4B:1CD07=>AEFGC4:HI53 J?:;3 2H922<KLL846 6 ?B?M …\""
       }
     ],
     "recipientCheck": {
@@ -5565,6 +5714,7 @@
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/sonny-carter-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-sonny-carter.html",
       "external": null,
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/sonny-carter-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -5693,21 +5843,25 @@
       "external": "no_dates_found",
       "annualDeadlines": "ok"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "sample: \"Skip to main content\""
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/truman-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-truman.html",
       "external": "https://www.truman.gov/apply/applying/important-dates",
+      "canvas": "https://canvas.emory.edu/courses/30739/pages/truman-scholarship-program",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
     "overallMin": "2025-10-01",
-    "overallMax": "2027-02-03",
+    "overallMax": "2027-02-02",
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "external"
+        "source": "external",
+        "detail": "sample: \"Skip to main content\""
       }
     ],
     "recipientCheck": {
@@ -5872,7 +6026,7 @@
         },
         {
           "raw": "December 11",
-          "date": "2026-12-11",
+          "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
@@ -5963,60 +6117,60 @@
           "hint": "Internal Application Deadline: 4:00 PM (ET), December 17, 2026"
         },
         {
-          "raw": "February 3, 2027",
-          "date": "2027-02-03",
+          "raw": "February 2, 2027",
+          "date": "2027-02-02",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "External Application Deadline: 4:00 PM (ET), February 3, 2027"
+          "hint": "External Application Deadline: 4:00 PM (ET), February 2, 2027"
         }
       ],
       "annualDeadlines": [
         {
-          "raw": "Nov. 6, 2025",
-          "date": "2025-11-06",
+          "raw": "Nov. 5, 2026",
+          "date": "2026-11-05",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Nov. 6, 2025"
+          "hint": "Nov. 5, 2026"
         },
         {
-          "raw": "Dec. 11, 2025",
-          "date": "2025-12-11",
+          "raw": "Dec. 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Dec. 11, 2025"
+          "hint": "Dec. 17, 2026"
         },
         {
-          "raw": "Jan. 10-16",
-          "date": "2026-01-10",
-          "dateEnd": "2026-01-16",
+          "raw": "Jan. 9-15",
+          "date": "2027-01-09",
+          "dateEnd": "2027-01-15",
           "type": "range",
           "context": "interview",
           "isTentative": false,
-          "hint": "Jan. 10-16*, 2026"
+          "hint": "Jan. 9-15*, 2027"
         },
         {
-          "raw": "Feb. 2, 2026",
-          "date": "2026-02-02",
+          "raw": "Feb. 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Feb. 2, 2026"
+          "hint": "Feb. 1, 2027"
         },
         {
-          "raw": "Feb. 3, 2026",
-          "date": "2026-02-03",
+          "raw": "Feb. 2, 2027",
+          "date": "2027-02-02",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Feb. 3, 2026"
+          "hint": "Feb. 2, 2027"
         }
       ]
     }
@@ -6029,11 +6183,14 @@
       "external": "ok",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "awardFinder": "sample: \"Top of pageSkip to main contentMain content Teaching Fellowship Application Deadlines: TBA Open to: Seniors, alums Award Type: Academic Area(s) of study: STEM Award criteria: academic achievement Awar…\""
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-wwtf.html",
       "external": "https://www.wilsoncenter.org/fellowship-application-guidelines",
+      "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -6043,7 +6200,8 @@
     "actionItems": [
       {
         "type": "no_dates_found",
-        "source": "awardFinder"
+        "source": "awardFinder",
+        "detail": "sample: \"Top of pageSkip to main contentMain content Teaching Fellowship Application Deadlines: TBA Open to: Seniors, alums Award Type: Academic Area(s) of study: STEM Award criteria: academic achievement Awar…\""
       }
     ],
     "recipientCheck": {
