@@ -46,6 +46,7 @@ async function run() {
           procedures: award.procedures,
           awardFinder: award.awardFinder,
           external: award.external,
+          canvas: award.canvas, // not scraped for dates, but shown in the reference table
           cascadeEdit: award.cascadeEdit,
           annualDeadlines: ANNUAL_DEADLINES_URL,
         },
@@ -61,7 +62,7 @@ async function run() {
         awardName: award.name,
         sourceStatus: {},
         sourceDetail: {},
-        sourceUrls: { procedures: award.procedures, awardFinder: award.awardFinder, external: award.external },
+        sourceUrls: { procedures: award.procedures, awardFinder: award.awardFinder, external: award.external, canvas: award.canvas, cascadeEdit: award.cascadeEdit, annualDeadlines: ANNUAL_DEADLINES_URL },
         discrepancies: [],
         overallStatus: 'Scrape Error',
         overallMin: null,

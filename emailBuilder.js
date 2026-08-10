@@ -43,17 +43,23 @@ function buildSummaryRows(reports) {
           caption: buildCaption(srcA, r.sourceUrls) + buildCaption(srcB, r.sourceUrls),
         });
       } else if (d.type === 'stale') {
-        const caption = ['procedures', 'awardFinder', 'annualDeadlines'].map((k) => buildCaption(k, r.sourceUrls)).join('');
+        const minLabel = d.minSource ? `${SOURCE_LABELS[d.minSource] || d.minSource} saw "${d.minRaw}"` : '';
+        const maxLabel = d.maxSource ? `${SOURCE_LABELS[d.maxSource] || d.maxSource} saw "${d.maxRaw}"` : '';
+        const attribution = [minLabel && `Earliest date (${fmt(d.min)}): ${minLabel}`, maxLabel && `Latest date (${fmt(d.max)}): ${maxLabel}`].filter(Boolean).join('<br>');
+        // Caption only the sources that actually contributed the dates driving
+        // this status — not a fixed guess at which sources "usually" matter.
+        const relevantSources = [...new Set([d.minSource, d.maxSource].filter(Boolean))];
+        const caption = relevantSources.map((k) => buildCaption(k, r.sourceUrls)).join('');
         rows.push({
           award: r.awardName, kind: 'Stale',
-          detail: `Status: "${d.status}" (dates span ${fmt(d.min)}–${fmt(d.max)})`,
+          detail: `Status: "${d.status}"<br>${attribution}`,
           caption,
         });
       }
     }
     for (const a of r.actionItems) {
       if (a.type === 'broken_link') rows.push({ award: r.awardName, kind: 'Broken link', detail: `${L(a.source)} did not load (${a.detail || 'unknown error'})`, caption: buildCaption(a.source, r.sourceUrls) });
-      if (a.type === 'no_dates_found') rows.push({ award: r.awardName, kind: 'No dates found', detail: `${L(a.source)} — check if this is still the right URL to track`, caption: buildCaption(a.source, r.sourceUrls) });
+      if (a.type === 'no_dates_found') rows.push({ award: r.awardName, kind: 'No dates found', detail: `${L(a.source)} — check if this is still the right URL to track<div class="hint">${a.detail || ''}</div>`, caption: buildCaption(a.source, r.sourceUrls) });
       if (a.type === 'stale_recipients') rows.push({ award: r.awardName, kind: 'Recipients outdated', detail: a.reason, caption: buildCaption('awardFinder', r.sourceUrls) });
       if (a.type === 'scrape_error') rows.push({ award: r.awardName, kind: 'Scrape error', detail: a.detail, caption: '' });
     }
@@ -105,7 +111,7 @@ function buildRawDumpSection(reports) {
         const labelLink = link(r.sourceUrls && r.sourceUrls[key], label);
         if (srcStatus === 'not_tracked') return '';
         if (srcStatus === 'broken_link') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">broken link (${(r.sourceDetail && r.sourceDetail[key]) || 'unknown'})</span></div>`;
-        if (srcStatus === 'no_dates_found') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">no dates found</span></div>`;
+        if (srcStatus === 'no_dates_found') return `<div class="src"><strong>${labelLink}:</strong> <span class="flag">no dates found</span> <span class="hint">${(r.sourceDetail && r.sourceDetail[key]) || ''}</span></div>`;
         const dates = (r.rawDates[key] || []).map((d) => {
           // Nearby text the tagger used, shown compactly so any tag —
           // confident or not — can be spot-checked against its source.
@@ -118,6 +124,16 @@ function buildRawDumpSection(reports) {
     }).join('');
     return `<div class="status-group"><h2 class="status-heading">${status} <span class="count">(${awards.length})</span></h2>${awardBlocks}</div>`;
   }).join('');
+}
+
+function buildLinksTable(reports) {
+  const sorted = [...reports].sort((a, b) => a.awardName.localeCompare(b.awardName));
+  const rows = sorted.map((r) => {
+    const u = r.sourceUrls || {};
+    const cell = (url) => url ? `<a href="${url}" target="_blank">link</a>` : '<span class="none">—</span>';
+    return `<tr><td>${r.awardName}</td><td>${cell(u.external)}</td><td>${cell(u.awardFinder)}</td><td>${cell(u.canvas)}</td><td>${cell(u.procedures)}</td><td>${cell(u.cascadeEdit)}</td><td>${cell(SHAREPOINT_PROCEDURES_URL)}</td></tr>`;
+  }).join('');
+  return `<table class="summary"><tr><th>Award</th><th>External</th><th>Award Finder</th><th>Canvas</th><th>Procedures PDF</th><th>Edit (Cascade)</th><th>Edit Procedures (SharePoint)</th></tr>${rows}</table>`;
 }
 
 function buildEmailHTML(reports) {
@@ -150,12 +166,15 @@ function buildEmailHTML(reports) {
     .status-group { margin-top: 22px; }
     .status-heading { background: #f0f4f8; padding: 6px 10px; border-left: 4px solid #1a5fb4; margin: 0 0 4px; }
     .status-heading .count { font-weight: normal; color: #666; font-size: 12px; }
+    .none { color: #ccc; }
   </style></head><body>
     <h1>Weekly Award Date Discrepancy Report</h1>
     <h2>Summary — needs review</h2>
     ${summaryHTML}
     <h2>Full date dump (all sources)</h2>
     ${buildRawDumpSection(reports)}
+    <h2>All award links</h2>
+    ${buildLinksTable(reports)}
   </body></html>`;
 }
 

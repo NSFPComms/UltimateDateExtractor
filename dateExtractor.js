@@ -165,6 +165,30 @@ function extractDates(text, inferredYear) {
   const results = [];
   const claimedRanges = []; // char ranges already consumed by RANGE_RE / MONTH_RANGE_RE
 
+  // A date with no explicit year (e.g. "the October 16 deadline" appearing
+  // later in a doc that said "October 16, 2025" earlier) should inherit that
+  // document's actual cycle year, not whatever year the scraper happens to
+  // run in. Blindly using the scrape-time year turned "October 16" into
+  // "October 16, 2026" — a full year wrong and in the FUTURE relative to the
+  // real Nov 2025 cycle — which silently corrupted status classification.
+  // Build a position->year map from every 4-digit 20xx year actually written
+  // in the text, and for any match missing a year, use the nearest one.
+  const yearPositions = [];
+  const yearScanRe = /\b(20\d{2})\b/g;
+  let ym;
+  while ((ym = yearScanRe.exec(text))) {
+    yearPositions.push({ pos: ym.index, year: parseInt(ym[1], 10) });
+  }
+  function nearestYear(pos) {
+    if (!yearPositions.length) return inferredYear;
+    let best = yearPositions[0], bestDist = Math.abs(pos - best.pos);
+    for (const yp of yearPositions) {
+      const dist = Math.abs(pos - yp.pos);
+      if (dist < bestDist) { best = yp; bestDist = dist; }
+    }
+    return best.year;
+  }
+
   const withHint = (entry, snippet) => {
     entry.hint = snippet;
     return entry;
@@ -186,8 +210,8 @@ function extractDates(text, inferredYear) {
   const rangeRe = new RegExp(RANGE_RE.source, 'gi');
   while ((m = rangeRe.exec(text))) {
     const full = m[0], mon1 = m[2], day1 = m[3], mon2 = m[5], day2 = m[6], year = m[7];
-    const startISO = toISO(mon1, day1, year, inferredYear);
-    const endISO = toISO(mon2 || mon1, day2, year, inferredYear);
+    const startISO = toISO(mon1, day1, year, nearestYear(m.index));
+    const endISO = toISO(mon2 || mon1, day2, year, nearestYear(m.index));
     if (startISO) {
       claimedRanges.push([m.index, m.index + full.length]);
       const snippet = getSentenceAt(text, m.index, full.length);
@@ -203,7 +227,7 @@ function extractDates(text, inferredYear) {
   const monRangeRe = new RegExp(MONTH_RANGE_RE.source, 'gi');
   while ((m = monRangeRe.exec(text))) {
     const full = m[0], mon1 = m[1], mon2 = m[2], year = m[3];
-    const startISO = toISO(mon1, '1', year, inferredYear);
+    const startISO = toISO(mon1, '1', year, nearestYear(m.index));
     if (startISO) {
       claimedRanges.push([m.index, m.index + full.length]);
       const snippet = getSentenceAt(text, m.index, full.length);
@@ -244,7 +268,7 @@ function extractDates(text, inferredYear) {
     const full = m[0], mon = m[1], day = m[2], year = m[3];
     const dayNum = parseInt(day, 10);
     if (dayNum > 31) continue; // guards against stray 4-digit years matching \d{1,2}
-    const iso = toISO(mon, day, year, inferredYear);
+    const iso = toISO(mon, day, year, nearestYear(m.index));
     if (!iso) continue;
     const snippet = getSentenceAt(text, m.index, full.length);
     results.push(withHint({

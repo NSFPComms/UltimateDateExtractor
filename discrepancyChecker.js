@@ -85,22 +85,38 @@ function analyzeAward(awardName, texts, inferredYear, preExtracted) {
   // earliest "open"-tagged date across all sources; MaxDate = latest
   // deadline-flavored-tagged date. Falls back to the full date range if a
   // source doesn't have explicit open/deadline tags.
-  const allTaggedDates = Object.values(bySource).flat();
-  const opens = allTaggedDates.filter((d) => d.context === 'open' && d.date).map((d) => d.date).sort();
-  const deadlines = allTaggedDates.filter((d) => deadlineTag(d) && d.date).map((d) => d.date).sort();
-  const allDatesFlat = allTaggedDates.filter((d) => d.date).map((d) => d.date).sort();
+  //
+  // Each date is tagged with its source+raw text here so that when a date
+  // ends up driving the overall status, we can say exactly where it came
+  // from — "dates span X–Y" with no attribution was untraceable; you had no
+  // way to find where a date like "Jun 30, 2022" actually appeared.
+  const allTaggedDates = [];
+  for (const [source, dates] of Object.entries(bySource)) {
+    for (const d of dates) allTaggedDates.push(Object.assign({}, d, { source }));
+  }
+  const opens = allTaggedDates.filter((d) => d.context === 'open' && d.date).sort((a, b) => a.date < b.date ? -1 : 1);
+  const deadlines = allTaggedDates.filter((d) => deadlineTag(d) && d.date).sort((a, b) => a.date < b.date ? -1 : 1);
+  const allDatesFlat = allTaggedDates.filter((d) => d.date).sort((a, b) => a.date < b.date ? -1 : 1);
 
   let overallStatus = 'No Dates Found';
   let overallMin = null;
   let overallMax = null;
+  let overallMinEntry = null;
+  let overallMaxEntry = null;
   if (allDatesFlat.length) {
-    overallMin = opens.length ? opens[0] : allDatesFlat[0];
-    overallMax = deadlines.length ? deadlines[deadlines.length - 1] : allDatesFlat[allDatesFlat.length - 1];
+    overallMinEntry = opens.length ? opens[0] : allDatesFlat[0];
+    overallMaxEntry = deadlines.length ? deadlines[deadlines.length - 1] : allDatesFlat[allDatesFlat.length - 1];
+    overallMin = overallMinEntry.date;
+    overallMax = overallMaxEntry.date;
     overallStatus = classifyStatus(overallMin, overallMax);
   }
 
   if (STALE_STATUSES.has(overallStatus)) {
-    discrepancies.push({ type: 'stale', status: overallStatus, min: overallMin, max: overallMax });
+    discrepancies.push({
+      type: 'stale', status: overallStatus, min: overallMin, max: overallMax,
+      minSource: overallMinEntry && overallMinEntry.source, minRaw: overallMinEntry && overallMinEntry.raw,
+      maxSource: overallMaxEntry && overallMaxEntry.source, maxRaw: overallMaxEntry && overallMaxEntry.raw,
+    });
   }
 
   return { awardName, bySource, deadlinesBySource, overallStatus, overallMin, overallMax, discrepancies };
