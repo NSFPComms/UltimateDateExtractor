@@ -1155,7 +1155,7 @@
       "annualDeadlines": "not_tracked"
     },
     "sourceDetail": {
-      "external": "The user aborted a request."
+      "external": "HTTP 403"
     },
     "sourceUrls": {
       "procedures": null,
@@ -1172,7 +1172,7 @@
       {
         "type": "broken_link",
         "source": "external",
-        "detail": "The user aborted a request."
+        "detail": "HTTP 403"
       }
     ],
     "recipientCheck": {
@@ -2048,7 +2048,7 @@
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "deadline",
           "isTentative": false,
           "hint": "Ideally, you should have the affiliation letter by our internal due date, September 3, 2026, but it is"
         },
@@ -3536,7 +3536,7 @@
           "date": "2026-09-29",
           "dateEnd": null,
           "type": "date",
-          "context": "feedback_deadline",
+          "context": "deadline",
           "isTentative": false,
           "hint": "Please note that the final day to request feedback is 3 days before the National Deadline: September 29, 2026"
         },
@@ -3721,7 +3721,7 @@
           "date": "2025-10-16",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false,
           "hint": "If one of your recommenders is not able to meet the October 16 deadline, please contact our office"
         },
@@ -5043,7 +5043,7 @@
           "date": "2022-06-30",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "deadline",
           "isTentative": false,
           "hint": "Both the application form and the letters of recommendation must be submitted by June 30, 2022"
         }
@@ -5514,7 +5514,7 @@
           "date": "2020-08-09",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "deadline",
           "isTentative": false,
           "hint": "Currently enrolled students who wish to receive an institutional assessment as one of their four references must submit a complete application by August 9 and participate in the competitive interview process"
         }
@@ -6194,9 +6194,9 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Waiting for App to Open)",
+    "overallStatus": "Application Likely Open",
     "overallMin": "2026-09-30",
-    "overallMax": "2028-05-30",
+    "overallMax": "2026-09-30",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -6234,7 +6234,7 @@
           "date": "2026-09-30",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "deadline",
           "isTentative": false,
           "hint": "Fellowship applications, including letters of recommendation, must be submitted online by 11:59 pm ET on September 30, 2026"
         }
