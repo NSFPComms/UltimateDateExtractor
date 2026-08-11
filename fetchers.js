@@ -26,9 +26,7 @@ const EMORY_HEADERS = Object.assign({}, COMMON_HEADERS, {
   'Referer': 'https://college.emory.edu/national-awards/',
 });
 
-async function fetchWithTimeout(url, opts) {
-  const isEmory = /(^|\.)emory\.edu$/i.test(new URL(url).hostname);
-  const headers = (opts && opts.forceEmoryHeaders) || isEmory ? EMORY_HEADERS : COMMON_HEADERS;
+async function fetchOnce(url, headers) {
   const controller = new AbortController();
   const t = setTimeout(() => controller.abort(), TIMEOUT_MS);
   try {
@@ -38,6 +36,29 @@ async function fetchWithTimeout(url, opts) {
   } catch (e) {
     clearTimeout(t);
     throw e;
+  }
+}
+
+// Some WAFs return 403/429 for burst/rate-limited traffic rather than a
+// genuine permanent block, and briefly waiting then retrying once succeeds
+// where an immediate request fails. This won't help a real permanent block
+// or bot-fingerprint check (those need an actual browser engine — see the
+// Playwright discussion), but it's a real, low-risk improvement for the
+// transient case.
+async function fetchWithTimeout(url, opts) {
+  const isEmory = /(^|\.)emory\.edu$/i.test(new URL(url).hostname);
+  const headers = (opts && opts.forceEmoryHeaders) || isEmory ? EMORY_HEADERS : COMMON_HEADERS;
+  try {
+    const res = await fetchOnce(url, headers);
+    if ((res.status === 403 || res.status === 429) && !(opts && opts.noRetry)) {
+      await new Promise((r) => setTimeout(r, 3000));
+      return fetchOnce(url, headers);
+    }
+    return res;
+  } catch (e) {
+    if (opts && opts.noRetry) throw e;
+    await new Promise((r) => setTimeout(r, 3000));
+    return fetchOnce(url, headers);
   }
 }
 

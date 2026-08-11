@@ -53,6 +53,25 @@ function analyzeAward(awardName, texts, inferredYear, preExtracted) {
   const NEAR_DAYS = 5;
   const dayDiff = (a, b) => Math.abs((Date.parse(a) - Date.parse(b)) / 86400000);
 
+  // Explicit "paused" statements override normal date-based classification
+  // entirely — a program that says "Scholarship Paused" shouldn't be
+  // classified as "Application Open" or "Dormant" based on date arithmetic
+  // over old/current dates; the program itself is telling us its status.
+  // Checked across ALL sources (including external), since real examples
+  // showed this stated on the external site, not just our own pages.
+  const PAUSE_RE = /\b(program (has been |was )?paused|scholarship paused|placed on pause|currently paused|application(s)? (are|is) paused)\b/i;
+  let pauseEntry = null;
+  for (const [source, text] of Object.entries(texts)) {
+    if (!text) continue;
+    const m = PAUSE_RE.exec(text);
+    if (m) {
+      const start = Math.max(0, m.index - 60);
+      const end = Math.min(text.length, m.index + m[0].length + 60);
+      pauseEntry = { source, snippet: text.slice(start, end).replace(/\s+/g, ' ').trim() };
+      break;
+    }
+  }
+
   const discrepancies = [];
   const sources = Object.keys(bySourceByCategory);
   for (const category of COMPARABLE_CATEGORIES) {
@@ -150,6 +169,11 @@ function analyzeAward(awardName, texts, inferredYear, preExtracted) {
       minSource: overallMinEntry && overallMinEntry.source, minRaw: overallMinEntry && overallMinEntry.raw,
       maxSource: overallMaxEntry && overallMaxEntry.source, maxRaw: overallMaxEntry && overallMaxEntry.raw,
     });
+  }
+
+  if (pauseEntry) {
+    overallStatus = 'Paused';
+    discrepancies.push({ type: 'paused', source: pauseEntry.source, snippet: pauseEntry.snippet });
   }
 
   return { awardName, bySource, deadlinesBySource, overallStatus, overallMin, overallMax, discrepancies };

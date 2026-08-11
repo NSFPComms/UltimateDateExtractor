@@ -72,17 +72,23 @@ function buildSummaryRows(reports) {
           caption,
         });
       } else if (d.type === 'stale') {
-        const minLabel = d.minSource ? `${SOURCE_LABELS[d.minSource] || d.minSource} saw "${d.minRaw}"` : '';
-        const maxLabel = d.maxSource ? `${SOURCE_LABELS[d.maxSource] || d.maxSource} saw "${d.maxRaw}"` : '';
-        const attribution = [minLabel && `Earliest date (${fmt(d.min)}): ${minLabel}`, maxLabel && `Latest date (${fmt(d.max)}): ${maxLabel}`].filter(Boolean).join('<br>');
+        const minLabel = d.minSource ? `<span class="hint">(${SOURCE_LABELS[d.minSource] || d.minSource} saw "${d.minRaw}")</span>` : '';
+        const maxLabel = d.maxSource ? `<span class="hint">(${SOURCE_LABELS[d.maxSource] || d.maxSource} saw "${d.maxRaw}")</span>` : '';
+        const attribution = `<ul class="datepoints">${d.minSource ? `<li>Earliest date ${fmt(d.min)} ${minLabel}</li>` : ''}${d.maxSource ? `<li>Latest date ${fmt(d.max)} ${maxLabel}</li>` : ''}</ul>`;
         // Caption only the sources that actually contributed the dates driving
         // this status — not a fixed guess at which sources "usually" matter.
         const relevantSources = [...new Set([d.minSource, d.maxSource].filter(Boolean))];
         const caption = relevantSources.map((k) => buildCaption(k, r.sourceUrls)).join('');
         rows.push({
           award: r.awardName, report: r, kind: 'Stale',
-          detail: `Status: "${d.status}"<br>${attribution}`,
+          detail: attribution,
           caption,
+        });
+      } else if (d.type === 'paused') {
+        rows.push({
+          award: r.awardName, report: r, kind: 'Paused',
+          detail: `${L(d.source)}: "${d.snippet}"`,
+          caption: buildCaption(d.source, r.sourceUrls),
         });
       }
     }
@@ -99,6 +105,7 @@ function buildSummaryRows(reports) {
 
 // Display order for status groups — most actionable first, "healthy" states last.
 const STATUS_ORDER = [
+  'Paused',
   'Urgent: Update Needed Now',
   'Check for Deadline Immediately',
   'Lookout for Open Date',
@@ -187,6 +194,7 @@ function buildEmailHTML(reports) {
     .kind-stale { color: #a15c00; font-weight: bold; }
     .kind-scrape-error { color: #b30000; font-weight: bold; background: #fff0f0; }
     .kind-stale-url-year { color: #a15c00; font-weight: bold; }
+    .kind-paused { color: #1a5fb4; font-weight: bold; }
     .award-block { border-top: 1px solid #eee; padding-top: 6px; }
     .src { font-size: 12px; margin: 2px 0; }
     .flag { color: #b30000; font-weight: bold; }
@@ -198,6 +206,8 @@ function buildEmailHTML(reports) {
     .status-heading { background: #f0f4f8; padding: 6px 10px; border-left: 4px solid #1a5fb4; margin: 0 0 4px; }
     .status-heading .count { font-weight: normal; color: #666; font-size: 12px; }
     .none { color: #ccc; }
+    ul.datepoints { margin: 4px 0 0; padding-left: 18px; }
+    ul.datepoints li { margin: 2px 0; }
     .linkrow { font-size: 10px; margin-top: 3px; }
     .linkrow a { color: #1a5fb4; margin-right: 4px; text-decoration: none; }
     .linkoff { color: #ccc; margin-right: 4px; }
@@ -205,6 +215,7 @@ function buildEmailHTML(reports) {
     .status-tag-urgent-update-needed-now, .status-tag-check-for-deadline-immediately { background: #ffe0e0; color: #a30000; }
     .status-tag-application-open { background: #e0f5e0; color: #1a6b1a; }
     .status-tag-no-dates-found, .status-tag-scrape-error { background: #fff0f0; color: #a30000; }
+    .status-tag-paused { background: #e0ecfc; color: #1a5fb4; }
   </style></head><body>
     <h1>Weekly Award Date Discrepancy Report</h1>
     <h2>Summary — needs review</h2>
