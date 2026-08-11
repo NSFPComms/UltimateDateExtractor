@@ -54,6 +54,87 @@
           "hint": "Schedule Consultation Fall 2026"
         },
         {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "January 2027"
+        },
+        {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "January 2027"
+        },
+        {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "January 2027"
+        },
+        {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "January 2027"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "February 2027"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "February 2027"
+        },
+        {
+          "raw": "March 2027",
+          "date": "2027-03-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Early March 2027"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Late February 2027"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Late February 2027"
+        },
+        {
           "raw": "November 29, 2026",
           "date": "2026-11-29",
           "dateEnd": null,
@@ -269,6 +350,78 @@
           "hint": "1 Attend Info Session and Schedule Consultation Fall 2026 "
         },
         {
+          "raw": "October 2026",
+          "date": "2026-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "October 2026 "
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "4 Create/ Update Résumé November 2026 "
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "5 Request Outside Transcript(s): if applicable November 2026 "
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "6 Begin Drafting Personal Statement Essay November 2026 "
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "7 Begin Drafting St Andrews Program Proposal Essay November 2026 "
+        },
+        {
+          "raw": "December 2026",
+          "date": "2026-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "8 Follow Up with Recommenders December 2026 "
+        },
+        {
+          "raw": "December 2026",
+          "date": "2026-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "December 2026-"
+        },
+        {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "early January 2027"
+        },
+        {
           "raw": "October 29",
           "date": "2027-10-29",
           "dateEnd": null,
@@ -457,6 +610,60 @@
           "hint": "1 Attend Info Session or Schedule Consultation Early Spring 2027 "
         },
         {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "2 Select and Confirm Recommender February 2027 "
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "3 Create/ Update Résumé February 2027 "
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "4 Request and Submit Outside Transcript(s): if applicable February 2027 "
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "5 Begin Drafting Personal Statement Essay February 2027 "
+        },
+        {
+          "raw": "March 2027",
+          "date": "2027-03-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "8 Follow Up with Recommender(s) March 2027 "
+        },
+        {
+          "raw": "March 2027",
+          "date": "2027-03-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "9 Complete Financial Need Statement: if applicable March 2027 "
+        },
+        {
           "raw": "Feb 12, 2027",
           "date": "2027-02-12",
           "dateEnd": null,
@@ -589,6 +796,87 @@
           "context": "other",
           "isTentative": false,
           "hint": "Oct – Nov 2026"
+        },
+        {
+          "raw": "Nov 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Early Nov 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "December 2026",
+          "date": "2026-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "December 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Late November 2026"
         },
         {
           "raw": "December 3, 2026",
@@ -824,7 +1112,7 @@
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
-    "overallMin": "1943-09-06",
+    "overallMin": "2025-09-18",
     "overallMax": "2026-09-17",
     "actionItems": [],
     "recipientCheck": {
@@ -896,6 +1184,60 @@
           "context": "other",
           "isTentative": true,
           "hint": "Send instructions Summer 2026"
+        },
+        {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "September 2026"
+        },
+        {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "September 2026"
+        },
+        {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "September 2026"
+        },
+        {
+          "raw": "Oct. 2026",
+          "date": "2026-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Early Oct. 2026"
+        },
+        {
+          "raw": "October 2026",
+          "date": "2026-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Early October 2026"
+        },
+        {
+          "raw": "October 2026",
+          "date": "2026-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Early October 2026"
         },
         {
           "raw": "September 17,\n2026",
@@ -1019,6 +1361,24 @@
       ],
       "external": [
         {
+          "raw": "second Wednesday in October (= 2026-10-14)",
+          "date": "2026-10-14",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": true,
+          "hint": "The next deadline coincides with the Gates Cambridge deadline, which has not yet been announced but is typically the second Wednesday in October (before midnight UK time)"
+        },
+        {
+          "raw": "second Wednesday in October (= 2026-10-14)",
+          "date": "2026-10-14",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": true,
+          "hint": "use of Cambridge’s rolling admissions, we strongly suggest that you apply by the deadline for the Gates Cambridge Scholarship, which is typically the second Wednesday in October"
+        },
+        {
           "raw": "September 6, 1943",
           "date": "1943-09-06",
           "dateEnd": null,
@@ -1093,9 +1453,20 @@
       "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "Application Closed",
-    "overallMin": "2026-09-22",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-05-15",
+        "max": "2025-11-18",
+        "minSource": "awardFinder",
+        "minRaw": "May 15, 2025",
+        "maxSource": "awardFinder",
+        "maxRaw": "November 18, 2025"
+      }
+    ],
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2025-05-15",
     "overallMax": "2025-11-18",
     "actionItems": [],
     "recipientCheck": {
@@ -1219,20 +1590,9 @@
       "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Check for Deadline Immediately",
-        "min": "2025-08-28",
-        "max": "2026-01-09",
-        "minSource": "external",
-        "minRaw": "August 28, 2025",
-        "maxSource": "external",
-        "maxRaw": "January 9, 2026"
-      }
-    ],
-    "overallStatus": "Check for Deadline Immediately",
-    "overallMin": "2025-08-28",
+    "discrepancies": [],
+    "overallStatus": "New Cycle Dates Pending",
+    "overallMin": "2025-11-12",
     "overallMax": "2026-01-09",
     "actionItems": [],
     "recipientCheck": {
@@ -1455,20 +1815,9 @@
       "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2009-10-15",
-        "max": "2026-03-01",
-        "minSource": "external",
-        "minRaw": "late 2009",
-        "maxSource": "awardFinder",
-        "maxRaw": "March 1, 2026"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2009-10-15",
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-03-01",
     "overallMax": "2026-03-01",
     "actionItems": [],
     "recipientCheck": {
@@ -1618,6 +1967,33 @@
           "context": "other",
           "isTentative": true,
           "hint": "Summer 2026 "
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2026 "
+        },
+        {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "6 Request and Upload Emory Transcript September 2026 "
+        },
+        {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "7 Request and Upload Outside Transcript(s): if applicable September 2026 "
         },
         {
           "raw": "September 10,\n2026",
@@ -1837,6 +2213,15 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
+          "hint": "The National Deadline is October 6, 2026 at 5pm Eastern Time"
+        },
+        {
+          "raw": "October 6, 2026",
+          "date": "2026-10-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
           "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time"
         },
         {
@@ -1997,6 +2382,33 @@
           "context": "other",
           "isTentative": true,
           "hint": "Summer 2026 "
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "8 Request and Upload Emory Transcript August 2026 "
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "9 Request and Upload Outside Transcript(s): If applicable (see note) August 2026 "
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Late August 2026 "
         },
         {
           "raw": "June 25, 2026",
@@ -2324,6 +2736,15 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
+          "hint": "The National Deadline is October 6, 2026 at 5pm Eastern Time"
+        },
+        {
+          "raw": "October 6, 2026",
+          "date": "2026-10-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
           "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time"
         },
         {
@@ -2372,12 +2793,10 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "no_dates_found",
+      "external": "ok",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {
-      "external": "sample: \"Skip to main content Timeline Share Applications for entry in the academic year 2026/7 are now closed. Applications will open again in September 2026 for entry in the academic year 2027/8. Gates Cambr…\""
-    },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/gates-cambridge-application-guide.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-gates-cambridge.html",
@@ -2385,17 +2804,22 @@
       "canvas": "https://canvas.emory.edu/courses/30739/pages/gates-cambridge-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "Application Open",
-    "overallMin": "2025-08-01",
-    "overallMax": "2026-11-05",
-    "actionItems": [
+    "discrepancies": [
       {
-        "type": "no_dates_found",
-        "source": "external",
-        "detail": "sample: \"Skip to main content Timeline Share Applications for entry in the academic year 2026/7 are now closed. Applications will open again in September 2026 for entry in the academic year 2027/8. Gates Cambr…\""
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-08-01",
+        "max": "2025-08-01",
+        "minSource": "awardFinder",
+        "minRaw": "August 1",
+        "maxSource": "awardFinder",
+        "maxRaw": "August 1"
       }
     ],
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2025-08-01",
+    "overallMax": "2025-08-01",
+    "actionItems": [],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -2465,6 +2889,123 @@
           "context": "other",
           "isTentative": true,
           "hint": "Spring or Summer 2026"
+        },
+        {
+          "raw": "July 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "June/July 2026"
+        },
+        {
+          "raw": "July 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "July 2026"
+        },
+        {
+          "raw": "July 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "July 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Mid-August 2026"
+        },
+        {
+          "raw": "December 2026",
+          "date": "2026-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "Next steps: Admissions decisions for Cambridge will be made in November and December 2026 and"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2026"
+        },
+        {
+          "raw": "Dec 2026",
+          "date": "2026-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Dec 2026"
+        },
+        {
+          "raw": "December 2026",
+          "date": "2026-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "December 2026 or"
+        },
+        {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "January 2027"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "Next steps: Admissions decisions for Cambridge will be made in January and February 2027 and may"
         },
         {
           "raw": "July 27, 2026",
@@ -2558,6 +3099,134 @@
           "isTentative": false,
           "hint": "d Fellowships Program staff, and participate in a preparatory interview, you will need to begin your application and indicate your intent to apply by August 1 for the US application"
         }
+      ],
+      "external": [
+        {
+          "raw": "14th October 2026",
+          "date": "2026-10-14",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "Wednesday 14th October 2026 (Full application must be submitted by 12:00am (midnight) GMT on the date given)"
+        },
+        {
+          "raw": "23rd January 2027",
+          "date": "2027-01-23",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Friday 22nd and Saturday 23rd January 2027"
+        },
+        {
+          "raw": "8th December 2026",
+          "date": "2026-12-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Dependent on your course – either Tuesday 8th December 2026 or Wednesday 6th January 2027 (see Course Directory)"
+        },
+        {
+          "raw": "6th January 2027",
+          "date": "2027-01-06",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Dependent on your course – either Tuesday 8th December 2026 or Wednesday 6th January 2027 (see Course Directory)"
+        },
+        {
+          "raw": "22nd March",
+          "date": "2026-03-22",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Monday 22nd March and Tuesday 23rd March 2027"
+        },
+        {
+          "raw": "23rd March 2027",
+          "date": "2027-03-23",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Monday 22nd March and Tuesday 23rd March 2027"
+        },
+        {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Applications will open again in September 2026 for entry in the academic year 2027/8"
+        },
+        {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "September 2026 (dates to be confirmed)"
+        },
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "late October to November 2026"
+        },
+        {
+          "raw": "December 2026",
+          "date": "2026-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "by December 2026 (dates to be confirmed)"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "by early February 2027"
+        },
+        {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "September 2026 (date to be confirmed)"
+        },
+        {
+          "raw": "March 2027",
+          "date": "2027-03-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "by early March 2027"
+        },
+        {
+          "raw": "April 2027",
+          "date": "2027-04-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "by early April 2027"
+        }
       ]
     }
   },
@@ -2647,6 +3316,60 @@
           "context": "other",
           "isTentative": true,
           "hint": "Summer/Fall 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "4 Select and Confirm Three Recommenders November 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "5 Begin Drafting Short Essay Questions November 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "6 Begin Drafting Research Essay November 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "7 Request Transcript(s) November 2025 "
+        },
+        {
+          "raw": "December 2025",
+          "date": "2025-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "9 Follow Up with Recommenders Early December 2025 "
         },
         {
           "raw": "November 6, 2025",
@@ -2863,9 +3586,9 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "New Cycle Dates Pending",
-    "overallMin": "2026-01-15",
-    "overallMax": "2026-01-15",
+    "overallStatus": "No Dates Found",
+    "overallMin": null,
+    "overallMax": null,
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -3016,10 +3739,21 @@
       "canvas": "https://canvas.emory.edu/courses/30739/pages/Knight-Hennessy%20Scholars%20Program?titleize=0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "Application Open",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-07-17",
+        "max": "2025-10-08",
+        "minSource": "awardFinder",
+        "minRaw": "July 17, 2025",
+        "maxSource": "annualDeadlines",
+        "maxRaw": "Oct. 8, 2025"
+      }
+    ],
+    "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "2025-07-17",
-    "overallMax": "2026-12-01",
+    "overallMax": "2025-10-08",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -3063,6 +3797,51 @@
           "context": "other",
           "isTentative": false,
           "hint": "July- Sept 2026"
+        },
+        {
+          "raw": "July 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "July 2026"
+        },
+        {
+          "raw": "Sept 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Sept 2026"
+        },
+        {
+          "raw": "Sept 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Late Sept 2026"
+        },
+        {
+          "raw": "March 2027",
+          "date": "2027-03-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "interviewed in February and March and admissions decisions will be made by mid-March 2027"
+        },
+        {
+          "raw": "July 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "interview",
+          "isTentative": true,
+          "hint": "Interview with Campus Nomination Committee (July 2026)"
         },
         {
           "raw": "July 17, 2026",
@@ -3265,7 +4044,7 @@
     "discrepancies": [],
     "overallStatus": "Dormant (Waiting for App to Open)",
     "overallMin": "2026-10-15",
-    "overallMax": "2027-01-01",
+    "overallMax": "2027-09-15",
     "actionItems": [
       {
         "type": "broken_link",
@@ -3301,6 +4080,24 @@
           "hint": "Applications for the 2027-2029 class will open in late 2026"
         },
         {
+          "raw": "October 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Be a change-maker in the movement to end global hunger: apply now to be a Mickey Leland International Hunger Fellow for October 2025-September 2027"
+        },
+        {
+          "raw": "September 2027",
+          "date": "2027-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Be a change-maker in the movement to end global hunger: apply now to be a Mickey Leland International Hunger Fellow for October 2025-September 2027"
+        },
+        {
           "raw": "December 30, 2024",
           "date": "2024-12-30",
           "dateEnd": null,
@@ -3330,7 +4127,7 @@
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
-    "overallMin": "2026-06-21",
+    "overallMin": "2026-06-15",
     "overallMax": "2026-09-08",
     "actionItems": [],
     "recipientCheck": {
@@ -3357,6 +4154,51 @@
           "context": "other",
           "isTentative": true,
           "hint": "Attend or review a NS&FP Luce information session Summer 2026"
+        },
+        {
+          "raw": "June 2026",
+          "date": "2026-06-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "June 2026"
+        },
+        {
+          "raw": "June 2026",
+          "date": "2026-06-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "June 2026"
+        },
+        {
+          "raw": "July 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "July 2026"
+        },
+        {
+          "raw": "Sept 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Sept 2026"
+        },
+        {
+          "raw": "Sept 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Mid-Sept 2026"
         },
         {
           "raw": "Aug 10, 2026",
@@ -3406,12 +4248,10 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "no_dates_found",
+      "external": "ok",
       "annualDeadlines": "ok"
     },
-    "sourceDetail": {
-      "external": "sample: \"How to Apply Applying for a Marshall Scholarship Applications for the 2027 Marshall Scholarship are now open. Please find more information below about the application process, the rules associated wit…\""
-    },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/marshall-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-marshall.html",
@@ -3419,17 +4259,29 @@
       "canvas": "https://canvas.emory.edu/courses/30739/pages/marshall-scholarship",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
+    "discrepancies": [
+      {
+        "type": "deadline_mismatch",
+        "category": "deadline",
+        "values": {
+          "procedures": [
+            "2026-09-29"
+          ],
+          "awardFinder": [
+            "2026-09-29"
+          ],
+          "external": [
+            "2026-09-29",
+            "2026-10-01"
+          ]
+        },
+        "daysApart": 2
+      }
+    ],
     "overallStatus": "Application Open",
     "overallMin": "2025-08-27",
     "overallMax": "2026-09-29",
-    "actionItems": [
-      {
-        "type": "no_dates_found",
-        "source": "external",
-        "detail": "sample: \"How to Apply Applying for a Marshall Scholarship Applications for the 2027 Marshall Scholarship are now open. Please find more information below about the application process, the rules associated wit…\""
-      }
-    ],
+    "actionItems": [],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -3526,6 +4378,33 @@
           "context": "other",
           "isTentative": true,
           "hint": "org/applications to start your application (available early Summer 2026)"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2026"
         },
         {
           "raw": "August 27, 2026",
@@ -3638,6 +4517,44 @@
           "hint": "External Application Deadline: SEPTEMBER 29, 2026"
         }
       ],
+      "external": [
+        {
+          "raw": "29th of September 2026",
+          "date": "2026-09-29",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "The deadlines for the 2027 Marshall Competition are: <br>29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Ins"
+        },
+        {
+          "raw": "1st October 2026",
+          "date": "2026-10-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "the 2027 Marshall Competition are: <br>29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Institution at 5:00pm in the time zone of the endorsing instution"
+        },
+        {
+          "raw": "29th September 2026",
+          "date": "2026-09-29",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "submit their applications, including letters of recommendation, no later than 5:00pm in the time zone where your endorsing institution is located on 29th September 2026"
+        },
+        {
+          "raw": "1st October 2026",
+          "date": "2026-10-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "orsement, must be submitted online by the endorsing institution no later than 5:00pm in the time zone where your endorsing institution is located on 1st October 2026"
+        }
+      ],
       "annualDeadlines": [
         {
           "raw": "Aug. 27 - Sep. 2,  2025",
@@ -3689,16 +4606,16 @@
       {
         "type": "stale",
         "status": "Urgent: Update Needed Now",
-        "min": "2025-08-01",
+        "min": "2023-08-15",
         "max": "2025-11-15",
-        "minSource": "procedures",
-        "minRaw": "Aug-Sept 2025",
+        "minSource": "awardFinder",
+        "minRaw": "August 2023",
         "maxSource": "awardFinder",
         "maxRaw": "November 15, 2025"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2025-08-01",
+    "overallMin": "2023-08-15",
     "overallMax": "2025-11-15",
     "actionItems": [
       {
@@ -3731,6 +4648,87 @@
           "context": "other",
           "isTentative": false,
           "hint": "1 Schedule Consultation Aug-Sept 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "2 Select and Confirm Three Recommenders September 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "3 Create College Connect Application September 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "4 Begin Drafting Personal Statement September 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "5 Request Emory Transcript September 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "6 Request Outside Transcript(s): if applicable September 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "7 Begin Sciences Po master’s program online application September 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "September 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "September 2025 "
+        },
+        {
+          "raw": "September 2025",
+          "date": "2025-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "10 Revise Personal Statement and CV September 2025 "
         },
         {
           "raw": "October 16, 2025",
@@ -3851,6 +4849,42 @@
         }
       ],
       "awardFinder": [
+        {
+          "raw": "August 2023",
+          "date": "2023-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "institution (obtained between August 2023 and June 2026)"
+        },
+        {
+          "raw": "June 2026",
+          "date": "2026-06-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "institution (obtained between August 2023 and June 2026)"
+        },
+        {
+          "raw": "July 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "A €1,500 monthly stipend from mid-July 2026 through the end of June 2027 to cover living expenses"
+        },
+        {
+          "raw": "June 2027",
+          "date": "2027-06-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "A €1,500 monthly stipend from mid-July 2026 through the end of June 2027 to cover living expenses"
+        },
         {
           "raw": "October 16, 2025",
           "date": "2025-10-16",
@@ -4016,6 +5050,42 @@
           "context": "open",
           "isTentative": true,
           "hint": "Begin online applications in Mitchell portal and College Connect Summer 2023"
+        },
+        {
+          "raw": "August 2023",
+          "date": "2023-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2023"
+        },
+        {
+          "raw": "August 2023",
+          "date": "2023-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2023"
+        },
+        {
+          "raw": "August 2023",
+          "date": "2023-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2023"
+        },
+        {
+          "raw": "August 2023",
+          "date": "2023-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2023"
         },
         {
           "raw": "August 24, 2023",
@@ -4211,17 +5281,17 @@
       {
         "type": "stale",
         "status": "Urgent: Update Needed Now",
-        "min": "2024-07-12",
-        "max": "2025-11-14",
-        "minSource": "external",
-        "minRaw": "July 12, 2024",
-        "maxSource": "awardFinder",
-        "maxRaw": "November 14, 2025"
+        "min": "2025-03-20",
+        "max": "2026-05-15",
+        "minSource": "procedures",
+        "minRaw": "spring 2025",
+        "maxSource": "procedures",
+        "maxRaw": "May 2026"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2024-07-12",
-    "overallMax": "2025-11-14",
+    "overallMin": "2025-03-20",
+    "overallMax": "2026-05-15",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -4274,6 +5344,96 @@
           "context": "results",
           "isTentative": true,
           "hint": "Next steps: Admissions decisions for graduate programs will be made throughout spring 2025; NSF GRFP"
+        },
+        {
+          "raw": "July 2025",
+          "date": "2025-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Register for and attend a 4-week Emory NSF GRFP workshop June/July 2025"
+        },
+        {
+          "raw": "July 2025",
+          "date": "2025-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Begin researching grad programs July 2025"
+        },
+        {
+          "raw": "July 2025",
+          "date": "2025-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Begin drafting essays July 2025"
+        },
+        {
+          "raw": "Oct. 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Revise essays July- early Oct. 2025"
+        },
+        {
+          "raw": "October 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Request transcripts Early October 2025"
+        },
+        {
+          "raw": "October 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Follow up with recommenders Mid-October 2025"
+        },
+        {
+          "raw": "October 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Attend final draft review workshop Mid-October 2025"
+        },
+        {
+          "raw": "October 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Submit NSF GRFP application Late October 2025**"
+        },
+        {
+          "raw": "April 2026",
+          "date": "2026-04-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "decisions will be announced on their website in early April 2026"
+        },
+        {
+          "raw": "May 2026",
+          "date": "2026-05-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "is May 2026"
         },
         {
           "raw": "August 11, 2025",
@@ -4534,21 +5694,10 @@
       "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2021-11-15",
-        "max": "2024-08-21",
-        "minSource": "external",
-        "minRaw": "November 15, 2021",
-        "maxSource": "external",
-        "maxRaw": "August 21, 2024"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2021-11-15",
-    "overallMax": "2024-08-21",
+    "discrepancies": [],
+    "overallStatus": "No Dates Found",
+    "overallMin": null,
+    "overallMax": null,
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -4571,6 +5720,51 @@
           "context": "other",
           "isTentative": true,
           "hint": "In early 2022, the Semiconductor Research Corporation (SRC) and NSF's REU Sites program launched a partnership to expand undergraduate research opportunities relat"
+        },
+        {
+          "raw": "Third Wednesday in August (= 2023-08-16)",
+          "date": "2023-08-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Third Wednesday in August, Annually Thereafter"
+        },
+        {
+          "raw": "Third Wednesday in August (= 2023-08-16)",
+          "date": "2023-08-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Third Wednesday in August, Annually Thereafter"
+        },
+        {
+          "raw": "Third Wednesday in August (= 2023-08-16)",
+          "date": "2023-08-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Third Wednesday in August, Annually Thereafter"
+        },
+        {
+          "raw": "February 2015",
+          "date": "2015-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "347, Issue 6222 (6 February 2015); DOI: 10"
+        },
+        {
+          "raw": "April 2007",
+          "date": "2007-04-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "316, Issue 5824 (27 April 2007); DOI: 10"
         },
         {
           "raw": "June 29, 2023",
@@ -4720,9 +5914,20 @@
       "canvas": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "New Cycle Dates Pending",
-    "overallMin": "2025-09-15",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-01-15",
+        "max": "2025-09-15",
+        "minSource": "awardFinder",
+        "minRaw": "January 2025",
+        "maxSource": "awardFinder",
+        "maxRaw": "September 15, 2025"
+      }
+    ],
+    "overallStatus": "Urgent: Update Needed Now",
+    "overallMin": "2025-01-15",
     "overallMax": "2025-09-15",
     "actionItems": [],
     "recipientCheck": {
@@ -4732,6 +5937,15 @@
     },
     "rawDates": {
       "awardFinder": [
+        {
+          "raw": "January 2025",
+          "date": "2025-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Open to: Current students who will have completed a minimum of 45 credit hours as of January 2025"
+        },
         {
           "raw": "September 15, 2025",
           "date": "2025-09-15",
@@ -4772,8 +5986,8 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Open",
-    "overallMin": "2026-02-01",
+    "overallStatus": "Lookout for Open Date",
+    "overallMin": "2027-02-01",
     "overallMax": "2027-02-01",
     "actionItems": [],
     "recipientCheck": {
@@ -5069,16 +6283,16 @@
       {
         "type": "stale",
         "status": "Urgent: Update Needed Now",
-        "min": "2022-06-30",
+        "min": "2024-08-15",
         "max": "2025-03-03",
-        "minSource": "external",
-        "minRaw": "June 30, 2022",
+        "minSource": "awardFinder",
+        "minRaw": "August 2024",
         "maxSource": "awardFinder",
         "maxRaw": "March 3, 2025"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2022-06-30",
+    "overallMin": "2024-08-15",
     "overallMax": "2025-03-03",
     "actionItems": [],
     "recipientCheck": {
@@ -5088,6 +6302,15 @@
     },
     "rawDates": {
       "awardFinder": [
+        {
+          "raw": "August 2024",
+          "date": "2024-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Have a bachelor’s degree or its equivalent in a STEM field by August 2024"
+        },
         {
           "raw": "March 3, 2025",
           "date": "2025-03-03",
@@ -5163,12 +6386,10 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "no_dates_found",
+      "external": "ok",
       "annualDeadlines": "ok"
     },
-    "sourceDetail": {
-      "external": "sample: \"Applications for the Rhodes Scholarship 2027 are open! Click here to learn more. Applications for the Rhodes Scholarship 2027 are open! Open Start your Application The Rhodes Scholarship is the oldest…\""
-    },
+    "sourceDetail": {},
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/rhodes-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-rhodes.html",
@@ -5180,13 +6401,7 @@
     "overallStatus": "Application Open",
     "overallMin": "2026-03-20",
     "overallMax": "2026-08-27",
-    "actionItems": [
-      {
-        "type": "no_dates_found",
-        "source": "external",
-        "detail": "sample: \"Applications for the Rhodes Scholarship 2027 are open! Click here to learn more. Applications for the Rhodes Scholarship 2027 are open! Open Start your Application The Rhodes Scholarship is the oldest…\""
-      }
-    ],
+    "actionItems": [],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -5265,6 +6480,33 @@
           "context": "other",
           "isTentative": true,
           "hint": "Summer 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "August 2026"
         },
         {
           "raw": "August 27, 2026",
@@ -5386,6 +6628,26 @@
           "hint": "Internal Deadline: 4:00 PM (ET), August 27, 2026"
         }
       ],
+      "external": [
+        {
+          "raw": "July 2026",
+          "date": "2026-07-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Opening date: 1 July 2026"
+        },
+        {
+          "raw": "October 2026",
+          "date": "2026-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Closing date: 23:59, Eastern Time, 7 October 2026"
+        }
+      ],
       "annualDeadlines": [
         {
           "raw": "Aug. 27, 2026",
@@ -5443,7 +6705,7 @@
       }
     ],
     "overallStatus": "Application Open",
-    "overallMin": "2026-04-08",
+    "overallMin": "2026-01-15",
     "overallMax": "2026-09-10",
     "actionItems": [],
     "recipientCheck": {
@@ -5508,6 +6770,60 @@
           "hint": "advisor Summer 2026"
         },
         {
+          "raw": "April 2026",
+          "date": "2026-04-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "April 2026"
+        },
+        {
+          "raw": "April 2026",
+          "date": "2026-04-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "April 2026"
+        },
+        {
+          "raw": "April 2026",
+          "date": "2026-04-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "April 2026"
+        },
+        {
+          "raw": "May 2026",
+          "date": "2026-05-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Mid-May 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Late August 2026"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Late August 2026"
+        },
+        {
           "raw": "April\n27, 2026",
           "date": "2026-04-27",
           "dateEnd": null,
@@ -5545,6 +6861,33 @@
         }
       ],
       "awardFinder": [
+        {
+          "raw": "April 2026",
+          "date": "2026-04-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "US/Global Competition Estimated Open Date: April 2026"
+        },
+        {
+          "raw": "January 2026",
+          "date": "2026-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Chinese Passport Holder Application Period: January 2026 - May 2026"
+        },
+        {
+          "raw": "May 2026",
+          "date": "2026-05-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Chinese Passport Holder Application Period: January 2026 - May 2026"
+        },
         {
           "raw": "September 10, 2026",
           "date": "2026-09-10",
@@ -5611,6 +6954,42 @@
           "hint": "Selection Cycle: Jun – Jul 2026"
         },
         {
+          "raw": "Aug 2027",
+          "date": "2027-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Program Begins: Aug 2027"
+        },
+        {
+          "raw": "Jan 2026",
+          "date": "2026-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Application Period: Jan 2026 – May 2026"
+        },
+        {
+          "raw": "May 2026",
+          "date": "2026-05-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Application Period: Jan 2026 – May 2026"
+        },
+        {
+          "raw": "Aug 2027",
+          "date": "2027-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Program Begins: Aug 2027"
+        },
+        {
           "raw": "August 1",
           "date": "2027-08-01",
           "dateEnd": null,
@@ -5674,15 +7053,6 @@
           "hint": "and Global application for the class of 2027-2028 is now open from April 8, 2026 to September 9, 2026 at 3 p"
         },
         {
-          "raw": "August 10",
-          "date": "2026-08-10",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 10"
-        },
-        {
           "raw": "August 19",
           "date": "2026-08-19",
           "dateEnd": null,
@@ -5699,9 +7069,27 @@
           "context": "other",
           "isTentative": false,
           "hint": "September 1"
+        },
+        {
+          "raw": "September 4",
+          "date": "2026-09-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "September 4"
         }
       ],
       "annualDeadlines": [
+        {
+          "raw": "May 2026",
+          "date": "2026-05-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "deadline",
+          "isTentative": true,
+          "hint": "May 2026"
+        },
         {
           "raw": "Sep. 9, 2026",
           "date": "2026-09-09",
@@ -5820,6 +7208,69 @@
           "hint": "February - March 2027"
         },
         {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "1 Attend Info Session and/or Schedule Consultation January 2027 o"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "February 2027 o"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "3 Select and Confirm Two Recommenders February 2027 o"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "4 Create/Update Résumé/CV February 2027 o"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "February 2027 o"
+        },
+        {
+          "raw": "February 2027",
+          "date": "2027-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "6 Begin Drafting Personal Statement Essay February 2027 o"
+        },
+        {
+          "raw": "March 2027",
+          "date": "2027-03-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "8 Follow Up with Recommenders March 2027 o"
+        },
+        {
           "raw": "February 15, 2027",
           "date": "2027-02-15",
           "dateEnd": null,
@@ -5875,6 +7326,24 @@
         }
       ],
       "awardFinder": [
+        {
+          "raw": "December 2025",
+          "date": "2025-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Open to: Juniors (graduating between December 2025 and August 2026)"
+        },
+        {
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Open to: Juniors (graduating between December 2025 and August 2026)"
+        },
         {
           "raw": "February 13, 2026",
           "date": "2026-02-13",
@@ -5996,6 +7465,105 @@
           "context": "other",
           "isTentative": true,
           "hint": "If you are nominated by Emory, we will upload a new copy to include Fall 2025"
+        },
+        {
+          "raw": "October 2025",
+          "date": "2025-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "3 Select References and Register in College Connect October 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "6 Begin Drafting Application Short Answers (Q 7-9 and 15) November 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "7 Begin Drafting Policy Proposal November 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "8 Request Recommendations in College Connect November 2025 "
+        },
+        {
+          "raw": "November 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "November 2025 "
+        },
+        {
+          "raw": "Nov. 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Late Nov. 2025 "
+        },
+        {
+          "raw": "Nov. 2025",
+          "date": "2025-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "11 Follow Up with Recommenders Late Nov. 2025 "
+        },
+        {
+          "raw": "Dec 2025",
+          "date": "2025-12-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Dec 2025 and"
+        },
+        {
+          "raw": "Jan 2026",
+          "date": "2026-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Jan 2026"
+        },
+        {
+          "raw": "February\n2026",
+          "date": "2026-02-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "Next Steps: Finalists for the award will be notified by the Truman Foundation in mid to late February 2026"
         },
         {
           "raw": "Nov. 6, 2025",
@@ -6266,9 +7834,9 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Likely Open",
-    "overallMin": "2026-09-30",
-    "overallMax": "2026-09-30",
+    "overallStatus": "No Dates Found",
+    "overallMin": null,
+    "overallMax": null,
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -6291,6 +7859,15 @@
           "context": "other",
           "isTentative": true,
           "hint": "The Center will award 10 to 20 fellowships for the 2027-2028 class"
+        },
+        {
+          "raw": "March 2027",
+          "date": "2027-03-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Applicants will be notified of the results of the selection process by early March 2027"
         },
         {
           "raw": "June 1, 2027",
