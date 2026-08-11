@@ -4,17 +4,18 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "broken_link",
+      "external": "no_dates_found",
       "annualDeadlines": "ok"
     },
     "sourceDetail": {
-      "external": "HTTP 404"
+      "external": "(page had no text content at all)"
     },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/beinecke-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-beinecke.html",
-      "external": "https://beineckescholarship.org/how-to-apply/deadline/",
+      "external": "https://beineckescholarship.org/beinecke-scholarship/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/beinecke-scholarship-program",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=779788250ae72098246a8ecaa7e69328&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -23,9 +24,9 @@
     "overallMax": "2027-03-04",
     "actionItems": [
       {
-        "type": "broken_link",
+        "type": "no_dates_found",
         "source": "external",
-        "detail": "HTTP 404"
+        "detail": "(page had no text content at all)"
       }
     ],
     "recipientCheck": {
@@ -326,6 +327,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-b-jones-scholar.html",
       "external": null,
       "canvas": "https://canvas.emory.edu/courses/30739/pages/bobby-jones-scholarship",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=81fab0c70ae72098246a8eca3ea7d806&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -559,6 +561,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-bredow.html",
       "external": null,
       "canvas": "https://canvas.emory.edu/courses/30739/pages/Bredow%20Scholarship?titleize=0",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=81e4cfef0ae72098246a8eca0894cdd2&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -765,6 +768,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-carnegie.html",
       "external": "https://carnegieendowment.org/junior-fellows-program-important-dates?lang=en",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/carnegie-gaither-junior-fellows-program",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=81fd0b2d0ae72098246a8ecae2efc081&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1108,6 +1112,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-churchill.html",
       "external": "https://www.churchillscholarship.org/the-scholarship#Apply",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/winston-churchill-foundation-scholarship",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=856920220ae72098246a8ecab7b686c0&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1451,6 +1456,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-critical-language.html",
       "external": "https://clscholarship.org/apply",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=9b362ad80ae720870ea40fa3a204e66e&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -1542,6 +1548,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-daad.html",
       "external": "https://www.daad.org/en/find-funding/graduate-opportunities/research-grants/german-studies-research-grants/",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=856a029f0ae72098246a8ecac453fb37&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1588,6 +1595,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-frederick-douglas.html",
       "external": "https://www.ciee.org/go-abroad/college-study-abroad/scholarships/douglass-oconnell-global-internship",
       "canvas": null,
+      "cascadeEdit": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1767,6 +1775,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-eisenhower.html",
       "external": "https://www.efworld.org/apply-now/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/eisenhower-global-scholars",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=86235b6e0ae720870b9cda27da910ef2&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1813,6 +1822,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-EAB.html",
       "external": "https://together.emory.edu/alumni/awards/student-awards-and-scholarship",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=c5fad0590ae7209803e33f516afdd498&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -1891,6 +1901,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-eta.html",
       "external": "https://us.fulbrightonline.org/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/fulbright-english-teaching-assistantship",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=8571ec7d0ae72098246a8ecace09e915&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -2297,6 +2308,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-fulbright-rs.html",
       "external": "https://us.fulbrightonline.org/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/fulbright-research-slash-study-grant",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=8572bd190ae72098246a8eca753b1df2&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -2802,6 +2814,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-gates-cambridge.html",
       "external": "https://www.gatescambridge.org/apply/timeline/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/gates-cambridge-scholarship",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=85740f9c0ae72098246a8ecad48c0120&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -3246,6 +3259,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-goldwater.html",
       "external": "https://goldwaterscholarship.gov/important-dates/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/goldwater-scholarship",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=8574ee390ae72098246a8eca7274497b&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -3583,6 +3597,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-grad-stem-diversity.html",
       "external": "https://stemfellowships.org/applicants/",
       "canvas": null,
+      "cascadeEdit": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -3625,17 +3640,18 @@
     "sourceStatus": {
       "procedures": "not_tracked",
       "awardFinder": "ok",
-      "external": "broken_link",
+      "external": "no_dates_found",
       "annualDeadlines": "not_tracked"
     },
     "sourceDetail": {
-      "external": "HTTP 404"
+      "external": "(page had no text content at all)"
     },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-hertz.html",
-      "external": "https://www.hertzfoundation.org/the-fellowship/faq/",
+      "external": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=857608fb0ae72098246a8ecaf834059c&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -3644,9 +3660,9 @@
     "overallMax": "2025-10-31",
     "actionItems": [
       {
-        "type": "broken_link",
+        "type": "no_dates_found",
         "source": "external",
-        "detail": "HTTP 404"
+        "detail": "(page had no text content at all)"
       }
     ],
     "recipientCheck": {
@@ -3682,8 +3698,9 @@
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-madison-fellows.html",
-      "external": "https://apply.mykaleidoscope.com/scholarships/2025JamesMadisonGraduateFellowship",
+      "external": "https://apply.mykaleidoscope.com/scholarships/2027JamesMadisonGraduateFellowship",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8584a0980ae72098246a8eca9a463a22&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -3695,13 +3712,6 @@
         "type": "no_dates_found",
         "source": "external",
         "detail": "(page had no text content at all)"
-      },
-      {
-        "type": "stale_url_year",
-        "source": "external",
-        "urlYear": 2025,
-        "suggested": "https://apply.mykaleidoscope.com/scholarships/2026JamesMadisonGraduateFellowship",
-        "suggestedAlt": "https://apply.mykaleidoscope.com/scholarships/2027JamesMadisonGraduateFellowship"
       }
     ],
     "recipientCheck": {
@@ -3737,6 +3747,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-knight-hennessy.html",
       "external": "https://knight-hennessy.stanford.edu/admission/before-you-apply/dates-and-deadlines",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/Knight-Hennessy%20Scholars%20Program?titleize=0",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=85825dfa0ae72098246a8ecad4b95f5b&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -4039,6 +4050,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-leland-hunger.html",
       "external": "https://www.hungercenter.org/what-we-do/leland-fellowship/fellows/#apply",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=4b86b87c0ae720980a596af4e087e98e&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -4123,6 +4135,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-luce.html",
       "external": "https://apply-lucescholars.smapply.io/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/luce-scholars-program",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=858302b00ae72098246a8ecaffe36c4e&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -4257,6 +4270,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-marshall.html",
       "external": "https://www.marshallscholarship.org/apply",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/marshall-scholarship",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8585f2010ae72098246a8eca59156608&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -4584,6 +4598,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-david-weill.html",
       "external": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/david-weill-scholarship/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/michel-david-weill",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=856fe9090ae72098246a8eca97699642&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -4952,6 +4967,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-mitchell.html",
       "external": "https://us-irelandalliance.org/scholarships",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/Mitchell%20Scholarship?titleize=0",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8588fda90ae72098246a8ecad7f83fe5&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -5241,6 +5257,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-mount-vernon.html",
       "external": null,
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8589b0360ae72098246a8eca91cebc94&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -5275,6 +5292,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-grfp.html",
       "external": "https://new.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf24-591/solicitation",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/national-science-foundation-graduate-research-fellowships-program",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=86c1b47c0ae72098246a8eca835b6c3e&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -5692,6 +5710,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-nsf-reu.html",
       "external": "https://new.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates/nsf23-601/solicitation",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8b82a5800ae7208701f3d3956df20139&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -5857,6 +5876,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-noaa-hollings.html",
       "external": "https://www.noaa.gov/office-education/hollings-scholarship/news",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=b05408160ae720982b0302a068b554bf&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -5912,6 +5932,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-petit.html",
       "external": "https://research.gatech.edu/bio/petit-undergraduate-research-scholars-program",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=858eaf470ae72098246a8ecae080abaa&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -5983,6 +6004,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-amgen-scholars.html",
       "external": "https://amgenscholars.com/us-program/",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8b6fa74c0ae7208701f3d395f7adc643&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -6277,6 +6299,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-quad-fellowship.html",
       "external": "https://www.quadfellowship.org/apply",
       "canvas": null,
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=6604e3390ae720872ab61b22452d08a4&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -6360,6 +6383,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-rangel.html",
       "external": "https://apply.rangelprogram.org/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/payne-pickering-and-rangel",
+      "cascadeEdit": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -6395,6 +6419,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-rhodes.html",
       "external": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/rhodes-scholarship",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8591c7f70ae72098246a8eca64629812&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -6684,6 +6709,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-schwarzman.html",
       "external": "https://www.schwarzmanscholars.org/admissions/",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/schwarzman-scholars-program",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=85a6029b0ae72098246a8eca4f8ce56c&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
@@ -7118,6 +7144,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-shepard.html",
       "external": null,
       "canvas": "https://canvas.emory.edu/courses/30739/pages/Shepard%20Scholarship?titleize=0",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=85a816430ae72098246a8ecab9c9bf0d&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -7175,6 +7202,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-sonny-carter.html",
       "external": null,
       "canvas": "https://canvas.emory.edu/courses/30739/pages/sonny-carter-scholarship",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=85673a360ae72098246a8eca0a600bd8&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -7392,6 +7420,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-truman.html",
       "external": "https://www.truman.gov/apply/applying/important-dates",
       "canvas": "https://canvas.emory.edu/courses/30739/pages/truman-scholarship-program",
+      "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=85aa26300ae72098246a8eca83c91277&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
@@ -7831,6 +7860,7 @@
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-wwtf.html",
       "external": "https://www.wilsoncenter.org/fellowship-application-guidelines",
       "canvas": null,
+      "cascadeEdit": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
