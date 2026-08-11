@@ -105,22 +105,31 @@ function analyzeAward(awardName, texts, inferredYear, preExtracted) {
   }
 
   // Consolidated overall status — mirrors your MS List's single MinDate/MaxDate
-  // per award, rather than a separate noisy status per source. MinDate =
-  // earliest "open"-tagged date across all sources; MaxDate = latest
-  // deadline-flavored-tagged date. Falls back to the full date range if a
-  // source doesn't have explicit open/deadline tags.
+  // per award. Two important restrictions on which dates are allowed to
+  // drive this:
   //
-  // Each date is tagged with its source+raw text here so that when a date
-  // ends up driving the overall status, we can say exactly where it came
-  // from — "dates span X–Y" with no attribution was untraceable; you had no
-  // way to find where a date like "Jun 30, 2022" actually appeared.
+  // 1. ONLY "our" resources (procedures, award finder, annual deadlines) —
+  //    NOT the external site. An external site's own unrelated dates (a
+  //    founding year, a stale prior cycle nobody's updated) have nothing to
+  //    do with whether OUR tracking is stale, and were corrupting status
+  //    (e.g. EAB showing "Urgent" driven entirely by the external site's own
+  //    old content, not any actual problem with our pages).
+  // 2. Only 'deadline' and 'internal_deadline' feed MaxDate — NOT
+  //    'feedback_deadline'. A feedback deadline is a soft internal courtesy
+  //    step ("last day to request advising"), not the actual application
+  //    window boundary. A future feedback deadline was making an
+  //    already-closed cycle look like it was still "Application Open".
+  const OUR_SOURCES = new Set(['procedures', 'awardFinder', 'annualDeadlines']);
+  const STATUS_DEADLINE_TAGS = new Set(['deadline', 'internal_deadline']);
+
   const allTaggedDates = [];
   for (const [source, dates] of Object.entries(bySource)) {
     for (const d of dates) allTaggedDates.push(Object.assign({}, d, { source }));
   }
-  const opens = allTaggedDates.filter((d) => d.context === 'open' && d.date).sort((a, b) => a.date < b.date ? -1 : 1);
-  const deadlines = allTaggedDates.filter((d) => deadlineTag(d) && d.date).sort((a, b) => a.date < b.date ? -1 : 1);
-  const allDatesFlat = allTaggedDates.filter((d) => d.date).sort((a, b) => a.date < b.date ? -1 : 1);
+  const ourDates = allTaggedDates.filter((d) => OUR_SOURCES.has(d.source));
+  const opens = ourDates.filter((d) => d.context === 'open' && d.date).sort((a, b) => a.date < b.date ? -1 : 1);
+  const deadlines = ourDates.filter((d) => STATUS_DEADLINE_TAGS.has(d.context) && d.date).sort((a, b) => a.date < b.date ? -1 : 1);
+  const allDatesFlat = ourDates.filter((d) => d.date).sort((a, b) => a.date < b.date ? -1 : 1);
 
   let overallStatus = 'No Dates Found';
   let overallMin = null;

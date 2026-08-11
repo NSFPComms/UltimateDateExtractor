@@ -20,6 +20,11 @@ const MONTH_RE = 'January|February|March|April|May|June|July|August|September|Se
 // "Month Day, Year" or "Month Day" (year inferred from context if absent)
 const DATE_RE = new RegExp(`(${MONTH_RE})\\.?\\s+(\\d{1,2})(?:st|nd|rd|th)?\\b(?:,?\\s*(\\d{4}))?`, 'gi');
 
+// Day-first format ("29th of September 2026", "1st October 2026") — common
+// on UK-based award sites (Marshall, Rhodes, etc.) where DATE_RE's
+// month-first assumption never matches at all.
+const DAY_FIRST_DATE_RE = new RegExp(`\\b(\\d{1,2})(?:st|nd|rd|th)\\s+(?:of\\s+)?(${MONTH_RE})\\.?\\s*,?\\s*(20\\d{2})?\\b`, 'gi');
+
 // Ranges: "September 29 - October 6, 2026" / "Sept 2-15, 2026" / "Sep. 22- Oct 1"
 const RANGE_RE = new RegExp(
   `(between\\s+|from\\s+|week of\\s+)?(${MONTH_RE})\\.?\\s+(\\d{1,2})\\s*(-|–|—|to|and)\\s*(?:(${MONTH_RE})\\.?\\s+)?(\\d{1,2})(?:,?\\s*(\\d{4}))?`,
@@ -63,6 +68,37 @@ const YEAR_RANGE_RE = /\b(20\d{2})\s*[-–—]\s*(20\d{2})\b(?=\s*\w*\s*(class|c
 const MODIFIER_YEAR_RE = /\b(early|late|mid(?:-to-late)?)\s+(20\d{2})\b/gi;
 // Rough anchor point within the year per modifier (month, day).
 const MODIFIER_YEAR_ANCHOR = { early: [2, 15], mid: [6, 15], 'mid-to-late': [8, 1], late: [10, 15] };
+
+// Month + Year with no day number: "will open again in September 2026".
+// DATE_RE requires a day between month and year, so this never matched at
+// all — a genuinely common way of stating a vague future period.
+const MONTH_YEAR_RE = new RegExp(`\\b(${MONTH_RE})\\.?\\s+(20\\d{2})\\b`, 'gi');
+
+// Rhythm dates ("Last Friday in January", "First week in March") — ported
+// from the VBA's NthWeekdayLabel/FindNthWeekday. These describe a REAL
+// calendar date via a rule rather than stating one directly; resolving them
+// to an actual date (for whatever year context applies) is what the VBA did
+// for its "Rhythm" date type.
+const WEEKDAY_NUMS = { sunday: 0, monday: 1, tuesday: 2, wednesday: 3, thursday: 4, friday: 5, saturday: 6 };
+const ORDINAL_INDEX = { first: 0, second: 1, third: 2, fourth: 3, fifth: 4 };
+const RHYTHM_WEEKDAY_RE = new RegExp(
+  `\\b(first|second|third|fourth|fifth|last)\\s+(sunday|monday|tuesday|wednesday|thursday|friday|saturday)\\s*(?:of|in)?\\s*(${MONTH_RE})\\b`,
+  'gi'
+);
+const RHYTHM_WEEK_RE = new RegExp(`\\b(first|second|third|fourth|last)\\s+week\\s+(?:of|in)\\s+(${MONTH_RE})\\b`, 'gi');
+
+// Returns the day-of-month (1-31) for the Nth occurrence of a weekday in a
+// given month/year, or the LAST occurrence if ordinal === 'last'.
+function nthWeekdayOfMonth(year, monthNum, weekdayNum, ordinal) {
+  const daysInMonth = new Date(Date.UTC(year, monthNum, 0)).getUTCDate();
+  const matches = [];
+  for (let d = 1; d <= daysInMonth; d++) {
+    if (new Date(Date.UTC(year, monthNum - 1, d)).getUTCDay() === weekdayNum) matches.push(d);
+  }
+  if (ordinal === 'last') return matches[matches.length - 1] || null;
+  const idx = ORDINAL_INDEX[ordinal];
+  return idx !== undefined && matches[idx] !== undefined ? matches[idx] : null;
+}
 
 // Context keyword categories — ported from GetContextTag/GetVerbNounTag.
 // ORDER MATTERS: most specific first. A bare "deadline" is the least
@@ -112,7 +148,7 @@ const CONTEXT_CATEGORIES = [
   { tag: 'open', patterns: [/application(s)?\s+open/i, /open\s+date/i, /application\s+period/i, /now\s+open/i, /begin\s+online\s+application/i, /register\s+and\s+begin/i, /\bopens\b/i, /will\s+open/i, /will\s+be\s+available/i, /available\s+(starting|beginning|in)/i] },
   {
     tag: 'deadline', // generic catch-all — deliberately last
-    patterns: [/external\s*(application)?\s*deadline/i, /final\s+application\s+deadline/i, /application\s+deadline/i, /submit.{0,15}application/i, /must\s+be\s+submitted/i, /nomination\s+submission\s+deadline/i, /due\s+date/i, /\bdeadline/i],
+    patterns: [/external\s*(application)?\s*deadline/i, /final\s+application\s+deadline/i, /application\s+deadline/i, /submission\s+date/i, /submit.{0,20}online\s+application/i, /submit.{0,15}application/i, /must\s+be\s+submitted/i, /nomination\s+submission\s+deadline/i, /due\s+date/i, /\bdeadline/i],
   },
 ];
 
@@ -290,6 +326,26 @@ function extractDates(text, inferredYear) {
     }, snippet));
   }
 
+  // 1b. Day-first dates ("29th of September 2026") — must run before the
+  // month-first DATE_RE below, and claim its range, or DATE_RE could
+  // misread the leading digits of a 4-digit year as a 1-2 digit day (e.g.
+  // mistaking "September 20" out of "September 2026").
+  const dayFirstRe = new RegExp(DAY_FIRST_DATE_RE.source, 'gi');
+  while ((m = dayFirstRe.exec(text))) {
+    const full = m[0], day = m[1], mon = m[2], year = m[3];
+    const dayNum = parseInt(day, 10);
+    if (dayNum < 1 || dayNum > 31) continue;
+    const iso = toISO(mon, day, year, nearestYear(m.index));
+    if (!iso) continue;
+    claimedRanges.push([m.index, m.index + full.length]);
+    const snippet = getSentenceAt(text, m.index, full.length);
+    results.push(withHint({
+      raw: full.trim(), date: iso, dateEnd: null, type: 'date',
+      context: tagContextByProximity(text, m.index),
+      isTentative: /tentative|estimated/i.test(snippet),
+    }, snippet));
+  }
+
   // 2. Explicit day-day / month-day ranges
   const rangeRe = new RegExp(RANGE_RE.source, 'gi');
   while ((m = rangeRe.exec(text))) {
@@ -367,6 +423,68 @@ function extractDates(text, inferredYear) {
     const anchor = MODIFIER_YEAR_ANCHOR[modifier];
     if (!anchor) continue;
     const iso = new Date(Date.UTC(parseInt(year, 10), anchor[0] - 1, anchor[1])).toISOString().slice(0, 10);
+    claimedRanges.push([m.index, m.index + full.length]);
+    const snippet = getSentenceAt(text, m.index, full.length);
+    results.push(withHint({
+      raw: full.trim(), date: iso, dateEnd: null, type: 'period',
+      context: tagContextByProximity(text, m.index, { isRange: true }),
+      isTentative: true,
+    }, snippet));
+  }
+
+  // 3d2. Rhythm dates — "Last Friday in January", "First week in March".
+  // Year is resolved the same way as everything else missing one: nearest
+  // legitimate year mentioned in the document, falling back to inferredYear.
+  const rhythmWeekdayRe = new RegExp(RHYTHM_WEEKDAY_RE.source, 'gi');
+  while ((m = rhythmWeekdayRe.exec(text))) {
+    const full = m[0], ordinal = m[1].toLowerCase(), weekdayName = m[2].toLowerCase(), monName = m[3];
+    const monN = monthNum(monName);
+    const weekdayNum = WEEKDAY_NUMS[weekdayName];
+    if (!monN || weekdayNum === undefined) continue;
+    const year = nearestYear(m.index);
+    const day = nthWeekdayOfMonth(year, monN, weekdayNum, ordinal);
+    if (!day) continue;
+    const iso = new Date(Date.UTC(year, monN - 1, day)).toISOString().slice(0, 10);
+    claimedRanges.push([m.index, m.index + full.length]);
+    const snippet = getSentenceAt(text, m.index, full.length);
+    results.push(withHint({
+      raw: `${full.trim()} (= ${iso})`, date: iso, dateEnd: null, type: 'date',
+      context: tagContextByProximity(text, m.index),
+      isTentative: true, // resolved from a rule, not stated outright — always flagged
+    }, snippet));
+  }
+
+  const rhythmWeekRe = new RegExp(RHYTHM_WEEK_RE.source, 'gi');
+  while ((m = rhythmWeekRe.exec(text))) {
+    const inRange = claimedRanges.some((r) => m.index >= r[0] && m.index < r[1]);
+    if (inRange) continue;
+    const full = m[0], ordinal = m[1].toLowerCase(), monName = m[2];
+    const monN = monthNum(monName);
+    if (!monN) continue;
+    const year = nearestYear(m.index);
+    const daysInMonth = new Date(Date.UTC(year, monN, 0)).getUTCDate();
+    let startDay, endDay;
+    if (ordinal === 'last') { endDay = daysInMonth; startDay = Math.max(1, daysInMonth - 6); }
+    else { startDay = ORDINAL_INDEX[ordinal] * 7 + 1; endDay = Math.min(daysInMonth, startDay + 6); }
+    const startISO = new Date(Date.UTC(year, monN - 1, startDay)).toISOString().slice(0, 10);
+    const endISO = new Date(Date.UTC(year, monN - 1, endDay)).toISOString().slice(0, 10);
+    claimedRanges.push([m.index, m.index + full.length]);
+    const snippet = getSentenceAt(text, m.index, full.length);
+    results.push(withHint({
+      raw: `${full.trim()} (= ${startISO} to ${endISO})`, date: startISO, dateEnd: endISO, type: 'range',
+      context: tagContextByProximity(text, m.index, { isRange: true }),
+      isTentative: true,
+    }, snippet));
+  }
+
+  // 3e. Month + Year, no day number ("September 2026")
+  const monthYearRe = new RegExp(MONTH_YEAR_RE.source, 'gi');
+  while ((m = monthYearRe.exec(text))) {
+    const inRange = claimedRanges.some((r) => m.index >= r[0] && m.index < r[1]);
+    if (inRange) continue;
+    const full = m[0], mon = m[1], year = m[2];
+    const iso = toISO(mon, '15', year, parseInt(year, 10)); // mid-month anchor, day is unknown
+    if (!iso) continue;
     claimedRanges.push([m.index, m.index + full.length]);
     const snippet = getSentenceAt(text, m.index, full.length);
     results.push(withHint({
