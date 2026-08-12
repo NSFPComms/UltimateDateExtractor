@@ -21,7 +21,7 @@
     "discrepancies": [],
     "overallStatus": "Application Open",
     "overallMin": "2026-03-05",
-    "overallMax": "2027-03-04",
+    "overallMax": "2027-03-26",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -43,7 +43,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "Mar 19-25, 2027"
+          "hint": "13 Follow-up Appointment(s) and Application Revisions Mar 19-25, 2027 "
         },
         {
           "raw": "Fall 2026",
@@ -52,7 +52,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Schedule Consultation Fall 2026"
+          "hint": "1 Schedule Consultation Fall 2026 "
         },
         {
           "raw": "January 2027",
@@ -61,7 +61,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "January 2027"
+          "hint": "2 Download and Complete Application Form January 2027 "
         },
         {
           "raw": "January 2027",
@@ -70,7 +70,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "January 2027"
+          "hint": "3 Select and Confirm Three Recommenders January 2027 "
         },
         {
           "raw": "January 2027",
@@ -79,7 +79,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "January 2027"
+          "hint": "4 Create/ Update Résumé/CV January 2027 "
         },
         {
           "raw": "January 2027",
@@ -88,7 +88,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "January 2027"
+          "hint": "5 Begin Drafting Personal Statement January 2027 "
         },
         {
           "raw": "February 2027",
@@ -97,7 +97,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "February 2027"
+          "hint": "6 Request and Submit Outside Transcript(s): if applicable February 2027 "
         },
         {
           "raw": "February 2027",
@@ -106,7 +106,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "February 2027"
+          "hint": "7 Create Emory Internal Application in College Connect and Register Recommenders Available November 29, 2026 February 2027 "
         },
         {
           "raw": "March 2027",
@@ -115,7 +115,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Early March 2027"
+          "hint": "8 Follow Up with Recommenders Early March 2027 "
         },
         {
           "raw": "February 2027",
@@ -124,7 +124,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Late February 2027"
+          "hint": "9 Revise Personal Statement Be prepared to allow time to write and receive feedback on multiple drafts from a NS&FP advisor. Late February 2027  10 (For MFA Candidates Only) Prepare Artist’s Supplement Late February 2027 "
         },
         {
           "raw": "February 2027",
@@ -133,25 +133,26 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Late February 2027"
+          "hint": "9 Revise Personal Statement Be prepared to allow time to write and receive feedback on multiple drafts from a NS&FP advisor. Late February 2027  10 (For MFA Candidates Only) Prepare Artist’s Supplement Late February 2027 "
         },
         {
           "raw": "November 29, 2026",
           "date": "2026-11-29",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Register Recommenders Available November 29, 2026"
+          "hint": "7 Create Emory Internal Application in College Connect and Register Recommenders Available November 29, 2026 February 2027 "
         },
         {
           "raw": "February 25, 2027",
           "date": "2027-02-25",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "February 25, 2027"
+          "hint": "11 Internal Application Submission: Submit Application Form, Résumé, Personal Statement, and Consent Form via College Connect 4:00 PM ET February 25, 2027 ",
+          "consensusCount": 5
         },
         {
           "raw": "March 18, 2027",
@@ -160,25 +161,25 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "March 18, 2027"
+          "hint": "12 Nomination Decision Letters Distributed (via email) March 18, 2027  IF NOMINATED"
         },
         {
           "raw": "March 25, 2027",
           "date": "2027-03-25",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "March 25, 2027"
+          "hint": "14 Final Application Deadline: submit final versions of the application form, résumé/CV, and personal statement to the NS&FP Office (ec.nationalawards@emory.edu) 4:00 pm ET on March 25, 2027 "
         },
         {
           "raw": "March 26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "March 26, 2027"
+          "hint": "15 External Due Date: Application submitted by NS&FP March 26, 2027 "
         },
         {
           "raw": "March 31, 2027",
@@ -187,7 +188,7 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "on March 31, 2027"
+          "hint": "16 Meet with Financial Aid advisor to complete Financial Aid Data Sheet and submit to the Beinecke Program Director (beineckescholarship@sperryfund.org) Before 4:00 pm ET on March 31, 2027  Next Steps: The NS&FP office will complete the Certification of Eligibility Form and include it with the application of the nominee. Nominees’ applications from participating universities are reviewed by a national foundation selection committee, who select approximately 20 award recipients. Recipients are notified no later than May 31 (and often much earlier). -- 1 of 4 -- Application Procedures: Beine"
         },
         {
           "raw": "May 31",
@@ -196,25 +197,29 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "notified no later than May 31 (and often much earlier)"
+          "hint": "16 Meet with Financial Aid advisor to complete Financial Aid Data Sheet and submit to the Beinecke Program Director (beineckescholarship@sperryfund.org) Before 4:00 pm ET on March 31, 2027  Next Steps: The NS&FP office will complete the Certification of Eligibility Form and include it with the application of the nominee. Nominees’ applications from participating universities are reviewed by a national foundation selection committee, who select approximately 20 award recipients. Recipients are notified no later than May 31 (and often much earlier). -- 1 of 4 -- Application Procedures: Beine"
         },
         {
           "raw": "February 25, 2027",
           "date": "2027-02-25",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Recommendations should be submitted no later than 4:00 pm ET, February 25, 2027"
+          "hint": "Recommendations should be submitted no later than 4:00 pm ET, February 25, 2027",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "February 25, 2027",
           "date": "2027-02-25",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "edu, delivered by February 25, 2027"
+          "hint": "edu, delivered by February 25, 2027",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "December 14, 2026",
@@ -232,16 +237,19 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 pm ET on February 25, 2027, submit your application, including the Beinecke"
+          "hint": "By 4:00 pm ET on February 25, 2027, submit your application, including the Beinecke",
+          "consensusCount": 5
         },
         {
           "raw": "February 25, 2027",
           "date": "2027-02-25",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters by February 25, 2027, as well"
+          "hint": "Ensure that your recommenders submit their letters by February 25, 2027, as well",
+          "individualContext": "recommenders",
+          "consensusCount": 5
         },
         {
           "raw": "March 18, 2027",
@@ -332,7 +340,7 @@
     },
     "discrepancies": [],
     "overallStatus": "Dormant (Waiting for App to Open)",
-    "overallMin": "2026-10-19",
+    "overallMin": "2026-10-15",
     "overallMax": "2027-01-08",
     "actionItems": [],
     "recipientCheck": {
@@ -356,9 +364,9 @@
           "date": "2026-10-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "October 2026 "
+          "hint": "2 Begin online application (available October 29 via College Connect) October 2026 "
         },
         {
           "raw": "November 2026",
@@ -401,36 +409,39 @@
           "date": "2026-12-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "results",
           "isTentative": true,
-          "hint": "8 Follow Up with Recommenders December 2026 "
+          "hint": "8 Follow Up with Recommenders December 2026 ",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
           "raw": "December 2026",
           "date": "2026-12-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "results",
           "isTentative": true,
-          "hint": "December 2026-"
+          "hint": "9 Revise Personal Statement and St Andrews Program Proposal Essays: be prepared to allow time to write and receive feedback from an NS&FP advisor. December 2026- early January 2027  -- 1 of 3 -- Application Procedures: Bobby Jones Scholarship (2026-27) 2 Next steps: Applicants will be notified whether they have been selected as finalists in early February. In 2027, finalist interviews will take place Friday, February 19 and Saturday, February 20 (tentative). Decision letters will be available on or before the Monday following interviews. NOTES Info Session and Consultation (Step 1) Attend a Bobby Jones Info Session for an overview of the award and application process (offered in late October, November, and December). Then make an appointment with an NS&FP advisor to discuss your eligibility and application competitiveness. Applicants are limited to one consultation appointment and one feedback appointment. Register via the NS&FP Events page. Application Form (Step 2) Log in and begin an application in College Connect. This application will be available beginning October 19, 2027. Recommenders (Steps 3 and 8) Based on consultation with an NS&FP advisor, determine your three (3) recommenders. Contact these recommenders to confirm they are willing to write letters. The letters should be written by faculty or other mentors who know you well and can speak to your academic interests and achievements, service and leadership experience and abilities, potential to succeed in the proposed program at St Andrews, and/ or ambassadorial qualities. Additional advice on recommendations is available on NS&FP’s Canvas site, “National Scholarships & Fellowships Resources” in the “Bobby Jones Scholarship” section. Instructions for recommenders: The Bobby Jones Scholarship provides one year of study for four Emory University students (in any school) at the University of St Andrews in Scotland. Successful applicants have an outstanding academic record and a record of significant leadership in the Emory community and/or the Atlanta community. Letters should address the writer’s knowledge of the applicant in relation to the Scholarship selection criteria: an outstanding academic record; a record of significant leadership in the life of the Emory community and/or the Atlanta community, with the expectation that the applicant would be similarly involved in community life at St Andrews; excellent speaking and writing abilities; strong interpersonal skills; and academic and/or scholarly interests that can be pursued through the offerings at St Andrews. For more information about the award, click here.  Electronic submission of letters is preferred. The applicant will register you in the College Connect online application to request your letter. Please look for an email request from the Office for Undergraduate Education at hello@collegeconnectmail.emory.edu and follow the included link to upload your letter of recommendation as a PDF.  Recommendations should be submitted no later than 11:59 PM, January 11, 2027.",
+          "consensusCount": 2
         },
         {
           "raw": "January 2027",
           "date": "2027-01-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "results",
           "isTentative": true,
-          "hint": "early January 2027"
+          "hint": "9 Revise Personal Statement and St Andrews Program Proposal Essays: be prepared to allow time to write and receive feedback from an NS&FP advisor. December 2026- early January 2027  -- 1 of 3 -- Application Procedures: Bobby Jones Scholarship (2026-27) 2 Next steps: Applicants will be notified whether they have been selected as finalists in early February. In 2027, finalist interviews will take place Friday, February 19 and Saturday, February 20 (tentative). Decision letters will be available on or before the Monday following interviews. NOTES Info Session and Consultation (Step 1) Attend a Bobby Jones Info Session for an overview of the award and application process (offered in late October, November, and December). Then make an appointment with an NS&FP advisor to discuss your eligibility and application competitiveness. Applicants are limited to one consultation appointment and one feedback appointment. Register via the NS&FP Events page. Application Form (Step 2) Log in and begin an application in College Connect. This application will be available beginning October 19, 2027. Recommenders (Steps 3 and 8) Based on consultation with an NS&FP advisor, determine your three (3) recommenders. Contact these recommenders to confirm they are willing to write letters. The letters should be written by faculty or other mentors who know you well and can speak to your academic interests and achievements, service and leadership experience and abilities, potential to succeed in the proposed program at St Andrews, and/ or ambassadorial qualities. Additional advice on recommendations is available on NS&FP’s Canvas site, “National Scholarships & Fellowships Resources” in the “Bobby Jones Scholarship” section. Instructions for recommenders: The Bobby Jones Scholarship provides one year of study for four Emory University students (in any school) at the University of St Andrews in Scotland. Successful applicants have an outstanding academic record and a record of significant leadership in the Emory community and/or the Atlanta community. Letters should address the writer’s knowledge of the applicant in relation to the Scholarship selection criteria: an outstanding academic record; a record of significant leadership in the life of the Emory community and/or the Atlanta community, with the expectation that the applicant would be similarly involved in community life at St Andrews; excellent speaking and writing abilities; strong interpersonal skills; and academic and/or scholarly interests that can be pursued through the offerings at St Andrews. For more information about the award, click here.  Electronic submission of letters is preferred. The applicant will register you in the College Connect online application to request your letter. Please look for an email request from the Office for Undergraduate Education at hello@collegeconnectmail.emory.edu and follow the included link to upload your letter of recommendation as a PDF.  Recommendations should be submitted no later than 11:59 PM, January 11, 2027."
         },
         {
           "raw": "October 29",
-          "date": "2027-10-29",
+          "date": "2026-10-29",
           "dateEnd": null,
           "type": "date",
           "context": "open",
           "isTentative": false,
-          "hint": "2 Begin online application (available October 29 via College"
+          "hint": "2 Begin online application (available October 29 via College Connect) October 2026 "
         },
         {
           "raw": "February 19",
@@ -439,52 +450,55 @@
           "type": "date",
           "context": "interview",
           "isTentative": true,
-          "hint": "2027, finalist interviews will take place Friday, February 19 and Saturday, February 20 (tentative)"
+          "hint": "9 Revise Personal Statement and St Andrews Program Proposal Essays: be prepared to allow time to write and receive feedback from an NS&FP advisor. December 2026- early January 2027  -- 1 of 3 -- Application Procedures: Bobby Jones Scholarship (2026-27) 2 Next steps: Applicants will be notified whether they have been selected as finalists in early February. In 2027, finalist interviews will take place Friday, February 19 and Saturday, February 20 (tentative). Decision letters will be available on or before the Monday following interviews. NOTES Info Session and Consultation (Step 1) Attend a Bobby Jones Info Session for an overview of the award and application process (offered in late October, November, and December). Then make an appointment with an NS&FP advisor to discuss your eligibility and application competitiveness. Applicants are limited to one consultation appointment and one feedback appointment. Register via the NS&FP Events page. Application Form (Step 2) Log in and begin an application in College Connect. This application will be available beginning October 19, 2027. Recommenders (Steps 3 and 8) Based on consultation with an NS&FP advisor, determine your three (3) recommenders. Contact these recommenders to confirm they are willing to write letters. The letters should be written by faculty or other mentors who know you well and can speak to your academic interests and achievements, service and leadership experience and abilities, potential to succeed in the proposed program at St Andrews, and/ or ambassadorial qualities. Additional advice on recommendations is available on NS&FP’s Canvas site, “National Scholarships & Fellowships Resources” in the “Bobby Jones Scholarship” section. Instructions for recommenders: The Bobby Jones Scholarship provides one year of study for four Emory University students (in any school) at the University of St Andrews in Scotland. Successful applicants have an outstanding academic record and a record of significant leadership in the Emory community and/or the Atlanta community. Letters should address the writer’s knowledge of the applicant in relation to the Scholarship selection criteria: an outstanding academic record; a record of significant leadership in the life of the Emory community and/or the Atlanta community, with the expectation that the applicant would be similarly involved in community life at St Andrews; excellent speaking and writing abilities; strong interpersonal skills; and academic and/or scholarly interests that can be pursued through the offerings at St Andrews. For more information about the award, click here.  Electronic submission of letters is preferred. The applicant will register you in the College Connect online application to request your letter. Please look for an email request from the Office for Undergraduate Education at hello@collegeconnectmail.emory.edu and follow the included link to upload your letter of recommendation as a PDF.  Recommendations should be submitted no later than 11:59 PM, January 11, 2027."
         },
         {
           "raw": "February 20",
           "date": "2027-02-20",
           "dateEnd": null,
           "type": "date",
-          "context": "interview",
+          "context": "open",
           "isTentative": true,
-          "hint": "2027, finalist interviews will take place Friday, February 19 and Saturday, February 20 (tentative)"
+          "hint": "9 Revise Personal Statement and St Andrews Program Proposal Essays: be prepared to allow time to write and receive feedback from an NS&FP advisor. December 2026- early January 2027  -- 1 of 3 -- Application Procedures: Bobby Jones Scholarship (2026-27) 2 Next steps: Applicants will be notified whether they have been selected as finalists in early February. In 2027, finalist interviews will take place Friday, February 19 and Saturday, February 20 (tentative). Decision letters will be available on or before the Monday following interviews. NOTES Info Session and Consultation (Step 1) Attend a Bobby Jones Info Session for an overview of the award and application process (offered in late October, November, and December). Then make an appointment with an NS&FP advisor to discuss your eligibility and application competitiveness. Applicants are limited to one consultation appointment and one feedback appointment. Register via the NS&FP Events page. Application Form (Step 2) Log in and begin an application in College Connect. This application will be available beginning October 19, 2027. Recommenders (Steps 3 and 8) Based on consultation with an NS&FP advisor, determine your three (3) recommenders. Contact these recommenders to confirm they are willing to write letters. The letters should be written by faculty or other mentors who know you well and can speak to your academic interests and achievements, service and leadership experience and abilities, potential to succeed in the proposed program at St Andrews, and/ or ambassadorial qualities. Additional advice on recommendations is available on NS&FP’s Canvas site, “National Scholarships & Fellowships Resources” in the “Bobby Jones Scholarship” section. Instructions for recommenders: The Bobby Jones Scholarship provides one year of study for four Emory University students (in any school) at the University of St Andrews in Scotland. Successful applicants have an outstanding academic record and a record of significant leadership in the Emory community and/or the Atlanta community. Letters should address the writer’s knowledge of the applicant in relation to the Scholarship selection criteria: an outstanding academic record; a record of significant leadership in the life of the Emory community and/or the Atlanta community, with the expectation that the applicant would be similarly involved in community life at St Andrews; excellent speaking and writing abilities; strong interpersonal skills; and academic and/or scholarly interests that can be pursued through the offerings at St Andrews. For more information about the award, click here.  Electronic submission of letters is preferred. The applicant will register you in the College Connect online application to request your letter. Please look for an email request from the Office for Undergraduate Education at hello@collegeconnectmail.emory.edu and follow the included link to upload your letter of recommendation as a PDF.  Recommendations should be submitted no later than 11:59 PM, January 11, 2027."
         },
         {
           "raw": "October 19, 2027",
           "date": "2027-10-19",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "October 19, 2027"
+          "context": "open",
+          "isTentative": true,
+          "hint": "9 Revise Personal Statement and St Andrews Program Proposal Essays: be prepared to allow time to write and receive feedback from an NS&FP advisor. December 2026- early January 2027  -- 1 of 3 -- Application Procedures: Bobby Jones Scholarship (2026-27) 2 Next steps: Applicants will be notified whether they have been selected as finalists in early February. In 2027, finalist interviews will take place Friday, February 19 and Saturday, February 20 (tentative). Decision letters will be available on or before the Monday following interviews. NOTES Info Session and Consultation (Step 1) Attend a Bobby Jones Info Session for an overview of the award and application process (offered in late October, November, and December). Then make an appointment with an NS&FP advisor to discuss your eligibility and application competitiveness. Applicants are limited to one consultation appointment and one feedback appointment. Register via the NS&FP Events page. Application Form (Step 2) Log in and begin an application in College Connect. This application will be available beginning October 19, 2027. Recommenders (Steps 3 and 8) Based on consultation with an NS&FP advisor, determine your three (3) recommenders. Contact these recommenders to confirm they are willing to write letters. The letters should be written by faculty or other mentors who know you well and can speak to your academic interests and achievements, service and leadership experience and abilities, potential to succeed in the proposed program at St Andrews, and/ or ambassadorial qualities. Additional advice on recommendations is available on NS&FP’s Canvas site, “National Scholarships & Fellowships Resources” in the “Bobby Jones Scholarship” section. Instructions for recommenders: The Bobby Jones Scholarship provides one year of study for four Emory University students (in any school) at the University of St Andrews in Scotland. Successful applicants have an outstanding academic record and a record of significant leadership in the Emory community and/or the Atlanta community. Letters should address the writer’s knowledge of the applicant in relation to the Scholarship selection criteria: an outstanding academic record; a record of significant leadership in the life of the Emory community and/or the Atlanta community, with the expectation that the applicant would be similarly involved in community life at St Andrews; excellent speaking and writing abilities; strong interpersonal skills; and academic and/or scholarly interests that can be pursued through the offerings at St Andrews. For more information about the award, click here.  Electronic submission of letters is preferred. The applicant will register you in the College Connect online application to request your letter. Please look for an email request from the Office for Undergraduate Education at hello@collegeconnectmail.emory.edu and follow the included link to upload your letter of recommendation as a PDF.  Recommendations should be submitted no later than 11:59 PM, January 11, 2027."
         },
         {
           "raw": "January 11, 2027",
           "date": "2027-01-11",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": " Recommendations should be submitted no later than 11:59 PM, January 11, 2027"
+          "context": "recommenders",
+          "isTentative": true,
+          "hint": "9 Revise Personal Statement and St Andrews Program Proposal Essays: be prepared to allow time to write and receive feedback from an NS&FP advisor. December 2026- early January 2027  -- 1 of 3 -- Application Procedures: Bobby Jones Scholarship (2026-27) 2 Next steps: Applicants will be notified whether they have been selected as finalists in early February. In 2027, finalist interviews will take place Friday, February 19 and Saturday, February 20 (tentative). Decision letters will be available on or before the Monday following interviews. NOTES Info Session and Consultation (Step 1) Attend a Bobby Jones Info Session for an overview of the award and application process (offered in late October, November, and December). Then make an appointment with an NS&FP advisor to discuss your eligibility and application competitiveness. Applicants are limited to one consultation appointment and one feedback appointment. Register via the NS&FP Events page. Application Form (Step 2) Log in and begin an application in College Connect. This application will be available beginning October 19, 2027. Recommenders (Steps 3 and 8) Based on consultation with an NS&FP advisor, determine your three (3) recommenders. Contact these recommenders to confirm they are willing to write letters. The letters should be written by faculty or other mentors who know you well and can speak to your academic interests and achievements, service and leadership experience and abilities, potential to succeed in the proposed program at St Andrews, and/ or ambassadorial qualities. Additional advice on recommendations is available on NS&FP’s Canvas site, “National Scholarships & Fellowships Resources” in the “Bobby Jones Scholarship” section. Instructions for recommenders: The Bobby Jones Scholarship provides one year of study for four Emory University students (in any school) at the University of St Andrews in Scotland. Successful applicants have an outstanding academic record and a record of significant leadership in the Emory community and/or the Atlanta community. Letters should address the writer’s knowledge of the applicant in relation to the Scholarship selection criteria: an outstanding academic record; a record of significant leadership in the life of the Emory community and/or the Atlanta community, with the expectation that the applicant would be similarly involved in community life at St Andrews; excellent speaking and writing abilities; strong interpersonal skills; and academic and/or scholarly interests that can be pursued through the offerings at St Andrews. For more information about the award, click here.  Electronic submission of letters is preferred. The applicant will register you in the College Connect online application to request your letter. Please look for an email request from the Office for Undergraduate Education at hello@collegeconnectmail.emory.edu and follow the included link to upload your letter of recommendation as a PDF.  Recommendations should be submitted no later than 11:59 PM, January 11, 2027."
         },
         {
           "raw": "January 8, 2027",
           "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "January 8, 2027"
+          "context": "deadline",
+          "isTentative": true,
+          "hint": "10 Application Submission: Submit Application Form, Résumé, Personal Statement, St Andrews Program Proposal, and Consent Form 5:00 PM January 8, 2027 (tentative)  -- 2 of 3 -- Application Procedures: Bobby Jones Scholarship (2026-27) 3 Résumé (Step 4) Use a CV format, rather than a job-seeking résumé format. As well as your school background, concentrate on listing things that relate directly to the scholarship (i.e. study abroad, independent research, academic awards and memberships, etc.). We would be happy to provide feedback on your résumé before the internal submission deadline. The Ca",
+          "consensusCount": 2
         },
         {
           "raw": "January 8, 2027",
           "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Program Proposal Essay and Consent Form at via College Connect by 5:00 PM on January 8, 2027"
+          "hint": "Program Proposal Essay and Consent Form at via College Connect by 5:00 PM on January 8, 2027",
+          "individualContext": "other",
+          "consensusCount": 2
         }
       ],
       "awardFinder": [
@@ -565,9 +579,9 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Cycle Closed)",
-    "overallMin": "2026-02-13",
-    "overallMax": "2026-03-25",
+    "overallStatus": "Application Open",
+    "overallMin": "2026-02-01",
+    "overallMax": "2027-03-26",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -590,18 +604,21 @@
           "date": "2026-02-01",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": false,
-          "hint": "February - March 2026"
+          "hint": "6 Revise Personal Statement Essay: be prepared to allow time to write and receive feedback from an NS&FP advisor February - March 2026 ",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
           "raw": "February - March\n2026",
           "date": "2026-02-01",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": false,
-          "hint": "February - March 2026"
+          "hint": "7 Begin online application (available Feb 12, 2027, in College Connect) February - March 2026 ",
+          "consensusCount": 2
         },
         {
           "raw": "Early Spring 2027",
@@ -617,36 +634,44 @@
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "2 Select and Confirm Recommender February 2027 "
+          "hint": "2 Select and Confirm Recommender February 2027 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "February 2027",
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "3 Create/ Update Résumé February 2027 "
+          "hint": "3 Create/ Update Résumé February 2027 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "February 2027",
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "4 Request and Submit Outside Transcript(s): if applicable February 2027 "
+          "hint": "4 Request and Submit Outside Transcript(s): if applicable February 2027 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "February 2027",
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "5 Begin Drafting Personal Statement Essay February 2027 "
+          "hint": "5 Begin Drafting Personal Statement Essay February 2027 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "March 2027",
@@ -673,34 +698,39 @@
           "type": "date",
           "context": "open",
           "isTentative": false,
-          "hint": "7 Begin online application (available Feb 12, 2027, in"
+          "hint": "7 Begin online application (available Feb 12, 2027, in College Connect) February - March 2026 "
         },
         {
           "raw": "Mar 26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "Mar 26, 2027"
+          "context": "deadline",
+          "isTentative": true,
+          "hint": "10 Internal Application Submission: Submit Application Form, Résumé, Personal Statement, Financial Need Statement (if applicable), and Consent Form at https://collegeconnect.emory.edu/manage/login?realm= &r=/apply 11:59 PM ET Mar 26, 2027 (tentative)  -- 1 of 3 -- Application Procedures: Bredow Fund Award (2025-24) 2 Info Session/Consultation (Step 1) Attend an Internal Award Info Session for an overview of the award and application process and review the materials available on Canvas. If you still have questions, you can make an appointment with an NS&FP advisor to discuss your eligibility",
+          "consensusCount": 4
         },
         {
           "raw": "Mar 26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "• Recommendation should be submitted no later than 11:59 PM ET on Mar 26, 2027"
+          "hint": "• Recommendation should be submitted no later than 11:59 PM ET on Mar 26, 2027",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "Mar 26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "edu, by 11:59 pm ET on Mar 26, 2027"
+          "hint": "edu, by 11:59 pm ET on Mar 26, 2027",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "Feb 15, 2027",
@@ -709,16 +739,19 @@
           "type": "date",
           "context": "open",
           "isTentative": false,
-          "hint": "available beginning Feb 15, 2027"
+          "hint": "available beginning Feb 15, 2027",
+          "consensusCount": 5
         },
         {
           "raw": "Mar 26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "by 11:59 PM ET on Mar 26, 2027"
+          "hint": "by 11:59 PM ET on Mar 26, 2027",
+          "individualContext": "other",
+          "consensusCount": 4
         }
       ],
       "awardFinder": [
@@ -774,7 +807,7 @@
     "discrepancies": [],
     "overallStatus": "Application Open",
     "overallMin": "2025-12-04",
-    "overallMax": "2026-12-03",
+    "overallMax": "2027-01-15",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -790,7 +823,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "January 6-14, 2027"
+          "hint": "13 Follow-up Appointment(s) and Application Revisions January 6-14, 2027 "
         },
         {
           "raw": "Oct – Nov 2026",
@@ -799,7 +832,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "Oct – Nov 2026"
+          "hint": "1 Schedule Initial Consultation Oct – Nov 2026 "
         },
         {
           "raw": "Nov 2026",
@@ -808,7 +841,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Early Nov 2026"
+          "hint": "2 Create Emory Internal Application in College Connect Early Nov 2026 "
         },
         {
           "raw": "November 2026",
@@ -817,7 +850,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "November 2026"
+          "hint": "3 Select and Confirm Two Recommenders Send instructions November 2026 "
         },
         {
           "raw": "November 2026",
@@ -826,7 +859,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "November 2026"
+          "hint": "4 Begin Drafting Carnegie Personal Statement November 2026 "
         },
         {
           "raw": "November 2026",
@@ -835,7 +868,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "November 2026"
+          "hint": "5 Create/Update Résumé November 2026 "
         },
         {
           "raw": "November 2026",
@@ -844,7 +877,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "November 2026"
+          "hint": "6 Receive and Complete Application Form from NS&FP November 2026 "
         },
         {
           "raw": "November 2026",
@@ -853,7 +886,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "November 2026"
+          "hint": "7 Select Writing Sample Essay November 2026 "
         },
         {
           "raw": "November 2026",
@@ -862,7 +895,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "November 2026"
+          "hint": "8 Request Outside Transcript(s): if applicable November 2026 "
         },
         {
           "raw": "December 2026",
@@ -871,7 +904,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "December 2026"
+          "hint": "9 Revise Personal Statement and Writing Sample Essay Be prepared to allow time to write and receive feedback on multiple drafts from an NS&FP advisor and your faculty advisor/mentor. November - Early December 2026 "
         },
         {
           "raw": "November 2026",
@@ -880,16 +913,18 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Late November 2026"
+          "hint": "10 Follow up with Recommenders Late November 2026 "
         },
         {
           "raw": "December 3, 2026",
           "date": "2026-12-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "December 3, 2026"
+          "hint": "11 Internal Application Submission: Submit the Carnegie Scholarship Application, Personal Statement, Writing Sample, Resume, and Consent Form via College Connect 4:00 PM ET December 3, 2026 ",
+          "individualContext": "internal_deadline",
+          "consensusCount": 6
         },
         {
           "raw": "January 5, 2027",
@@ -898,34 +933,37 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "By January 5, 2027"
+          "hint": "12 Nomination Decision Letters Distributed (via email) By January 5, 2027  IF NOMINATED"
         },
         {
           "raw": "January 14, 2027",
           "date": "2027-01-14",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "January 14, 2027"
+          "hint": "14 Final Version of Personal Statement and Writing Sample Due send to ec.nationalawards@emory.edu 4:00 PM ET January 14, 2027 ",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "January 14, 2027",
           "date": "2027-01-14",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "January 14, 2027"
+          "hint": "15 Final Application Deadline: Resubmit final versions of all components of your application Send to ec.nationalawards@emory.edu 4:00 PM ET January 14, 2027 ",
+          "consensusCount": 4
         },
         {
           "raw": "January 15, 2027",
           "date": "2027-01-15",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "January 15, 2027"
+          "hint": "16 External Due Date: Application submitted by NS&FP January 15, 2027  Next Steps: Emory may nominate up to two candidates. There is no campus interview. Nominees’ applications from participating universities are reviewed by program Fellows at the Carnegie Endowment; finalists are invited for personal interviews in the spring. Selection decisions are usually released by the end of March. -- 1 of 5 -- Application Procedures: Carnegie-Gaither Junior Fellows Program (2026-27) 2 IMPORTANT NOTES Consultation (Step 1) Connect with the National Scholarships and Fellowships program to discuss yo"
         },
         {
           "raw": "October 26, 2026",
@@ -941,36 +979,11 @@
           "date": "2026-12-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "Recommendations should be submitted no later than 4:00 pm ET December 3, 2026"
-        },
-        {
-          "raw": "December 3, 2026",
-          "date": "2026-12-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "December 3, 2026, due date, please contact our office as soon as possible"
-        },
-        {
-          "raw": "December 3, 2026",
-          "date": "2026-12-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "official copy to your College Connect application by December 3, 2026"
-        },
-        {
-          "raw": "December 3, 2026",
-          "date": "2026-12-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "By 4:00 PM ET on December 3, 2026, complete the application, including the Personal"
+          "hint": "Recommendations should be submitted no later than 4:00 pm ET December 3, 2026",
+          "individualContext": "other",
+          "consensusCount": 6
         },
         {
           "raw": "December 3, 2026",
@@ -979,7 +992,41 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters by December 3, 2026, as well"
+          "hint": "December 3, 2026, due date, please contact our office as soon as possible",
+          "individualContext": "deadline",
+          "consensusCount": 6
+        },
+        {
+          "raw": "December 3, 2026",
+          "date": "2026-12-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "official copy to your College Connect application by December 3, 2026",
+          "individualContext": "other",
+          "consensusCount": 6
+        },
+        {
+          "raw": "December 3, 2026",
+          "date": "2026-12-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "By 4:00 PM ET on December 3, 2026, complete the application, including the Personal",
+          "individualContext": "other",
+          "consensusCount": 6
+        },
+        {
+          "raw": "December 3, 2026",
+          "date": "2026-12-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "Ensure that your recommenders submit their letters by December 3, 2026, as well",
+          "consensusCount": 6
         },
         {
           "raw": "January 5, 2027",
@@ -995,18 +1042,22 @@
           "date": "2027-01-14",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET January 14, 2027, make all revisions to your application, requesting additional"
+          "hint": "By 4:00 PM ET January 14, 2027, make all revisions to your application, requesting additional",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "January 14, 2027",
           "date": "2027-01-14",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00PM ET January 14, 2027, resubmit final versions of all components of your application by"
+          "hint": "By 4:00PM ET January 14, 2027, resubmit final versions of all components of your application by",
+          "individualContext": "other",
+          "consensusCount": 4
         }
       ],
       "awardFinder": [
@@ -1035,18 +1086,11 @@
           "date": "2026-01-15",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Gaither Junior Fellows Program by January 15th, and acceptance announcements are typically made by the end of March"
-        },
-        {
-          "raw": "January 15",
-          "date": "2026-01-15",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "January 15"
+          "hint": "Gaither Junior Fellows Program by January 15th, and acceptance announcements are typically made by the end of March",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "January 15",
@@ -1055,7 +1099,19 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "In the event that January 15 falls on a weekend or holiday, the deadline may be changed to another date"
+          "hint": "January 15",
+          "individualContext": "other",
+          "consensusCount": 3
+        },
+        {
+          "raw": "January 15",
+          "date": "2026-01-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "In the event that January 15 falls on a weekend or holiday, the deadline may be changed to another date",
+          "consensusCount": 3
         },
         {
           "raw": "September 1st",
@@ -1115,10 +1171,24 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=856920220ae72098246a8ecab7b686c0&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
+    "discrepancies": [
+      {
+        "type": "deadline_mismatch",
+        "category": "deadline",
+        "values": {
+          "procedures": [
+            "2026-10-10"
+          ],
+          "external": [
+            "2026-10-14"
+          ]
+        },
+        "daysApart": 4
+      }
+    ],
     "overallStatus": "Application Open",
     "overallMin": "2025-09-18",
-    "overallMax": "2026-09-17",
+    "overallMax": "2026-11-02",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -1132,9 +1202,9 @@
           "date": "2026-09-28",
           "dateEnd": "2026-09-30",
           "type": "range",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "Sept 28-30, 2026"
+          "hint": "11 Campus Interviews Sept 28-30, 2026 "
         },
         {
           "raw": "Spring 2026",
@@ -1143,7 +1213,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Schedule Initial Consultation and/or Attend Info Session Spring 2026"
+          "hint": "1 Register for Post-Grad Program Interest List and Canvas Course; Schedule Initial Consultation and/or Attend Info Session Spring 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -1152,7 +1222,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Register for Online Application Summer 2026"
+          "hint": "2 Register for Online Application Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -1161,7 +1231,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "select appropriate course of study Summer 2026"
+          "hint": "3 Degree Program Selection: With NS&FP and advisor assistance select appropriate course of study Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -1170,7 +1240,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Cambridge Summer 2026"
+          "hint": "4 Reach out to Potential Research Mentors at the University of Cambridge Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -1179,7 +1249,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Summer 2026"
+          "hint": "5 Write and Revise Personal Statement and Essay on Proposed Program of Study/Research Be prepared to allow time to write and receive feedback on multiple drafts from a NS&FP advisor. Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -1188,7 +1258,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Send instructions Summer 2026"
+          "hint": "6 Select and Confirm Four Recommenders Send instructions Summer 2026 "
         },
         {
           "raw": "September 2026",
@@ -1197,7 +1267,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "September 2026"
+          "hint": "7 Request and Upload Emory Transcript September 2026 "
         },
         {
           "raw": "September 2026",
@@ -1206,7 +1276,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "September 2026"
+          "hint": "8 Request Outside Transcript(s): If applicable September 2026 "
         },
         {
           "raw": "September 2026",
@@ -1215,7 +1285,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "September 2026"
+          "hint": "9 Follow Up With Recommenders September 2026 "
         },
         {
           "raw": "Oct. 2026",
@@ -1224,7 +1294,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Early Oct. 2026"
+          "hint": "12 Nomination Decision Letters distributed (via email) Early Oct. 2026  IF NOMINATED"
         },
         {
           "raw": "October 2026",
@@ -1233,7 +1303,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Early October 2026"
+          "hint": "13 Follow-up Appointment(s) and Application Revisions Early October 2026 "
         },
         {
           "raw": "October 2026",
@@ -1242,79 +1312,47 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Early October 2026"
+          "hint": "14 Submit Completed Application to the University of Cambridge Early October 2026 (Tentative Oct. 10) "
         },
         {
           "raw": "September 17,\n2026",
           "date": "2026-09-17",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "September 17, 2026"
+          "hint": "10 Internal Application Submission: Submit your complete application, including Personal Statement and Essay on Proposed Program of Study, letter of interest from research mentor at Cambridge (if applicable) via the Churchill online application. Upload your schedule of availability to College Connect. 4:00 PM ET September 17, 2026 ",
+          "individualContext": "other",
+          "consensusCount": 6
         },
         {
           "raw": "Oct. 10",
           "date": "2026-10-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": true,
-          "hint": "(Tentative Oct. 10)"
+          "hint": "14 Submit Completed Application to the University of Cambridge Early October 2026 (Tentative Oct. 10) "
         },
         {
           "raw": "November 2",
           "date": "2026-11-02",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "November 2(12:00"
+          "hint": "15 Final Application Deadline: Resubmit final versions of all components of your application to the Churchill Foundation. Monday, November 2(12:00 PM ET) ",
+          "consensusCount": 3
         },
         {
           "raw": "Nov 2",
           "date": "2026-11-02",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "Nov 2, 5:00 PM"
-        },
-        {
-          "raw": "September 17, 2026",
-          "date": "2026-09-17",
-          "dateEnd": null,
-          "type": "date",
-          "context": "recommenders",
-          "isTentative": false,
-          "hint": "Recommendation letters are due no later than September 17, 2026"
-        },
-        {
-          "raw": "September 17, 2026",
-          "date": "2026-09-17",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "You must upload your OFFICIAL transcript by September 17, 2026"
-        },
-        {
-          "raw": "September 17, 2026",
-          "date": "2026-09-17",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "edu by September 17, 2026"
-        },
-        {
-          "raw": "September 17, 2026",
-          "date": "2026-09-17",
-          "dateEnd": null,
-          "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on September 17, 2026, complete and submit the online application, including uploading"
+          "hint": "16 External Due Date: Application submitted by NS&FP Nov 2, 5:00 PM Eastern)  -- 1 of 5 -- Application Procedures: Churchill Scholarship (2026-27) 2 Next Steps: Emory may nominate two candidates. The Churchill Screening Committee, which is composed of former Churchill Scholars who are, for the most part, academic scientists, reviews applications and selects approximately 25 finalists. Finalists are notified in late December or early January and interviewed by phone by the Foundation’s Executive Director. Awards are made shortly after—and sometimes during—the phone interview. IMPORTANT NOT",
+          "consensusCount": 3
         },
         {
           "raw": "September 17, 2026",
@@ -1323,7 +1361,51 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters by September 17, 2026, as well"
+          "hint": "Recommendation letters are due no later than September 17, 2026",
+          "consensusCount": 6
+        },
+        {
+          "raw": "September 17, 2026",
+          "date": "2026-09-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "You must upload your OFFICIAL transcript by September 17, 2026",
+          "individualContext": "other",
+          "consensusCount": 6
+        },
+        {
+          "raw": "September 17, 2026",
+          "date": "2026-09-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "edu by September 17, 2026",
+          "individualContext": "other",
+          "consensusCount": 6
+        },
+        {
+          "raw": "September 17, 2026",
+          "date": "2026-09-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "By 4:00 PM ET on September 17, 2026, complete and submit the online application, including uploading",
+          "individualContext": "deadline",
+          "consensusCount": 6
+        },
+        {
+          "raw": "September 17, 2026",
+          "date": "2026-09-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "Ensure that your recommenders submit their letters by September 17, 2026, as well",
+          "consensusCount": 6
         },
         {
           "raw": "September 8",
@@ -1348,9 +1430,11 @@
           "date": "2026-11-02",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 12 pm ET, November 2, complete all revisions to your online application, requesting additional"
+          "hint": "By 12 pm ET, November 2, complete all revisions to your online application, requesting additional",
+          "individualContext": "other",
+          "consensusCount": 3
         }
       ],
       "awardFinder": [
@@ -1372,7 +1456,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": true,
-          "hint": "The next deadline coincides with the Gates Cambridge deadline, which has not yet been announced but is typically the second Wednesday in October (before midnight UK time)"
+          "hint": "The next deadline coincides with the Gates Cambridge deadline, which has not yet been announced but is typically the second Wednesday in October (before midnight UK time)",
+          "consensusCount": 2
         },
         {
           "raw": "second Wednesday in October (= 2026-10-14)",
@@ -1381,7 +1466,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": true,
-          "hint": "use of Cambridge’s rolling admissions, we strongly suggest that you apply by the deadline for the Gates Cambridge Scholarship, which is typically the second Wednesday in October"
+          "hint": "use of Cambridge’s rolling admissions, we strongly suggest that you apply by the deadline for the Gates Cambridge Scholarship, which is typically the second Wednesday in October",
+          "consensusCount": 2
         },
         {
           "raw": "September 6, 1943",
@@ -1709,7 +1795,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Submit a complete application no later than January 9, 2026"
+          "hint": "Submit a complete application no later than January 9, 2026",
+          "consensusCount": 5
         },
         {
           "raw": "January 9, 2026",
@@ -1718,7 +1805,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Submit a complete application no later than January 9, 2026"
+          "hint": "Submit a complete application no later than January 9, 2026",
+          "consensusCount": 5
         },
         {
           "raw": "August 28, 2025",
@@ -1734,18 +1822,11 @@
           "date": "2026-01-09",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Applications open on August 28, 2025, and close on January 9, 2026"
-        },
-        {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "You must complete the application by January 9, 2026"
+          "hint": "Applications open on August 28, 2025, and close on January 9, 2026",
+          "individualContext": "open",
+          "consensusCount": 5
         },
         {
           "raw": "January 9, 2026",
@@ -1754,7 +1835,19 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Completed applications must be submitted by January 9, 2026"
+          "hint": "You must complete the application by January 9, 2026",
+          "individualContext": "other",
+          "consensusCount": 5
+        },
+        {
+          "raw": "January 9, 2026",
+          "date": "2026-01-09",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "Completed applications must be submitted by January 9, 2026",
+          "consensusCount": 5
         }
       ]
     }
@@ -1904,9 +1997,24 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=8571ec7d0ae72098246a8ecace09e915&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
+    "discrepancies": [
+      {
+        "type": "deadline_mismatch",
+        "category": "deadline",
+        "values": {
+          "procedures": [
+            "2026-10-05",
+            "2026-10-06"
+          ],
+          "external": [
+            "2026-10-06"
+          ]
+        },
+        "daysApart": 1
+      }
+    ],
     "overallStatus": "Application Open",
-    "overallMin": "2025-10-06",
+    "overallMin": "2026-06-21",
     "overallMax": "2026-10-06",
     "actionItems": [],
     "recipientCheck": {
@@ -1923,7 +2031,8 @@
           "type": "range",
           "context": "interview",
           "isTentative": false,
-          "hint": "11 Campus Feedback Interviews September 21- October 2, 2026"
+          "hint": "11 Campus Feedback Interviews September 21- October 2, 2026 ",
+          "consensusCount": 2
         },
         {
           "raw": "September 28-\nOctober 5, 2026",
@@ -1932,7 +2041,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "12 Follow-up Appointment(s) and Application Revisions September 28- October 5, 2026"
+          "hint": "12 Follow-up Appointment(s) and Application Revisions September 28- October 5, 2026 "
         },
         {
           "raw": "between\nSeptember 21-October 2, 2026",
@@ -1941,43 +2050,51 @@
           "type": "range",
           "context": "interview",
           "isTentative": false,
-          "hint": "NOTE: If it is impossible for you to be available (in-person or via Zoom) for a campus interview between September 21-October 2, 2026, please contact the NS&FP office as soon as possible to discuss your"
+          "hint": "NOTE: If it is impossible for you to be available (in-person or via Zoom) for a campus interview between September 21-October 2, 2026, please contact the NS&FP office as soon as possible to discuss your",
+          "consensusCount": 2
         },
         {
           "raw": "Summer\n2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Spring/Summer 2026"
+          "hint": "1 Register for Fulbright Program Interest List and Canvas course; attend info session; complete Canvas overview and schedule consultation Spring/Summer 2026 ",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Summer 2026 "
+          "hint": "2 Select and Confirm Three Recommenders & Language Evaluator (if applicable) Summer 2026 ",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "3 Begin Drafting Statement of Grant Purpose and Short Answers Summer 2026 "
+          "hint": "3 Begin Drafting Statement of Grant Purpose and Short Answers Summer 2026 ",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Summer 2026 "
+          "hint": "4 Complete Registration for Fulbright Online Application and submit contact information for Recommenders & Language Evaluator (application opens in April) Summer 2026 ",
+          "consensusCount": 4
         },
         {
           "raw": "August 2026",
@@ -1986,7 +2103,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2026 "
+          "hint": "5 Follow up with Recommenders & Language Evaluator Send recommender instructions and evaluator instructions August 2026 "
         },
         {
           "raw": "September 2026",
@@ -2011,45 +2128,54 @@
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 10, 2026"
+          "hint": "8 Revise Statement of Grant Purpose and Short Answer Responses: Be prepared to allow time to write and receive feedback on multiple drafts from an NS&FP advisor. Summer- September 10, 2026 ",
+          "individualContext": "feedback_deadline",
+          "consensusCount": 11
         },
         {
           "raw": "September 10,\n2026",
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 10, 2026"
+          "hint": "9 Confirm Online Submission of References by Recommenders & Evaluation Form by Language Evaluator September 10, 2026 ",
+          "individualContext": "other",
+          "consensusCount": 11
         },
         {
           "raw": "September 10,\n2026",
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 10, 2026"
+          "hint": "10 Internal Application: Lock for Campus Review Electronic Application: Complete application, including uploading the final draft of SOGP essay and Short Answers. Lock your application for campus review. Submit your Schedule of Availability via College Connect. 4:00 PM ET September 10, 2026 ",
+          "individualContext": "other",
+          "consensusCount": 11
         },
         {
           "raw": "October 5, 2026",
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "October 5, 2026"
+          "hint": "13 Final Version of Statement of Grant Purpose and Short Answers Due via Email as Word Document(s) (ec.nationalawards@emory.edu) 4:00 PM ET October 5, 2026 ",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "October 5, 2026",
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "October 5, 2026"
+          "hint": "14 Final Application Deadline: Submit revised application 4:00 PM ET October 5, 2026 ",
+          "consensusCount": 3
         },
         {
           "raw": "October 6, 2026",
@@ -2058,25 +2184,17 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "15 External Due Date: Application submitted by students October 6, 2026 "
+          "hint": "15 External Due Date: Application submitted by students October 6, 2026  -- 1 of 5 -- Application Procedures: Fulbright English Teaching Assistantship (2026-2027) 2 Next Steps: All complete Fulbright applications are sent forward; there is no cut at the university level. Semi- finalists are selected by national review boards. All applicants are notified by January 31 whether they are being sent forward as semi-finalists. Semi-finalists’ applications are forwarded to the host country, where award recipients are selected. Recipients are notified in the late spring (March-May) as each country",
+          "consensusCount": 2
         },
         {
           "raw": "January 31",
-          "date": "2026-01-31",
+          "date": "2027-01-31",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "results",
           "isTentative": false,
-          "hint": "All applicants are notified by January 31 whether they are being"
-        },
-        {
-          "raw": "September 10, 2026",
-          "date": "2026-09-10",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "• Reference forms should be submitted no later than September 10, 2026"
+          "hint": "15 External Due Date: Application submitted by students October 6, 2026  -- 1 of 5 -- Application Procedures: Fulbright English Teaching Assistantship (2026-2027) 2 Next Steps: All complete Fulbright applications are sent forward; there is no cut at the university level. Semi- finalists are selected by national review boards. All applicants are notified by January 31 whether they are being sent forward as semi-finalists. Semi-finalists’ applications are forwarded to the host country, where award recipients are selected. Recipients are notified in the late spring (March-May) as each country"
         },
         {
           "raw": "September 10, 2026",
@@ -2085,7 +2203,9 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If one of your reference writers is not able to meet the September 10, 2026 due date, please contact"
+          "hint": "• Reference forms should be submitted no later than September 10, 2026",
+          "individualContext": "other",
+          "consensusCount": 11
         },
         {
           "raw": "September 10, 2026",
@@ -2094,7 +2214,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "• Language evaluations must be submitted no later than September 10, 2026"
+          "hint": "If one of your reference writers is not able to meet the September 10, 2026 due date, please contact",
+          "consensusCount": 11
         },
         {
           "raw": "September 10, 2026",
@@ -2103,7 +2224,18 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If your evaluator is not able to meet the September 10, 2026 due date, please contact our office"
+          "hint": "• Language evaluations must be submitted no later than September 10, 2026",
+          "consensusCount": 11
+        },
+        {
+          "raw": "September 10, 2026",
+          "date": "2026-09-10",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "If your evaluator is not able to meet the September 10, 2026 due date, please contact our office",
+          "consensusCount": 11
         },
         {
           "raw": "September 6, 2026",
@@ -2112,7 +2244,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "The deadline for requesting feedback from a NS&FP advisor is September 6, 2026"
+          "hint": "The deadline for requesting feedback from a NS&FP advisor is September 6, 2026",
+          "consensusCount": 2
         },
         {
           "raw": "September 6, 2026",
@@ -2121,61 +2254,74 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "The deadline for requesting feedback from a NS&FP advisor is September 6, 2026"
+          "hint": "The deadline for requesting feedback from a NS&FP advisor is September 6, 2026",
+          "consensusCount": 2
         },
         {
           "raw": "September 10, 2026",
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "You must upload your transcript by September 10, 2026"
+          "hint": "You must upload your transcript by September 10, 2026",
+          "individualContext": "other",
+          "consensusCount": 11
         },
         {
           "raw": "September 10, 2026",
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "You must upload your outside transcripts by September 10, 2026"
+          "hint": "You must upload your outside transcripts by September 10, 2026",
+          "individualContext": "other",
+          "consensusCount": 11
         },
         {
           "raw": "September 10, 2026",
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on September 10, 2026, complete the online application in the Fulbright portal,"
+          "hint": "By 4:00 PM ET on September 10, 2026, complete the online application in the Fulbright portal,",
+          "individualContext": "other",
+          "consensusCount": 11
         },
         {
           "raw": "September 10, 2026",
           "date": "2026-09-10",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Ensure that your reference writers submit their references by September 10, 2026, as well"
+          "hint": "Ensure that your reference writers submit their references by September 10, 2026, as well",
+          "individualContext": "other",
+          "consensusCount": 11
         },
         {
           "raw": "October 5, 2026",
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET, October 5, 2026, send final versions of your essays to ec"
+          "hint": "By 4:00 PM ET, October 5, 2026, send final versions of your essays to ec",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "October 6, 2026",
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET, October 6, 2026, make any other suggested revisions to your online application and"
+          "hint": "By 4:00 PM ET, October 6, 2026, make any other suggested revisions to your online application and",
+          "individualContext": "other",
+          "consensusCount": 2
         }
       ],
       "awardFinder": [
@@ -2224,7 +2370,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "The National Deadline is October 6, 2026 at 5pm Eastern Time"
+          "hint": "The National Deadline is October 6, 2026 at 5pm Eastern Time",
+          "consensusCount": 2
         },
         {
           "raw": "October 6, 2026",
@@ -2233,7 +2380,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time"
+          "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time",
+          "consensusCount": 2
         },
         {
           "raw": "August 12, 2026",
@@ -2311,9 +2459,25 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=8572bd190ae72098246a8eca753b1df2&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
+    "discrepancies": [
+      {
+        "type": "deadline_mismatch",
+        "category": "deadline",
+        "values": {
+          "procedures": [
+            "2026-09-30",
+            "2026-10-05",
+            "2026-10-06"
+          ],
+          "external": [
+            "2026-10-06"
+          ]
+        },
+        "daysApart": 6
+      }
+    ],
     "overallStatus": "Application Open",
-    "overallMin": "2026-04-02",
+    "overallMin": "2026-06-21",
     "overallMax": "2026-10-06",
     "actionItems": [],
     "recipientCheck": {
@@ -2330,7 +2494,8 @@
           "type": "range",
           "context": "interview",
           "isTentative": false,
-          "hint": "14 Campus Feedback Interviews September 7-18, 2026"
+          "hint": "14 Campus Feedback Interviews September 7-18, 2026 ",
+          "consensusCount": 2
         },
         {
           "raw": "September 16-\n30, 2026",
@@ -2339,7 +2504,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "15 Follow-up Appointment(s) and Application Revisions September 16- 30, 2026"
+          "hint": "15 Follow-up Appointment(s) and Application Revisions September 16- 30, 2026 "
         },
         {
           "raw": "July-Aug. 2026",
@@ -2348,7 +2513,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "July-Aug. 2026 "
+          "hint": "7 Follow up with Recommenders & Language Evaluator: Send recommender instructions and language evaluator instructions July-Aug. 2026 "
         },
         {
           "raw": "Spring 2026",
@@ -2357,7 +2522,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "complete Canvas overview and schedule consultation Spring 2026 "
+          "hint": "1 Register for Fulbright Program Interest List and Canvas course; complete Canvas overview and schedule consultation Spring 2026 "
         },
         {
           "raw": "Spring 2026",
@@ -2373,27 +2538,32 @@
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Summer 2026 "
+          "hint": "4 Select and Confirm Three Recommenders & Language Evaluator (if applicable) Summer 2026 ",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "5 Begin Drafting Statement of Grant Purpose and Short Answers Summer 2026 "
+          "hint": "5 Begin Drafting Statement of Grant Purpose and Short Answers Summer 2026 ",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Summer 2026 "
+          "hint": "6 Complete Registration for Fulbright Online Application Portal and Submit Contact Information for Recommenders & Language Evaluator (application opens April 2) Summer 2026 ",
+          "consensusCount": 3
         },
         {
           "raw": "August 2026",
@@ -2420,7 +2590,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Late August 2026 "
+          "hint": "11 Review Statement of Grant Purpose and ask your Advisor/PI to complete the R/S Grant Review Form or R/S Graduate Review Form Late August 2026 "
         },
         {
           "raw": "June 25, 2026",
@@ -2429,79 +2599,88 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "3 Submit Pre-Application in College Connect June 25, 2026 "
+          "hint": "3 Submit Pre-Application in College Connect June 25, 2026 ",
+          "consensusCount": 3
         },
         {
           "raw": "April 2",
-          "date": "2026-04-02",
+          "date": "2027-04-02",
           "dateEnd": null,
           "type": "date",
           "context": "open",
           "isTentative": false,
-          "hint": "Evaluator (application opens April 2)"
+          "hint": "6 Complete Registration for Fulbright Online Application Portal and Submit Contact Information for Recommenders & Language Evaluator (application opens April 2) Summer 2026 "
         },
         {
           "raw": "August 26, 2026",
           "date": "2026-08-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "feedback_deadline",
           "isTentative": false,
-          "hint": "August 26, 2026"
+          "hint": "10 Revise Statement of Grant Purpose and Short Answer Questions: Be prepared to allow time to write and receive feedback on multiple drafts from an NS&FP advisor. June – August 26, 2026 "
         },
         {
           "raw": "September 3,\n2026",
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 3, 2026"
+          "hint": "12 Confirm Online Submission of Letters by Recommenders & Evaluation Form by Language Evaluator September 3, 2026 ",
+          "individualContext": "other",
+          "consensusCount": 13
         },
         {
           "raw": "September 3,\n2026",
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 3, 2026"
+          "hint": "13 Internal Application: Lock for Campus Review Electronic Application: Complete application, including inputting the final draft of SOGP essay and short answers. Lock your application for campus review. Submit your Schedule of Availability via College Connect. 4:00 PM ET September 3, 2026 ",
+          "individualContext": "other",
+          "consensusCount": 13
         },
         {
           "raw": "October 5, 2026",
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "October 5, 2026"
+          "hint": "16 Email Final Version of Statement of Grant Purpose and Short Answers as Word Document(s) (ec.nationalawards@emory.edu) 4:00 PM ET October 5, 2026 ",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "October 5, 2026",
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "October 5, 2026"
+          "hint": "17 Final Application Deadline: Submit revised application 4:00 PM ET October 5, 2026  -- 1 of 8 -- Application Procedures: Fulbright Research Study Grant (2026-27) 2",
+          "consensusCount": 3
         },
         {
           "raw": "October 6, 2026",
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "October 6, 2026"
+          "hint": "18 External Due Date: Application submitted by students 5:00 PM ET October 6, 2026  Next Steps: All complete Fulbright applications are sent forward; there is no cut at the university level. Finalists are selected by national review boards. All applicants are notified by January 31 whether they are being sent forward as semi-finalists. Semi-finalists’ applications are forwarded to the host country Fulbright Commission and/or embassy, where award recipients are selected. Recipients are notified in the late spring (March-May) as each country makes decisions. IMPORTANT NOTES Consultation (Step 1",
+          "consensusCount": 3
         },
         {
           "raw": "January 31",
-          "date": "2026-01-31",
+          "date": "2027-01-31",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "results",
           "isTentative": false,
-          "hint": "All applicants are notified by January 31 whether they are being sent"
+          "hint": "18 External Due Date: Application submitted by students 5:00 PM ET October 6, 2026  Next Steps: All complete Fulbright applications are sent forward; there is no cut at the university level. Finalists are selected by national review boards. All applicants are notified by January 31 whether they are being sent forward as semi-finalists. Semi-finalists’ applications are forwarded to the host country Fulbright Commission and/or embassy, where award recipients are selected. Recipients are notified in the late spring (March-May) as each country makes decisions. IMPORTANT NOTES Consultation (Step 1"
         },
         {
           "raw": "September 3, 2026",
@@ -2510,7 +2689,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Ideally, you should have the affiliation letter by our internal due date, September 3, 2026, but it is"
+          "hint": "Ideally, you should have the affiliation letter by our internal due date, September 3, 2026, but it is",
+          "consensusCount": 13
         },
         {
           "raw": "October 6, 2026",
@@ -2519,16 +2699,19 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "possible to add it to your application up until the Fulbright external due date, October 6, 2026"
+          "hint": "possible to add it to your application up until the Fulbright external due date, October 6, 2026",
+          "consensusCount": 3
         },
         {
           "raw": "June 25, 2026",
           "date": "2026-06-25",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "NS&FP resources must complete a pre-application by June 25, 2026, if they would like to receive"
+          "hint": "NS&FP resources must complete a pre-application by June 25, 2026, if they would like to receive",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "May 21, 2026",
@@ -2544,18 +2727,11 @@
           "date": "2026-06-25",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "beginning May 21, 2026, and is due on or before June 25, 2026"
-        },
-        {
-          "raw": "September 3, 2026",
-          "date": "2026-09-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "recommenders",
-          "isTentative": false,
-          "hint": "• Recommendation letters should be uploaded no later than September 3, 2026"
+          "hint": "beginning May 21, 2026, and is due on or before June 25, 2026",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "September 3, 2026",
@@ -2564,7 +2740,9 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the September 3, 2026 due date, please contact our"
+          "hint": "• Recommendation letters should be uploaded no later than September 3, 2026",
+          "individualContext": "recommenders",
+          "consensusCount": 13
         },
         {
           "raw": "September 3, 2026",
@@ -2573,7 +2751,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "• Language evaluations must be submitted no later than September 3, 2026"
+          "hint": "If one of your recommenders is not able to meet the September 3, 2026 due date, please contact our",
+          "consensusCount": 13
         },
         {
           "raw": "September 3, 2026",
@@ -2582,7 +2761,18 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If your evaluator is not able to meet the September 3, 2026 due date, please contact our office"
+          "hint": "• Language evaluations must be submitted no later than September 3, 2026",
+          "consensusCount": 13
+        },
+        {
+          "raw": "September 3, 2026",
+          "date": "2026-09-03",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "If your evaluator is not able to meet the September 3, 2026 due date, please contact our office",
+          "consensusCount": 13
         },
         {
           "raw": "August 25,\n2026",
@@ -2591,16 +2781,19 @@
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "The deadline for requesting feedback from a NS&FP advisor for the internal deadline is August 25, 2026"
+          "hint": "The deadline for requesting feedback from a NS&FP advisor for the internal deadline is August 25, 2026",
+          "consensusCount": 2
         },
         {
           "raw": "September 3, 2026",
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 3, 2026"
+          "hint": "September 3, 2026",
+          "individualContext": "other",
+          "consensusCount": 13
         },
         {
           "raw": "August 25,\n2026",
@@ -2609,52 +2802,63 @@
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "The deadline for requesting feedback from a NS&FP advisor for the internal deadline is August 25, 2026"
+          "hint": "The deadline for requesting feedback from a NS&FP advisor for the internal deadline is August 25, 2026",
+          "consensusCount": 2
         },
         {
           "raw": "September 3, 2026",
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "You must upload your transcript by September 3, 2026"
+          "hint": "You must upload your transcript by September 3, 2026",
+          "individualContext": "other",
+          "consensusCount": 13
         },
         {
           "raw": "September 3, 2026",
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "You must upload your outside transcript by September 3, 2026"
+          "hint": "You must upload your outside transcript by September 3, 2026",
+          "individualContext": "other",
+          "consensusCount": 13
         },
         {
           "raw": "September 3, 2026",
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on September 3, 2026, complete the online application in the Fulbright portal, including"
+          "hint": "By 4:00 PM ET on September 3, 2026, complete the online application in the Fulbright portal, including",
+          "individualContext": "other",
+          "consensusCount": 13
         },
         {
           "raw": "September 3, 2026",
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters by September 3, 2026 as well"
+          "hint": "Ensure that your recommenders submit their letters by September 3, 2026 as well",
+          "individualContext": "recommenders",
+          "consensusCount": 13
         },
         {
           "raw": "September 3, 2026",
           "date": "2026-09-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 3, 2026:"
+          "hint": "September 3, 2026:",
+          "individualContext": "other",
+          "consensusCount": 13
         },
         {
           "raw": "September\n7th",
@@ -2663,7 +2867,8 @@
           "type": "date",
           "context": "interview",
           "isTentative": false,
-          "hint": "NOTE: If it is impossible for you to be available (via Zoom) for a campus interview between September 7th and 18th, please contact the NS&FP office as soon as possible to discuss your situation"
+          "hint": "NOTE: If it is impossible for you to be available (via Zoom) for a campus interview between September 7th and 18th, please contact the NS&FP office as soon as possible to discuss your situation",
+          "consensusCount": 2
         },
         {
           "raw": "September 30, 2026",
@@ -2679,18 +2884,22 @@
           "date": "2026-10-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET, October 5, 2026, send final versions of your essay and short answers to"
+          "hint": "By 4:00 PM ET, October 5, 2026, send final versions of your essay and short answers to",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "October 6, 2026",
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET, October 6, 2026, make any other suggested revisions to your online application and"
+          "hint": "By 4:00 PM ET, October 6, 2026, make any other suggested revisions to your online application and",
+          "individualContext": "other",
+          "consensusCount": 3
         }
       ],
       "awardFinder": [
@@ -2748,7 +2957,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "The National Deadline is October 6, 2026 at 5pm Eastern Time"
+          "hint": "The National Deadline is October 6, 2026 at 5pm Eastern Time",
+          "consensusCount": 2
         },
         {
           "raw": "October 6, 2026",
@@ -2757,7 +2967,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time"
+          "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time",
+          "consensusCount": 2
         },
         {
           "raw": "August 12, 2026",
@@ -2955,7 +3166,8 @@
           "type": "period",
           "context": "results",
           "isTentative": true,
-          "hint": "Next steps: Admissions decisions for Cambridge will be made in November and December 2026 and"
+          "hint": "Next steps: Admissions decisions for Cambridge will be made in November and December 2026 and",
+          "consensusCount": 3
         },
         {
           "raw": "November 2026",
@@ -2989,18 +3201,22 @@
           "date": "2026-12-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "results",
           "isTentative": true,
-          "hint": "Dec 2026"
+          "hint": "Dec 2026",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "December 2026",
           "date": "2026-12-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "results",
           "isTentative": true,
-          "hint": "December 2026 or"
+          "hint": "December 2026 or",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "January 2027",
@@ -3175,16 +3391,19 @@
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "Applications will open again in September 2026 for entry in the academic year 2027/8"
+          "hint": "Applications will open again in September 2026 for entry in the academic year 2027/8",
+          "consensusCount": 3
         },
         {
           "raw": "September 2026",
           "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "September 2026 (dates to be confirmed)"
+          "hint": "September 2026 (dates to be confirmed)",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "November 2026",
@@ -3218,9 +3437,11 @@
           "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "September 2026 (date to be confirmed)"
+          "hint": "September 2026 (date to be confirmed)",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "March 2027",
@@ -3269,6 +3490,7 @@
         "values": {
           "procedures": [
             "2026-01-23",
+            "2026-01-26",
             "2026-01-30"
           ],
           "annualDeadlines": [
@@ -3311,7 +3533,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "November- December 2025"
+          "hint": "8 Revise Short Essay Questions and Research Essay Be prepared to allow time to write and receive feedback on multiple drafts from an NS&FP advisor. November- December 2025 "
         },
         {
           "raw": "September - October 2025",
@@ -3329,52 +3551,61 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Summer/Fall 2025 "
+          "hint": "1 Attend Info Session, Workshop, and/or Schedule Consultation with an NS&FP Advisor Summer/Fall 2025 "
         },
         {
           "raw": "November 2025",
           "date": "2025-11-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "November 2025 "
+          "hint": "3 Begin Online Applications Goldwater Portal and College Connect November 2025 ",
+          "consensusCount": 5
         },
         {
           "raw": "November 2025",
           "date": "2025-11-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "4 Select and Confirm Three Recommenders November 2025 "
+          "hint": "4 Select and Confirm Three Recommenders November 2025 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "November 2025",
           "date": "2025-11-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "5 Begin Drafting Short Essay Questions November 2025 "
+          "hint": "5 Begin Drafting Short Essay Questions November 2025 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "November 2025",
           "date": "2025-11-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "6 Begin Drafting Research Essay November 2025 "
+          "hint": "6 Begin Drafting Research Essay November 2025 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "November 2025",
           "date": "2025-11-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "7 Request Transcript(s) November 2025 "
+          "hint": "7 Request Transcript(s) November 2025 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "December 2025",
@@ -3392,16 +3623,17 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "November 6, 2025"
+          "hint": "2 Complete Pre-application in Goldwater Portal This step may be completed earlier 4:00 PM ET November 6, 2025 "
         },
         {
           "raw": "December 4, 2025",
           "date": "2025-12-04",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "December 4, 2025"
+          "hint": "10 Internal Application Submission Goldwater Online Application: Complete and submit the online application, including uploading the final draft of your research essay. Emory College Connect Application/Consent Form: Complete and submit the Goldwater application update located in College Connect. 4:00 PM ET December 4, 2025 ",
+          "consensusCount": 4
         },
         {
           "raw": "January 9, 2026",
@@ -3410,16 +3642,17 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "11 Nomination Decision Letters Distributed (via email) January 9, 2026 "
+          "hint": "11 Nomination Decision Letters Distributed (via email) January 9, 2026  IF NOMINATED"
         },
         {
           "raw": "January 26, 2026",
           "date": "2026-01-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "January 26, 2026"
+          "hint": "13 Submit Online Application, including Final Version of Research Essay Send a copy of your essay to ec.nationalawards@emory.edu 4:00 PM ET January 26, 2026  Next Steps: The Goldwater Foundation will notify award recipients and honorable mentions by email in late March or early April. -- 1 of 6 -- Application Procedures: Goldwater Scholarship (2025-26) 2 IMPORTANT NOTES Attend Info Session and/or Schedule Consultation (Step 1) Attend a summer workshop, STEM Awards Info Session or review materials on Canvas, and then make an appointment with an NS&FP advisor to discuss your eligibility and a",
+          "consensusCount": 2
         },
         {
           "raw": "November 6, 2025",
@@ -3455,16 +3688,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the December 4 deadline, please contact our office"
-        },
-        {
-          "raw": "December 4, 2025",
-          "date": "2025-12-04",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "• Recommendations should be submitted no later than 4:00pm ET on December 4, 2025"
+          "hint": "If one of your recommenders is not able to meet the December 4 deadline, please contact our office",
+          "consensusCount": 4
         },
         {
           "raw": "December 4, 2025",
@@ -3473,7 +3698,19 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM on December 4, 2025, complete and submit the online application in the Goldwater portal,"
+          "hint": "• Recommendations should be submitted no later than 4:00pm ET on December 4, 2025",
+          "individualContext": "other",
+          "consensusCount": 4
+        },
+        {
+          "raw": "December 4, 2025",
+          "date": "2025-12-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "By 4:00 PM on December 4, 2025, complete and submit the online application in the Goldwater portal,",
+          "consensusCount": 4
         },
         {
           "raw": "January 9, 2026",
@@ -3489,9 +3726,11 @@
           "date": "2026-01-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM on January 26, 2026, you must make and upload revisions to your online application (including the"
+          "hint": "By 4:00 PM on January 26, 2026, you must make and upload revisions to your online application (including the",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
           "raw": "January 30th",
@@ -3500,7 +3739,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "to your application and submit by the national deadline (January 30th )"
+          "hint": "to your application and submit by the national deadline (January 30th )",
+          "consensusCount": 2
         },
         {
           "raw": "January 23",
@@ -3518,7 +3758,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "January 23 and the external deadline on January 30"
+          "hint": "January 23 and the external deadline on January 30",
+          "consensusCount": 2
         }
       ],
       "awardFinder": [
@@ -3621,16 +3862,19 @@
           "type": "date",
           "context": "open",
           "isTentative": false,
-          "hint": "Schedule: Online applications open in late August and closed on January 15, 2026"
+          "hint": "Schedule: Online applications open in late August and closed on January 15, 2026",
+          "consensusCount": 2
         },
         {
           "raw": "January 15, 2026",
           "date": "2026-01-15",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "open",
           "isTentative": false,
-          "hint": "Deadline for recommendation submission was January 15, 2026"
+          "hint": "Deadline for recommendation submission was January 15, 2026",
+          "individualContext": "deadline",
+          "consensusCount": 2
         }
       ]
     }
@@ -3814,9 +4058,11 @@
           "date": "2026-07-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "interview",
           "isTentative": true,
-          "hint": "July 2026"
+          "hint": "July 2026",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
           "raw": "Sept 2026",
@@ -3852,7 +4098,8 @@
           "type": "period",
           "context": "interview",
           "isTentative": true,
-          "hint": "Interview with Campus Nomination Committee (July 2026)"
+          "hint": "Interview with Campus Nomination Committee (July 2026)",
+          "consensusCount": 2
         },
         {
           "raw": "July 17, 2026",
@@ -3982,7 +4229,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "application to a Stanford graduate degree program(s) by the earlier of these two dates: the degree program application deadline for KHS applicants or December 1, 2026"
+          "hint": "application to a Stanford graduate degree program(s) by the earlier of these two dates: the degree program application deadline for KHS applicants or December 1, 2026",
+          "consensusCount": 4
         },
         {
           "raw": "December 1, 2026",
@@ -3991,16 +4239,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "For KHS applicants whose degree programs have deadlines after December 1, 2026:"
-        },
-        {
-          "raw": "December 1, 2026",
-          "date": "2026-12-01",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "You must submit your graduate degree program application by December 1, 2026 to remain eligible for Knight-Hennessy Scholars"
+          "hint": "For KHS applicants whose degree programs have deadlines after December 1, 2026:",
+          "consensusCount": 4
         },
         {
           "raw": "December 1, 2026",
@@ -4009,7 +4249,19 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If you submit your graduate program application after December 1, 2026 but before your graduate program’s deadline you will remain eligible for admission to your graduate program but you will not be eligible for admissio"
+          "hint": "You must submit your graduate degree program application by December 1, 2026 to remain eligible for Knight-Hennessy Scholars",
+          "individualContext": "other",
+          "consensusCount": 4
+        },
+        {
+          "raw": "December 1, 2026",
+          "date": "2026-12-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "If you submit your graduate program application after December 1, 2026 but before your graduate program’s deadline you will remain eligible for admission to your graduate program but you will not be eligible for admissio",
+          "consensusCount": 4
         }
       ],
       "annualDeadlines": [
@@ -4285,7 +4537,6 @@
             "2026-09-29"
           ],
           "external": [
-            "2026-09-29",
             "2026-10-01"
           ]
         },
@@ -4308,9 +4559,10 @@
           "date": "2026-09-08",
           "dateEnd": "2026-09-11",
           "type": "range",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "Sept 8-11, 2026"
+          "hint": "11 Campus Interviews Sept 8-11, 2026  IF NOMINATED",
+          "consensusCount": 2
         },
         {
           "raw": "Sept 14-23, 2026",
@@ -4319,7 +4571,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "Sept 14-23, 2026"
+          "hint": "12 Follow-up Appointment(s) and Application Revisions Sept 14-23, 2026 "
         },
         {
           "raw": "September 8-\n11",
@@ -4328,7 +4580,8 @@
           "type": "range",
           "context": "interview",
           "isTentative": false,
-          "hint": "NOTE: If it is impossible for you to be available (in-person or via Zoom) for a nomination interview September 8- 11, please contact the NS&FP office as soon as possible to discuss your situation"
+          "hint": "NOTE: If it is impossible for you to be available (in-person or via Zoom) for a nomination interview September 8- 11, please contact the NS&FP office as soon as possible to discuss your situation",
+          "consensusCount": 2
         },
         {
           "raw": "Spring 2026",
@@ -4337,7 +4590,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Schedule Initial Consultation and/or Attend Info Session Spring 2026"
+          "hint": "1 Register for Post-Grad Program Interest List and Canvas Course; Schedule Initial Consultation and/or Attend Info Session Spring 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -4346,7 +4599,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Summer 2026"
+          "hint": "2 Degree Program Selection: With NS&FP and advisor assistance select appropriate course(s) of study and university(ies). Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -4355,7 +4608,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Summer 2026"
+          "hint": "3 Select and Confirm Three Recommenders in consultation with a NS&FP advisor. Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -4364,7 +4617,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Scholarship Plan Essays Summer 2026"
+          "hint": "4 Begin Drafting Proposed Academic Programme, Personal Statement, Ambassadorial Potential, Leadership, and Post Scholarship Plan Essays Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -4373,7 +4626,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Begin official Marshall online application, register recommenders Summer 2026"
+          "hint": "5 Begin official Marshall online application, register recommenders Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -4382,7 +4635,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Summer 2026"
+          "hint": "9 Revise Proposed Academic Programme, Personal Statement, Ambassadorial Potential, Leadership, and Post Scholarship Plan essays: Allow time to write and receive feedback on multiple drafts from a NS&FP advisor. Summer 2026 "
         },
         {
           "raw": "early Summer 2026",
@@ -4400,7 +4653,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2026"
+          "hint": "6 Follow up with Recommenders: Send instructions August 2026 "
         },
         {
           "raw": "August 2026",
@@ -4409,7 +4662,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2026"
+          "hint": "7 Request and Upload Emory Transcript August 2026 "
         },
         {
           "raw": "August 2026",
@@ -4418,25 +4671,27 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2026"
+          "hint": "8 Request Outside Transcript(s): If applicable August 2026 "
         },
         {
           "raw": "August 27, 2026",
           "date": "2026-08-27",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "August 27, 2026"
+          "hint": "10 Internal Application Submission: Electronic Application Complete and submit the online application, including uploading the final draft of each essay 4:00 PM ET August 27, 2026 ",
+          "consensusCount": 5
         },
         {
           "raw": "September 29, 2026",
           "date": "2026-09-29",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 29, 2026"
+          "hint": "13 External Due Date - Final Application Deadline: Resubmit revised application after approval by NS&FP Noon (12:00 PM ET) September 29, 2026 ",
+          "consensusCount": 3
         },
         {
           "raw": "March 15, 2026",
@@ -4454,7 +4709,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Letters must be submitted no later than August 27, 2026"
+          "hint": "Letters must be submitted no later than August 27, 2026",
+          "consensusCount": 5
         },
         {
           "raw": "August 27, 2026",
@@ -4463,16 +4719,19 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the August 27, 2026 due date, please contact our office"
+          "hint": "If one of your recommenders is not able to meet the August 27, 2026 due date, please contact our office",
+          "consensusCount": 5
         },
         {
           "raw": "August 27, 2026",
           "date": "2026-08-27",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "You must upload your transcript by August 27, 2026"
+          "hint": "You must upload your transcript by August 27, 2026",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "August 20, 2026",
@@ -4488,9 +4747,11 @@
           "date": "2026-08-27",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters by August 27, 2026 as well"
+          "hint": "Ensure that your recommenders submit their letters by August 27, 2026 as well",
+          "individualContext": "recommenders",
+          "consensusCount": 5
         },
         {
           "raw": "September 29, 2026",
@@ -4499,16 +4760,19 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Please note that the final day to request feedback is 3 days before the National Deadline: September 29, 2026"
+          "hint": "Please note that the final day to request feedback is 3 days before the National Deadline: September 29, 2026",
+          "consensusCount": 3
         },
         {
           "raw": "September 29",
           "date": "2026-09-29",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By noon on September 29, complete all revisions on your online application, requesting additional feedback"
+          "hint": "By noon on September 29, complete all revisions on your online application, requesting additional feedback",
+          "individualContext": "other",
+          "consensusCount": 3
         }
       ],
       "awardFinder": [
@@ -4537,9 +4801,11 @@
           "date": "2026-09-29",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "The deadlines for the 2027 Marshall Competition are: <br>29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Ins"
+          "hint": "The deadlines for the 2027 Marshall Competition are: <br>29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Ins",
+          "individualContext": "deadline",
+          "consensusCount": 2
         },
         {
           "raw": "1st October 2026",
@@ -4548,7 +4814,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "the 2027 Marshall Competition are: <br>29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Institution at 5:00pm in the time zone of the endorsing instution"
+          "hint": "the 2027 Marshall Competition are: <br>29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Institution at 5:00pm in the time zone of the endorsing instution",
+          "consensusCount": 2
         },
         {
           "raw": "29th September 2026",
@@ -4557,7 +4824,8 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "submit their applications, including letters of recommendation, no later than 5:00pm in the time zone where your endorsing institution is located on 29th September 2026"
+          "hint": "submit their applications, including letters of recommendation, no later than 5:00pm in the time zone where your endorsing institution is located on 29th September 2026",
+          "consensusCount": 2
         },
         {
           "raw": "1st October 2026",
@@ -4566,7 +4834,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "orsement, must be submitted online by the endorsing institution no later than 5:00pm in the time zone where your endorsing institution is located on 1st October 2026"
+          "hint": "orsement, must be submitted online by the endorsing institution no later than 5:00pm in the time zone where your endorsing institution is located on 1st October 2026",
+          "consensusCount": 2
         }
       ],
       "annualDeadlines": [
@@ -4653,7 +4922,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "November 1-13, 2025"
+          "hint": "13 Follow-up Appointment(s) and Application Revisions: Revise and expand Personal Statement to 1000 words November 1-13, 2025 "
         },
         {
           "raw": "Aug-Sept 2025",
@@ -4725,7 +4994,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "September 2025 "
+          "hint": "8 Follow up with Recommenders Send instructions September 2025 "
         },
         {
           "raw": "September 2025",
@@ -4734,7 +5003,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "September 2025 "
+          "hint": "9 Writing Sample: Select a recent graded research paper (8-10 pages; with comments) September 2025 "
         },
         {
           "raw": "September 2025",
@@ -4750,9 +5019,11 @@
           "date": "2025-10-16",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "October 16, 2025,"
+          "hint": "11 Internal Application Submission: Submit your application materials (Personal Statement, CV, transcripts, and graded research paper) via College Connect. October 16, 2025, 4:00 PM ET ",
+          "individualContext": "deadline",
+          "consensusCount": 5
         },
         {
           "raw": "October 31, 2025",
@@ -4761,7 +5032,7 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "12 Nomination Decision Letters distributed (via email) October 31, 2025 "
+          "hint": "12 Nomination Decision Letters distributed (via email) October 31, 2025  IF NOMINATED"
         },
         {
           "raw": "November 13, 2025",
@@ -4779,43 +5050,17 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "November 13, 2025 "
+          "hint": "15 Final Version of Personal Statement and PDF of Application Form due via Email (ec.nationalawards@emory.edu) November 13, 2025 "
         },
         {
           "raw": "November 14,\n2025",
           "date": "2025-11-14",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "16 Application submitted by NS&FP November 14, 2025*"
-        },
-        {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "College Connect by October 16, 2025"
-        },
-        {
-          "raw": "October\n16",
-          "date": "2025-10-16",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the October 16 deadline, please contact our office"
-        },
-        {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "By 4:00 PM ET on October 16, 2025, complete the application, including the Personal Statement"
+          "hint": "16 Application submitted by NS&FP November 14, 2025* *External deadline subject to change  Next Steps: Emory may nominate one candidate. Finalists will participate in an interview in early February and the recipient will be announced shortly thereafter. ￼ -- 1 of 4 -- Application Procedures: Michel David-Weill Scholarship (2025-26) 2 IMPORTANT NOTES Consultation (Step 1) Make contact with the National Scholarships and Fellowships program to discuss your eligibility, application competitiveness, and interest in pursuing graduate study at Sciences Po. Recommenders (Steps 2, 8) In consultation",
+          "consensusCount": 2
         },
         {
           "raw": "October 16, 2025",
@@ -4824,7 +5069,41 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters by October 16, 2025, as well"
+          "hint": "College Connect by October 16, 2025",
+          "individualContext": "other",
+          "consensusCount": 5
+        },
+        {
+          "raw": "October\n16",
+          "date": "2025-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "If one of your recommenders is not able to meet the October 16 deadline, please contact our office",
+          "individualContext": "other",
+          "consensusCount": 5
+        },
+        {
+          "raw": "October 16, 2025",
+          "date": "2025-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "By 4:00 PM ET on October 16, 2025, complete the application, including the Personal Statement",
+          "individualContext": "other",
+          "consensusCount": 5
+        },
+        {
+          "raw": "October 16, 2025",
+          "date": "2025-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "Ensure that your recommenders submit their letters by October 16, 2025, as well",
+          "consensusCount": 5
         },
         {
           "raw": "October 31, 2025",
@@ -4860,7 +5139,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "letter, to Sciences Po via PDF in advance of the November 14, 2025 national deadline"
+          "hint": "letter, to Sciences Po via PDF in advance of the November 14, 2025 national deadline",
+          "consensusCount": 2
         }
       ],
       "awardFinder": [
@@ -4975,16 +5255,21 @@
         "type": "stale",
         "status": "Urgent: Update Needed Now",
         "min": "2023-06-21",
-        "max": "2023-08-24",
+        "max": "2023-09-28",
         "minSource": "procedures",
         "minRaw": "Summer 2023",
         "maxSource": "procedures",
-        "maxRaw": "August 24"
+        "maxRaw": "September 28, 2023"
+      },
+      {
+        "type": "paused",
+        "source": "external",
+        "snippet": "ergence of Future American Leaders in Ireland Announcement: Scholarship Paused The Mitchell Scholar Directory A Convergence of Future Amer"
       }
     ],
-    "overallStatus": "Urgent: Update Needed Now",
+    "overallStatus": "Paused",
     "overallMin": "2023-06-21",
-    "overallMax": "2023-08-24",
+    "overallMax": "2023-09-28",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -5009,9 +5294,10 @@
           "date": "2023-09-05",
           "dateEnd": "2023-09-08",
           "type": "range",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "Sept 5-8, 2023"
+          "hint": "11 Campus Interviews Sept 5-8, 2023  IF NOMINATED",
+          "consensusCount": 2
         },
         {
           "raw": "Sept 11-22, 2023",
@@ -5020,7 +5306,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "Sept 11-22, 2023"
+          "hint": "12 Follow-up Appointment Sept 11-22, 2023 "
         },
         {
           "raw": "Spring 2023",
@@ -5029,34 +5315,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Schedule Initial Consultation and/or Attend Info Session Spring 2023"
-        },
-        {
-          "raw": "Summer 2023",
-          "date": "2023-06-21",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "Summer 2023"
-        },
-        {
-          "raw": "Summer 2023",
-          "date": "2023-06-21",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "Summer 2023"
-        },
-        {
-          "raw": "Summer 2023",
-          "date": "2023-06-21",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "Begin Drafting Personal Statement Summer 2023"
+          "hint": "1 Register for Post-Grad Program Interest List and Canvas Course; Schedule Initial Consultation and/or Attend Info Session Spring 2023 "
         },
         {
           "raw": "Summer 2023",
@@ -5065,7 +5324,41 @@
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "Begin online applications in Mitchell portal and College Connect Summer 2023"
+          "hint": "2 Degree Program Selection: With NS&FP and advisor assistance select appropriate course(s) of study and university(ies). Summer 2023 ",
+          "individualContext": "other",
+          "consensusCount": 4
+        },
+        {
+          "raw": "Summer 2023",
+          "date": "2023-06-21",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "3 Select and Confirm Four Recommenders in consultation with a NS&FP advisor. Summer 2023 ",
+          "individualContext": "other",
+          "consensusCount": 4
+        },
+        {
+          "raw": "Summer 2023",
+          "date": "2023-06-21",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "4 Begin Drafting Personal Statement Summer 2023 ",
+          "individualContext": "other",
+          "consensusCount": 4
+        },
+        {
+          "raw": "Summer 2023",
+          "date": "2023-06-21",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "5 Begin online applications in Mitchell portal and College Connect Summer 2023 ",
+          "consensusCount": 4
         },
         {
           "raw": "August 2023",
@@ -5074,7 +5367,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2023"
+          "hint": "6 Follow up with Recommenders: Send instructions August 2023 "
         },
         {
           "raw": "August 2023",
@@ -5083,7 +5376,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2023"
+          "hint": "7 Request and Upload Emory Transcript August 2023 "
         },
         {
           "raw": "August 2023",
@@ -5092,7 +5385,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2023"
+          "hint": "8 Request Outside Transcript(s): If applicable August 2023 "
         },
         {
           "raw": "August 2023",
@@ -5101,47 +5394,52 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2023"
+          "hint": "9 Revise Personal Statement: Allow time to write multiple drafts. August 2023 "
         },
         {
           "raw": "August 24, 2023",
           "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "August 24, 2023"
+          "hint": "10 Internal Application Submission: Electronic Application Complete the online application, including the final draft of your personal statement DO NOT SUBMIT your online application to the Mitchell Foundation. 4:00 PM ET August 24, 2023 ",
+          "individualContext": "deadline",
+          "consensusCount": 6
         },
         {
           "raw": "Sept 28, 2023",
           "date": "2023-09-28",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Sept 28, 2023"
+          "hint": "13 Final Application Deadline: Submit revised application after approval by NS&FP. Be sure to upload your photo and signature. 4:00 PM ET Sept 28, 2023 ",
+          "consensusCount": 4
         },
         {
           "raw": "Sept. 28, 2023",
           "date": "2023-09-28",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Sept. 28, 2023"
+          "hint": "14 External Due Date: Endorsement Letter Submitted by Emory Sept. 28, 2023 ",
+          "consensusCount": 4
         },
         {
           "raw": "Oct. 2, 2023",
           "date": "2023-10-02",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "Oct. 2, 2023"
+          "hint": "15 Video Interview Oct. 2, 2023  -- 1 of 5 -- Application Procedures: Mitchell Scholarship (2023-24) 2 IMPORTANT NOTES Interest Sign-Up/Consultation (Step 1) If you did not register to attend or receive information about a Spring Info Session/workshop, please register at https://emoryoue.wufoo.com/forms/m1fbsh4j1j8vy6u/ to let us know you are interested in applying and to receive important updates throughout the summer. If you are already enrolled in our Canvas course, you can review the Post-grad Programs info session there. If you are not already enrolled in our Canvas course, you will",
+          "consensusCount": 2
         },
         {
           "raw": "March 16",
-          "date": "2023-03-16",
+          "date": "2024-03-16",
           "dateEnd": null,
           "type": "date",
           "context": "feedback_deadline",
@@ -5155,7 +5453,8 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Recommendation letters are due to NS&FP no later than August 24, 2023"
+          "hint": "Recommendation letters are due to NS&FP no later than August 24, 2023",
+          "consensusCount": 6
         },
         {
           "raw": "September 9",
@@ -5171,45 +5470,55 @@
           "date": "2023-09-28",
           "dateEnd": null,
           "type": "date",
-          "context": "recommenders",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Recommendation letters are due to Mitchell no later than September 28, 2023"
+          "hint": "Recommendation letters are due to Mitchell no later than September 28, 2023",
+          "individualContext": "recommenders",
+          "consensusCount": 4
         },
         {
           "raw": "August 24",
           "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the August 24 internal due date, please contact our office"
+          "hint": "If one of your recommenders is not able to meet the August 24 internal due date, please contact our office",
+          "individualContext": "deadline",
+          "consensusCount": 6
         },
         {
           "raw": "August 24, 2023",
           "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "You must upload your OFFICIAL transcript by August 24, 2023"
+          "hint": "You must upload your OFFICIAL transcript by August 24, 2023",
+          "individualContext": "other",
+          "consensusCount": 6
         },
         {
           "raw": "August 24, 2023",
           "date": "2023-08-24",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on August 24, 2023, fill out the online application, including the final draft of your Personal"
+          "hint": "By 4:00 PM ET on August 24, 2023, fill out the online application, including the final draft of your Personal",
+          "individualContext": "other",
+          "consensusCount": 6
         },
         {
           "raw": "September 5",
           "date": "2023-09-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "September 5, please contact the NS&FP office as soon as possible to discuss your situation"
+          "hint": "September 5, please contact the NS&FP office as soon as possible to discuss your situation",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
           "raw": "August 24",
@@ -5218,25 +5527,30 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters by August 24, as well"
+          "hint": "Ensure that your recommenders submit their letters by August 24, as well",
+          "consensusCount": 6
         },
         {
           "raw": "September 28, 2023",
           "date": "2023-09-28",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on September 28, 2023, complete all revisions on your online application, and then upload your"
+          "hint": "By 4:00 PM ET on September 28, 2023, complete all revisions on your online application, and then upload your",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "October 2, 2023",
           "date": "2023-10-02",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "5:00 PM ET Eastern Time on Monday, October 2, 2023"
+          "hint": "5:00 PM ET Eastern Time on Monday, October 2, 2023",
+          "individualContext": "other",
+          "consensusCount": 2
         }
       ]
     }
@@ -5260,8 +5574,14 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8589b0360ae72098246a8eca91cebc94&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "No Dates Found",
+    "discrepancies": [
+      {
+        "type": "paused",
+        "source": "awardFinder",
+        "snippet": "hip Fellows Program The Mount Vernon Leadership program was placed on pause in 2024. This page is for reference only. Open to: Sophom"
+      }
+    ],
+    "overallStatus": "Paused",
     "overallMin": null,
     "overallMax": null,
     "actionItems": [
@@ -6352,7 +6672,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Complete the online application form by the deadline of June 30, 2022 at 5pm EST"
+          "hint": "Complete the online application form by the deadline of June 30, 2022 at 5pm EST",
+          "consensusCount": 2
         },
         {
           "raw": "June 30, 2022",
@@ -6361,7 +6682,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Both the application form and the letters of recommendation must be submitted by June 30, 2022"
+          "hint": "Both the application form and the letters of recommendation must be submitted by June 30, 2022",
+          "consensusCount": 2
         }
       ]
     }
@@ -6424,7 +6746,7 @@
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
-    "overallMin": "2026-03-20",
+    "overallMin": "2026-06-21",
     "overallMax": "2026-08-27",
     "actionItems": [],
     "recipientCheck": {
@@ -6439,9 +6761,10 @@
           "date": "2026-09-08",
           "dateEnd": "2026-09-11",
           "type": "range",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "Sept 8-11, 2026"
+          "hint": "11 Campus Interviews Sept 8-11, 2026  IF NOMINATED",
+          "consensusCount": 2
         },
         {
           "raw": "Sept 14-23, 2026",
@@ -6450,7 +6773,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "Sept 14-23, 2026"
+          "hint": "12 Follow-up Appointment Sept 14-23, 2026 "
         },
         {
           "raw": "Sept 21-30, 2026",
@@ -6459,7 +6782,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "Sept 21-30, 2026"
+          "hint": "13 Follow up with Recommenders: register on Rhodes application and send request. Sept 21-30, 2026 "
         },
         {
           "raw": "Spring 2026",
@@ -6468,43 +6791,50 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Schedule Initial Consultation and/or Attend Info Session Spring 2026"
+          "hint": "1 Register for Post-Grad Program Interest List and Canvas Course; Schedule Initial Consultation and/or Attend Info Session Spring 2026 "
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Summer 2026"
+          "hint": "2 Degree Program Selection: With NS&FP and faculty advisor assistance, research and select an appropriate course of study at Oxford. Summer 2026 ",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Summer 2026"
+          "hint": "3 Select and Confirm At Least Six Recommenders in consultation with a NS&FP advisor. Summer 2026 ",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Summer 2026"
+          "hint": "4 Begin Drafting Personal Statement and Academic Statement of Study Essays NOTE: Due to the Rhodes Trust policies, NS&FP advisors cannot provide you with feedback on your personal statement essay. Summer 2026 ",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "Summer 2026",
           "date": "2026-06-21",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "Summer 2026"
+          "hint": "5 Begin online applications in Rhodes portal and College Connect (see note). Summer 2026 ",
+          "consensusCount": 4
         },
         {
           "raw": "August 2026",
@@ -6513,7 +6843,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2026"
+          "hint": "6 Follow up with Recommenders: Send instructions (see note); recommenders must submit letters to the NS&FP office first August 2026 "
         },
         {
           "raw": "August 2026",
@@ -6522,7 +6852,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2026"
+          "hint": "7 Request and Upload Emory Transcript August 2026 "
         },
         {
           "raw": "August 2026",
@@ -6531,34 +6861,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "August 2026"
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 27, 2026"
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 27, 2026"
-        },
-        {
-          "raw": "October 7, 2026",
-          "date": "2026-10-07",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "October 7, 2026"
+          "hint": "8 Request and Upload Outside Transcript(s): If applicable (see note) August 2026 "
         },
         {
           "raw": "August 27, 2026",
@@ -6567,7 +6870,41 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Recommendation letters are due to NS&FP no later than August 27, 2026"
+          "hint": "9 Confirm Submission of Letters by Recommenders August 27, 2026 ",
+          "individualContext": "other",
+          "consensusCount": 7
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "10 Internal Application: In College Connect, submit the PDF application (printed from the Rhodes online application), List of Principal Activities, Personal Statement Essay, and Schedule of Availability. DO NOT SUBMIT your online application to Rhodes. 4:00 PM ET August 27, 2026 ",
+          "individualContext": "deadline",
+          "consensusCount": 7
+        },
+        {
+          "raw": "October 7, 2026",
+          "date": "2026-10-07",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "14 External Due Date: Submit Electronic Application Include proof of citizenship, photo, and transcript(s). Create PDF and email to ec.nationalawards@emory.edu October 7, 2026  Next Steps: Finalists will be notified by a Rhodes district committee representative in mid-to late October. The NS&FP office will arrange practice interviews for finalists. District interviews are held the weekend before Thanksgiving, with award recipients announced the Saturday of the interview weekend. -- 1 of 6 -- Application Procedures: Rhodes Scholarship (2026-27) 2 IMPORTANT NOTES Interest Sign-Up/Consultati",
+          "individualContext": "results",
+          "consensusCount": 3
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "Recommendation letters are due to NS&FP no later than August 27, 2026",
+          "consensusCount": 7
         },
         {
           "raw": "Sept 14",
@@ -6585,34 +6922,8 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Recommendation letters are due to Rhodes no later than October 7, 2026"
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "You must upload your OFFICIAL transcript by August 27, 2026"
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "You must upload (or scan and upload) your OFFICIAL outside transcripts by August 27, 2026"
-        },
-        {
-          "raw": "August 27, 2026",
-          "date": "2026-08-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "By 4:00 PM ET on August 27, 2026, complete the sections of the Rhodes online application that include your"
+          "hint": "Recommendation letters are due to Rhodes no later than October 7, 2026",
+          "consensusCount": 3
         },
         {
           "raw": "August 27, 2026",
@@ -6621,25 +6932,63 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters to NS&FP via College Connect by August 27, 2026"
+          "hint": "You must upload your OFFICIAL transcript by August 27, 2026",
+          "individualContext": "other",
+          "consensusCount": 7
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "You must upload (or scan and upload) your OFFICIAL outside transcripts by August 27, 2026",
+          "individualContext": "other",
+          "consensusCount": 7
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "By 4:00 PM ET on August 27, 2026, complete the sections of the Rhodes online application that include your",
+          "individualContext": "other",
+          "consensusCount": 7
+        },
+        {
+          "raw": "August 27, 2026",
+          "date": "2026-08-27",
+          "dateEnd": null,
+          "type": "date",
+          "context": "recommenders",
+          "isTentative": false,
+          "hint": "Ensure that your recommenders submit their letters to NS&FP via College Connect by August 27, 2026",
+          "consensusCount": 7
         },
         {
           "raw": "September 8",
           "date": "2026-09-08",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "September 8, please contact the NS&FP office as soon as possible to discuss your situation"
+          "hint": "September 8, please contact the NS&FP office as soon as possible to discuss your situation",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
           "raw": "October 7, 2026",
           "date": "2026-10-07",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "By October 7, 2026:"
+          "hint": "By October 7, 2026:",
+          "individualContext": "other",
+          "consensusCount": 3
         }
       ],
       "awardFinder": [
@@ -6717,7 +7066,7 @@
         "type": "deadline_mismatch",
         "category": "deadline",
         "values": {
-          "external": [
+          "procedures": [
             "2026-09-09"
           ],
           "annualDeadlines": [
@@ -6748,7 +7097,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "April 26 – May 16, 2026"
+          "hint": "5 Revise personal statement and essays April 26 – May 16, 2026"
         },
         {
           "raw": "May – July 2026",
@@ -6757,7 +7106,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "May – July 2026"
+          "hint": "3 Begin drafting Personal Statement and Leadership Essay May – July 2026"
         },
         {
           "raw": "July – August 2026",
@@ -6766,7 +7115,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "July – August 2026"
+          "hint": "4 Request letters of reference July – August 2026"
         },
         {
           "raw": "July – August 2026",
@@ -6775,7 +7124,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "July – August 2026"
+          "hint": "5 Revise Personal Statement and essays July – August 2026"
         },
         {
           "raw": "Spring 2026",
@@ -6784,7 +7133,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Schedule a Consultation with an NS&FP advisor Spring 2026"
+          "hint": "1 Schedule a Consultation with an NS&FP advisor Spring 2026"
         },
         {
           "raw": "Summer 2026",
@@ -6793,34 +7142,39 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "advisor Summer 2026"
+          "hint": "1 Schedule a preliminary consultation with an NS&FP advisor Summer 2026"
         },
         {
           "raw": "April 2026",
           "date": "2026-04-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "April 2026"
+          "hint": "2 Register and begin online application Begin drafting personal statement and leadership essay April 2026",
+          "consensusCount": 3
         },
         {
           "raw": "April 2026",
           "date": "2026-04-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "April 2026"
+          "hint": "3 Request letters of reference April 2026",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "April 2026",
           "date": "2026-04-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "April 2026"
+          "hint": "4 Request transcripts April 2026",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "May 2026",
@@ -6829,7 +7183,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Mid-May 2026"
+          "hint": "6 Follow up with recommenders Mid-May 2026"
         },
         {
           "raw": "August 2026",
@@ -6838,7 +7192,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Late August 2026"
+          "hint": "6 Request transcripts Late August 2026"
         },
         {
           "raw": "August 2026",
@@ -6847,7 +7201,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Late August 2026"
+          "hint": "7 Follow up with recommenders Late August 2026"
         },
         {
           "raw": "April\n27, 2026",
@@ -6872,18 +7226,18 @@
           "date": "2026-05-20",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "results",
           "isTentative": false,
-          "hint": "May 20, 2026"
+          "hint": "7 Submit application to the Schwarzman Foundation May 20, 2026 Next steps: Finalists will be interviewed in July. Admissions decisions will be made in or before September. Recommended Application Timeline: US/Global Competition Applicants"
         },
         {
           "raw": "September 9, 2026",
           "date": "2026-09-09",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "September 9, 2026"
+          "hint": "8 Submit application to Schwarzman Foundation September 9, 2026 Next steps: Finalists will be interviewed in November. Admissions decisions are made shortly after that, in November. Application Guide: SCHWARZMAN SCHOLARS PROGRAM -- 1 of 1 --"
         }
       ],
       "awardFinder": [
@@ -7049,16 +7403,19 @@
           "type": "date",
           "context": "results",
           "isTentative": false,
-          "hint": "Current Selection Cycle: Countdown to September 9, 2026 Application Deadline"
+          "hint": "Current Selection Cycle: Countdown to September 9, 2026 Application Deadline",
+          "consensusCount": 3
         },
         {
           "raw": "Sept 9, 2026",
           "date": "2026-09-09",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "results",
           "isTentative": false,
-          "hint": "Application Deadline: Sept 9, 2026 at 3 p"
+          "hint": "Application Deadline: Sept 9, 2026 at 3 p",
+          "individualContext": "deadline",
+          "consensusCount": 3
         },
         {
           "raw": "April 8, 2026",
@@ -7074,9 +7431,11 @@
           "date": "2026-09-09",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
+          "context": "results",
           "isTentative": false,
-          "hint": "and Global application for the class of 2027-2028 is now open from April 8, 2026 to September 9, 2026 at 3 p"
+          "hint": "and Global application for the class of 2027-2028 is now open from April 8, 2026 to September 9, 2026 at 3 p",
+          "individualContext": "open",
+          "consensusCount": 3
         },
         {
           "raw": "August 19",
@@ -7206,9 +7565,9 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Cycle Closed)",
+    "overallStatus": "Application Open",
     "overallMin": "2026-02-13",
-    "overallMax": "2026-03-25",
+    "overallMax": "2027-03-26",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -7233,7 +7592,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "February - March 2027"
+          "hint": "7 Revise Personal Statement Essay: Be prepared to allow time to write and receive feedback from an NS&FP advisor. February - March 2027 o"
         },
         {
           "raw": "January 2027",
@@ -7249,45 +7608,54 @@
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "February 2027 o"
+          "hint": "2 Begin Online Application (available February 15, 2027 via College Connect) February 2027 o",
+          "consensusCount": 7
         },
         {
           "raw": "February 2027",
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "3 Select and Confirm Two Recommenders February 2027 o"
+          "hint": "3 Select and Confirm Two Recommenders February 2027 o",
+          "individualContext": "other",
+          "consensusCount": 7
         },
         {
           "raw": "February 2027",
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "4 Create/Update Résumé/CV February 2027 o"
+          "hint": "4 Create/Update Résumé/CV February 2027 o",
+          "individualContext": "other",
+          "consensusCount": 7
         },
         {
           "raw": "February 2027",
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "February 2027 o"
+          "hint": "5 Request and Submit Outside Transcript(s): if applicable February 2027 o",
+          "individualContext": "other",
+          "consensusCount": 7
         },
         {
           "raw": "February 2027",
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "open",
           "isTentative": true,
-          "hint": "6 Begin Drafting Personal Statement Essay February 2027 o"
+          "hint": "6 Begin Drafting Personal Statement Essay February 2027 o",
+          "individualContext": "other",
+          "consensusCount": 7
         },
         {
           "raw": "March 2027",
@@ -7303,18 +7671,20 @@
           "date": "2027-02-15",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "open",
           "isTentative": false,
-          "hint": "(available February 15, 2027 via College Connect)"
+          "hint": "2 Begin Online Application (available February 15, 2027 via College Connect) February 2027 o",
+          "consensusCount": 7
         },
         {
           "raw": "March\n26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "11:59 PM on March 26, 2027"
+          "hint": "9 Internal Application Submission: Submit Application Form, Résumé/CV, Personal Statement, NS&FP Consent Form to https://collegeconnect.emory.edu/manage/login?realm=& r=/apply 11:59 PM on March 26, 2027 o -- 1 of 3 -- Application Procedures: Sonny Carter Scholarship (2026-27) 2 IMPORTANT NOTES Info Session/Consultation (Step 1) Attend an Internal Awards Info Session for an overview of the award and application process. Then make an appointment with an NS&FP advisor when you are ready for an advisor to review a draft of your essay. Applicants are limited to one consultation appointment and on",
+          "consensusCount": 4
         },
         {
           "raw": "February 15, 2027",
@@ -7323,34 +7693,41 @@
           "type": "date",
           "context": "open",
           "isTentative": false,
-          "hint": "available beginning February 15, 2027"
+          "hint": "available beginning February 15, 2027",
+          "consensusCount": 7
         },
         {
           "raw": "March 26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "o Recommendations should be submitted no later than 11:59 PM ET, March 26, 2027"
+          "hint": "o Recommendations should be submitted no later than 11:59 PM ET, March 26, 2027",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "March 26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "edu, by 11:59 PM ET on March 26, 2027"
+          "hint": "edu, by 11:59 PM ET on March 26, 2027",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "March 26, 2027",
           "date": "2027-03-26",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "edu/manage/login?realm=&r=/apply/ by 11:59 PM, March 26, 2027"
+          "hint": "edu/manage/login?realm=&r=/apply/ by 11:59 PM, March 26, 2027",
+          "individualContext": "other",
+          "consensusCount": 4
         }
       ],
       "awardFinder": [
@@ -7446,9 +7823,9 @@
           "date": "2026-01-10",
           "dateEnd": "2026-01-16",
           "type": "range",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "Initial round: mid-December; Second round: Jan 10-16, 2026"
+          "hint": "14 Campus Interviews Initial round: mid-December; Second round: Jan 10-16, 2026 Dec 2025 and Jan 2026 "
         },
         {
           "raw": "Jan 21 - Feb.\n2, 2026",
@@ -7457,7 +7834,7 @@
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "16 Follow-up Appointment(s) and Application Revisions Jan 21 - Feb. 2, 2026"
+          "hint": "16 Follow-up Appointment(s) and Application Revisions Jan 21 - Feb. 2, 2026 "
         },
         {
           "raw": "January 13-16, 2026",
@@ -7475,7 +7852,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "June-Oct 2025 "
+          "hint": "1 Register for Truman Interest List and Canvas group; Schedule Initial Consultation and/or Attend Info Session June-Oct 2025 "
         },
         {
           "raw": "June-Oct 2025",
@@ -7484,7 +7861,7 @@
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "June-Oct 2025 "
+          "hint": "2 Brainstorm Topics for Short Answers (Leadership, Service, Graduate Study) and Policy Proposal June-Oct 2025 "
         },
         {
           "raw": "Fall 2025",
@@ -7511,7 +7888,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "November 2025 "
+          "hint": "5 Log into Truman.gov Online Application and Complete Basic Info (Q1-6 and 10-14) November 2025 "
         },
         {
           "raw": "November 2025",
@@ -7547,7 +7924,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "November 2025 "
+          "hint": "9 Download Emory Transcript and Request Outside Transcript(s), if applicable November 2025 "
         },
         {
           "raw": "Nov. 2025",
@@ -7556,7 +7933,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Late Nov. 2025 "
+          "hint": "10 Revise Short Answers and Policy Proposal Be prepared to allow time to write and receive feedback on multiple drafts from a NS&FP advisor. Late Nov. 2025 "
         },
         {
           "raw": "Nov. 2025",
@@ -7572,18 +7949,18 @@
           "date": "2025-12-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "interview",
           "isTentative": true,
-          "hint": "Dec 2025 and"
+          "hint": "14 Campus Interviews Initial round: mid-December; Second round: Jan 10-16, 2026 Dec 2025 and Jan 2026 "
         },
         {
           "raw": "Jan 2026",
           "date": "2026-01-15",
           "dateEnd": null,
           "type": "period",
-          "context": "other",
+          "context": "interview",
           "isTentative": true,
-          "hint": "Jan 2026"
+          "hint": "14 Campus Interviews Initial round: mid-December; Second round: Jan 10-16, 2026 Dec 2025 and Jan 2026 "
         },
         {
           "raw": "February\n2026",
@@ -7592,34 +7969,37 @@
           "type": "period",
           "context": "results",
           "isTentative": true,
-          "hint": "Next Steps: Finalists for the award will be notified by the Truman Foundation in mid to late February 2026"
+          "hint": "19 External Due Date: Application submitted by NS&FP February 3, 2026  Next Steps: Finalists for the award will be notified by the Truman Foundation in mid to late February 2026. Regional finalists’ interviews are held during March. By mid-April, award decisions are made available to campus representatives, who notify scholarship recipients in their university. IMPORTANT NOTES Registration and Consultation/Info Session (Step 1) Register to attend a Summer Workshop or Fall Info Session and to let us know you are interested in applying and receiving important updates throughout the fall. You ca"
         },
         {
           "raw": "Nov. 6, 2025",
           "date": "2025-11-06",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Nov. 6, 2025"
+          "hint": "4 Submit Pre-Application in College Connect 4:00 PM ET Nov. 6, 2025  IF SELECTED TO MOVE FORWARD"
         },
         {
           "raw": "Dec. 11, 2025",
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Dec. 11, 2025"
+          "hint": "12 Internal Application Submission, Part 1: Electronic Application - Complete and submit the online application at Truman.gov 4:00 PM ET Dec. 11, 2025 ",
+          "consensusCount": 8
         },
         {
           "raw": "Dec. 11, 2025",
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Dec. 11, 2025"
+          "hint": "13 Internal Application Submission, Part 2: Submit Emory Internal Application through College Connect 4:00 PM ET Dec. 11, 2025 ",
+          "individualContext": "internal_deadline",
+          "consensusCount": 8
         },
         {
           "raw": "January 20, 2026",
@@ -7628,7 +8008,7 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "15 Nomination Decision Letters distributed (via email) January 20, 2026 "
+          "hint": "15 Nomination Decision Letters distributed (via email) January 20, 2026  IF NOMINATED -- 1 of 8 -- Application Procedures: Truman Scholarship (2025-25) 2"
         },
         {
           "raw": "February 2, 2026",
@@ -7637,34 +8017,39 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 2, 2026"
+          "hint": "17 Final Version of Short Answers and Policy Proposal Due send to ec.nationalawards@emory.edu 4:00 PM ET February 2, 2026 "
         },
         {
           "raw": "February 3, 2026",
           "date": "2026-02-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "results",
           "isTentative": false,
-          "hint": "February 3, 2026"
+          "hint": "18 Final Application Deadline Send application to Advisor for Review 10:00 AM ET February 3, 2026 ",
+          "individualContext": "deadline",
+          "consensusCount": 4
         },
         {
           "raw": "February 3, 2026",
           "date": "2026-02-03",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "results",
           "isTentative": false,
-          "hint": "19 External Due Date: Application submitted by NS&FP February 3, 2026 "
+          "hint": "19 External Due Date: Application submitted by NS&FP February 3, 2026  Next Steps: Finalists for the award will be notified by the Truman Foundation in mid to late February 2026. Regional finalists’ interviews are held during March. By mid-April, award decisions are made available to campus representatives, who notify scholarship recipients in their university. IMPORTANT NOTES Registration and Consultation/Info Session (Step 1) Register to attend a Summer Workshop or Fall Info Session and to let us know you are interested in applying and receiving important updates throughout the fall. You ca",
+          "consensusCount": 4
         },
         {
           "raw": "November 7, 2025",
           "date": "2025-11-07",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "open",
           "isTentative": false,
-          "hint": "to apply must complete a pre-application in College Connect by 4:00 ET on November 7, 2025,"
+          "hint": "to apply must complete a pre-application in College Connect by 4:00 ET on November 7, 2025,",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
           "raw": "October 1, 2025",
@@ -7682,34 +8067,8 @@
           "type": "date",
           "context": "open",
           "isTentative": true,
-          "hint": "This application will be available beginning October 1, 2025 (tentative) and is due November 7, 2025"
-        },
-        {
-          "raw": "December 11, 2025",
-          "date": "2025-12-11",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "Recommendations should be submitted no later than 4:00 pm ET on December 11, 2025"
-        },
-        {
-          "raw": "December 11",
-          "date": "2025-12-11",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the December 11 due date, please contact our"
-        },
-        {
-          "raw": "December 11, 2025",
-          "date": "2025-12-11",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "Request that these transcripts be delivered by December 11, 2025"
+          "hint": "This application will be available beginning October 1, 2025 (tentative) and is due November 7, 2025",
+          "consensusCount": 2
         },
         {
           "raw": "December 11, 2025",
@@ -7718,25 +8077,62 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on December 11, 2025, complete and submit the online application, including"
-        },
-        {
-          "raw": "December 11, 2025",
-          "date": "2025-12-11",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "By 4:00 PM ET on December 11, 2025, revisit and resubmit your College Connect internal"
+          "hint": "Recommendations should be submitted no later than 4:00 pm ET on December 11, 2025",
+          "individualContext": "other",
+          "consensusCount": 8
         },
         {
           "raw": "December 11",
           "date": "2025-12-11",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "December 11"
+          "hint": "If one of your recommenders is not able to meet the December 11 due date, please contact our",
+          "consensusCount": 8
+        },
+        {
+          "raw": "December 11, 2025",
+          "date": "2025-12-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "Request that these transcripts be delivered by December 11, 2025",
+          "individualContext": "other",
+          "consensusCount": 8
+        },
+        {
+          "raw": "December 11, 2025",
+          "date": "2025-12-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "By 4:00 PM ET on December 11, 2025, complete and submit the online application, including",
+          "consensusCount": 8
+        },
+        {
+          "raw": "December 11, 2025",
+          "date": "2025-12-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "By 4:00 PM ET on December 11, 2025, revisit and resubmit your College Connect internal",
+          "individualContext": "other",
+          "consensusCount": 8
+        },
+        {
+          "raw": "December 11",
+          "date": "2025-12-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "December 11",
+          "individualContext": "other",
+          "consensusCount": 8
         },
         {
           "raw": "February 2, 2026",
@@ -7752,18 +8148,22 @@
           "date": "2026-02-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "results",
           "isTentative": false,
-          "hint": "By 10:00 AM ET on February 3, 2026, send application to advisor for review"
+          "hint": "By 10:00 AM ET on February 3, 2026, send application to advisor for review",
+          "individualContext": "other",
+          "consensusCount": 4
         },
         {
           "raw": "February 3, 2026",
           "date": "2026-02-03",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "results",
           "isTentative": false,
-          "hint": "February 3, 2026"
+          "hint": "February 3, 2026",
+          "individualContext": "other",
+          "consensusCount": 4
         }
       ],
       "awardFinder": [
