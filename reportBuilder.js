@@ -46,6 +46,7 @@ function checkStaleUrlYear(url, currentYear) {
 function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear, sourceUrls, annualDeadlinesDates) {
   if (!sourceUrls) sourceUrls = {};
   const texts = {};
+  const rawTexts = {}; // ALL successfully-fetched text, even with zero dates found — needed for pause detection, which usually has no dates to find at all
   const sourceStatus = {};
   const sourceDetail = {};
 
@@ -56,6 +57,7 @@ function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear,
       sourceDetail[source] = result.httpStatus ? `HTTP ${result.httpStatus}` : (result.error || 'unknown error');
       continue;
     }
+    rawTexts[source] = result.text;
     const dates = extractDates(result.text || '', inferredYear);
     if (!dates.length) {
       // "No dates found" used to be a dead end — genuinely empty page,
@@ -88,7 +90,7 @@ function buildAwardReport(awardName, fetchResults, recipientsText, inferredYear,
     preExtracted.annualDeadlines = annualDeadlinesDates;
   }
 
-  const analysis = analyzeAward(awardName, texts, inferredYear, preExtracted);
+  const analysis = analyzeAward(awardName, texts, inferredYear, preExtracted, rawTexts);
   const recipientCheck = recipientsText ? checkRecipientStaleness(recipientsText) : null;
 
   // Action items: broken links, no-dates-found, stale recipients — these are

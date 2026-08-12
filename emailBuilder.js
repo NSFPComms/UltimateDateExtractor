@@ -153,7 +153,8 @@ function buildRawDumpSection(reports) {
           // Nearby text the tagger used, shown compactly so any tag —
           // confident or not — can be spot-checked against its source.
           const hintPart = d.hint ? ` <span class="hint">(saw: "${d.hint}")</span>` : '';
-          return `${d.raw} <em>(${d.context})</em>${hintPart}`;
+          const consensusPart = d.consensusCount ? ` <span class="hint">[consensus of ${d.consensusCount} mentions]</span>` : '';
+          return `${d.raw} <em>(${d.context})</em>${hintPart}${consensusPart}`;
         }).join('; ') || '—';
         return `<div class="src"><strong>${labelLink}:</strong> ${dates}</div>`;
       }).join('');

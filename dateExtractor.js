@@ -177,19 +177,60 @@ function tagContext(snippet, opts) {
 // this specific date, decided the tag. This finds the CLOSEST matching
 // qualifier to the actual date position instead, so each date picks up
 // whichever label is actually next to it.
-function tagContextByProximity(text, matchPos, opts) {
+// Step-block detection — numbered procedure-table rows ("13 Submit Online
+// Application, including..." followed by several more wrapped lines before
+// the date) are ONE logical row, but pdf-parse gives back each visual line
+// separately. Treating every newline as a hard boundary (needed elsewhere to
+// stop cross-row bleeding on other layouts) fragments a single row's own
+// label from its own date if the row wraps across several lines — which is
+// exactly what caused "13 Submit Online Application... January 26, 2026" to
+// lose its label. Detecting these numbered blocks and using their full span
+// (instead of stopping at internal newlines) fixes this without reopening
+// the cross-row bleeding this same boundary rule prevents elsewhere.
+const STEP_START_RE = /(?:^|\n)[ \t]*(\d{1,2})[ \t]+[A-Z]/g;
+function findStepBlocks(text) {
+  const starts = [];
+  let sm;
+  const re = new RegExp(STEP_START_RE.source, 'g');
+  while ((sm = re.exec(text))) {
+    starts.push(sm.index + sm[0].indexOf(sm[1])); // position of the step number itself
+  }
+  const blocks = [];
+  for (let i = 0; i < starts.length; i++) {
+    const end = i + 1 < starts.length ? starts[i + 1] : Math.min(text.length, starts[i] + 600);
+    blocks.push([starts[i], end]);
+  }
+  return blocks;
+}
+function findStepBlock(pos, stepBlocks) {
+  for (const [s, e] of stepBlocks) {
+    if (pos >= s && pos < e) return [s, e];
+  }
+  return null;
+}
+
+function tagContextByProximity(text, matchPos, opts, stepBlocks) {
   const isRange = opts && opts.isRange;
   const WINDOW = 200; // chars each direction to search for qualifying phrases
   const winStart = Math.max(0, matchPos - WINDOW);
   const winEnd = Math.min(text.length, matchPos + WINDOW);
-  // Don't search across a sentence boundary — a qualifier in a PRIOR
-  // unrelated sentence shouldn't out-compete one in this date's own sentence.
-  let searchStart = winStart, searchEnd = winEnd;
-  for (let i = matchPos - 1; i >= winStart; i--) {
-    if (text[i] === '\n' || text[i] === '\r' || text[i] === '.' || text[i] === '\t') { searchStart = i + 1; break; }
-  }
-  for (let i = matchPos; i < winEnd; i++) {
-    if (text[i] === '\n' || text[i] === '\r' || text[i] === '.' || text[i] === '\t') { searchEnd = i; break; }
+  let searchStart, searchEnd;
+  const block = stepBlocks && findStepBlock(matchPos, stepBlocks);
+  if (block) {
+    // Inside a numbered step row — use the whole row's span, ignoring
+    // internal newlines from the row's own text wrapping.
+    searchStart = Math.max(winStart, block[0]);
+    searchEnd = Math.min(winEnd, block[1]);
+  } else {
+    // Don't search across a sentence boundary — a qualifier in a PRIOR
+    // unrelated sentence shouldn't out-compete one in this date's own sentence.
+    searchStart = winStart; searchEnd = winEnd;
+    for (let i = matchPos - 1; i >= winStart; i--) {
+      if (text[i] === '\n' || text[i] === '\r' || text[i] === '.' || text[i] === '\t') { searchStart = i + 1; break; }
+    }
+    for (let i = matchPos; i < winEnd; i++) {
+      if (text[i] === '\n' || text[i] === '\r' || text[i] === '.' || text[i] === '\t') { searchEnd = i; break; }
+    }
   }
   const window = text.slice(searchStart, searchEnd);
   const relPos = matchPos - searchStart;
@@ -219,9 +260,15 @@ function tagContextByProximity(text, matchPos, opts) {
 // (newline, period, tab, or middle-dot), rather than a fixed character
 // radius — but capped at MAX_WALK so a boundary-free block of text (e.g. a
 // densely packed table with no periods) can't let a distant, unrelated
-// header bleed all the way into every date's context.
+// header bleed all the way into every date's context. Falls back to the
+// enclosing step-block's full span when the match is inside a detected
+// numbered procedure-table row, for the same reason as above.
 const MAX_WALK = 150;
-function getSentenceAt(text, pos, matchLen) {
+function getSentenceAt(text, pos, matchLen, stepBlocks) {
+  const block = stepBlocks && findStepBlock(pos, stepBlocks);
+  if (block) {
+    return text.slice(block[0], block[1]).replace(/\s+/g, ' ').trim();
+  }
   const isBoundary = (ch) => ch === '\n' || ch === '\r' || ch === '.' || ch === '\t' || ch === '\u00B7';
   let start = pos;
   while (start > 0 && pos - start < MAX_WALK && !isBoundary(text[start - 1])) start--;
@@ -262,6 +309,27 @@ function extractDates(text, inferredYear) {
   if (inferredYear === undefined) inferredYear = new Date().getFullYear();
   const results = [];
   const claimedRanges = []; // char ranges already consumed by RANGE_RE / MONTH_RANGE_RE
+  const stepBlocks = findStepBlocks(text);
+
+  // Cycle-year anchor — ported from the VBA's CURRENT_CYCLE_Year constant,
+  // but auto-detected instead of manually configured. NS&FP procedures docs
+  // consistently header themselves "Application Year 2025-26" — that's an
+  // unambiguous, document-stated cycle anchor, far more reliable than
+  // guessing from nearby dates. Once we know the cycle starts in 2025,
+  // academic-year convention resolves any bare month unambiguously: Aug–Dec
+  // belongs to the start year, Jan–Jul belongs to start year + 1. This
+  // directly replaces the nearest/smallest-year guessing for any document
+  // that states its own cycle (typically procedures PDFs); other sources
+  // (external sites, award-finder pages) don't have this header and still
+  // fall back to the positional heuristic below.
+  const cycleMatch = /application\s+year\s+(20\d{2})\s*-\s*\d{2}/i.exec(text);
+  const cycleStartYear = cycleMatch ? parseInt(cycleMatch[1], 10) : null;
+  function yearFromCycle(monthName) {
+    if (!cycleStartYear) return null;
+    const mm = monthNum(monthName);
+    if (!mm) return null;
+    return mm >= 8 ? cycleStartYear : cycleStartYear + 1;
+  }
 
   // A date with no explicit year (e.g. "the October 16 deadline" appearing
   // later in a doc that said "October 16, 2025" earlier) should inherit that
@@ -283,7 +351,9 @@ function extractDates(text, inferredYear) {
   while ((ym = yearScanRe.exec(text))) {
     yearPositions.push({ pos: ym.index, year: parseInt(ym[1], 10) });
   }
-  function nearestYear(pos) {
+  function nearestYear(pos, monthName) {
+    const fromCycle = monthName ? yearFromCycle(monthName) : null;
+    if (fromCycle) return fromCycle;
     if (!yearPositions.length) return inferredYear;
     // Prefer the SMALLEST year among candidates within a generous radius,
     // not just whichever is textually closest. A bare date silently
@@ -318,10 +388,10 @@ function extractDates(text, inferredYear) {
   let m;
   const tbaRe = new RegExp(TBA_RE.source, 'gi');
   while ((m = tbaRe.exec(text))) {
-    const snippet = getSentenceAt(text, m.index, m[0].length);
+    const snippet = getSentenceAt(text, m.index, m[0].length, stepBlocks);
     results.push(withHint({
       raw: m[0], date: null, dateEnd: null, type: 'TBA',
-      context: tagContextByProximity(text, m.index),
+      context: tagContextByProximity(text, m.index, undefined, stepBlocks),
       isTentative: false,
     }, snippet));
   }
@@ -335,13 +405,13 @@ function extractDates(text, inferredYear) {
     const full = m[0], day = m[1], mon = m[2], year = m[3];
     const dayNum = parseInt(day, 10);
     if (dayNum < 1 || dayNum > 31) continue;
-    const iso = toISO(mon, day, year, nearestYear(m.index));
+    const iso = toISO(mon, day, year, nearestYear(m.index, mon));
     if (!iso) continue;
     claimedRanges.push([m.index, m.index + full.length]);
-    const snippet = getSentenceAt(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
     results.push(withHint({
       raw: full.trim(), date: iso, dateEnd: null, type: 'date',
-      context: tagContextByProximity(text, m.index),
+      context: tagContextByProximity(text, m.index, undefined, stepBlocks),
       isTentative: /tentative|estimated/i.test(snippet),
     }, snippet));
   }
@@ -350,14 +420,14 @@ function extractDates(text, inferredYear) {
   const rangeRe = new RegExp(RANGE_RE.source, 'gi');
   while ((m = rangeRe.exec(text))) {
     const full = m[0], mon1 = m[2], day1 = m[3], mon2 = m[5], day2 = m[6], year = m[7];
-    const startISO = toISO(mon1, day1, year, nearestYear(m.index));
-    const endISO = toISO(mon2 || mon1, day2, year, nearestYear(m.index));
+    const startISO = toISO(mon1, day1, year, nearestYear(m.index, mon1));
+    const endISO = toISO(mon2 || mon1, day2, year, nearestYear(m.index, mon2 || mon1));
     if (startISO) {
       claimedRanges.push([m.index, m.index + full.length]);
-      const snippet = getSentenceAt(text, m.index, full.length);
+      const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
       results.push(withHint({
         raw: full.trim(), date: startISO, dateEnd: endISO || startISO, type: 'range',
-        context: tagContextByProximity(text, m.index, { isRange: true }),
+        context: tagContextByProximity(text, m.index, { isRange: true }, stepBlocks),
         isTentative: /tentative/i.test(snippet),
       }, snippet));
     }
@@ -367,13 +437,13 @@ function extractDates(text, inferredYear) {
   const monRangeRe = new RegExp(MONTH_RANGE_RE.source, 'gi');
   while ((m = monRangeRe.exec(text))) {
     const full = m[0], mon1 = m[1], mon2 = m[2], year = m[3];
-    const startISO = toISO(mon1, '1', year, nearestYear(m.index));
+    const startISO = toISO(mon1, '1', year, nearestYear(m.index, mon1));
     if (startISO) {
       claimedRanges.push([m.index, m.index + full.length]);
-      const snippet = getSentenceAt(text, m.index, full.length);
+      const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
       results.push(withHint({
         raw: full.trim(), date: startISO, dateEnd: null, type: 'period',
-        context: tagContextByProximity(text, m.index, { isRange: true }),
+        context: tagContextByProximity(text, m.index, { isRange: true }, stepBlocks),
         isTentative: false,
       }, snippet));
     }
@@ -392,10 +462,10 @@ function extractDates(text, inferredYear) {
     const d = new Date(Date.UTC(parseInt(year, 10), mm - 1, dd));
     const iso = d.toISOString().slice(0, 10);
     claimedRanges.push([m.index, m.index + full.length]);
-    const snippet = getSentenceAt(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
     results.push(withHint({
       raw: full.trim(), date: iso, dateEnd: null, type: 'period',
-      context: tagContextByProximity(text, m.index, { isRange: true }), // treated like a range: a season is a span, not a punctual deadline
+      context: tagContextByProximity(text, m.index, { isRange: true }, stepBlocks), // treated like a range: a season is a span, not a punctual deadline
       isTentative: true, // seasonal estimates are inherently approximate — always flagged so status logic doesn't treat them as firm
     }, snippet));
   }
@@ -406,10 +476,10 @@ function extractDates(text, inferredYear) {
     const full = m[0], y1 = m[1];
     const iso = new Date(Date.UTC(parseInt(y1, 10), 0, 1)).toISOString().slice(0, 10);
     claimedRanges.push([m.index, m.index + full.length]);
-    const snippet = getSentenceAt(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
     results.push(withHint({
       raw: full.trim(), date: iso, dateEnd: null, type: 'period',
-      context: tagContextByProximity(text, m.index, { isRange: true }),
+      context: tagContextByProximity(text, m.index, { isRange: true }, stepBlocks),
       isTentative: true,
     }, snippet));
   }
@@ -424,10 +494,10 @@ function extractDates(text, inferredYear) {
     if (!anchor) continue;
     const iso = new Date(Date.UTC(parseInt(year, 10), anchor[0] - 1, anchor[1])).toISOString().slice(0, 10);
     claimedRanges.push([m.index, m.index + full.length]);
-    const snippet = getSentenceAt(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
     results.push(withHint({
       raw: full.trim(), date: iso, dateEnd: null, type: 'period',
-      context: tagContextByProximity(text, m.index, { isRange: true }),
+      context: tagContextByProximity(text, m.index, { isRange: true }, stepBlocks),
       isTentative: true,
     }, snippet));
   }
@@ -441,15 +511,15 @@ function extractDates(text, inferredYear) {
     const monN = monthNum(monName);
     const weekdayNum = WEEKDAY_NUMS[weekdayName];
     if (!monN || weekdayNum === undefined) continue;
-    const year = nearestYear(m.index);
+    const year = nearestYear(m.index, monName);
     const day = nthWeekdayOfMonth(year, monN, weekdayNum, ordinal);
     if (!day) continue;
     const iso = new Date(Date.UTC(year, monN - 1, day)).toISOString().slice(0, 10);
     claimedRanges.push([m.index, m.index + full.length]);
-    const snippet = getSentenceAt(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
     results.push(withHint({
       raw: `${full.trim()} (= ${iso})`, date: iso, dateEnd: null, type: 'date',
-      context: tagContextByProximity(text, m.index),
+      context: tagContextByProximity(text, m.index, undefined, stepBlocks),
       isTentative: true, // resolved from a rule, not stated outright — always flagged
     }, snippet));
   }
@@ -461,7 +531,7 @@ function extractDates(text, inferredYear) {
     const full = m[0], ordinal = m[1].toLowerCase(), monName = m[2];
     const monN = monthNum(monName);
     if (!monN) continue;
-    const year = nearestYear(m.index);
+    const year = nearestYear(m.index, monName);
     const daysInMonth = new Date(Date.UTC(year, monN, 0)).getUTCDate();
     let startDay, endDay;
     if (ordinal === 'last') { endDay = daysInMonth; startDay = Math.max(1, daysInMonth - 6); }
@@ -469,10 +539,10 @@ function extractDates(text, inferredYear) {
     const startISO = new Date(Date.UTC(year, monN - 1, startDay)).toISOString().slice(0, 10);
     const endISO = new Date(Date.UTC(year, monN - 1, endDay)).toISOString().slice(0, 10);
     claimedRanges.push([m.index, m.index + full.length]);
-    const snippet = getSentenceAt(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
     results.push(withHint({
       raw: `${full.trim()} (= ${startISO} to ${endISO})`, date: startISO, dateEnd: endISO, type: 'range',
-      context: tagContextByProximity(text, m.index, { isRange: true }),
+      context: tagContextByProximity(text, m.index, { isRange: true }, stepBlocks),
       isTentative: true,
     }, snippet));
   }
@@ -486,10 +556,10 @@ function extractDates(text, inferredYear) {
     const iso = toISO(mon, '15', year, parseInt(year, 10)); // mid-month anchor, day is unknown
     if (!iso) continue;
     claimedRanges.push([m.index, m.index + full.length]);
-    const snippet = getSentenceAt(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
     results.push(withHint({
       raw: full.trim(), date: iso, dateEnd: null, type: 'period',
-      context: tagContextByProximity(text, m.index, { isRange: true }),
+      context: tagContextByProximity(text, m.index, { isRange: true }, stepBlocks),
       isTentative: true,
     }, snippet));
   }
@@ -502,12 +572,12 @@ function extractDates(text, inferredYear) {
     const full = m[0], mon = m[1], day = m[2], year = m[3];
     const dayNum = parseInt(day, 10);
     if (dayNum > 31) continue; // guards against stray 4-digit years matching \d{1,2}
-    const iso = toISO(mon, day, year, nearestYear(m.index));
+    const iso = toISO(mon, day, year, nearestYear(m.index, mon));
     if (!iso) continue;
-    const snippet = getSentenceAt(text, m.index, full.length);
+    const snippet = getSentenceAt(text, m.index, full.length, stepBlocks);
     results.push(withHint({
       raw: full.trim(), date: iso, dateEnd: null, type: 'date',
-      context: tagContextByProximity(text, m.index),
+      context: tagContextByProximity(text, m.index, undefined, stepBlocks),
       isTentative: /tentative|estimated/i.test(snippet),
     }, snippet));
   }
@@ -561,4 +631,47 @@ const STALE_STATUSES = new Set([
   'Check for Deadline Immediately',
 ]);
 
-module.exports = { extractDates, tagContext, classifyStatus, STALE_STATUSES };
+// Consensus tagging — ported from the VBA export's core structure: it
+// groups every occurrence of the SAME resolved date together under one
+// dictionary key, with a repetition count and each occurrence's nearby task
+// label, so a human reading the export can infer a date's true meaning from
+// which label appears most often across ALL its mentions — e.g. "August 21
+// appeared 6 times: submit letter, upload transcript, submit online
+// application, internal application" tells you this is the internal
+// deadline even if any single mention's wording alone was ambiguous.
+//
+// This does the same thing programmatically: group same-source date entries
+// by their resolved ISO date, tally which context tag each occurrence got,
+// and let the majority (excluding the uninformative 'other' bucket) win —
+// more robust than trusting a single occurrence's proximity match, which
+// can be fragile when one particular mention's wording happens to be vague.
+function applyConsensusTagging(dates) {
+  const groups = {};
+  for (const d of dates) {
+    if (!d.date) continue;
+    (groups[d.date] = groups[d.date] || []).push(d);
+  }
+  for (const date in groups) {
+    const group = groups[date];
+    if (group.length < 2) continue;
+    const tally = {};
+    for (const d of group) tally[d.context] = (tally[d.context] || 0) + 1;
+    const candidates = Object.keys(tally).filter((t) => t !== 'other');
+    if (!candidates.length) continue; // every occurrence was uninformative — nothing to infer
+    const priorityOf = (tag) => CONTEXT_CATEGORIES.findIndex((c) => c.tag === tag);
+    const winner = candidates.reduce((best, tag) => {
+      if (!best) return tag;
+      if (tally[tag] > tally[best]) return tag;
+      if (tally[tag] === tally[best] && priorityOf(tag) < priorityOf(best)) return tag;
+      return best;
+    }, null);
+    for (const d of group) {
+      if (d.context !== winner) d.individualContext = d.context; // preserve the original for transparency
+      d.context = winner;
+      d.consensusCount = group.length;
+    }
+  }
+  return dates;
+}
+
+module.exports = { extractDates, tagContext, classifyStatus, STALE_STATUSES, applyConsensusTagging };

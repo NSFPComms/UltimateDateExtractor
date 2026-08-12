@@ -1,4 +1,4 @@
-const { extractDates, classifyStatus, STALE_STATUSES } = require('./dateExtractor');
+const { extractDates, classifyStatus, STALE_STATUSES, applyConsensusTagging } = require('./dateExtractor');
 
 /**
  * @param {string} awardName
@@ -8,12 +8,12 @@ const { extractDates, classifyStatus, STALE_STATUSES } = require('./dateExtracto
  *   have reliable tags (e.g. annualDeadlines, tagged by known table column),
  *   bypassing re-extraction/re-guessing.
  */
-function analyzeAward(awardName, texts, inferredYear, preExtracted) {
+function analyzeAward(awardName, texts, inferredYear, preExtracted, rawTexts) {
   if (!preExtracted) preExtracted = {};
   const bySource = {};
   for (const [source, text] of Object.entries(texts)) {
     if (!text) continue;
-    bySource[source] = extractDates(text, inferredYear);
+    bySource[source] = applyConsensusTagging(extractDates(text, inferredYear));
   }
   for (const [source, dates] of Object.entries(preExtracted)) {
     if (dates && dates.length) bySource[source] = dates;
@@ -61,7 +61,7 @@ function analyzeAward(awardName, texts, inferredYear, preExtracted) {
   // showed this stated on the external site, not just our own pages.
   const PAUSE_RE = /\b(program (has been |was )?paused|scholarship paused|placed on pause|currently paused|application(s)? (are|is) paused)\b/i;
   let pauseEntry = null;
-  for (const [source, text] of Object.entries(texts)) {
+  for (const [source, text] of Object.entries(rawTexts || texts)) {
     if (!text) continue;
     const m = PAUSE_RE.exec(text);
     if (m) {
