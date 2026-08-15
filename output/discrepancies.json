@@ -2384,15 +2384,6 @@
           "consensusCount": 2
         },
         {
-          "raw": "August 12, 2026",
-          "date": "2026-08-12",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 12, 2026 - 3:00 PM ET to 4:00 PM ET"
-        },
-        {
           "raw": "August 20, 2026",
           "date": "2026-08-20",
           "dateEnd": null,
@@ -2590,7 +2581,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "11 Review Statement of Grant Purpose and ask your Advisor/PI to complete the R/S Grant Review Form or R/S Graduate Review Form Late August 2026 "
+          "hint": "11 Review Statement of Grant Purpose and with your Advisor/PI for feedback on methods/approach Late August 2026 "
         },
         {
           "raw": "June 25, 2026",
@@ -2629,7 +2620,7 @@
           "isTentative": false,
           "hint": "12 Confirm Online Submission of Letters by Recommenders & Evaluation Form by Language Evaluator September 3, 2026 ",
           "individualContext": "other",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "September 3,\n2026",
@@ -2640,7 +2631,7 @@
           "isTentative": false,
           "hint": "13 Internal Application: Lock for Campus Review Electronic Application: Complete application, including inputting the final draft of SOGP essay and short answers. Lock your application for campus review. Submit your Schedule of Availability via College Connect. 4:00 PM ET September 3, 2026 ",
           "individualContext": "other",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "October 5, 2026",
@@ -2690,7 +2681,7 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "Ideally, you should have the affiliation letter by our internal due date, September 3, 2026, but it is",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "October 6, 2026",
@@ -2742,7 +2733,7 @@
           "isTentative": false,
           "hint": "• Recommendation letters should be uploaded no later than September 3, 2026",
           "individualContext": "recommenders",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "September 3, 2026",
@@ -2752,7 +2743,7 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "If one of your recommenders is not able to meet the September 3, 2026 due date, please contact our",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "September 3, 2026",
@@ -2762,7 +2753,7 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "• Language evaluations must be submitted no later than September 3, 2026",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "September 3, 2026",
@@ -2772,7 +2763,7 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "If your evaluator is not able to meet the September 3, 2026 due date, please contact our office",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "August 25,\n2026",
@@ -2783,17 +2774,6 @@
           "isTentative": false,
           "hint": "The deadline for requesting feedback from a NS&FP advisor for the internal deadline is August 25, 2026",
           "consensusCount": 2
-        },
-        {
-          "raw": "September 3, 2026",
-          "date": "2026-09-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "September 3, 2026",
-          "individualContext": "other",
-          "consensusCount": 13
         },
         {
           "raw": "August 25,\n2026",
@@ -2814,7 +2794,7 @@
           "isTentative": false,
           "hint": "You must upload your transcript by September 3, 2026",
           "individualContext": "other",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "September 3, 2026",
@@ -2825,7 +2805,7 @@
           "isTentative": false,
           "hint": "You must upload your outside transcript by September 3, 2026",
           "individualContext": "other",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "September 3, 2026",
@@ -2836,7 +2816,7 @@
           "isTentative": false,
           "hint": "By 4:00 PM ET on September 3, 2026, complete the online application in the Fulbright portal, including",
           "individualContext": "other",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "September 3, 2026",
@@ -2847,7 +2827,7 @@
           "isTentative": false,
           "hint": "Ensure that your recommenders submit their letters by September 3, 2026 as well",
           "individualContext": "recommenders",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
           "raw": "September 3, 2026",
@@ -2858,16 +2838,17 @@
           "isTentative": false,
           "hint": "September 3, 2026:",
           "individualContext": "other",
-          "consensusCount": 13
+          "consensusCount": 12
         },
         {
-          "raw": "September\n7th",
+          "raw": "September 7th",
           "date": "2026-09-07",
           "dateEnd": null,
           "type": "date",
           "context": "interview",
           "isTentative": false,
-          "hint": "NOTE: If it is impossible for you to be available (via Zoom) for a campus interview between September 7th and 18th, please contact the NS&FP office as soon as possible to discuss your situation",
+          "hint": "September 7th and 18th, please contact the NS&FP office as soon as possible to discuss your situation",
+          "individualContext": "other",
           "consensusCount": 2
         },
         {
@@ -2969,15 +2950,6 @@
           "isTentative": false,
           "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time",
           "consensusCount": 2
-        },
-        {
-          "raw": "August 12, 2026",
-          "date": "2026-08-12",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 12, 2026 - 3:00 PM ET to 4:00 PM ET"
         },
         {
           "raw": "August 20, 2026",
@@ -3483,26 +3455,10 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=8574ee390ae72098246a8eca7274497b&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "category": "deadline",
-        "values": {
-          "procedures": [
-            "2026-01-23",
-            "2026-01-26",
-            "2026-01-30"
-          ],
-          "annualDeadlines": [
-            "2026-01-27"
-          ]
-        },
-        "daysApart": 7
-      }
-    ],
-    "overallStatus": "Application Open",
-    "overallMin": "2025-09-01",
-    "overallMax": "2026-12-17",
+    "discrepancies": [],
+    "overallStatus": "App Opening Soon",
+    "overallMin": "2026-09-01",
+    "overallMax": "2027-01-29",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -3518,247 +3474,249 @@
     "rawDates": {
       "procedures": [
         {
-          "raw": "January 12-23, 2026",
-          "date": "2026-01-12",
-          "dateEnd": "2026-01-23",
+          "raw": "January 13-26, 2027",
+          "date": "2027-01-13",
+          "dateEnd": "2027-01-26",
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "12 Follow-up Appointment(s) and Application Revisions January 12-23, 2026 "
+          "hint": "12 Follow-up Appointment(s) and Application Revisions January 13-26, 2027 "
         },
         {
-          "raw": "November-\nDecember 2025",
-          "date": "2025-11-01",
+          "raw": "November-\nDecember 2026",
+          "date": "2026-11-01",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "8 Revise Short Essay Questions and Research Essay Be prepared to allow time to write and receive feedback on multiple drafts from an NS&FP advisor. November- December 2025 "
+          "hint": "8 Revise Short Essay Questions and Research Essay Be prepared to allow time to write and receive feedback on multiple drafts from an NS&FP advisor. November- December 2026 "
         },
         {
-          "raw": "September - October 2025",
-          "date": "2025-09-01",
+          "raw": "September - October 2026",
+          "date": "2026-09-01",
           "dateEnd": null,
           "type": "period",
           "context": "open",
           "isTentative": false,
-          "hint": "The Goldwater application will be available in September - October 2025 and the pre-application must be"
+          "hint": "The Goldwater application will be available in September - October 2026 and the pre-application must be"
         },
         {
-          "raw": "Fall 2025",
-          "date": "2025-09-22",
+          "raw": "Fall 2026",
+          "date": "2026-09-22",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "1 Attend Info Session, Workshop, and/or Schedule Consultation with an NS&FP Advisor Summer/Fall 2025 "
+          "hint": "1 Attend Info Session, Workshop, and/or Schedule Consultation with an NS&FP Advisor Summer/Fall 2026 "
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "3 Begin Online Applications Goldwater Portal and College Connect November 2025 ",
+          "hint": "3 Begin Online Applications Goldwater Portal and College Connect November 2026 ",
           "consensusCount": 5
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "4 Select and Confirm Three Recommenders November 2025 ",
+          "hint": "4 Select and Confirm Three Recommenders November 2026 ",
           "individualContext": "other",
           "consensusCount": 5
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "5 Begin Drafting Short Essay Questions November 2025 ",
+          "hint": "5 Begin Drafting Short Essay Questions November 2026 ",
           "individualContext": "other",
           "consensusCount": 5
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "6 Begin Drafting Research Essay November 2025 ",
+          "hint": "6 Begin Drafting Research Essay November 2026 ",
           "individualContext": "other",
           "consensusCount": 5
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "7 Request Transcript(s) November 2025 ",
+          "hint": "7 Request Transcript(s) November 2026 ",
           "individualContext": "other",
           "consensusCount": 5
         },
         {
-          "raw": "December 2025",
-          "date": "2025-12-15",
+          "raw": "December 2026",
+          "date": "2026-12-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "9 Follow Up with Recommenders Early December 2025 "
+          "hint": "9 Follow Up with Recommenders Early December 2026 "
         },
         {
-          "raw": "November 6, 2025",
-          "date": "2025-11-06",
+          "raw": "November 5, 2026",
+          "date": "2026-11-05",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "2 Complete Pre-application in Goldwater Portal This step may be completed earlier 4:00 PM ET November 6, 2025 "
+          "hint": "2 Complete Pre-application in Goldwater Portal This step may be completed earlier 4:00 PM ET November 5, 2026 "
         },
         {
-          "raw": "December 4, 2025",
-          "date": "2025-12-04",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "10 Internal Application Submission Goldwater Online Application: Complete and submit the online application, including uploading the final draft of your research essay. Emory College Connect Application/Consent Form: Complete and submit the Goldwater application update located in College Connect. 4:00 PM ET December 4, 2025 ",
-          "consensusCount": 4
-        },
-        {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "11 Nomination Decision Letters Distributed (via email) January 9, 2026  IF NOMINATED"
-        },
-        {
-          "raw": "January 26, 2026",
-          "date": "2026-01-26",
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "13 Submit Online Application, including Final Version of Research Essay Send a copy of your essay to ec.nationalawards@emory.edu 4:00 PM ET January 26, 2026  Next Steps: The Goldwater Foundation will notify award recipients and honorable mentions by email in late March or early April. -- 1 of 6 -- Application Procedures: Goldwater Scholarship (2025-26) 2 IMPORTANT NOTES Attend Info Session and/or Schedule Consultation (Step 1) Attend a summer workshop, STEM Awards Info Session or review materials on Canvas, and then make an appointment with an NS&FP advisor to discuss your eligibility and a",
+          "hint": "10 Internal Application Submission Goldwater Online Application: Complete and submit the online application, including uploading the final draft of your research essay. Emory College Connect Application/Consent Form: Complete and submit the Goldwater application update located in College Connect. 4:00 PM ET December 17, 2026 ",
+          "consensusCount": 5
+        },
+        {
+          "raw": "January 12, 2027",
+          "date": "2027-01-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "11 Nomination Decision Letters Distributed (via email) January 12, 2027  IF NOMINATED"
+        },
+        {
+          "raw": "January 28, 2027",
+          "date": "2027-01-28",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "13 Submit Online Application, including Final Version of Research Essay Send a copy of your essay to ec.nationalawards@emory.edu 4:00 PM ET January 28, 2027  Next Steps: The Goldwater Foundation will notify award recipients and honorable mentions by email in late March or early April. -- 1 of 6 -- Application Procedures: Goldwater Scholarship (2026-27) 2 IMPORTANT NOTES Attend Info Session and/or Schedule Consultation (Step 1) Attend a summer workshop, STEM Awards Info Session or review materials on Canvas, and then make an appointment with an NS&FP advisor to discuss your eligibility and",
+          "consensusCount": 3
+        },
+        {
+          "raw": "November 5, 2026",
+          "date": "2026-11-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "November 5, 2026 if they would like to receive advising from the office and be considered for nomination"
+        },
+        {
+          "raw": "November 5, 2026",
+          "date": "2026-11-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "submitted by November 5, 2026"
+        },
+        {
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "Letters must be submitted to us electronically by 4 pm ET on December 17, 2026 via College Connect",
+          "consensusCount": 5
+        },
+        {
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "If one of your recommenders is not able to meet the December 17, 2026 deadline, please contact our office",
+          "consensusCount": 5
+        },
+        {
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "Recommendations should be submitted no later than 4:00pm ET on December 17, 2026",
+          "individualContext": "other",
+          "consensusCount": 5
+        },
+        {
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "By 4:00 PM on December 17, 2026, complete and submit the online application in the Goldwater portal,",
+          "consensusCount": 5
+        },
+        {
+          "raw": "January 12, 2027",
+          "date": "2027-01-12",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Nomination decision letters will be distributed via email by Tuesday, January 12, 2027"
+        },
+        {
+          "raw": "January 28, 2027",
+          "date": "2027-01-28",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "By 4:00 PM on January 28, 2027, you must make and upload revisions to your online application (including the",
+          "individualContext": "other",
+          "consensusCount": 3
+        },
+        {
+          "raw": "January 29, 2027",
+          "date": "2027-01-29",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "to your application and submit by the national deadline (January 29, 2027)",
           "consensusCount": 2
         },
         {
-          "raw": "November 6, 2025",
-          "date": "2025-11-06",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "November 6, 2025 if they would like to receive advising from the office and be considered for nomination"
-        },
-        {
-          "raw": "November 6, 2025",
-          "date": "2025-11-06",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "submitted by November 6, 2025"
-        },
-        {
-          "raw": "December 8",
-          "date": "2025-12-08",
+          "raw": "January 28",
+          "date": "2027-01-28",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Letters must be submitted to us electronically by 4 pm ET on December 8 via College Connect"
+          "hint": "January 28 and the external deadline on January 29",
+          "consensusCount": 3
         },
         {
-          "raw": "December 4",
-          "date": "2025-12-04",
+          "raw": "January 29",
+          "date": "2027-01-29",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the December 4 deadline, please contact our office",
-          "consensusCount": 4
-        },
-        {
-          "raw": "December 4, 2025",
-          "date": "2025-12-04",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "• Recommendations should be submitted no later than 4:00pm ET on December 4, 2025",
-          "individualContext": "other",
-          "consensusCount": 4
-        },
-        {
-          "raw": "December 4, 2025",
-          "date": "2025-12-04",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "By 4:00 PM on December 4, 2025, complete and submit the online application in the Goldwater portal,",
-          "consensusCount": 4
-        },
-        {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "Nomination decision letters will be distributed via email by Friday, January 9, 2026"
-        },
-        {
-          "raw": "January 26, 2026",
-          "date": "2026-01-26",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "By 4:00 PM on January 26, 2026, you must make and upload revisions to your online application (including the",
-          "individualContext": "other",
-          "consensusCount": 2
-        },
-        {
-          "raw": "January 30th",
-          "date": "2026-01-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "to your application and submit by the national deadline (January 30th )",
-          "consensusCount": 2
-        },
-        {
-          "raw": "January 23",
-          "date": "2026-01-23",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "January 23 and the external deadline on January 30"
-        },
-        {
-          "raw": "January 30",
-          "date": "2026-01-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "January 23 and the external deadline on January 30",
+          "hint": "January 28 and the external deadline on January 29",
           "consensusCount": 2
         }
       ],
@@ -4875,9 +4833,6 @@
         "type": "deadline_mismatch",
         "category": "deadline",
         "values": {
-          "procedures": [
-            "2025-11-14"
-          ],
           "annualDeadlines": [
             "2025-11-14"
           ],
@@ -4886,21 +4841,11 @@
           ]
         },
         "daysApart": 1
-      },
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2023-08-15",
-        "max": "2025-11-15",
-        "minSource": "awardFinder",
-        "minRaw": "August 2023",
-        "maxSource": "awardFinder",
-        "maxRaw": "November 15, 2025"
       }
     ],
-    "overallStatus": "Urgent: Update Needed Now",
+    "overallStatus": "Application Open",
     "overallMin": "2023-08-15",
-    "overallMax": "2025-11-15",
+    "overallMax": "2026-11-13",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -4916,230 +4861,231 @@
     "rawDates": {
       "procedures": [
         {
-          "raw": "November 1-13,\n2025",
-          "date": "2025-11-01",
-          "dateEnd": "2025-11-13",
+          "raw": "November 2-13,\n2026",
+          "date": "2026-11-02",
+          "dateEnd": "2026-11-13",
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "13 Follow-up Appointment(s) and Application Revisions: Revise and expand Personal Statement to 1000 words November 1-13, 2025 "
+          "hint": "13 Follow-up Appointment(s) and Application Revisions: Revise and expand Personal Statement to 1000 words November 2-13, 2026 "
         },
         {
-          "raw": "Aug-Sept 2025",
-          "date": "2025-08-01",
+          "raw": "Aug-Sept 2026",
+          "date": "2026-08-01",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "1 Schedule Consultation Aug-Sept 2025 "
+          "hint": "1 Schedule Consultation Aug-Sept 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "2 Select and Confirm Three Recommenders September 2025 "
+          "hint": "2 Select and Confirm Three Recommenders September 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "3 Create College Connect Application September 2025 "
+          "hint": "3 Create College Connect Application September 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "4 Begin Drafting Personal Statement September 2025 "
+          "hint": "4 Begin Drafting Personal Statement September 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "5 Request Emory Transcript September 2025 "
+          "hint": "5 Request Emory Transcript September 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "6 Request Outside Transcript(s): if applicable September 2025 "
+          "hint": "6 Request Outside Transcript(s): if applicable September 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "7 Begin Sciences Po master’s program online application September 2025 "
+          "hint": "7 Begin Sciences Po master’s program online application September 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "8 Follow up with Recommenders Send instructions September 2025 "
+          "hint": "8 Follow up with Recommenders Send instructions September 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "9 Writing Sample: Select a recent graded research paper (8-10 pages; with comments) September 2025 "
+          "hint": "9 Writing Sample: Select a recent graded research paper (8-10 pages; with comments) September 2026 "
         },
         {
-          "raw": "September 2025",
-          "date": "2025-09-15",
+          "raw": "September 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "10 Revise Personal Statement and CV September 2025 "
+          "hint": "10 Revise Personal Statement and CV September 2026 "
         },
         {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
+          "raw": "October 15, 2026",
+          "date": "2026-10-15",
           "dateEnd": null,
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "11 Internal Application Submission: Submit your application materials (Personal Statement, CV, transcripts, and graded research paper) via College Connect. October 16, 2025, 4:00 PM ET ",
+          "hint": "11 Internal Application Submission: Submit your application materials (Personal Statement, CV, transcripts, and graded research paper) via College Connect. October 15, 2026, 4:00 PM ET ",
           "individualContext": "deadline",
           "consensusCount": 5
         },
         {
-          "raw": "October 31, 2025",
-          "date": "2025-10-31",
+          "raw": "October 30, 2026",
+          "date": "2026-10-30",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "12 Nomination Decision Letters distributed (via email) October 31, 2025  IF NOMINATED"
+          "hint": "12 Nomination Decision Letters distributed (via email) October 30, 2026  IF NOMINATED"
         },
         {
-          "raw": "November 13, 2025",
-          "date": "2025-11-13",
+          "raw": "November 12, 2026",
+          "date": "2026-11-12",
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": false,
-          "hint": "14 Submit Sciences Po graduate program application November 13, 2025 "
+          "isTentative": true,
+          "hint": "14 Submit Sciences Po graduate program application November 12, 2026 (tentative) "
         },
         {
-          "raw": "November 13, 2025",
-          "date": "2025-11-13",
+          "raw": "November 12, 2026",
+          "date": "2026-11-12",
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": false,
-          "hint": "15 Final Version of Personal Statement and PDF of Application Form due via Email (ec.nationalawards@emory.edu) November 13, 2025 "
+          "isTentative": true,
+          "hint": "15 Final Version of Personal Statement and PDF of Application Form due via Email (ec.nationalawards@emory.edu) November 12, 2026 (tentative) "
         },
         {
-          "raw": "November 14,\n2025",
-          "date": "2025-11-14",
+          "raw": "November 13, 2026",
+          "date": "2026-11-13",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
-          "isTentative": false,
-          "hint": "16 Application submitted by NS&FP November 14, 2025* *External deadline subject to change  Next Steps: Emory may nominate one candidate. Finalists will participate in an interview in early February and the recipient will be announced shortly thereafter. ￼ -- 1 of 4 -- Application Procedures: Michel David-Weill Scholarship (2025-26) 2 IMPORTANT NOTES Consultation (Step 1) Make contact with the National Scholarships and Fellowships program to discuss your eligibility, application competitiveness, and interest in pursuing graduate study at Sciences Po. Recommenders (Steps 2, 8) In consultation",
+          "isTentative": true,
+          "hint": "16 Application submitted by NS&FP November 13, 2026 (tentative)* *External deadline subject to change  Next Steps: Emory may nominate one candidate. Finalists will participate in an interview in early February and the recipient will be announced shortly thereafter. -- 1 of 4 -- Application Procedures: Michel David-Weill Scholarship (2026-27) 2 IMPORTANT NOTES Consultation (Step 1) Make contact with the National Scholarships and Fellowships program to discuss your eligibility, application competitiveness, and interest in pursuing graduate study at Sciences Po. Recommenders (Steps 2, 8) In",
           "consensusCount": 2
         },
         {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
+          "raw": "October 15, 2026",
+          "date": "2026-10-15",
           "dateEnd": null,
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "College Connect by October 16, 2025",
+          "hint": "College Connect by October 15, 2026",
           "individualContext": "other",
           "consensusCount": 5
         },
         {
-          "raw": "October\n16",
-          "date": "2025-10-16",
+          "raw": "October\n15, 2026",
+          "date": "2026-10-15",
           "dateEnd": null,
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the October 16 deadline, please contact our office",
+          "hint": "If one of your recommenders is not able to meet the October 15, 2026 deadline, please contact our office",
           "individualContext": "other",
           "consensusCount": 5
         },
         {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
+          "raw": "October 15, 2026",
+          "date": "2026-10-15",
           "dateEnd": null,
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on October 16, 2025, complete the application, including the Personal Statement",
+          "hint": "By 4:00 PM ET on October 15, 2026, complete the application, including the Personal Statement",
           "individualContext": "other",
           "consensusCount": 5
         },
         {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
+          "raw": "October 15, 2026",
+          "date": "2026-10-15",
           "dateEnd": null,
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "Ensure that your recommenders submit their letters by October 16, 2025, as well",
+          "hint": "Ensure that your recommenders submit their letters by October 15, 2026, as well",
           "consensusCount": 5
         },
         {
-          "raw": "October 31, 2025",
-          "date": "2025-10-31",
+          "raw": "October 30, 2026",
+          "date": "2026-10-30",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "Decision letters will be distributed via College Connect by October 31, 2025"
+          "hint": "Decision letters will be distributed via College Connect by October 30, 2026"
         },
         {
-          "raw": "November 13, 2025",
-          "date": "2025-11-13",
+          "raw": "November 12, 2026",
+          "date": "2026-11-12",
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": false,
-          "hint": "By November 13, 2025, make all revisions to your application, requesting additional feedback"
+          "isTentative": true,
+          "hint": "By November 12, 2026 (tentative), make all revisions to your application, requesting additional"
         },
         {
-          "raw": "November 13, 2025",
-          "date": "2025-11-13",
+          "raw": "November 12, 2026",
+          "date": "2026-11-12",
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": false,
-          "hint": "By 4:00 pm ET on November 13, 2025: ensure all your materials have been submitted to the"
+          "isTentative": true,
+          "hint": "By 4:00 pm ET on November 12, 2026 (tentative): ensure all your materials have been"
         },
         {
-          "raw": "November 14, 2025",
-          "date": "2025-11-14",
+          "raw": "November 13, 2026",
+          "date": "2026-11-13",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "letter, to Sciences Po via PDF in advance of the November 14, 2025 national deadline",
+          "hint": "institutional nomination letter, to Sciences Po via PDF in advance of the November 13, 2026",
+          "individualContext": "other",
           "consensusCount": 2
         }
       ],
@@ -7800,9 +7746,26 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=85aa26300ae72098246a8eca83c91277&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "Application Open",
-    "overallMin": "2025-10-01",
+    "discrepancies": [
+      {
+        "type": "deadline_mismatch",
+        "category": "deadline",
+        "values": {
+          "procedures": [
+            "2027-02-01"
+          ],
+          "awardFinder": [
+            "2027-02-02"
+          ],
+          "annualDeadlines": [
+            "2027-02-02"
+          ]
+        },
+        "daysApart": 1
+      }
+    ],
+    "overallStatus": "Dormant (Waiting for App to Open)",
+    "overallMin": "2026-09-30",
     "overallMax": "2027-02-02",
     "actionItems": [
       {
@@ -7819,148 +7782,152 @@
     "rawDates": {
       "procedures": [
         {
-          "raw": "Jan 10-16,\n2026",
-          "date": "2026-01-10",
-          "dateEnd": "2026-01-16",
+          "raw": "January 8-14, 2027",
+          "date": "2027-01-08",
+          "dateEnd": "2027-01-14",
           "type": "range",
           "context": "interview",
           "isTentative": false,
-          "hint": "14 Campus Interviews Initial round: mid-December; Second round: Jan 10-16, 2026 Dec 2025 and Jan 2026 "
+          "hint": "14 Campus Interviews Big Interview Assignment: mid-December; Second round: January 8-14, 2027 December 2026 – January 2027 ",
+          "consensusCount": 2
         },
         {
-          "raw": "Jan 21 - Feb.\n2, 2026",
-          "date": "2026-01-21",
-          "dateEnd": "2026-02-02",
+          "raw": "Jan 18-29, 2027",
+          "date": "2027-01-18",
+          "dateEnd": "2027-01-29",
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "16 Follow-up Appointment(s) and Application Revisions Jan 21 - Feb. 2, 2026 "
+          "hint": "16 Follow-up Appointment(s) and Application Revisions Jan 18-29, 2027 "
         },
         {
-          "raw": "January 13-16, 2026",
-          "date": "2026-01-13",
-          "dateEnd": "2026-01-16",
+          "raw": "between January 8 and 14, 2027",
+          "date": "2027-01-08",
+          "dateEnd": "2027-01-14",
           "type": "range",
           "context": "interview",
           "isTentative": false,
-          "hint": "interviews will take place January 13-16, 2026"
+          "hint": "person at Emory between January 8 and 14, 2027",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
-          "raw": "June-Oct 2025",
-          "date": "2025-06-01",
+          "raw": "June-Oct 2026",
+          "date": "2026-06-01",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "1 Register for Truman Interest List and Canvas group; Schedule Initial Consultation and/or Attend Info Session June-Oct 2025 "
+          "hint": "1 Register for Truman Interest List and Canvas group; Schedule Initial Consultation and/or Attend Info Session June-Oct 2026 "
         },
         {
-          "raw": "June-Oct 2025",
-          "date": "2025-06-01",
+          "raw": "June-Oct 2026",
+          "date": "2026-06-01",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": false,
-          "hint": "2 Brainstorm Topics for Short Answers (Leadership, Service, Graduate Study) and Policy Proposal June-Oct 2025 "
+          "hint": "2 Brainstorm Topics for Short Answers (Leadership, Service, Graduate Study) and Policy Proposal June-Oct 2026 "
         },
         {
-          "raw": "Fall 2025",
-          "date": "2025-09-22",
+          "raw": "Fall 2026",
+          "date": "2026-09-22",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "If you are nominated by Emory, we will upload a new copy to include Fall 2025"
+          "hint": "If you are nominated by Emory, we will upload a new copy to include Fall 2026"
         },
         {
-          "raw": "October 2025",
-          "date": "2025-10-15",
+          "raw": "October 2026",
+          "date": "2026-10-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "3 Select References and Register in College Connect October 2025 "
+          "hint": "3 Select References and Register in College Connect October 2026 "
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "5 Log into Truman.gov Online Application and Complete Basic Info (Q1-6 and 10-14) November 2025 "
+          "hint": "5 Log into Truman.gov Online Application and Complete Basic Info (Q1-6 and 10-14) November 2026 "
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "6 Begin Drafting Application Short Answers (Q 7-9 and 15) November 2025 "
+          "hint": "6 Begin Drafting Application Short Answers (Q 7-9 and 15) November 2026 "
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "7 Begin Drafting Policy Proposal November 2025 "
+          "hint": "7 Begin Drafting Policy Proposal November 2026 "
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "8 Request Recommendations in College Connect November 2025 "
+          "hint": "8 Request Recommendations in College Connect November 2026 "
         },
         {
-          "raw": "November 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "9 Download Emory Transcript and Request Outside Transcript(s), if applicable November 2025 "
+          "hint": "9 Download Emory Transcript and Request Outside Transcript(s), if applicable November 2026 "
         },
         {
-          "raw": "Nov. 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "10 Revise Short Answers and Policy Proposal Be prepared to allow time to write and receive feedback on multiple drafts from a NS&FP advisor. Late Nov. 2025 "
+          "hint": "10 Revise Short Answers and Policy Proposal Be prepared to allow time to write and receive feedback on multiple drafts from a NS&FP advisor. November 2026 "
         },
         {
-          "raw": "Nov. 2025",
-          "date": "2025-11-15",
+          "raw": "November 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "11 Follow Up with Recommenders Late Nov. 2025 "
+          "hint": "11 Follow Up with Recommenders November 2026 "
         },
         {
-          "raw": "Dec 2025",
-          "date": "2025-12-15",
+          "raw": "December 2026",
+          "date": "2026-12-15",
           "dateEnd": null,
           "type": "period",
           "context": "interview",
           "isTentative": true,
-          "hint": "14 Campus Interviews Initial round: mid-December; Second round: Jan 10-16, 2026 Dec 2025 and Jan 2026 "
+          "hint": "14 Campus Interviews Big Interview Assignment: mid-December; Second round: January 8-14, 2027 December 2026 – January 2027 "
         },
         {
-          "raw": "Jan 2026",
-          "date": "2026-01-15",
+          "raw": "January 2027",
+          "date": "2027-01-15",
           "dateEnd": null,
           "type": "period",
           "context": "interview",
           "isTentative": true,
-          "hint": "14 Campus Interviews Initial round: mid-December; Second round: Jan 10-16, 2026 Dec 2025 and Jan 2026 "
+          "hint": "14 Campus Interviews Big Interview Assignment: mid-December; Second round: January 8-14, 2027 December 2026 – January 2027 ",
+          "consensusCount": 2
         },
         {
           "raw": "February\n2026",
@@ -7969,201 +7936,206 @@
           "type": "period",
           "context": "results",
           "isTentative": true,
-          "hint": "19 External Due Date: Application submitted by NS&FP February 3, 2026  Next Steps: Finalists for the award will be notified by the Truman Foundation in mid to late February 2026. Regional finalists’ interviews are held during March. By mid-April, award decisions are made available to campus representatives, who notify scholarship recipients in their university. IMPORTANT NOTES Registration and Consultation/Info Session (Step 1) Register to attend a Summer Workshop or Fall Info Session and to let us know you are interested in applying and receiving important updates throughout the fall. You ca"
+          "hint": "19 External Due Date: Application submitted by NS&FP February 2, 2027  Next Steps: Finalists for the award will be notified by the Truman Foundation in mid to late February 2026. Regional finalists’ interviews are held during March. By mid-April, award decisions are made available to campus representatives, who notify scholarship recipients in their university. IMPORTANT NOTES Registration and Consultation/Info Session (Step 1) Register to attend a Summer Workshop or Fall Info Session and to let us know you are interested in applying and receiving important updates throughout the fall. You"
         },
         {
-          "raw": "Nov. 6, 2025",
-          "date": "2025-11-06",
+          "raw": "November 5, 2026",
+          "date": "2026-11-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false,
+          "hint": "4 Submit Pre-Application in College Connect 4:00 PM ET November 5, 2026  IF SELECTED TO MOVE FORWARD",
+          "individualContext": "deadline",
+          "consensusCount": 3
+        },
+        {
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "4 Submit Pre-Application in College Connect 4:00 PM ET Nov. 6, 2025  IF SELECTED TO MOVE FORWARD"
-        },
-        {
-          "raw": "Dec. 11, 2025",
-          "date": "2025-12-11",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "12 Internal Application Submission, Part 1: Electronic Application - Complete and submit the online application at Truman.gov 4:00 PM ET Dec. 11, 2025 ",
+          "hint": "12 Internal Application Submission, Part 1: Electronic Application - Complete and submit the online application at Truman.gov 4:00 PM ET December 17, 2026 ",
           "consensusCount": 8
         },
         {
-          "raw": "Dec. 11, 2025",
-          "date": "2025-12-11",
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "13 Internal Application Submission, Part 2: Submit Emory Internal Application through College Connect 4:00 PM ET Dec. 11, 2025 ",
+          "hint": "13 Internal Application Submission, Part 2: Submit Emory Internal Application through College Connect 4:00 PM ET December 17, 2026 ",
           "individualContext": "internal_deadline",
           "consensusCount": 8
         },
         {
-          "raw": "January 20, 2026",
-          "date": "2026-01-20",
+          "raw": "Jan 15, 2027",
+          "date": "2027-01-15",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "interview",
           "isTentative": false,
-          "hint": "15 Nomination Decision Letters distributed (via email) January 20, 2026  IF NOMINATED -- 1 of 8 -- Application Procedures: Truman Scholarship (2025-25) 2"
-        },
-        {
-          "raw": "February 2, 2026",
-          "date": "2026-02-02",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "17 Final Version of Short Answers and Policy Proposal Due send to ec.nationalawards@emory.edu 4:00 PM ET February 2, 2026 "
-        },
-        {
-          "raw": "February 3, 2026",
-          "date": "2026-02-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false,
-          "hint": "18 Final Application Deadline Send application to Advisor for Review 10:00 AM ET February 3, 2026 ",
-          "individualContext": "deadline",
-          "consensusCount": 4
-        },
-        {
-          "raw": "February 3, 2026",
-          "date": "2026-02-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false,
-          "hint": "19 External Due Date: Application submitted by NS&FP February 3, 2026  Next Steps: Finalists for the award will be notified by the Truman Foundation in mid to late February 2026. Regional finalists’ interviews are held during March. By mid-April, award decisions are made available to campus representatives, who notify scholarship recipients in their university. IMPORTANT NOTES Registration and Consultation/Info Session (Step 1) Register to attend a Summer Workshop or Fall Info Session and to let us know you are interested in applying and receiving important updates throughout the fall. You ca",
-          "consensusCount": 4
-        },
-        {
-          "raw": "November 7, 2025",
-          "date": "2025-11-07",
-          "dateEnd": null,
-          "type": "date",
-          "context": "open",
-          "isTentative": false,
-          "hint": "to apply must complete a pre-application in College Connect by 4:00 ET on November 7, 2025,",
+          "hint": "15 Nomination Decision Letters distributed (via email) Jan 15, 2027  IF NOMINATED -- 1 of 8 -- Application Procedures: Truman Scholarship (2026-27) 2",
           "individualContext": "other",
           "consensusCount": 2
         },
         {
-          "raw": "October 1, 2025",
-          "date": "2025-10-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
-          "isTentative": true,
-          "hint": "This application will be available beginning October 1, 2025 (tentative) and is due November 7,"
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "17 Final Version of Short Answers and Policy Proposal Due send to ec.nationalawards@emory.edu 4:00 PM ET February 1, 2027 ",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
-          "raw": "November 7,\n2025",
-          "date": "2025-11-07",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
-          "isTentative": true,
-          "hint": "This application will be available beginning October 1, 2025 (tentative) and is due November 7, 2025",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "18 Final Application Deadline Send application to Advisor for Review 4:00 PM ET February 1, 2027 ",
+          "consensusCount": 3
+        },
+        {
+          "raw": "February 2, 2027",
+          "date": "2027-02-02",
+          "dateEnd": null,
+          "type": "date",
+          "context": "results",
+          "isTentative": false,
+          "hint": "19 External Due Date: Application submitted by NS&FP February 2, 2027  Next Steps: Finalists for the award will be notified by the Truman Foundation in mid to late February 2026. Regional finalists’ interviews are held during March. By mid-April, award decisions are made available to campus representatives, who notify scholarship recipients in their university. IMPORTANT NOTES Registration and Consultation/Info Session (Step 1) Register to attend a Summer Workshop or Fall Info Session and to let us know you are interested in applying and receiving important updates throughout the fall. You",
           "consensusCount": 2
         },
         {
-          "raw": "December 11, 2025",
-          "date": "2025-12-11",
+          "raw": "November 5, 2026",
+          "date": "2026-11-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false,
+          "hint": "to apply must complete a pre-application in College Connect by 4:00 ET on November 5, 2026,",
+          "individualContext": "other",
+          "consensusCount": 3
+        },
+        {
+          "raw": "September 30, 2026",
+          "date": "2026-09-30",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false,
+          "hint": "This application will be available beginning September 30, 2026 and is due November 5, 2026"
+        },
+        {
+          "raw": "November 5, 2026",
+          "date": "2026-11-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false,
+          "hint": "This application will be available beginning September 30, 2026 and is due November 5, 2026",
+          "consensusCount": 3
+        },
+        {
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Recommendations should be submitted no later than 4:00 pm ET on December 11, 2025",
+          "hint": "Recommendations should be submitted no later than 4:00 pm ET on December 17, 2026",
           "individualContext": "other",
           "consensusCount": 8
         },
         {
-          "raw": "December 11",
-          "date": "2025-12-11",
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the December 11 due date, please contact our",
+          "hint": "If one of your recommenders is not able to meet the December 17, 2026 due date, please",
           "consensusCount": 8
         },
         {
-          "raw": "December 11, 2025",
-          "date": "2025-12-11",
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Request that these transcripts be delivered by December 11, 2025",
+          "hint": "Request that these transcripts be delivered by December 17, 2026",
           "individualContext": "other",
           "consensusCount": 8
         },
         {
-          "raw": "December 11, 2025",
-          "date": "2025-12-11",
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on December 11, 2025, complete and submit the online application, including",
+          "hint": "By 4:00 PM ET on December 17, 2026, complete and submit the online application, including",
           "consensusCount": 8
         },
         {
-          "raw": "December 11, 2025",
-          "date": "2025-12-11",
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on December 11, 2025, revisit and resubmit your College Connect internal",
+          "hint": "By 4:00 PM ET on December 17, 2026, revisit and resubmit your College Connect internal",
           "individualContext": "other",
           "consensusCount": 8
         },
         {
-          "raw": "December 11",
-          "date": "2025-12-11",
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "December 11",
+          "hint": "December 17, 2026",
           "individualContext": "other",
           "consensusCount": 8
         },
         {
-          "raw": "February 2, 2026",
-          "date": "2026-02-02",
+          "raw": "February 3, 2027",
+          "date": "2027-02-03",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "By 4:00 PM ET on February 2, 2026, make all revisions to your application, requesting additional"
+          "hint": "By 4:00 PM ET on February 3, 2027, make all revisions to your application, requesting additional"
         },
         {
-          "raw": "February 3, 2026",
-          "date": "2026-02-03",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "By 4:00 PM ET on February 1, 2027, send application to advisor for review",
+          "individualContext": "other",
+          "consensusCount": 3
+        },
+        {
+          "raw": "February 2, 2027",
+          "date": "2027-02-02",
           "dateEnd": null,
           "type": "date",
           "context": "results",
           "isTentative": false,
-          "hint": "By 10:00 AM ET on February 3, 2026, send application to advisor for review",
+          "hint": "February 2, 2027",
           "individualContext": "other",
-          "consensusCount": 4
-        },
-        {
-          "raw": "February 3, 2026",
-          "date": "2026-02-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false,
-          "hint": "February 3, 2026",
-          "individualContext": "other",
-          "consensusCount": 4
+          "consensusCount": 2
         }
       ],
       "awardFinder": [
