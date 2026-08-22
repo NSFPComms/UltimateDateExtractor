@@ -2382,15 +2382,6 @@
           "isTentative": false,
           "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time",
           "consensusCount": 2
-        },
-        {
-          "raw": "August 20, 2026",
-          "date": "2026-08-20",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 20, 2026 - 4:00 PM ET to 5:00 PM ET"
         }
       ],
       "annualDeadlines": [
@@ -2950,15 +2941,6 @@
           "isTentative": false,
           "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time",
           "consensusCount": 2
-        },
-        {
-          "raw": "August 20, 2026",
-          "date": "2026-08-20",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 20, 2026 - 4:00 PM ET to 5:00 PM ET"
         }
       ],
       "annualDeadlines": [
@@ -3312,6 +3294,15 @@
           "hint": "Wednesday 14th October 2026 (Full application must be submitted by 12:00am (midnight) GMT on the date given)"
         },
         {
+          "raw": "14th December 2026",
+          "date": "2026-12-14",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "by 12:00am (midnight) GMT on Monday 14th December 2026"
+        },
+        {
           "raw": "23rd January 2027",
           "date": "2027-01-23",
           "dateEnd": null,
@@ -3337,6 +3328,15 @@
           "context": "other",
           "isTentative": false,
           "hint": "Dependent on your course – either Tuesday 8th December 2026 or Wednesday 6th January 2027 (see Course Directory)"
+        },
+        {
+          "raw": "8th March 2027",
+          "date": "2027-03-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "by 12:00am (midnight) GMT on Monday 8th March 2027"
         },
         {
           "raw": "22nd March",
@@ -3387,15 +3387,6 @@
           "hint": "late October to November 2026"
         },
         {
-          "raw": "December 2026",
-          "date": "2026-12-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "by December 2026 (dates to be confirmed)"
-        },
-        {
           "raw": "February 2027",
           "date": "2027-02-15",
           "dateEnd": null,
@@ -3416,15 +3407,6 @@
           "consensusCount": 3
         },
         {
-          "raw": "March 2027",
-          "date": "2027-03-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "by early March 2027"
-        },
-        {
           "raw": "April 2027",
           "date": "2027-04-15",
           "dateEnd": null,
@@ -3441,11 +3423,11 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "no_dates_found",
+      "external": "broken_link",
       "annualDeadlines": "ok"
     },
     "sourceDetail": {
-      "external": "(page had no text content at all)"
+      "external": "HTTP 404"
     },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/goldwater-procedures.pdf",
@@ -3461,9 +3443,9 @@
     "overallMax": "2027-01-29",
     "actionItems": [
       {
-        "type": "no_dates_found",
+        "type": "broken_link",
         "source": "external",
-        "detail": "(page had no text content at all)"
+        "detail": "HTTP 404"
       }
     ],
     "recipientCheck": {
@@ -7382,15 +7364,6 @@
           "hint": "and Global application for the class of 2027-2028 is now open from April 8, 2026 to September 9, 2026 at 3 p",
           "individualContext": "open",
           "consensusCount": 3
-        },
-        {
-          "raw": "August 19",
-          "date": "2026-08-19",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "August 19"
         },
         {
           "raw": "September 1",
