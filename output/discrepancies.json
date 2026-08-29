@@ -1753,100 +1753,100 @@
       ],
       "external": [
         {
-          "raw": "June 12 to August 9, 2026",
-          "date": "2026-06-12",
-          "dateEnd": "2026-08-09",
+          "raw": "June 16 to August 9, 2027",
+          "date": "2027-06-16",
+          "dateEnd": "2027-08-09",
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "Douglass-O’Connell Global Interns will spend June 12 to August 9, 2026 attending lectures on the history of social change in Ireland, participating in extracurricular and networking activities, and interning with a host"
+          "hint": "Douglass-O'Connell Global Interns will spend June 16 to August 9, 2027 in Dublin, attending lectures on the history of social change in Ireland, participating in networking and extracurricular activities, and interning w"
         },
         {
-          "raw": "from June 12 to August 9, 2026",
-          "date": "2026-06-12",
-          "dateEnd": "2026-08-09",
+          "raw": "from June 16 to August 9, 2027",
+          "date": "2027-06-16",
+          "dateEnd": "2027-08-09",
           "type": "range",
           "context": "other",
           "isTentative": false,
-          "hint": "The 2026 cohort will study from June 12 to August 9, 2026"
+          "hint": "The 2027 cohort will study from June 16 to August 9, 2027"
         },
         {
-          "raw": "summer 2027",
-          "date": "2027-06-21",
+          "raw": "summer 2028",
+          "date": "2028-06-21",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "program, all eligible applicants receive a $1,500 Douglass-O'Connell Scholars Grant that they may use for any CIEE summer or semester program through summer 2027"
+          "hint": "are not selected receive a $1,500 Douglass-O'Connell Scholars Grant, which can be used toward any CIEE summer or semester study abroad program through summer 2028"
         },
         {
-          "raw": "summer 2027",
-          "date": "2027-06-21",
+          "raw": "summer 2028",
+          "date": "2028-06-21",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "The $1,500 grant can be used toward any CIEE summer or semester program through summer 2027"
+          "hint": "The $1,500 grant can be used toward any CIEE summer or semester program through summer 2028"
         },
         {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Submit a complete application no later than January 9, 2026",
+          "hint": "Submit a complete application no later than January 8, 2027",
           "consensusCount": 5
         },
         {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Submit a complete application no later than January 9, 2026",
+          "hint": "Submit a complete application no later than January 8, 2027",
           "consensusCount": 5
         },
         {
-          "raw": "August 28, 2025",
-          "date": "2025-08-28",
+          "raw": "September 1, 2026",
+          "date": "2026-09-01",
           "dateEnd": null,
           "type": "date",
           "context": "open",
           "isTentative": false,
-          "hint": "Applications open on August 28, 2025, and close on January 9, 2026"
+          "hint": "Applications open on September 1, 2026, and close on January 8, 2027"
         },
         {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Applications open on August 28, 2025, and close on January 9, 2026",
+          "hint": "Applications open on September 1, 2026, and close on January 8, 2027",
           "individualContext": "open",
           "consensusCount": 5
         },
         {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "You must complete the application by January 9, 2026",
+          "hint": "You must complete the application by January 8, 2027",
           "individualContext": "other",
           "consensusCount": 5
         },
         {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Completed applications must be submitted by January 9, 2026",
+          "hint": "Completed applications must be submitted by January 8, 2027",
           "consensusCount": 5
         }
       ]
@@ -1919,7 +1919,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Cycle Closed)",
+    "overallStatus": "New Cycle Dates Pending",
     "overallMin": "2026-03-01",
     "overallMax": "2026-03-01",
     "actionItems": [],
@@ -4726,13 +4726,13 @@
           "hint": "Internal Application Deadline: 4:00 PM (ET), August 27, 2026"
         },
         {
-          "raw": "SEPTEMBER 29, 2026",
+          "raw": "September 29, 2026",
           "date": "2026-09-29",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "External Application Deadline: SEPTEMBER 29, 2026"
+          "hint": "External Application Deadline: September 29, 2026"
         }
       ],
       "external": [
@@ -4826,7 +4826,7 @@
       }
     ],
     "overallStatus": "Application Open",
-    "overallMin": "2023-08-15",
+    "overallMin": "2024-08-15",
     "overallMax": "2026-11-13",
     "actionItems": [
       {
@@ -5073,22 +5073,22 @@
       ],
       "awardFinder": [
         {
-          "raw": "August 2023",
-          "date": "2023-08-15",
+          "raw": "August 2024",
+          "date": "2024-08-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "institution (obtained between August 2023 and June 2026)"
+          "hint": "institution (obtained between August 2024 and June 2027)"
         },
         {
-          "raw": "June 2026",
-          "date": "2026-06-15",
+          "raw": "June 2027",
+          "date": "2027-06-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "institution (obtained between August 2023 and June 2026)"
+          "hint": "institution (obtained between August 2024 and June 2027)"
         },
         {
           "raw": "July 2026",
@@ -6183,21 +6183,10 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=858eaf470ae72098246a8ecae080abaa&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2025-01-15",
-        "max": "2025-09-15",
-        "minSource": "awardFinder",
-        "minRaw": "January 2025",
-        "maxSource": "awardFinder",
-        "maxRaw": "September 15, 2025"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
+    "discrepancies": [],
+    "overallStatus": "Application Open",
     "overallMin": "2025-01-15",
-    "overallMax": "2025-09-15",
+    "overallMax": "2026-09-15",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -6216,13 +6205,13 @@
           "hint": "Open to: Current students who will have completed a minimum of 45 credit hours as of January 2025"
         },
         {
-          "raw": "September 15, 2025",
-          "date": "2025-09-15",
+          "raw": "September 15, 2026",
+          "date": "2026-09-15",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "External Application Deadline: September 15, 2025"
+          "hint": "External Application Deadline: September 15, 2026"
         }
       ],
       "external": [
@@ -6673,7 +6662,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Open",
+    "overallStatus": "Application Closed",
     "overallMin": "2026-06-21",
     "overallMax": "2026-08-27",
     "actionItems": [],
