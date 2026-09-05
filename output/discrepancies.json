@@ -1213,7 +1213,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "1 Register for Post-Grad Program Interest List and Canvas Course; Schedule Initial Consultation and/or Attend Info Session Spring 2026 "
+          "hint": "1 Register for an Info Session or Workshop and Canvas Course; complete NS&FP Communications form Spring 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -1249,7 +1249,7 @@
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "5 Write and Revise Personal Statement and Essay on Proposed Program of Study/Research Be prepared to allow time to write and receive feedback on multiple drafts from a NS&FP advisor. Summer 2026 "
+          "hint": "5 Write and Revise Academic and Research History, Narrative Transcrip, and Proposed Research/Program essays. Be prepared to allow time to write and receive feedback on multiple drafts from a NS&FP advisor. Summer 2026 "
         },
         {
           "raw": "Summer 2026",
@@ -1321,7 +1321,7 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "10 Internal Application Submission: Submit your complete application, including Personal Statement and Essay on Proposed Program of Study, letter of interest from research mentor at Cambridge (if applicable) via the Churchill online application. Upload your schedule of availability to College Connect. 4:00 PM ET September 17, 2026 ",
+          "hint": "10 Internal Application Submission: Submit your complete application, including your essays and letter of interest from research mentor at Cambridge (if applicable) via the Churchill online application. Upload your schedule of availability to College Connect. 4:00 PM ET September 17, 2026 ",
           "individualContext": "other",
           "consensusCount": 6
         },
@@ -1638,7 +1638,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "App Open Soon if Not Now",
+    "overallStatus": "Application Likely Open",
     "overallMin": "2026-11-01",
     "overallMax": "2026-11-01",
     "actionItems": [
@@ -1771,6 +1771,15 @@
           "hint": "The 2027 cohort will study from June 16 to August 9, 2027"
         },
         {
+          "raw": "Summer 2027",
+          "date": "2027-06-21",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Applications for Summer 2027 are OPEN"
+        },
+        {
           "raw": "summer 2028",
           "date": "2028-06-21",
           "dateEnd": null,
@@ -1795,8 +1804,8 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Submit a complete application no later than January 8, 2027",
-          "consensusCount": 5
+          "hint": "Submit your application by January 8, 2027",
+          "consensusCount": 6
         },
         {
           "raw": "January 8, 2027",
@@ -1806,7 +1815,17 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "Submit a complete application no later than January 8, 2027",
-          "consensusCount": 5
+          "consensusCount": 6
+        },
+        {
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "Submit a complete application no later than January 8, 2027",
+          "consensusCount": 6
         },
         {
           "raw": "September 1, 2026",
@@ -1826,7 +1845,7 @@
           "isTentative": false,
           "hint": "Applications open on September 1, 2026, and close on January 8, 2027",
           "individualContext": "open",
-          "consensusCount": 5
+          "consensusCount": 6
         },
         {
           "raw": "January 8, 2027",
@@ -1835,9 +1854,9 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "You must complete the application by January 8, 2027",
+          "hint": "Students must complete the application by January 8, 2027",
           "individualContext": "other",
-          "consensusCount": 5
+          "consensusCount": 6
         },
         {
           "raw": "January 8, 2027",
@@ -1847,7 +1866,7 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "Completed applications must be submitted by January 8, 2027",
-          "consensusCount": 5
+          "consensusCount": 6
         }
       ]
     }
@@ -3291,7 +3310,7 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Wednesday 14th October 2026 (Full application must be submitted by 12:00am (midnight) GMT on the date given)"
+          "hint": "Wednesday 14th October 2026 (Full application must be submitted by 11:59pm UK time on the date given)"
         },
         {
           "raw": "14th December 2026",
@@ -3300,7 +3319,7 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "by 12:00am (midnight) GMT on Monday 14th December 2026"
+          "hint": "by 11:59pm UK time on Monday 14th December 2026"
         },
         {
           "raw": "23rd January 2027",
@@ -3336,7 +3355,7 @@
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "by 12:00am (midnight) GMT on Monday 8th March 2027"
+          "hint": "by 11:59pm UK time on Monday 8th March 2027"
         },
         {
           "raw": "22nd March",
@@ -3438,7 +3457,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "App Opening Soon",
+    "overallStatus": "Application Open",
     "overallMin": "2026-09-01",
     "overallMax": "2027-01-29",
     "actionItems": [
@@ -3796,24 +3815,23 @@
     "rawDates": {
       "external": [
         {
-          "raw": "January 15, 2026",
-          "date": "2026-01-15",
+          "raw": "January 31, 2027",
+          "date": "2027-01-31",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Schedule: Online applications open in late August and closed on January 15, 2026",
+          "hint": "Application Deadline: January 31, 2027",
           "consensusCount": 2
         },
         {
-          "raw": "January 15, 2026",
-          "date": "2026-01-15",
+          "raw": "January 31, 2027",
+          "date": "2027-01-31",
           "dateEnd": null,
           "type": "date",
-          "context": "open",
+          "context": "deadline",
           "isTentative": false,
-          "hint": "Deadline for recommendation submission was January 15, 2026",
-          "individualContext": "deadline",
+          "hint": "Deadline for recommendation submission is January 31, 2027",
           "consensusCount": 2
         }
       ]
@@ -6662,7 +6680,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Closed",
+    "overallStatus": "Results Pending",
     "overallMin": "2026-06-21",
     "overallMax": "2026-08-27",
     "actionItems": [],
@@ -7353,24 +7371,6 @@
           "hint": "and Global application for the class of 2027-2028 is now open from April 8, 2026 to September 9, 2026 at 3 p",
           "individualContext": "open",
           "consensusCount": 3
-        },
-        {
-          "raw": "September 1",
-          "date": "2026-09-01",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "September 1"
-        },
-        {
-          "raw": "September 4",
-          "date": "2026-09-04",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "September 4"
         }
       ],
       "annualDeadlines": [
