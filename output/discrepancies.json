@@ -1627,7 +1627,7 @@
       "annualDeadlines": "not_tracked"
     },
     "sourceDetail": {
-      "external": "HTTP 403"
+      "external": "The user aborted a request."
     },
     "sourceUrls": {
       "procedures": null,
@@ -1645,7 +1645,7 @@
       {
         "type": "broken_link",
         "source": "external",
-        "detail": "HTTP 403"
+        "detail": "The user aborted a request."
       }
     ],
     "recipientCheck": {
@@ -3304,6 +3304,27 @@
       ],
       "external": [
         {
+          "raw": "11th September 2026",
+          "date": "2026-09-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false,
+          "hint": "Applications will open again on 11th September 2026 for entry in the academic year 2027/8",
+          "consensusCount": 3
+        },
+        {
+          "raw": "11th September 2026",
+          "date": "2026-09-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false,
+          "hint": "11th September 2026",
+          "individualContext": "other",
+          "consensusCount": 3
+        },
+        {
           "raw": "14th October 2026",
           "date": "2026-10-14",
           "dateEnd": null,
@@ -3329,6 +3350,17 @@
           "context": "other",
           "isTentative": false,
           "hint": "Friday 22nd and Saturday 23rd January 2027"
+        },
+        {
+          "raw": "11th September 2026",
+          "date": "2026-09-11",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false,
+          "hint": "11th September 2026",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
           "raw": "8th December 2026",
@@ -3376,27 +3408,6 @@
           "hint": "Monday 22nd March and Tuesday 23rd March 2027"
         },
         {
-          "raw": "September 2026",
-          "date": "2026-09-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "Applications will open again in September 2026 for entry in the academic year 2027/8",
-          "consensusCount": 3
-        },
-        {
-          "raw": "September 2026",
-          "date": "2026-09-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "September 2026 (dates to be confirmed)",
-          "individualContext": "other",
-          "consensusCount": 3
-        },
-        {
           "raw": "November 2026",
           "date": "2026-11-15",
           "dateEnd": null,
@@ -3413,17 +3424,6 @@
           "context": "other",
           "isTentative": true,
           "hint": "by early February 2027"
-        },
-        {
-          "raw": "September 2026",
-          "date": "2026-09-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "September 2026 (date to be confirmed)",
-          "individualContext": "other",
-          "consensusCount": 3
         },
         {
           "raw": "April 2027",
@@ -4349,7 +4349,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Open",
+    "overallStatus": "Application Closed",
     "overallMin": "2026-06-15",
     "overallMax": "2026-09-08",
     "actionItems": [],
@@ -7014,7 +7014,7 @@
         "daysApart": 1
       }
     ],
-    "overallStatus": "Application Open",
+    "overallStatus": "Application Closed",
     "overallMin": "2026-01-15",
     "overallMax": "2026-09-10",
     "actionItems": [],
@@ -7251,62 +7251,104 @@
       ],
       "external": [
         {
-          "raw": "Oct – Nov 2026",
-          "date": "2026-10-01",
+          "raw": "Oct - Nov 2027",
+          "date": "2027-10-01",
           "dateEnd": null,
           "type": "period",
           "context": "results",
           "isTentative": false,
-          "hint": "Selection Cycle: Oct – Nov 2026"
+          "hint": "Selection Cycle: Oct - Nov 2027"
         },
         {
-          "raw": "Jun – Jul 2026",
-          "date": "2026-06-01",
+          "raw": "Jun - Jul 2027",
+          "date": "2027-06-01",
           "dateEnd": null,
           "type": "period",
           "context": "results",
           "isTentative": false,
-          "hint": "Selection Cycle: Jun – Jul 2026"
+          "hint": "Selection Cycle: Jun - Jul 2027"
         },
         {
-          "raw": "Aug 2027",
-          "date": "2027-08-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "Program Begins: Aug 2027"
-        },
-        {
-          "raw": "Jan 2026",
-          "date": "2026-01-15",
+          "raw": "Apr 2027",
+          "date": "2027-04-15",
           "dateEnd": null,
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "Application Period: Jan 2026 – May 2026"
+          "hint": "Application Period: Apr 2027 - Sep 2027",
+          "consensusCount": 2
         },
         {
-          "raw": "May 2026",
-          "date": "2026-05-15",
+          "raw": "Sep 2027",
+          "date": "2027-09-15",
           "dateEnd": null,
           "type": "period",
           "context": "open",
           "isTentative": true,
-          "hint": "Application Period: Jan 2026 – May 2026"
+          "hint": "Application Period: Apr 2027 - Sep 2027",
+          "consensusCount": 2
         },
         {
-          "raw": "Aug 2027",
-          "date": "2027-08-15",
+          "raw": "Aug 2028",
+          "date": "2028-08-15",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "Program Begins: Aug 2027"
+          "hint": "Program Begins: Aug 2028"
+        },
+        {
+          "raw": "Mar 2027",
+          "date": "2027-03-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Application Period: Mar 2027 - May 2027"
+        },
+        {
+          "raw": "May 2027",
+          "date": "2027-05-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Application Period: Mar 2027 - May 2027"
+        },
+        {
+          "raw": "Aug 2028",
+          "date": "2028-08-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Program Begins: Aug 2028"
+        },
+        {
+          "raw": "April 2027",
+          "date": "2027-04-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "and Global application for the class of 2028-2029 will be open from April 2027 to September 2027",
+          "individualContext": "other",
+          "consensusCount": 2
+        },
+        {
+          "raw": "September 2027",
+          "date": "2027-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "and Global application for the class of 2028-2029 will be open from April 2027 to September 2027",
+          "individualContext": "other",
+          "consensusCount": 2
         },
         {
           "raw": "August 1",
-          "date": "2027-08-01",
+          "date": "2028-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -7315,62 +7357,21 @@
         },
         {
           "raw": "August 1",
-          "date": "2027-08-01",
+          "date": "2028-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "Candidates must be at least 18 but not yet 29 years of age as of August 1 of their Schwarzman Scholars enrollment year (for the Class of 2027-2028, as of August 1, 2027)"
+          "hint": "Candidates must be at least 18 but not yet 29 years of age as of August 1 of their Schwarzman Scholars enrollment year (for the Class of 2028-2029, as of August 1, 2028)"
         },
         {
-          "raw": "August 1, 2027",
-          "date": "2027-08-01",
+          "raw": "August 1, 2028",
+          "date": "2028-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "idates must be at least 18 but not yet 29 years of age as of August 1 of their Schwarzman Scholars enrollment year (for the Class of 2027-2028, as of August 1, 2027)"
-        },
-        {
-          "raw": "September 9, 2026",
-          "date": "2026-09-09",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false,
-          "hint": "Current Selection Cycle: Countdown to September 9, 2026 Application Deadline",
-          "consensusCount": 3
-        },
-        {
-          "raw": "Sept 9, 2026",
-          "date": "2026-09-09",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false,
-          "hint": "Application Deadline: Sept 9, 2026 at 3 p",
-          "individualContext": "deadline",
-          "consensusCount": 3
-        },
-        {
-          "raw": "April 8, 2026",
-          "date": "2026-04-08",
-          "dateEnd": null,
-          "type": "date",
-          "context": "open",
-          "isTentative": false,
-          "hint": "and Global application for the class of 2027-2028 is now open from April 8, 2026 to September 9, 2026 at 3 p"
-        },
-        {
-          "raw": "September 9, 2026",
-          "date": "2026-09-09",
-          "dateEnd": null,
-          "type": "date",
-          "context": "results",
-          "isTentative": false,
-          "hint": "and Global application for the class of 2027-2028 is now open from April 8, 2026 to September 9, 2026 at 3 p",
-          "individualContext": "open",
-          "consensusCount": 3
+          "hint": "idates must be at least 18 but not yet 29 years of age as of August 1 of their Schwarzman Scholars enrollment year (for the Class of 2028-2029, as of August 1, 2028)"
         }
       ],
       "annualDeadlines": [
@@ -7726,7 +7727,7 @@
         "daysApart": 1
       }
     ],
-    "overallStatus": "Dormant (Waiting for App to Open)",
+    "overallStatus": "App Opening Soon",
     "overallMin": "2026-09-30",
     "overallMax": "2027-02-02",
     "actionItems": [
