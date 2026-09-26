@@ -339,7 +339,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Waiting for App to Open)",
+    "overallStatus": "App Opening Soon",
     "overallMin": "2026-10-15",
     "overallMax": "2027-01-08",
     "actionItems": [],
@@ -1796,6 +1796,69 @@
           "context": "other",
           "isTentative": true,
           "hint": "The $1,500 grant can be used toward any CIEE summer or semester program through summer 2028"
+        },
+        {
+          "raw": "October 5",
+          "date": "2027-10-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Monday, October 5, 1:00 PM ET"
+        },
+        {
+          "raw": "October 16",
+          "date": "2027-10-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Friday, October 16, 11:00 AM ET"
+        },
+        {
+          "raw": "October 29",
+          "date": "2027-10-29",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Thursday, October 29, 2:00 PM ET"
+        },
+        {
+          "raw": "November 4",
+          "date": "2027-11-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Wednesday, November 4, 12:00 PM ET"
+        },
+        {
+          "raw": "November 17",
+          "date": "2027-11-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Tuesday, November 17, 11:00 AM ET"
+        },
+        {
+          "raw": "December 4",
+          "date": "2027-12-04",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Friday, December 4, 3:00 PM ET"
+        },
+        {
+          "raw": "December 16",
+          "date": "2027-12-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "Wednesday, December 16, 12:00 PM ET"
         },
         {
           "raw": "January 8, 2027",
@@ -3842,8 +3905,19 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=857608fb0ae72098246a8ecaf834059c&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "New Cycle Dates Pending",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Check for Deadline Immediately",
+        "min": "2025-10-31",
+        "max": "2025-10-31",
+        "minSource": "awardFinder",
+        "minRaw": "October 31, 2025",
+        "maxSource": "awardFinder",
+        "maxRaw": "October 31, 2025"
+      }
+    ],
+    "overallStatus": "Check for Deadline Immediately",
     "overallMin": "2025-10-31",
     "overallMax": "2025-10-31",
     "actionItems": [
@@ -4260,7 +4334,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Waiting for App to Open)",
+    "overallStatus": "App Opening Soon",
     "overallMin": "2026-10-15",
     "overallMax": "2027-09-15",
     "actionItems": [
@@ -4757,7 +4831,7 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "The deadlines for the 2027 Marshall Competition are: <br>29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Ins",
+          "hint": "The deadlines for the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Ins",
           "individualContext": "deadline",
           "consensusCount": 2
         },
@@ -4768,7 +4842,7 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "the 2027 Marshall Competition are: <br>29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Institution at 5:00pm in the time zone of the endorsing instution",
+          "hint": "for the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Institution at 5:00pm in the time zone of the endorsing instution",
           "consensusCount": 2
         },
         {
@@ -6293,256 +6367,130 @@
       ],
       "external": [
         {
-          "raw": "June 15 - August 21, 2026",
-          "date": "2026-06-15",
-          "dateEnd": "2026-08-21",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "June 15 - August 21, 2026"
-        },
-        {
-          "raw": "May 26 - July 31, 2026",
-          "date": "2026-05-26",
-          "dateEnd": "2026-07-31",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "May 26 - July 31, 2026"
-        },
-        {
-          "raw": "May 18 - July 25, 2026",
-          "date": "2026-05-18",
-          "dateEnd": "2026-07-25",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "May 18 - July 25, 2026"
-        },
-        {
-          "raw": "June 3 - August 9, 2026",
-          "date": "2026-06-03",
-          "dateEnd": "2026-08-09",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "June 3 - August 9, 2026"
-        },
-        {
-          "raw": "May 16 - July 19, 2026",
-          "date": "2026-05-16",
-          "dateEnd": "2026-07-19",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "May 16 - July 19, 2026"
-        },
-        {
-          "raw": "May 31 - August 8, 2026",
-          "date": "2026-05-31",
-          "dateEnd": "2026-08-08",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "May 31 - August 8, 2026"
-        },
-        {
-          "raw": "June 20 - August 15, 2026",
-          "date": "2026-06-20",
-          "dateEnd": "2026-08-15",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "June 20 - August 15, 2026"
-        },
-        {
-          "raw": "June 8 - August 14, 2026",
-          "date": "2026-06-08",
-          "dateEnd": "2026-08-14",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "June 8 - August 14, 2026"
-        },
-        {
-          "raw": "June 22 - August 27, 2026",
-          "date": "2026-06-22",
-          "dateEnd": "2026-08-27",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "June 22 - August 27, 2026"
-        },
-        {
-          "raw": "May 31 - August 7, 2026",
-          "date": "2026-05-31",
-          "dateEnd": "2026-08-07",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "May 31 - August 7, 2026"
-        },
-        {
-          "raw": "May 26 - July 24, 2026",
-          "date": "2026-05-26",
-          "dateEnd": "2026-07-24",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "May 26 - July 24, 2026"
-        },
-        {
-          "raw": "June 1 - August 7, 2026",
-          "date": "2026-06-01",
-          "dateEnd": "2026-08-07",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "June 1 - August 7, 2026"
-        },
-        {
-          "raw": "May 18 - July 24, 2026",
-          "date": "2026-05-18",
-          "dateEnd": "2026-07-24",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "May 18 - July 24, 2026"
-        },
-        {
-          "raw": "May 26 - July 31, 2026",
-          "date": "2026-05-26",
-          "dateEnd": "2026-07-31",
-          "type": "range",
-          "context": "other",
-          "isTentative": false,
-          "hint": "May 26 - July 31, 2026"
-        },
-        {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         },
         {
-          "raw": "February 1, 2026",
-          "date": "2026-02-01",
+          "raw": "February 1, 2027",
+          "date": "2027-02-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "February 1, 2026"
+          "hint": "February 1, 2027"
         }
       ]
     }
