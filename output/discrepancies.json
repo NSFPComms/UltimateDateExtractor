@@ -1533,10 +1533,12 @@
     "sourceStatus": {
       "procedures": "not_tracked",
       "awardFinder": "ok",
-      "external": "ok",
+      "external": "broken_link",
       "annualDeadlines": "not_tracked"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "HTTP 404"
+    },
     "sourceUrls": {
       "procedures": null,
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-critical-language.html",
@@ -1560,7 +1562,13 @@
     "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "2025-05-15",
     "overallMax": "2025-11-18",
-    "actionItems": [],
+    "actionItems": [
+      {
+        "type": "broken_link",
+        "source": "external",
+        "detail": "HTTP 404"
+      }
+    ],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -1604,17 +1612,6 @@
           "isTentative": false,
           "hint": "Be at least 18 years old by May 15, 2025"
         }
-      ],
-      "external": [
-        {
-          "raw": "Fall 2026",
-          "date": "2026-09-22",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "The application for the 2027 CLS Program will be available Fall 2026"
-        }
       ]
     }
   },
@@ -1638,7 +1635,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Likely Open",
+    "overallStatus": "Application Likely Closing Soon",
     "overallMin": "2026-11-01",
     "overallMax": "2026-11-01",
     "actionItems": [
@@ -1954,7 +1951,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Cycle Closed)",
+    "overallStatus": "New Cycle Dates Pending",
     "overallMin": "2026-03-31",
     "overallMax": "2026-03-31",
     "actionItems": [
@@ -4569,9 +4566,19 @@
           ]
         },
         "daysApart": 2
+      },
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2025-08-27",
+        "max": "2026-09-29",
+        "minSource": "annualDeadlines",
+        "minRaw": "Aug. 27 - Sep. 2,  2025",
+        "maxSource": "awardFinder",
+        "maxRaw": "September 29, 2026"
       }
     ],
-    "overallStatus": "Application Open",
+    "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "2025-08-27",
     "overallMax": "2026-09-29",
     "actionItems": [],
@@ -4831,7 +4838,7 @@
           "type": "date",
           "context": "recommenders",
           "isTentative": false,
-          "hint": "The deadlines for the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Ins",
+          "hint": "The deadlines for the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing institution; 1st October 2026 for endorsement and submission by the US I",
           "individualContext": "deadline",
           "consensusCount": 2
         },
@@ -4842,7 +4849,7 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "for the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing instution; 1st October 2026 for endorsement and submission by the US Institution at 5:00pm in the time zone of the endorsing instution",
+          "hint": "r the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing institution; 1st October 2026 for endorsement and submission by the US Institution at 5:00pm in the time zone of the endorsing instution",
           "consensusCount": 2
         },
         {
@@ -4864,6 +4871,15 @@
           "isTentative": false,
           "hint": "orsement, must be submitted online by the endorsing institution no later than 5:00pm in the time zone where your endorsing institution is located on 1st October 2026",
           "consensusCount": 2
+        },
+        {
+          "raw": "October 2026",
+          "date": "2026-10-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "The university deadline for endorsed applications is Thursday, 01 October 2026 at 5pm in their specific timezone"
         }
       ],
       "annualDeadlines": [
@@ -7371,7 +7387,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Dormant (Cycle Closed)",
+    "overallStatus": "New Cycle Dates Pending",
     "overallMin": "2026-04-02",
     "overallMax": "2026-04-02",
     "actionItems": [
@@ -7682,7 +7698,7 @@
         "daysApart": 1
       }
     ],
-    "overallStatus": "App Opening Soon",
+    "overallStatus": "Application Open",
     "overallMin": "2026-09-30",
     "overallMax": "2027-02-02",
     "actionItems": [
@@ -8172,6 +8188,24 @@
     "rawDates": {
       "external": [
         {
+          "raw": "summer 2027",
+          "date": "2027-06-21",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "The 2028–2029 competition will open in summer 2027"
+        },
+        {
+          "raw": "2027–2028",
+          "date": "2027-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "other",
+          "isTentative": true,
+          "hint": "Please note that the information on this page reflects guidelines for the 2027–2028 application cycle and may be updated prior to the launch of the 2028–2029 competition"
+        },
+        {
           "raw": "2027-2028",
           "date": "2027-01-01",
           "dateEnd": null,
@@ -8188,6 +8222,15 @@
           "context": "other",
           "isTentative": true,
           "hint": "Applicants will be notified of the results of the selection process by early March 2027"
+        },
+        {
+          "raw": "October 1, 2026",
+          "date": "2026-10-01",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "As of October 1, 2026, the Wilson Center is no longer accepting applications for the 2027–2028 Research Fellowship competition"
         },
         {
           "raw": "June 1, 2027",
