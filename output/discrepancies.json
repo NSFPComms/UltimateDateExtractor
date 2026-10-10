@@ -1073,13 +1073,13 @@
       ],
       "external": [
         {
-          "raw": "2026-2027",
-          "date": "2026-01-01",
+          "raw": "2027-2028",
+          "date": "2027-01-01",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "2026-2027 Programs or Projects"
+          "hint": "2027-2028 Programs or Projects"
         },
         {
           "raw": "January 15th",
@@ -1681,8 +1681,19 @@
       "cascadeEdit": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [],
-    "overallStatus": "New Cycle Dates Pending",
+    "discrepancies": [
+      {
+        "type": "stale",
+        "status": "Check for Deadline Immediately",
+        "min": "2025-11-12",
+        "max": "2026-01-09",
+        "minSource": "awardFinder",
+        "minRaw": "November 12, 2025",
+        "maxSource": "awardFinder",
+        "maxRaw": "January 9, 2026"
+      }
+    ],
+    "overallStatus": "Check for Deadline Immediately",
     "overallMin": "2025-11-12",
     "overallMax": "2026-01-09",
     "actionItems": [],
@@ -1793,15 +1804,6 @@
           "context": "other",
           "isTentative": true,
           "hint": "The $1,500 grant can be used toward any CIEE summer or semester program through summer 2028"
-        },
-        {
-          "raw": "October 5",
-          "date": "2027-10-05",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "Monday, October 5, 1:00 PM ET"
         },
         {
           "raw": "October 16",
@@ -2017,15 +2019,6 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "External Application Deadline: March 1, 2026"
-        },
-        {
-          "raw": "May 1st",
-          "date": "2026-05-01",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "Please note that for scholarship eligibility applicants must be graduating from an Emory undergraduate or graduate school after May 1st"
         }
       ],
       "external": [
@@ -2076,23 +2069,8 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=8571ec7d0ae72098246a8ecace09e915&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "category": "deadline",
-        "values": {
-          "procedures": [
-            "2026-10-05",
-            "2026-10-06"
-          ],
-          "external": [
-            "2026-10-06"
-          ]
-        },
-        "daysApart": 1
-      }
-    ],
-    "overallStatus": "Application Open",
+    "discrepancies": [],
+    "overallStatus": "Application Closed",
     "overallMin": "2026-06-21",
     "overallMax": "2026-10-06",
     "actionItems": [],
@@ -2416,22 +2394,13 @@
       ],
       "external": [
         {
-          "raw": "spring\n2027",
+          "raw": "Spring 2027",
           "date": "2027-03-20",
-          "dateEnd": null,
-          "type": "period",
-          "context": "results",
-          "isTentative": true,
-          "hint": "Final Notification: Rolling basis through spring 2027–2028 Award Cycle"
-        },
-        {
-          "raw": "2026–2027",
-          "date": "2026-01-01",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "2026–2027 Award Cycle"
+          "hint": "Application: Launching Spring 2027"
         },
         {
           "raw": "2027–2028",
@@ -2443,24 +2412,43 @@
           "hint": "2027–2028 Award Cycle"
         },
         {
-          "raw": "October 6, 2026",
-          "date": "2026-10-06",
+          "raw": "2028-2029",
+          "date": "2028-01-01",
           "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "The National Deadline is October 6, 2026 at 5pm Eastern Time",
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "Semi-Finalist Notification: By end of January 2027 2028-2029 Award Cycle",
           "consensusCount": 2
+        },
+        {
+          "raw": "2028–2029",
+          "date": "2028-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "2028–2029 Award Cycle",
+          "individualContext": "other",
+          "consensusCount": 2
+        },
+        {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "Semi-Finalist Notification: By end of January 2027 2028-2029 Award Cycle"
         },
         {
           "raw": "October 6, 2026",
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false,
-          "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time",
-          "consensusCount": 2
+          "hint": "Application: Closed October 6, 2026"
         }
       ],
       "annualDeadlines": [
@@ -2520,24 +2508,8 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=8572bd190ae72098246a8eca753b1df2&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "category": "deadline",
-        "values": {
-          "procedures": [
-            "2026-09-30",
-            "2026-10-05",
-            "2026-10-06"
-          ],
-          "external": [
-            "2026-10-06"
-          ]
-        },
-        "daysApart": 6
-      }
-    ],
-    "overallStatus": "Application Open",
+    "discrepancies": [],
+    "overallStatus": "Application Closed",
     "overallMin": "2026-06-21",
     "overallMax": "2026-10-06",
     "actionItems": [],
@@ -2975,22 +2947,13 @@
       ],
       "external": [
         {
-          "raw": "spring\n2027",
+          "raw": "Spring 2027",
           "date": "2027-03-20",
-          "dateEnd": null,
-          "type": "period",
-          "context": "results",
-          "isTentative": true,
-          "hint": "Final Notification: Rolling basis through spring 2027–2028 Award Cycle"
-        },
-        {
-          "raw": "2026–2027",
-          "date": "2026-01-01",
           "dateEnd": null,
           "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "2026–2027 Award Cycle"
+          "hint": "Application: Launching Spring 2027"
         },
         {
           "raw": "2027–2028",
@@ -3002,24 +2965,43 @@
           "hint": "2027–2028 Award Cycle"
         },
         {
-          "raw": "October 6, 2026",
-          "date": "2026-10-06",
+          "raw": "2028-2029",
+          "date": "2028-01-01",
           "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "The National Deadline is October 6, 2026 at 5pm Eastern Time",
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "Semi-Finalist Notification: By end of January 2027 2028-2029 Award Cycle",
           "consensusCount": 2
+        },
+        {
+          "raw": "2028–2029",
+          "date": "2028-01-01",
+          "dateEnd": null,
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "2028–2029 Award Cycle",
+          "individualContext": "other",
+          "consensusCount": 2
+        },
+        {
+          "raw": "January 2027",
+          "date": "2027-01-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "results",
+          "isTentative": true,
+          "hint": "Semi-Finalist Notification: By end of January 2027 2028-2029 Award Cycle"
         },
         {
           "raw": "October 6, 2026",
           "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
+          "context": "other",
           "isTentative": false,
-          "hint": "National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time",
-          "consensusCount": 2
+          "hint": "Application: Closed October 6, 2026"
         }
       ],
       "annualDeadlines": [
@@ -4229,6 +4211,15 @@
       ],
       "external": [
         {
+          "raw": "summer 2027",
+          "date": "2027-06-21",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "The KHS application to join the 2028 cohort will open in summer 2027"
+        },
+        {
           "raw": "October 6, 2026",
           "date": "2026-10-06",
           "dateEnd": null,
@@ -4927,11 +4918,21 @@
           ]
         },
         "daysApart": 1
+      },
+      {
+        "type": "stale",
+        "status": "Urgent: Update Needed Now",
+        "min": "2024-08-15",
+        "max": "2025-11-15",
+        "minSource": "awardFinder",
+        "minRaw": "August 2024",
+        "maxSource": "awardFinder",
+        "maxRaw": "November 15, 2025"
       }
     ],
-    "overallStatus": "Application Open",
+    "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "2024-08-15",
-    "overallMax": "2026-11-13",
+    "overallMax": "2025-11-15",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -5066,31 +5067,31 @@
           "hint": "12 Nomination Decision Letters distributed (via email) October 30, 2026  IF NOMINATED"
         },
         {
-          "raw": "November 12, 2026",
-          "date": "2026-11-12",
+          "raw": "November 15, 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": true,
-          "hint": "14 Submit Sciences Po graduate program application November 12, 2026 (tentative) "
+          "hint": "14 Submit Sciences Po graduate program application November 15, 2026 (tentative) "
         },
         {
-          "raw": "November 12, 2026",
-          "date": "2026-11-12",
+          "raw": "November 15, 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": true,
-          "hint": "15 Final Version of Personal Statement and PDF of Application Form due via Email (ec.nationalawards@emory.edu) November 12, 2026 (tentative) "
+          "isTentative": false,
+          "hint": "15 Final Version of Personal Statement and PDF of Application Form due via Email (ec.nationalawards@emory.edu) November 15, 2026 "
         },
         {
-          "raw": "November 13, 2026",
-          "date": "2026-11-13",
+          "raw": "November 16, 2026",
+          "date": "2026-11-16",
           "dateEnd": null,
           "type": "date",
-          "context": "deadline",
-          "isTentative": true,
-          "hint": "16 Application submitted by NS&FP November 13, 2026 (tentative)* *External deadline subject to change  Next Steps: Emory may nominate one candidate. Finalists will participate in an interview in early February and the recipient will be announced shortly thereafter. -- 1 of 4 -- Application Procedures: Michel David-Weill Scholarship (2026-27) 2 IMPORTANT NOTES Consultation (Step 1) Make contact with the National Scholarships and Fellowships program to discuss your eligibility, application competitiveness, and interest in pursuing graduate study at Sciences Po. Recommenders (Steps 2, 8) In",
+          "context": "results",
+          "isTentative": false,
+          "hint": "16 Application submitted by NS&FP November 16, 2026  Next Steps: Emory may nominate one candidate. Finalists will participate in an interview in early February and the recipient will be announced shortly thereafter. -- 1 of 4 -- Application Procedures: Michel David-Weill Scholarship (2026-27) 2 IMPORTANT NOTES Consultation (Step 1) Make contact with the National Scholarships and Fellowships program to discuss your eligibility, application competitiveness, and interest in pursuing graduate study at Sciences Po. Recommenders (Steps 2, 8) In consultation with an NS&FP advisor, determine you",
           "consensusCount": 2
         },
         {
@@ -5146,31 +5147,31 @@
           "hint": "Decision letters will be distributed via College Connect by October 30, 2026"
         },
         {
-          "raw": "November 12, 2026",
-          "date": "2026-11-12",
+          "raw": "November 15, 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "other",
-          "isTentative": true,
-          "hint": "By November 12, 2026 (tentative), make all revisions to your application, requesting additional"
-        },
-        {
-          "raw": "November 12, 2026",
-          "date": "2026-11-12",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": true,
-          "hint": "By 4:00 pm ET on November 12, 2026 (tentative): ensure all your materials have been"
-        },
-        {
-          "raw": "November 13, 2026",
-          "date": "2026-11-13",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
           "isTentative": false,
-          "hint": "institutional nomination letter, to Sciences Po via PDF in advance of the November 13, 2026",
+          "hint": "By November 15, 2026, make all revisions to your application, requesting additional feedback"
+        },
+        {
+          "raw": "November 15, 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "By 4:00 pm ET on November 15, 2026: ensure all your materials have been submitted to the"
+        },
+        {
+          "raw": "November 16, 2026",
+          "date": "2026-11-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "results",
+          "isTentative": true,
+          "hint": "letter, to Sciences Po via PDF in advance of the November 16, 2026 (tentative) national",
           "individualContext": "other",
           "consensusCount": 2
         }
@@ -5647,21 +5648,10 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=86c1b47c0ae72098246a8eca835b6c3e&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2025-03-20",
-        "max": "2026-05-15",
-        "minSource": "procedures",
-        "minRaw": "spring 2025",
-        "maxSource": "procedures",
-        "maxRaw": "May 2026"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
+    "discrepancies": [],
+    "overallStatus": "Application Open",
     "overallMin": "2025-03-20",
-    "overallMax": "2026-05-15",
+    "overallMax": "2026-11-16",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -5817,44 +5807,62 @@
       ],
       "awardFinder": [
         {
-          "raw": "November 10, 2025",
-          "date": "2025-11-10",
+          "raw": "October 16, 2026",
+          "date": "2026-10-16",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "recommenders",
           "isTentative": false,
-          "hint": "November 10, 2025: Life Sciences"
+          "hint": "October 16, 2026: all reference letters due"
         },
         {
-          "raw": "November 12, 2025",
-          "date": "2025-11-12",
+          "raw": "October 19, 2026",
+          "date": "2026-10-19",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "November 12, 2025: Computer and Information Science and Engineering, Material Research, Psychology, Social, Behavioral, and Economic Sciences; STEM Education and Learn"
+          "hint": "October 19, 2026: Life Sciences"
         },
         {
-          "raw": "November 13, 2025",
-          "date": "2025-11-13",
+          "raw": "October 20, 2026",
+          "date": "2026-10-20",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "November 13, 2025: Engineering"
+          "hint": "October 20, 2026: Computer and Information Science and Engineering, Material Research, Psychology, Social, Behavioral, and Economic Sciences; STEM Education and Learn"
         },
         {
-          "raw": "November 14, 2025",
-          "date": "2025-11-14",
+          "raw": "October 22, 2026",
+          "date": "2026-10-22",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "November 14, 2025: Chemistry, Geosciences, Mathematical Sciences, Physics and Astronomy"
+          "hint": "October 22, 2026: Engineering"
+        },
+        {
+          "raw": "October 23, 2026",
+          "date": "2026-10-23",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "October 23, 2026: Chemistry, Geosciences, Mathematical Sciences, Physics and Astronomy"
+        },
+        {
+          "raw": "November 16, 2026",
+          "date": "2026-11-16",
+          "dateEnd": null,
+          "type": "date",
+          "context": "other",
+          "isTentative": false,
+          "hint": "November 16, 2026: last day to withdraw your application"
         },
         {
           "raw": "August 1",
-          "date": "2025-08-01",
+          "date": "2026-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "other",
@@ -6599,12 +6607,11 @@
     "sourceStatus": {
       "procedures": "not_tracked",
       "awardFinder": "no_dates_found",
-      "external": "no_dates_found",
+      "external": "ok",
       "annualDeadlines": "not_tracked"
     },
     "sourceDetail": {
-      "awardFinder": "(page had no text content at all)",
-      "external": "sample: \"Customer Portal is not available in Staging. X Please visit the production site by clicking Here Close loading... The Charles B. Rangel International Affairs Program The 2026 application cycle for the…\""
+      "awardFinder": "(page had no text content at all)"
     },
     "sourceUrls": {
       "procedures": null,
@@ -6623,15 +6630,22 @@
         "type": "no_dates_found",
         "source": "awardFinder",
         "detail": "(page had no text content at all)"
-      },
-      {
-        "type": "no_dates_found",
-        "source": "external",
-        "detail": "sample: \"Customer Portal is not available in Staging. X Please visit the production site by clicking Here Close loading... The Charles B. Rangel International Affairs Program The 2026 application cycle for the…\""
       }
     ],
     "recipientCheck": null,
-    "rawDates": {}
+    "rawDates": {
+      "external": [
+        {
+          "raw": "November 2026",
+          "date": "2026-11-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "Rangel International Affairs Summer Enrichment Program will open in November 2026"
+        }
+      ]
+    }
   },
   {
     "awardName": "Rhodes",
