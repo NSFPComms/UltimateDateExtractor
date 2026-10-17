@@ -339,7 +339,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "App Opening Soon",
+    "overallStatus": "Application Open",
     "overallMin": "2026-10-15",
     "overallMax": "2027-01-08",
     "actionItems": [],
@@ -1806,15 +1806,6 @@
           "hint": "The $1,500 grant can be used toward any CIEE summer or semester program through summer 2028"
         },
         {
-          "raw": "October 16",
-          "date": "2027-10-16",
-          "dateEnd": null,
-          "type": "date",
-          "context": "other",
-          "isTentative": false,
-          "hint": "Friday, October 16, 11:00 AM ET"
-        },
-        {
           "raw": "October 29",
           "date": "2027-10-29",
           "dateEnd": null,
@@ -2070,7 +2061,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Closed",
+    "overallStatus": "Results Pending",
     "overallMin": "2026-06-21",
     "overallMax": "2026-10-06",
     "actionItems": [],
@@ -2509,7 +2500,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Closed",
+    "overallStatus": "Results Pending",
     "overallMin": "2026-06-21",
     "overallMax": "2026-10-06",
     "actionItems": [],
@@ -3486,7 +3477,7 @@
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
-    "overallMin": "2026-09-01",
+    "overallMin": "2026-09-15",
     "overallMax": "2027-01-29",
     "actionItems": [
       {
@@ -3512,6 +3503,24 @@
           "hint": "12 Follow-up Appointment(s) and Application Revisions January 13-26, 2027 "
         },
         {
+          "raw": "between\nAugust 27 and October 9",
+          "date": "2026-08-27",
+          "dateEnd": "2026-10-09",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "One-on-one appointments are not available between August 27 and October 9"
+        },
+        {
+          "raw": "week of January 25-29",
+          "date": "2027-01-25",
+          "dateEnd": "2027-01-29",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "During the week of January 25-29, be sure to reserve time for final edits and stay in touch with your advisor"
+        },
+        {
           "raw": "November-\nDecember 2026",
           "date": "2026-11-01",
           "dateEnd": null,
@@ -3521,76 +3530,67 @@
           "hint": "8 Revise Short Essay Questions and Research Essay Be prepared to allow time to write and receive feedback on multiple drafts from an NS&FP advisor. November- December 2026 "
         },
         {
-          "raw": "September - October 2026",
-          "date": "2026-09-01",
+          "raw": "Fall 2026",
+          "date": "2026-09-22",
           "dateEnd": null,
           "type": "period",
           "context": "open",
-          "isTentative": false,
-          "hint": "The Goldwater application will be available in September - October 2026 and the pre-application must be"
+          "isTentative": true,
+          "hint": "1 Attend Workshop, Campus Event, and/or Schedule Consultation with an NS&FP Advisor Summer/Fall 2026 ",
+          "individualContext": "other",
+          "consensusCount": 5
         },
         {
           "raw": "Fall 2026",
           "date": "2026-09-22",
           "dateEnd": null,
           "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "3 Begin Online Applications Goldwater Portal and College Connect Fall 2026 ",
+          "consensusCount": 5
+        },
+        {
+          "raw": "Fall 2026",
+          "date": "2026-09-22",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "4 Select and Confirm Three Recommenders Fall 2026 ",
+          "individualContext": "other",
+          "consensusCount": 5
+        },
+        {
+          "raw": "Fall 2026",
+          "date": "2026-09-22",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "5 Begin Drafting Short Essay Questions Fall 2026 ",
+          "individualContext": "other",
+          "consensusCount": 5
+        },
+        {
+          "raw": "Fall 2026",
+          "date": "2026-09-22",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "6 Begin Drafting Research Essay Fall 2026 ",
+          "individualContext": "other",
+          "consensusCount": 5
+        },
+        {
+          "raw": "December 2026",
+          "date": "2026-12-15",
+          "dateEnd": null,
+          "type": "period",
           "context": "other",
           "isTentative": true,
-          "hint": "1 Attend Info Session, Workshop, and/or Schedule Consultation with an NS&FP Advisor Summer/Fall 2026 "
-        },
-        {
-          "raw": "November 2026",
-          "date": "2026-11-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "3 Begin Online Applications Goldwater Portal and College Connect November 2026 ",
-          "consensusCount": 5
-        },
-        {
-          "raw": "November 2026",
-          "date": "2026-11-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "4 Select and Confirm Three Recommenders November 2026 ",
-          "individualContext": "other",
-          "consensusCount": 5
-        },
-        {
-          "raw": "November 2026",
-          "date": "2026-11-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "5 Begin Drafting Short Essay Questions November 2026 ",
-          "individualContext": "other",
-          "consensusCount": 5
-        },
-        {
-          "raw": "November 2026",
-          "date": "2026-11-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "6 Begin Drafting Research Essay November 2026 ",
-          "individualContext": "other",
-          "consensusCount": 5
-        },
-        {
-          "raw": "November 2026",
-          "date": "2026-11-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "open",
-          "isTentative": true,
-          "hint": "7 Request Transcript(s) November 2026 ",
-          "individualContext": "other",
-          "consensusCount": 5
+          "hint": "7 Request Transcript(s) December 2026 "
         },
         {
           "raw": "December 2026",
@@ -3602,13 +3602,23 @@
           "hint": "9 Follow Up with Recommenders Early December 2026 "
         },
         {
+          "raw": "September 2026",
+          "date": "2026-09-15",
+          "dateEnd": null,
+          "type": "period",
+          "context": "open",
+          "isTentative": true,
+          "hint": "The Goldwater application will be available in September 2026 and the interest form must be submitted by"
+        },
+        {
           "raw": "November 5, 2026",
           "date": "2026-11-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "open",
           "isTentative": false,
-          "hint": "2 Complete Pre-application in Goldwater Portal This step may be completed earlier 4:00 PM ET November 5, 2026 "
+          "hint": "2 Complete Interest Form in Goldwater Portal This step may be completed earlier (opens early Sept.) By 4:00 PM ET November 5, 2026 ",
+          "consensusCount": 3
         },
         {
           "raw": "December 17, 2026",
@@ -3617,7 +3627,7 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "10 Internal Application Submission Goldwater Online Application: Complete and submit the online application, including uploading the final draft of your research essay. Emory College Connect Application/Consent Form: Complete and submit the Goldwater application update located in College Connect. 4:00 PM ET December 17, 2026 ",
+          "hint": "10 Internal Application Submission Goldwater Online Application: Complete all parts of the online application and save a PDF copy. Do not submit! Emory College Connect Application/Consent Form: Complete and submit the Goldwater application located in College Connect. 4:00 PM ET December 17, 2026 ",
           "consensusCount": 5
         },
         {
@@ -3636,7 +3646,18 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "13 Submit Online Application, including Final Version of Research Essay Send a copy of your essay to ec.nationalawards@emory.edu 4:00 PM ET January 28, 2027  Next Steps: The Goldwater Foundation will notify award recipients and honorable mentions by email in late March or early April. -- 1 of 6 -- Application Procedures: Goldwater Scholarship (2026-27) 2 IMPORTANT NOTES Attend Info Session and/or Schedule Consultation (Step 1) Attend a summer workshop, STEM Awards Info Session or review materials on Canvas, and then make an appointment with an NS&FP advisor to discuss your eligibility and",
+          "hint": "13 Submit Online Application, including Final Version of Research Essay Send a copy of your essay to ec.nationalawards@emory.edu 4:00 PM ET January 28, 2027  Next Steps: The Goldwater Foundation will notify award recipients and honorable mentions by email in late March or early April. -- 1 of 6 -- Application Procedures: Goldwater Scholarship (2026-27) 2 IMPORTANT NOTES Attend Workshop/Event and/or Schedule Consultation (Step 1) Indicate your interest in the NS&FP Communications form in College Connect, then attend a summer workshop and/or STEM Awards event, review materials on Canvas, and",
+          "consensusCount": 2
+        },
+        {
+          "raw": "November\n5, 2026",
+          "date": "2026-11-05",
+          "dateEnd": null,
+          "type": "date",
+          "context": "open",
+          "isTentative": false,
+          "hint": "Interested applicants must first complete an interest form in the Goldwater portal by 4:00 PM ET on November 5, 2026 if they would like to receive advising from the office and be considered for nomination",
+          "individualContext": "other",
           "consensusCount": 3
         },
         {
@@ -3644,18 +3665,20 @@
           "date": "2026-11-05",
           "dateEnd": null,
           "type": "date",
-          "context": "other",
+          "context": "open",
           "isTentative": false,
-          "hint": "November 5, 2026 if they would like to receive advising from the office and be considered for nomination"
+          "hint": "November 5, 2026",
+          "individualContext": "other",
+          "consensusCount": 3
         },
         {
-          "raw": "November 5, 2026",
-          "date": "2026-11-05",
+          "raw": "October 9",
+          "date": "2026-10-09",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "submitted by November 5, 2026"
+          "hint": "After October 9, an NS&FP advisor will contact you to schedule a"
         },
         {
           "raw": "December 17, 2026",
@@ -3665,16 +3688,6 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "Letters must be submitted to us electronically by 4 pm ET on December 17, 2026 via College Connect",
-          "consensusCount": 5
-        },
-        {
-          "raw": "December 17, 2026",
-          "date": "2026-12-17",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "If one of your recommenders is not able to meet the December 17, 2026 deadline, please contact our office",
           "consensusCount": 5
         },
         {
@@ -3695,7 +3708,18 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM on December 17, 2026, complete and submit the online application in the Goldwater portal,",
+          "hint": "If one of your recommenders is not able to meet the December 17, 2026 deadline, please contact our office",
+          "consensusCount": 5
+        },
+        {
+          "raw": "December 17, 2026",
+          "date": "2026-12-17",
+          "dateEnd": null,
+          "type": "date",
+          "context": "deadline",
+          "isTentative": false,
+          "hint": "By 4:00 PM on December 17, 2026, complete all parts of the online application and save a PDF copy",
+          "individualContext": "other",
           "consensusCount": 5
         },
         {
@@ -3714,9 +3738,9 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "By 4:00 PM on January 28, 2027, you must make and upload revisions to your online application (including the",
+          "hint": "4:00 PM on January 28, 2027, you must make and upload revisions to your online application (including the",
           "individualContext": "other",
-          "consensusCount": 3
+          "consensusCount": 2
         },
         {
           "raw": "January 29, 2027",
@@ -3725,28 +3749,7 @@
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "to your application and submit by the national deadline (January 29, 2027)",
-          "consensusCount": 2
-        },
-        {
-          "raw": "January 28",
-          "date": "2027-01-28",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "January 28 and the external deadline on January 29",
-          "consensusCount": 3
-        },
-        {
-          "raw": "January 29",
-          "date": "2027-01-29",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "January 28 and the external deadline on January 29",
-          "consensusCount": 2
+          "hint": "deadline (January 29, 2027)"
         }
       ],
       "awardFinder": [
@@ -4322,7 +4325,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "App Opening Soon",
+    "overallStatus": "Application Open",
     "overallMin": "2026-10-15",
     "overallMax": "2027-09-15",
     "actionItems": [
@@ -4922,16 +4925,16 @@
       {
         "type": "stale",
         "status": "Urgent: Update Needed Now",
-        "min": "2024-08-15",
+        "min": "2025-10-16",
         "max": "2025-11-15",
         "minSource": "awardFinder",
-        "minRaw": "August 2024",
+        "minRaw": "October 16, 2025",
         "maxSource": "awardFinder",
         "maxRaw": "November 15, 2025"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2024-08-15",
+    "overallMin": "2025-10-16",
     "overallMax": "2025-11-15",
     "actionItems": [
       {
@@ -5177,42 +5180,6 @@
         }
       ],
       "awardFinder": [
-        {
-          "raw": "August 2024",
-          "date": "2024-08-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "institution (obtained between August 2024 and June 2027)"
-        },
-        {
-          "raw": "June 2027",
-          "date": "2027-06-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "institution (obtained between August 2024 and June 2027)"
-        },
-        {
-          "raw": "July 2026",
-          "date": "2026-07-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "A €1,500 monthly stipend from mid-July 2026 through the end of June 2027 to cover living expenses"
-        },
-        {
-          "raw": "June 2027",
-          "date": "2027-06-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "A €1,500 monthly stipend from mid-July 2026 through the end of June 2027 to cover living expenses"
-        },
         {
           "raw": "October 16, 2025",
           "date": "2025-10-16",
