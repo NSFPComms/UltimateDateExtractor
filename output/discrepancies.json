@@ -1681,21 +1681,10 @@
       "cascadeEdit": null,
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Check for Deadline Immediately",
-        "min": "2025-11-12",
-        "max": "2026-01-09",
-        "minSource": "awardFinder",
-        "minRaw": "November 12, 2025",
-        "maxSource": "awardFinder",
-        "maxRaw": "January 9, 2026"
-      }
-    ],
-    "overallStatus": "Check for Deadline Immediately",
+    "discrepancies": [],
+    "overallStatus": "Application Open",
     "overallMin": "2025-11-12",
-    "overallMax": "2026-01-09",
+    "overallMax": "2027-01-08",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -1714,13 +1703,13 @@
           "hint": "During this unique eight-week program, Douglass-O’Connell Global Interns will spend June 12 to August 9, 2026 in a fully immersive internship at an Irish organization and accompanying academic seminar"
         },
         {
-          "raw": "January 9, 2026",
-          "date": "2026-01-09",
+          "raw": "January 8, 2027",
+          "date": "2027-01-08",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "External Application Deadline: January 9, 2026"
+          "hint": "External Application Deadline: January 8, 2027"
         },
         {
           "raw": "November 12, 2025",
@@ -4532,10 +4521,12 @@
     "sourceStatus": {
       "procedures": "ok",
       "awardFinder": "ok",
-      "external": "ok",
+      "external": "no_dates_found",
       "annualDeadlines": "ok"
     },
-    "sourceDetail": {},
+    "sourceDetail": {
+      "external": "sample: \"How to Apply Applying for a Marshall Scholarship Please find more information below about the application process, the rules associated with applying for a Scholarship, what our selection committee lo…\""
+    },
     "sourceUrls": {
       "procedures": "http://college.emory.edu/national-awards/documents/secure-documents/marshall-procedures.pdf",
       "awardFinder": "https://college.emory.edu/national-awards/awards/award-marshall.html",
@@ -4545,22 +4536,6 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "category": "deadline",
-        "values": {
-          "procedures": [
-            "2026-09-29"
-          ],
-          "awardFinder": [
-            "2026-09-29"
-          ],
-          "external": [
-            "2026-10-01"
-          ]
-        },
-        "daysApart": 2
-      },
       {
         "type": "stale",
         "status": "Urgent: Update Needed Now",
@@ -4575,7 +4550,13 @@
     "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "2025-08-27",
     "overallMax": "2026-09-29",
-    "actionItems": [],
+    "actionItems": [
+      {
+        "type": "no_dates_found",
+        "source": "external",
+        "detail": "sample: \"How to Apply Applying for a Marshall Scholarship Please find more information below about the application process, the rules associated with applying for a Scholarship, what our selection committee lo…\""
+      }
+    ],
     "recipientCheck": {
       "stale": null,
       "mostRecentYear": null,
@@ -4822,58 +4803,6 @@
           "context": "deadline",
           "isTentative": false,
           "hint": "External Application Deadline: September 29, 2026"
-        }
-      ],
-      "external": [
-        {
-          "raw": "29th of September 2026",
-          "date": "2026-09-29",
-          "dateEnd": null,
-          "type": "date",
-          "context": "recommenders",
-          "isTentative": false,
-          "hint": "The deadlines for the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing institution; 1st October 2026 for endorsement and submission by the US I",
-          "individualContext": "deadline",
-          "consensusCount": 2
-        },
-        {
-          "raw": "1st October 2026",
-          "date": "2026-10-01",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "r the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing institution; 1st October 2026 for endorsement and submission by the US Institution at 5:00pm in the time zone of the endorsing instution",
-          "consensusCount": 2
-        },
-        {
-          "raw": "29th September 2026",
-          "date": "2026-09-29",
-          "dateEnd": null,
-          "type": "date",
-          "context": "recommenders",
-          "isTentative": false,
-          "hint": "submit their applications, including letters of recommendation, no later than 5:00pm in the time zone where your endorsing institution is located on 29th September 2026",
-          "consensusCount": 2
-        },
-        {
-          "raw": "1st October 2026",
-          "date": "2026-10-01",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "orsement, must be submitted online by the endorsing institution no later than 5:00pm in the time zone where your endorsing institution is located on 1st October 2026",
-          "consensusCount": 2
-        },
-        {
-          "raw": "October 2026",
-          "date": "2026-10-15",
-          "dateEnd": null,
-          "type": "period",
-          "context": "other",
-          "isTentative": true,
-          "hint": "The university deadline for endorsed applications is Thursday, 01 October 2026 at 5pm in their specific timezone"
         }
       ],
       "annualDeadlines": [
