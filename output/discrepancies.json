@@ -806,7 +806,7 @@
     },
     "discrepancies": [],
     "overallStatus": "Application Open",
-    "overallMin": "2025-12-04",
+    "overallMin": "2026-01-14",
     "overallMax": "2027-01-15",
     "actionItems": [],
     "recipientCheck": {
@@ -1125,13 +1125,13 @@
       ],
       "annualDeadlines": [
         {
-          "raw": "Dec. 4, 2025",
-          "date": "2025-12-04",
+          "raw": "Dec. 3, 2026",
+          "date": "2026-12-03",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Dec. 4, 2025"
+          "hint": "Dec. 3, 2026"
         },
         {
           "raw": "Jan. 14, 2026",
@@ -1187,7 +1187,7 @@
       }
     ],
     "overallStatus": "Application Open",
-    "overallMin": "2025-09-18",
+    "overallMin": "2026-03-20",
     "overallMax": "2026-11-02",
     "actionItems": [],
     "recipientCheck": {
@@ -1490,40 +1490,13 @@
       ],
       "annualDeadlines": [
         {
-          "raw": "Sep. 18, 2025",
-          "date": "2025-09-18",
+          "raw": "August 30, 2026",
+          "date": "2026-08-30",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Sep. 18, 2025"
-        },
-        {
-          "raw": "Sep. 29 - Oct. 1",
-          "date": "2026-09-29",
-          "dateEnd": "2026-10-01",
-          "type": "range",
-          "context": "interview",
-          "isTentative": false,
-          "hint": "Sep. 29 - Oct. 1"
-        },
-        {
-          "raw": "Oct. 30, 2025",
-          "date": "2025-10-30",
-          "dateEnd": null,
-          "type": "date",
-          "context": "internal_deadline",
-          "isTentative": false,
-          "hint": "Oct. 30, 2025"
-        },
-        {
-          "raw": "Nov. 3, 2025",
-          "date": "2025-11-03",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "Nov. 3, 2025"
+          "hint": "August 30, 2026"
         }
       ]
     }
@@ -1547,21 +1520,10 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=9b362ad80ae720870ea40fa3a204e66e&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2025-05-15",
-        "max": "2025-11-18",
-        "minSource": "awardFinder",
-        "minRaw": "May 15, 2025",
-        "maxSource": "awardFinder",
-        "maxRaw": "November 18, 2025"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
+    "discrepancies": [],
+    "overallStatus": "Application Open",
     "overallMin": "2025-05-15",
-    "overallMax": "2025-11-18",
+    "overallMax": "2026-11-17",
     "actionItems": [
       {
         "type": "broken_link",
@@ -1595,13 +1557,13 @@
           "hint": "ogram (associate or bachelor's) must complete at least one full year of study (two semesters or three quarters) by the beginning of the CLS Program in Summer 2025"
         },
         {
-          "raw": "November 18, 2025",
-          "date": "2025-11-18",
+          "raw": "November 17, 2026",
+          "date": "2026-11-17",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "External Application Deadline: November 18, 2025 at 8:00 PM"
+          "hint": "External Application Deadline: November 17, 2026 at 8:00 PM"
         },
         {
           "raw": "May 15, 2025",
@@ -1635,9 +1597,9 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Application Likely Closing Soon",
-    "overallMin": "2026-11-01",
-    "overallMax": "2026-11-01",
+    "overallStatus": "Application Closed",
+    "overallMin": "2026-10-30",
+    "overallMax": "2026-10-30",
     "actionItems": [
       {
         "type": "broken_link",
@@ -1653,13 +1615,13 @@
     "rawDates": {
       "awardFinder": [
         {
-          "raw": "November 1, 2026",
-          "date": "2026-11-01",
+          "raw": "October 30th",
+          "date": "2026-10-30",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "External Application Deadlines: November 1, 2026"
+          "hint": "External Application Deadlines: October 30th"
         }
       ]
     }
@@ -2392,25 +2354,13 @@
           "hint": "2027–2028 Award Cycle"
         },
         {
-          "raw": "2028-2029",
-          "date": "2028-01-01",
-          "dateEnd": null,
-          "type": "period",
-          "context": "results",
-          "isTentative": true,
-          "hint": "Semi-Finalist Notification: By end of January 2027 2028-2029 Award Cycle",
-          "consensusCount": 2
-        },
-        {
           "raw": "2028–2029",
           "date": "2028-01-01",
           "dateEnd": null,
           "type": "period",
-          "context": "results",
+          "context": "other",
           "isTentative": true,
-          "hint": "2028–2029 Award Cycle",
-          "individualContext": "other",
-          "consensusCount": 2
+          "hint": "2028–2029 Award Cycle"
         },
         {
           "raw": "January 2027",
@@ -2419,7 +2369,7 @@
           "type": "period",
           "context": "results",
           "isTentative": true,
-          "hint": "Semi-Finalist Notification: By end of January 2027 2028-2029 Award Cycle"
+          "hint": "Semi-Finalist Notification: By end of January 2027"
         },
         {
           "raw": "October 6, 2026",
@@ -2449,24 +2399,6 @@
           "context": "interview",
           "isTentative": false,
           "hint": "Sep. 22- Oct 1"
-        },
-        {
-          "raw": "Oct. 6, 2025",
-          "date": "2025-10-06",
-          "dateEnd": null,
-          "type": "date",
-          "context": "internal_deadline",
-          "isTentative": false,
-          "hint": "Oct. 6, 2025"
-        },
-        {
-          "raw": "Oct. 07, 2025",
-          "date": "2025-10-07",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "Oct. 07, 2025"
         }
       ]
     }
@@ -2945,25 +2877,13 @@
           "hint": "2027–2028 Award Cycle"
         },
         {
-          "raw": "2028-2029",
-          "date": "2028-01-01",
-          "dateEnd": null,
-          "type": "period",
-          "context": "results",
-          "isTentative": true,
-          "hint": "Semi-Finalist Notification: By end of January 2027 2028-2029 Award Cycle",
-          "consensusCount": 2
-        },
-        {
           "raw": "2028–2029",
           "date": "2028-01-01",
           "dateEnd": null,
           "type": "period",
-          "context": "results",
+          "context": "other",
           "isTentative": true,
-          "hint": "2028–2029 Award Cycle",
-          "individualContext": "other",
-          "consensusCount": 2
+          "hint": "2028–2029 Award Cycle"
         },
         {
           "raw": "January 2027",
@@ -2972,7 +2892,7 @@
           "type": "period",
           "context": "results",
           "isTentative": true,
-          "hint": "Semi-Finalist Notification: By end of January 2027 2028-2029 Award Cycle"
+          "hint": "Semi-Finalist Notification: By end of January 2027"
         },
         {
           "raw": "October 6, 2026",
@@ -3023,21 +2943,10 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?id=85740f9c0ae72098246a8ecad48c0120&type=page",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2025-08-01",
-        "max": "2025-08-01",
-        "minSource": "awardFinder",
-        "minRaw": "August 1",
-        "maxSource": "awardFinder",
-        "maxRaw": "August 1"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2025-08-01",
-    "overallMax": "2025-08-01",
+    "discrepancies": [],
+    "overallStatus": "Dormant (Cycle Closed)",
+    "overallMin": "2026-06-21",
+    "overallMax": "2026-08-01",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -3288,35 +3197,35 @@
       ],
       "awardFinder": [
         {
-          "raw": "October 15, 2025",
-          "date": "2025-10-15",
+          "raw": "October 14, 2026",
+          "date": "2026-10-14",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "US Applicants: October 15, 2025"
+          "hint": "US Applicants: October 14, 2026"
         },
         {
-          "raw": "December 3, 2025",
-          "date": "2025-12-03",
+          "raw": "December 8, 2026",
+          "date": "2026-12-08",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "International Applicants: December 3, 2025 OR January 7, 2026 (varies based on proposed course)"
+          "hint": "International Applicants: December 8, 2026 OR January 6, 2027 (varies based on proposed course)"
         },
         {
-          "raw": "January 7, 2026",
-          "date": "2026-01-07",
+          "raw": "January 6, 2027",
+          "date": "2027-01-06",
           "dateEnd": null,
           "type": "date",
           "context": "other",
           "isTentative": false,
-          "hint": "International Applicants: December 3, 2025 OR January 7, 2026 (varies based on proposed course)"
+          "hint": "International Applicants: December 8, 2026 OR January 6, 2027 (varies based on proposed course)"
         },
         {
           "raw": "August 1",
-          "date": "2025-08-01",
+          "date": "2026-08-01",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
@@ -3763,40 +3672,13 @@
       ],
       "annualDeadlines": [
         {
-          "raw": "Nov. 6, 2025",
-          "date": "2025-11-06",
+          "raw": "Nov. 5, 2026",
+          "date": "2026-11-05",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Nov. 6, 2025"
-        },
-        {
-          "raw": "Dec. 4, 2025",
-          "date": "2025-12-04",
-          "dateEnd": null,
-          "type": "date",
-          "context": "internal_deadline",
-          "isTentative": false,
-          "hint": "Dec. 4, 2025"
-        },
-        {
-          "raw": "Jan. 26, 2026",
-          "date": "2026-01-26",
-          "dateEnd": null,
-          "type": "date",
-          "context": "internal_deadline",
-          "isTentative": false,
-          "hint": "Jan. 26, 2026"
-        },
-        {
-          "raw": "Jan. 27, 2026",
-          "date": "2026-01-27",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "Jan. 27, 2026"
+          "hint": "Nov. 5, 2026"
         }
       ]
     }
@@ -3876,21 +3758,10 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=857608fb0ae72098246a8ecaf834059c&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Check for Deadline Immediately",
-        "min": "2025-10-31",
-        "max": "2025-10-31",
-        "minSource": "awardFinder",
-        "minRaw": "October 31, 2025",
-        "maxSource": "awardFinder",
-        "maxRaw": "October 31, 2025"
-      }
-    ],
-    "overallStatus": "Check for Deadline Immediately",
-    "overallMin": "2025-10-31",
-    "overallMax": "2025-10-31",
+    "discrepancies": [],
+    "overallStatus": "Application Closed",
+    "overallMin": "2026-10-30",
+    "overallMax": "2026-10-30",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -3906,13 +3777,13 @@
     "rawDates": {
       "awardFinder": [
         {
-          "raw": "October 31, 2025",
-          "date": "2025-10-31",
+          "raw": "October 30, 2026",
+          "date": "2026-10-30",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Application Deadline: October 31, 2025"
+          "hint": "Application Deadline: October 30, 2026"
         }
       ]
     }
@@ -3988,16 +3859,16 @@
         "type": "stale",
         "status": "Urgent: Update Needed Now",
         "min": "2025-07-17",
-        "max": "2025-10-08",
+        "max": "2026-10-06",
         "minSource": "awardFinder",
         "minRaw": "July 17, 2025",
         "maxSource": "annualDeadlines",
-        "maxRaw": "Oct. 8, 2025"
+        "maxRaw": "Oct. 6"
       }
     ],
     "overallStatus": "Urgent: Update Needed Now",
     "overallMin": "2025-07-17",
-    "overallMax": "2025-10-08",
+    "overallMax": "2026-10-06",
     "actionItems": [],
     "recipientCheck": {
       "stale": null,
@@ -4183,13 +4054,13 @@
       ],
       "awardFinder": [
         {
-          "raw": "October 08, 2025",
-          "date": "2025-10-08",
+          "raw": "October 06, 2026",
+          "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "External Application Deadline: 1:00 PM (Pacific Time), October 08, 2025"
+          "hint": "External Application Deadline: 1:00 PM (Pacific Time), October 06, 2026"
         },
         {
           "raw": "July 17, 2025",
@@ -4274,22 +4145,13 @@
       ],
       "annualDeadlines": [
         {
-          "raw": "Jul. 17, 2025",
-          "date": "2025-07-17",
+          "raw": "Oct. 6",
+          "date": "2026-10-06",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Jul. 17, 2025"
-        },
-        {
-          "raw": "Oct. 8, 2025",
-          "date": "2025-10-08",
-          "dateEnd": null,
-          "type": "date",
-          "context": "deadline",
-          "isTentative": false,
-          "hint": "Oct. 8, 2025"
+          "hint": "Oct. 6"
         }
       ]
     }
@@ -4535,20 +4397,9 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=8585f2010ae72098246a8eca59156608&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2025-08-27",
-        "max": "2026-09-29",
-        "minSource": "annualDeadlines",
-        "minRaw": "Aug. 27 - Sep. 2,  2025",
-        "maxSource": "awardFinder",
-        "maxRaw": "September 29, 2026"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2025-08-27",
+    "discrepancies": [],
+    "overallStatus": "Results Pending",
+    "overallMin": "2026-03-15",
     "overallMax": "2026-09-29",
     "actionItems": [
       {
@@ -4807,13 +4658,13 @@
       ],
       "annualDeadlines": [
         {
-          "raw": "Aug. 27 - Sep. 2,  2025",
-          "date": "2025-08-27",
-          "dateEnd": "2025-09-02",
-          "type": "range",
+          "raw": "August 2026",
+          "date": "2026-08-15",
+          "dateEnd": null,
+          "type": "period",
           "context": "interview",
           "isTentative": true,
-          "hint": "Aug. 27 - Sep. 2, 2025 (tentative)"
+          "hint": "August 2026"
         }
       ]
     }
@@ -4837,34 +4688,10 @@
       "cascadeEdit": "https://cascade.emory.edu/entity/open.act?type=page&id=856fe9090ae72098246a8eca97699642&confId=c59e92ea0ae7209872515ec0d0a9edd0",
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
-    "discrepancies": [
-      {
-        "type": "deadline_mismatch",
-        "category": "deadline",
-        "values": {
-          "annualDeadlines": [
-            "2025-11-14"
-          ],
-          "awardFinder": [
-            "2025-11-15"
-          ]
-        },
-        "daysApart": 1
-      },
-      {
-        "type": "stale",
-        "status": "Urgent: Update Needed Now",
-        "min": "2025-10-16",
-        "max": "2025-11-15",
-        "minSource": "awardFinder",
-        "minRaw": "October 16, 2025",
-        "maxSource": "awardFinder",
-        "maxRaw": "November 15, 2025"
-      }
-    ],
-    "overallStatus": "Urgent: Update Needed Now",
-    "overallMin": "2025-10-16",
-    "overallMax": "2025-11-15",
+    "discrepancies": [],
+    "overallStatus": "Application Open",
+    "overallMin": "2026-08-01",
+    "overallMax": "2026-11-16",
     "actionItems": [
       {
         "type": "no_dates_found",
@@ -5110,51 +4937,51 @@
       ],
       "awardFinder": [
         {
-          "raw": "October 16, 2025",
-          "date": "2025-10-16",
+          "raw": "October 15, 2026",
+          "date": "2026-10-15",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Internal Application Deadline: 4:00 PM (ET), October 16, 2025"
+          "hint": "Internal Application Deadline: 4:00 PM (ET), October 15, 2026"
         },
         {
-          "raw": "November 15, 2025",
-          "date": "2025-11-15",
+          "raw": "November 16, 2026",
+          "date": "2026-11-16",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "External Application Deadline: 4:00 PM (ET), November 15, 2025"
+          "hint": "External Application Deadline: 4:00 PM (ET), November 16, 2026"
         }
       ],
       "annualDeadlines": [
         {
-          "raw": "Oct. 16, 2025",
-          "date": "2025-10-16",
+          "raw": "Oct. 15, 2026",
+          "date": "2026-10-15",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Oct. 16, 2025"
+          "hint": "Oct. 15, 2026"
         },
         {
-          "raw": "Nov. 13, 2025",
-          "date": "2025-11-13",
+          "raw": "Nov. 15, 2026",
+          "date": "2026-11-15",
           "dateEnd": null,
           "type": "date",
           "context": "internal_deadline",
           "isTentative": false,
-          "hint": "Nov. 13, 2025"
+          "hint": "Nov. 15, 2026"
         },
         {
-          "raw": "Nov. 14, 2025",
-          "date": "2025-11-14",
+          "raw": "Nov. 16, 2026",
+          "date": "2026-11-16",
           "dateEnd": null,
           "type": "date",
           "context": "deadline",
           "isTentative": false,
-          "hint": "Nov. 14, 2025"
+          "hint": "Nov. 16, 2026"
         }
       ]
     }
@@ -6287,6 +6114,141 @@
       ],
       "external": [
         {
+          "raw": "June 14 - August 20, 2027",
+          "date": "2027-06-14",
+          "dateEnd": "2027-08-20",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "June 14 - August 20, 2027"
+        },
+        {
+          "raw": "June 1 - August 6, 2027",
+          "date": "2027-06-01",
+          "dateEnd": "2027-08-06",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "June 1 - August 6, 2027"
+        },
+        {
+          "raw": "May 17 - July 25, 2027",
+          "date": "2027-05-17",
+          "dateEnd": "2027-07-25",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "May 17 - July 25, 2027"
+        },
+        {
+          "raw": "June 2 - August 7, 2027",
+          "date": "2027-06-02",
+          "dateEnd": "2027-08-07",
+          "type": "range",
+          "context": "other",
+          "isTentative": true,
+          "hint": "June 2 - August 7, 2027 (tentative)"
+        },
+        {
+          "raw": "May 15 - July 18, 2026",
+          "date": "2026-05-15",
+          "dateEnd": "2026-07-18",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "May 15 - July 18, 2026 (plus North America Symposium July 22-25)"
+        },
+        {
+          "raw": "July 22-25",
+          "date": "2026-07-22",
+          "dateEnd": "2026-07-25",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "May 15 - July 18, 2026 (plus North America Symposium July 22-25)"
+        },
+        {
+          "raw": "June 1 - August 6, 2027",
+          "date": "2027-06-01",
+          "dateEnd": "2027-08-06",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "June 1 - August 6, 2027"
+        },
+        {
+          "raw": "June 19 - August 14, 2027",
+          "date": "2027-06-19",
+          "dateEnd": "2027-08-14",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "June 19 - August 14, 2027"
+        },
+        {
+          "raw": "June 7 - August 13, 2027",
+          "date": "2027-06-07",
+          "dateEnd": "2027-08-13",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "June 7 - August 13, 2027"
+        },
+        {
+          "raw": "June 21 - August 27, 2027",
+          "date": "2027-06-21",
+          "dateEnd": "2027-08-27",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "June 21 - August 27, 2027"
+        },
+        {
+          "raw": "May 30 - August 7, 2027",
+          "date": "2027-05-30",
+          "dateEnd": "2027-08-07",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "May 30 - August 7, 2027"
+        },
+        {
+          "raw": "May 17 - July 30, 2027",
+          "date": "2027-05-17",
+          "dateEnd": "2027-07-30",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "May 17 - July 30, 2027"
+        },
+        {
+          "raw": "June 1 - August 6, 2027",
+          "date": "2027-06-01",
+          "dateEnd": "2027-08-06",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "June 1 - August 6, 2027"
+        },
+        {
+          "raw": "May 24 - July 30, 2027",
+          "date": "2027-05-24",
+          "dateEnd": "2027-07-30",
+          "type": "range",
+          "context": "other",
+          "isTentative": false,
+          "hint": "May 24 - July 30, 2027"
+        },
+        {
+          "raw": "June 1 - July 30, 2027",
+          "date": "2027-06-01",
+          "dateEnd": "2027-07-30",
+          "type": "range",
+          "context": "other",
+          "isTentative": true,
+          "hint": "June 1 - July 30, 2027 (tentative)"
+        },
+        {
           "raw": "February 1, 2027",
           "date": "2027-02-01",
           "dateEnd": null,
@@ -6561,7 +6523,7 @@
       "annualDeadlines": "https://college.emory.edu/national-awards/student-resources/annual-deadlines.html"
     },
     "discrepancies": [],
-    "overallStatus": "Results Pending",
+    "overallStatus": "Dormant (Cycle Closed)",
     "overallMin": "2026-06-21",
     "overallMax": "2026-08-27",
     "actionItems": [],
